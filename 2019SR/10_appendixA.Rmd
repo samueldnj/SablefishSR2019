@@ -1,0 +1,164 @@
+# (APPENDIX) Appendices {-}
+
+# Appendix A: Updated operating model components
+
+## Updated ageing error matrix
+
+The Sablefish age-structured assessment model relies on catch-at-age 
+data to estimate the true age-composition of the population; however, 
+observed catch-at-age data are based on otolith readings that are 
+imperfectly known. Failure to account for errors in otolith readings 
+may lead to smoothing estimates of age-classe, making it more 
+difficult to detect strong recruitment years or stock-recruit relationships 
+[@hanselman2012statistical]. Ageing errors may also bias estimates of 
+growth parameters, maturity schedules, and natural mortality that 
+can lead to overfishing or inaccurate yield projections 
+[@lai1987effects; @tyler1989implications]
+
+To account for ageing-error we developed ageing-error matrices based 
+on otoliths that had been read by two different readers at the DFO 
+Pacific Biological Station ageing lab. These data account for 
+approximately 15\% of the total otolith readings for BC Sablefish, 
+which are read first by the primary reader and then by a secondary 
+reader as a quality control. In the majority of cases both readers 
+agreed (62\%) and in cases where the two readings differ (38\%), both 
+readers conferred to resolve the discrepancy and agree on the final 
+age assigned (Pers. Comm, B. Connors, DFO). In most cases the final 
+age reading was that assigned by the secondary or primary reader (36\%), 
+but in a few cases a new age was assigned (2\%).
+
+We applied statistical models for estimating the probability of observing 
+an age class (a) given the true age (b) based on methods described in 
+@richards1992statistical and @heifetz1999age. The model assumes a 
+normal ageing-error distribution where the estimated standard deviation 
+of the observed age for a true age b is based on three parameters 
+$\Phi = \{ \sigma_1, \sigma_A, \alpha \}$ in the form:
+
+\begin{equation}
+\sigma(b) = \left\{
+    \begin{array}{ll}
+        \sigma_1 + (\sigma_A - \sigma_1) \frac{1 - e^{-\alpha(b - 1)} }{1 - e^{-\alpha(A - 1)}}, & \alpha \neq 0; \\
+        \sigma_1 + (\sigma_A - \sigma_1) \frac{b-1}{A-1}, & \alpha = 0.\\
+    \end{array} \right.
+\end{equation}
+
+Parameters $\sigma_1$ and $\sigma_A$ are the standard deviations for 
+$b=1$ and $b=A$, representing the minimum and maximum ages, respectively. 
+The $\alpha$ parameter determines the non-linearity of the function, such that  
+$\sigma(b)$ becomes linear as $\alpha \rightarrow 0$. The age-error matrix 
+is defined as:
+
+\begin{align}
+q(a ~|~ b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\
+x_{ab} &= \frac{1}{\sqrt{2\pi}\sigma(b)} e^{-\frac12 \left[ \frac{a-b}{\sigma(b)} \right]^2}.
+\end{align}
+
+Given that the true age of the fish is unknown, it is not possible 
+to accurately determine bias in the age readings and whether certain 
+age classes are more likely to be under or over-estimated. We tested
+2 different approaches for the assumed “true age”, using 1) the 
+mean of the two reader ages [@heifetz1999age] rounded to the 
+nearest even integer, and 2) the final age assigned. For both 
+approaches we set $A=90$, based on the maximum assigned age by the 
+readers. 
+
+
+The likelihood (L) of observed ages A and true ages B is then defined 
+as:
+
+\begin{equation}
+L(A|B) = \prod_{i = 1}^I \prod_{j = 1}^J q(a_{ij} ~|~ b_i \Phi),
+\end{equation}
+
+where $b_i$ is the assumed ‘true age’ of fish $i$, and $a_{ij}$ is 
+the age assigned by reader $j$ to the individual fish $i$. Maximum 
+likelihood parameter estimates, predicted standard deviation at age, and age-error 
+matrices are provided below (Table A1, Fig. A1 & A2)
+
+
+## Trawl Age-Length Key
+
+The sablefish age-structured operating model uses observations
+of catch at age from commercial fisheries to estimate natural 
+mortality and gear selectivity functions. Trawl selectivity has
+been identified the key determinant in reducing uncertainty in
+estimates of sub-legal sablefish catch and releases. To improve
+estimates of legal and sub-legal fishing mortality from the 
+trawl sector, we leveraged catch-at-age and catch-at-length data
+from the trawl sector to develop a sex-specific age-length key, 
+which was in turn used to increase the catch-at-age sample size.
+
+To develop our age-length key, we used all available catch-at-age
+data collected from observed trips in the commercial trawl fishery.
+We then used this to populate an empirical age-length frequency 
+matrix, binning fish into 3cm length bins and 1 year age classes.
+We defined this matrix as
+\begin{equation}
+A = \left[ a_{l,a} = n(l,a) \right],
+\end{equation}
+where $n(l,a)$ is the number of fish observed in length bin $l$ 
+and age class $a$. The matrix $A$ was converted to a probability 
+of age-at-length $l$ matrix $P$ by normalising the columns of $A$
+\begin{equation}
+P_{l,a} = A_{l,a} / \sum_{a} n(l,a). 
+\end{equation}
+
+We then generated expected age composition data by applying the
+matrix $P$ to length compositions $C_l$ derived from the
+commercial trawl catch-at-length data.
+\begin{align}
+C_a &= P^T \cdot C_l, \\
+\end{align}
+where $P$ is transposed so that the length dimension matches
+the vector $C_l$. We restricted $C_l$ to catch-at-length data
+from years where at least 5 trips were sampled, and included
+observations from unsexed fish with observations of male 
+specimens.
+
+\newpage
+
+
+### Tables
+
+```{r, echo = FALSE, include = FALSE, warning = FALSE}
+ageErrTable <- tibble::tribble( 
+    ~Case,   ~TrueAge,           ~sigma1, ~sigmaA, ~alpha, 
+    1,      "Mean Reader Age",    0.38,    4.80,    0.014,
+    2,      "Final Age Assigned", 0.89,    9.35,    -0.008, )
+
+colnames(ageErrTable) <- c( "Case",
+                            "True Age",
+                            "$\\sigma_1$",
+                            "$\\sigma_A$",
+                            "$\\alpha$" )
+```
+
+```{r, echo = FALSE, warning = FALSE, results = "as-is"}
+csasdown::csas_table(  ageErrTable,
+                       caption = "Ageing error model parameters for both true age cases tested.",
+                       booktabs = TRUE, escape = FALSE,
+                       font_size = 12 ) %>%
+    kable_styling(  latex_options = c("hold_position"),
+                    bootstrap_options = c("striped", "hover","scale_down")     )
+```
+
+
+### Figures
+```{r, echo = FALSE, warning = FALSE, include = FALSE}
+
+ageErr1Cap <- "Estimated standard deviation of observed ages for the two cases considered.."
+ageErr2Cap <- "Probability of observed ages given the true age indicated in top right corner of each plot for both cases considered."
+
+```
+
+
+```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=ageErr1Cap, echo = FALSE}
+knitr::include_graphics("data/ageErr1")
+```
+
+\newpage
+
+```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=ageErr2Cap, echo = FALSE}
+knitr::include_graphics("data/ageErr2")
+```
+

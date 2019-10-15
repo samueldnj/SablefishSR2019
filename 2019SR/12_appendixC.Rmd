@@ -1,0 +1,125 @@
+# Appendix A: Updated operating model components
+
+## Updated ageing error matrix
+
+## Trawl Age-Length Key
+
+We defined an empirical age-length key to convert commercial 
+trawl length compositions to age compositions. The reason
+for this was to effectively increase the sample size of commercial 
+trawl age composition data and improve estimates of selectivity
+for the commercial trawl fleet.
+
+## Comparison of 2016 fit to 2018 fit
+
+```{r, echo = FALSE, include = FALSE }
+
+source(here::here("mseRtools.r"))
+
+recDevYrs <- 10:52
+recDevPad <- rep(0,recDevYrs[1]-1)
+
+# read in mcmc output
+mcmc    <- as.mcmc(read.table ("./data/mcoutMSY.dat", header = TRUE) )
+mcmcDF  <- as.data.frame(mcmc)
+
+
+# Take mcmcDF, and turn into a table of posterior
+# median estimates for
+# B0, M_f, M_m, h, B2019, Bmsy, Fmsy, MSY, B/Bmsy, B/B0
+mcmc2018 <- mcmcDF %>%
+            dplyr::select(  B0 = "SSB0",
+                            M_m, 
+                            M_f, 
+                            h,
+                            B2016 = spawnB52,
+                            B2018 = spawnB54,
+                            Bmsy, Umsy, legUmsy, MSY ) %>%
+            mutate( Dmsy2018 = B2018/Bmsy,
+                    D2018 = B2018/B0,
+                    Dmsy2016 = B2016/Bmsy,
+                    D2016 = B2016/B0 ) %>%
+            summarise_if( is.numeric, summPostMeanSD ) %>%
+            mutate( fitYr = "2018" ) %>%
+            dplyr::select(  fitYr,
+                            B0,
+                            M_m,
+                            M_f,
+                            h,
+                            B2016,
+                            B2018,
+                            Bmsy, Umsy, legUmsy, MSY,
+                            D2016, D2018, 
+                            Dmsy2016, Dmsy2018 )
+
+write.csv(mcmc2018, "omPostFits2018.csv")
+
+# read in mcmc output
+mcmc2016    <- as.mcmc(read.table ("./data/mcoutMSY_2016.dat", header = TRUE) )
+mcmc2016    <- as.data.frame(mcmc2016) %>%
+                dplyr::select(  B0 = "SSB0",
+                                M_m, 
+                                M_f, 
+                                h,
+                                B2016 = spawnB52,
+                                Bmsy, Umsy, legUmsy, MSY ) %>%
+                mutate( Dmsy2016 = B2016/Bmsy,
+                        D2016 = B2016/B0 ) %>%
+                summarise_if( is.numeric, summPostMeanSD ) %>%
+                mutate( B2018 = NA,
+                        Dmsy2018 = NA,
+                        D2018 = NA,
+                        fitYr = "2016" ) %>%
+                dplyr::select(  fitYr,
+                                B0,
+                                M_m,
+                                M_f,
+                                h,
+                                B2016,
+                                B2018,
+                                Bmsy, Umsy, legUmsy, MSY,
+                                D2016, D2018, 
+                                Dmsy2016, Dmsy2018 )
+
+
+write.csv(mcmc2016, "omPostFits2016.csv")
+
+  
+
+compOMFits <- rbind( mcmc2016, mcmc2018 ) %>%
+              mutate(fitYr = NULL )
+rownames(compOMFits) <- c("2016","2018")
+
+parNames <- colnames(compOMFits)
+
+compOMFits <- as.data.frame(t(compOMFits))
+
+fancyRowNames <- c( "$B_0$",
+                    "$M_m$",
+                    "$M_f$",
+                    "$h$",
+                    "$B_{2016}$",
+                    "$B_{2018}$",
+                    "$B_{MSY}$",
+                    "$U_{MSY}$",
+                    "Legal $U_{MSY}$",
+                    "$MSY$",
+                    "$B_{2016}/B_0$",
+                    "$B_{2018}/B_0$",
+                    "$B_{2016}/B_{MSY}$",
+                    "$B_{2018}/B_{MSY}$")
+
+rownames( compOMFits) <- fancyRowNames
+              
+
+compOMfitsCap <- "A comparison of operating model posterior mean (standard deviation) biological parameter and reference point estimates from the conditioning process in the 2016 MSE cycle (fitYr = 2016), and the 2019 MSE cycle (fitYr = 2018)."
+
+```
+
+```{r, echo = FALSE, warning = FALSE, results = "as-is"}
+csasdown::csas_table( compOMFits, 
+                      caption = compOMfitsCap,
+                      booktabs = TRUE, escape = FALSE,
+                      font_size = 8, format = kable_format )
+```
+

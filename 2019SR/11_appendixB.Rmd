@@ -1,0 +1,123 @@
+# Appendix B: New Management Procedures
+
+## Empirical MP 
+
+We developed a new empirical MP to test for estimating
+sablefish stock status and determing TACs. This MP was based on 
+comparing two consecutive 3-year moving averages of the 
+stratified random survey (StRS), and calculating the proportional 
+difference between those two smoothed estimates. So, for a given
+year $t$, we calculated
+\begin{align}
+\bar{I}_t & = e^{\frac{\sum_{t' = t - 2}^{t} \log I_{t'} }{3}}, \\
+\bar{I}_{t-1} & = e^{\frac{\sum_{t' = t - 3}^{t-1} \log I_{t'} }{3}}, \\
+p_t & = \frac{I_{t}}{I_{t-1}} - 1,
+\end{align}
+where $\bar{I}_t$ is the moving 3 year moving average of the
+StRS index, and $p_t$ is the proportional change between
+two consecutive moving averages.
+
+This proportional change $p_t$ was then used to adjust the relative 
+harvest rate in the most recent year of fishing. The relative harvest 
+rate $\hat{U}_t$ was calculated as the TAC in year $t$ divided by the moving 
+average of the index in the final year,
+\begin{equation}
+\hat{U}_{t} = \frac{C_{t}}{\bar{I}_{t}}.
+\end{equation}
+
+The adjustment $a_{t+1}$ to the relative harvest rate $\hat{U}_t$ was 
+dependent on the direction of the proportional change. For increases 
+in the moving average index, the relative harvest rate was increased 
+at the rate $\alpha \leq 1$, up to a maximum increase of 20% in the 
+relative harvest rate; for decreases in the moving average index, 
+the relative harvest rate was decreased at the rate $\beta \geq 1$,
+down to a floor of a 0% removal rate when $p_t = \frac{-1}{\beta}$. 
+This rule gives the piecewise continuous function
+\begin{equation}
+a_{t+1} = \left\{ 
+  \begin{array}{cl}
+    0.2 & p_t \geq \frac{0.2}{\alpha}  \\
+    \alpha \cdot p_t & 0 \leq p_t \leq \frac{0.2}{\alpha} \\
+    \beta \cdot p_t & \frac{-1}{\beta} \leq  p_t \leq 0 \\
+    -1 & p_t \leq \frac{-1}{\beta}.
+  \end{array}
+\right.
+\end{equation} 
+This form of rule is designed to have a fast decrease ($\beta \geq 1$) 
+in  relative harvest rates, and a slow increase in relative harvest
+rates ($\alpha \leq 1$).
+
+Finally, the target harvest rate was calculated as the average
+of the adjusted relative harvest rate, and an overall target harvest
+rate $U_{targ}$ scaled by a tuning scalar $\gamma$. This was then 
+multipled by the final year's moving average index to provide a TAC.
+\begin{align}
+U_{t+1} &= \frac{(1 + a_{t+1})\hat{U_t} + \gamma U_{targ}}{2}, \\
+C_{t+1} &= U_{t+1} \cdot \bar{I}_{t}.
+\end{align}
+
+Averaging the relative harvest rate and the scaled target rate
+is meant to stop the harvest rate dropping to zero in response to
+a large negative change in observations, which could be caused
+by a large negative observation error. The scalar $\gamma$
+is meant to tune the target absolute harvest rate $U_{targ}$ to
+a relative harvest rate.
+
+This MP has multiple options for tuning parameters. First, the 
+number of points used in the moving average could be used
+to reduce the influence of year to year noise. Second, the 
+$\alpha$, $\beta$, and $\gamma$ parameters in the harvest
+control rule can be used to adjust the rate at which harvest
+rates are changed and the scale of the target harvest rate. 
+Finally, the value of the target harvest rate can be changed
+to increase or decrease the level of precaution in the MP.
+
+We used tuning parameters $\alpha = .5$, $\beta = 2$,
+and $\gamma = .7$, corresponding to a slow-up and fast down
+MP, with $\gamma$ set close to the posterior mean value of
+the StRS catchability parameter $q_5$. We then chose
+$U_{targ} = 0.055$ as the target absolute harvest rate.
+
+## Delay Difference Assessment Model
+
+We defined a delay-difference stock assessment model
+to use in candidate management procedures for BC Sablefish.
+The equilibrium equations for the delay difference model
+are given in Table A1, and the stock assessment model
+is shown in Table A2. This model increases the realism of
+the management procedure's assessment component, with
+the added benefit of having yield curves and reference
+points that are closer in shape and value to the operating
+model's than the existing surplus production model procedure.
+
+
+```{r ddEqbmTable, echo = FALSE, warning =  FALSE }
+eqbmTab <- read.csv( "./data/eqbmTable.csv", header = T,
+                      stringsAsFactors = FALSE ) 
+
+eqbmTabCap <- "Unfished and fished equilibrium quantities for the delay-difference population dynamics."
+
+csasdown::csas_table(  eqbmTab, caption = eqbmTabCap )
+
+```
+
+
+```{r ddModelTable, echo = FALSE, warning =  FALSE }
+ddModelTab <- read.csv( "./data/ddModelTab.csv", header = T,
+                        stringsAsFactors = FALSE ) 
+
+ddModelTabCap <- "Process and observation model components of the delay difference stock assessment model used in BC Sablefish management procedures. Initialisation values for biomass, numbers, and recruitment are equilibrium unfished values from Table 2."
+
+csasdown::csas_table(   ddModelTab, 
+                        caption = ddModelTabCap,
+                        format = kable_format ) %>% 
+            kableExtra::group_rows("Model Free Parameters", 1, 1, bold =T, italic = F ) %>%
+            kableExtra::group_rows("Initialisation $(t = 1)$", 2, 4, bold =T, italic = F, escape = F ) %>%
+            kableExtra::group_rows("Time series Reconstruction $(2 \\\\leq t \\\\leq T)$", 5, 11, bold =T, italic = F, escape = F ) %>%
+            kableExtra::group_rows("Statistical Model", 12, 14, bold =F, italic = T ) 
+
+```
+
+
+
+

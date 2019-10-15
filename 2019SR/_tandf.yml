@@ -1,0 +1,5 @@
+book_filename: "sr_TandF"
+rmd_files: [ "index.Rmd",
+             "08_tables.Rmd",
+             "09_figures.Rmd" ]
+delete_merged_file: true

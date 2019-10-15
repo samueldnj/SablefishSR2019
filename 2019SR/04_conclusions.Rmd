@@ -1,0 +1,27 @@
+# Conclusions
+
+This paper provides an evaluation of candidate management procedures 
+for the Canadian sablefish fishery given updates to the operating 
+models and possible addition of at-sea release regulations. 
+
+Stock status: depends on recruitment. Other fisheries deal w similar 
+challenges (e.g. hake, GOA sablefish)
+
+
+MP evaluation: as indicated in previous MSE work, full retention 
+of sablefish results in the highest average annual catch, while 
+still allowing the fishery to meet conservation objectives in 
+both the short and long term. Landed value is also greatest for 
+a full retention option. 
+
+MPs 14,3,7 ranked among the top-3 under both reference and robustness 
+OMs. However, tuning results in somewhat difference target Fs under 
+MP7 F_ref=0.068, F_rob=0.059. This discrepancy could be handled by 
+averaging the reference and robustness OMs to account for the high 
+uncertainty in Year 2016 recruitment. Revisions to the strategy could 
+be made in the next MSE cycle when that recruitment should be better 
+estimated.
+
+In the absence of changes to at-sea regulations, the current MP could 
+probably stay the same,  since F_ref=0.0589 vs F_rob=0.0524. The average 
+would be somewhere near the current target of 5.5%.

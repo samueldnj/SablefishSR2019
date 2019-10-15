@@ -1,0 +1,9 @@
+Description, Equation
+"Survivorship", "$S^{(f)} = e^{- M - f}$"
+"Average Weight", "$\bar{w}^{(f)} = \frac{S^{(f)}\alpha + w^{(k)}(1 - S^{(f)})}{1 - \rho S^{(f)}}$"
+"Unfished Numbers", "$N = B_{0} / \bar{w}^{(f=0)}$"
+"Unfished Recruitment", "$R_{0} = (1 - S^{(f=0)})N_{0}$"
+"Stock-Recruit", "$a = \frac{4hR_{0}}{B_{0}(1 - h)}$, $b = \frac{5h - 1}{B_{0}(1 - h)}$"
+"Biomass", "$B^{(f)} = \frac{ S^{(f)}(\alpha + \rho\bar{w}^{(f)}) + \bar{w}^{(f)}(aw^{(k)}-1)} {b(\bar{w}^{(f)} - \rho S^{(f)}\bar{w}^{(f)} - \alpha S^{(f)})}$"
+"Recruitment", "$R^{(f)} = \frac{aB^{(f)}}{1+bB^{(f)}}$"
+"Yield", "$Y^{(f)} = \frac{f}{M + f} (1 - e^{-M-f}) B^{(f)}$"

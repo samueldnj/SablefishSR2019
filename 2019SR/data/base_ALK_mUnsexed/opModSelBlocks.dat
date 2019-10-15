@@ -1,0 +1,38 @@
+## Selectivity block start and end times for each gear type
+## or time steps t=32:48 (t=1 is 1965)
+
+## Number of sel blocks for gears 1-3 (trap = 1, LL = 2, trawl = 3)
+## Gears with no extra blocks should have a single block with negative phz
+# nSelBlocks
+1 1 1
+
+# ph_alpha_blockDev
+-1 -7 -7
+
+# ph_beta_blockDev
+-1 -7 -7
+
+## Block Devs Prior
+# blockDevPriorSd
+.5 .5 .5
+
+## Trap start and end times (dummy to full time period for negative phz )
+# selBlockStart_g1
+1 
+# selBlockEnd_g1
+54
+
+## LL start and end times
+# selBlockStart_g2
+1
+# selBlockEnd_g2
+54
+
+## Trawl start and end times
+# selBlockStart_g3
+1
+# selBlockEnd_g3
+54
+
+# Check
+999

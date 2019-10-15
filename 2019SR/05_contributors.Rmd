@@ -1,0 +1,14 @@
+# Contributors
+
+```{r, echo=FALSE, include=FALSE}
+contributors <- tibble::tribble(
+  ~Name,              ~Affiliation,
+  "Sean Cox",         "Simon Fraser University, BC",
+  "Samuel Johnson",   "Simon Fraser University, BC",
+  "Brendan Connors",  "DFO Science, Pacific Region",
+)
+```
+
+```{r, results='asis'}
+csasdown::csas_table(contributors)
+```

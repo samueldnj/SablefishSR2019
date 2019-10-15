@@ -1,0 +1,4 @@
+book_filename: "sr_app"
+rmd_files: [ "index.Rmd",
+             "10_appendixA.Rmd"]
+delete_merged_file: true

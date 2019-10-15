@@ -1,0 +1,62 @@
+## Parameters for time-varying gamma selectivity function, 1996-2010
+## or time steps t=32:48 (t=1 is 1965)
+
+# firstSelPrior
+1 1 32
+
+# lastSelPrior
+1 1 32
+
+# ph_log_alpha_dev
+-6 -6 -6
+# ph_log_beta_dev
+-6 -6 -6
+# priorSD_alpha_dev
+0.01
+# priorSD_beta_dev
+0.01
+
+## Sex dependent sel-at-length
+# ph_alpha_sexdev_g
+-6 -6 -6 -6 -6
+# ph_beta_sexdev_g
+-6 -6 -6 -6 -6
+# priorSD_alpha_sexDev
+.1
+# priorSD_beta_sexDev
+.1
+
+## Normal selectivity modes
+# p_alpha_1t
+62.83
+# p_alpha_2t
+63.73
+# p_alpha_3t
+32.5
+
+## Normal selectivity std deviations
+# p_beta_1t
+4
+# p_beta_2t
+4
+# p_beta_3t
+1
+
+## Normal selectivity prior std deviations: mode
+# sd_alpha_1t 
+0.186
+# sd_alpha_2t
+0.455
+# sd_alpha_3t
+3.25
+
+## Normal selectivity prior std deviations: std devs
+# sd_beta_1t 
+0.649
+# sd_beta_2t
+0.974
+# sd_beta_3t
+.1
+
+# Check
+999
