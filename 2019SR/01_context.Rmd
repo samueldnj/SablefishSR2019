@@ -32,11 +32,11 @@ and harvest opportunities. Stakeholder and management
 consultations identified at-sea release mortality of 
 sub-legal sablefish (i.e., fish smaller than 55 cm size limit) 
 as a potential source of mortality that, if reduced or avoided, 
-would improve production of over-55 cm sablefish, spawning stock 
+may improve production of over-55 cm sablefish, spawning stock 
 biomass, and, ultimately, future harvest opportunities 
-[@cox2019evaluating]. While some voluntary management tactics 
-aimed at reducing sub-legal mortality have been identified and 
-implemented (e.g., improved fleet communication, informal move on 
+[@cox2019evaluating]. While some voluntary tactics 
+aimed at reducing sub-legal mortality have been identified 
+(e.g., improved fleet communication, informal move on 
 rules, and increased electronic monitoring), to date management 
 tactics aimed at reducing sub-legal mortality have not been 
 formally evaluated through the sablefish MSE process. Indeed, 
