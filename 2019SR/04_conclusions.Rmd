@@ -1,27 +1,9 @@
 # Conclusions
 
-This paper provides an evaluation of candidate management procedures 
-for the Canadian sablefish fishery given updates to the operating 
-models and possible addition of at-sea release regulations. 
+The current MP for Canadian sablefish (MP15, noCap), involving no limits on at-sea releases, was able to meet conservation objectives under both reference and robustness OMs, although it ranked near the bottom in terms of catch performance compared to MPs with at-sea release regulations. Of the MPs regulating at-sea releases, MP14 (full retention), MP3 (50% cap, historical allocation, and 5-year amortization), and MP7 (100% cap, historical allocation, and 5-year amortization) ranked among the top-3 under both reference and robustness OMs, provided that maximum target fishing mortality rates were tuned to meet conservation objectives. 
+As indicated in previous MSE work, full retention MPs result in the highest average annual landed catch while still allowing the fishery to meet conservation objectives in both the short- and long-term. Landed value is also greatest for a full retention MP, suggesting that price premiums that place relatively low value on sub-legal sablefish are not that influential. These results held across reference and robustness OMs. The full retention MP produced 500 t and 310 t more average annual landed catch in the reference and robustness OMs, respectively, compared to the next-best performing MP. Given the current (approximate) price structure for sablefish size, these differences equate to approximately $8.5 million/yr in average annual total landed value under the reference OM and $5.3 million/yr under the robustness OM. 
+For MPs not involving full retention, the range of differences in annual average catch among all MPs was only 29 t and 16 t, for reference and robustness OMs, respectively. These equate to approximately $5.6 million/yr in average annual total landed value under the reference OM and $2.4 million/yr under the robustness OM.
+The largest conservation risk appears to be tuning an MP to meet conservation objectives under the reference OM only to find out, in the future, that the 2015 year-class was over-estimated, or did not materialize as hoped (which would not be unprecedented in fisheries). We tested the implications of such a scenario by simulating a cross-test of MP performance under the robustness OMs where maximum target fishing mortality was tuned under the reference OMs. As expected, performance against Objective 3 was poor for all MPs in these trials. In addition, most MPs, except full retention, also failed Objective 2 under the robustness OMs by causing relatively high probability of short-term stock declines. Thus, MPs tuned under the reference OMs carry relatively high risks if the 2015 recruitment fails to materialize at 5 times the historical average.
+On the other hand, the opposite cross-test — robustness-tuned MPs against the reference OMs — showed that robustness-tuned MPs do exceptionally well against conservation objectives under the reference OMs and still produce 10-year average catch in the 3,400 – 4,200 t range or approximately 90% of the annual yield produced by MPs tuned specifically to the reference OMs. Therefore, the cost in yield of adopting a robustness-tuned MP is relatively low given the high additional certainty regarding conservation performance. These annual yields are still considerably larger than present.
+Revisions to the strategy could be made in the next MSE cycle when the 2015 year-class size should be better estimated as several more years of fishery and survey data accumulate.
 
-Stock status: depends on recruitment. Other fisheries deal w similar 
-challenges (e.g. hake, GOA sablefish)
-
-
-MP evaluation: as indicated in previous MSE work, full retention 
-of sablefish results in the highest average annual catch, while 
-still allowing the fishery to meet conservation objectives in 
-both the short and long term. Landed value is also greatest for 
-a full retention option. 
-
-MPs 14,3,7 ranked among the top-3 under both reference and robustness 
-OMs. However, tuning results in somewhat difference target Fs under 
-MP7 F_ref=0.068, F_rob=0.059. This discrepancy could be handled by 
-averaging the reference and robustness OMs to account for the high 
-uncertainty in Year 2016 recruitment. Revisions to the strategy could 
-be made in the next MSE cycle when that recruitment should be better 
-estimated.
-
-In the absence of changes to at-sea regulations, the current MP could 
-probably stay the same,  since F_ref=0.0589 vs F_rob=0.0524. The average 
-would be somewhere near the current target of 5.5%.

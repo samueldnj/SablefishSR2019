@@ -1,9 +1,5 @@
 # Figures
 
-
-
-
-
 ```{r, echo = FALSE, warning = FALSE, include = FALSE}
 
 idxFitsCap <- "Operating model fits to biomass indices from the commercial trap fishery (Trap, top panel), standardized sablefish survey (Std., middle panel), and stratified random sablefish survey (StRS, bottom panel). Points show observations scaled by catchability, and lines show operating model vulnerable biomass."
@@ -12,21 +8,6 @@ ageFitsCap <- "Averaged operating model fits to age observations for, from top t
 jointPostCap <- "Joint marginal posterior distribution MCMC samples (grey dots) for stock-recruit steepness ($h$) and spawning biomass in 2018 ($B_{2018}$). Dashed lines indicate the mean, 10th and 90th percentiles of each marginal distribution, with the percentiles of the spawning biomass distribution adjusted to match the regression line between the two marginal distributions. Coloured dots with black borders at the intersections of selected percentiles are the sample centres for the 5 productivity/biomass operating model scenarios, with the coloured posterior MCMC samples showing the set of all points within a Mahalanobis distance of .6 from the centre of the same colour."
 
 ```
-
-
-```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=idxFitsCap, echo = FALSE}
-knitr::include_graphics("data/base_ALK_mUnsexed/plotMLEindices.pdf")
-```
-
-\newpage
-
-```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=ageFitsCap, echo = FALSE}
-knitr::include_graphics("data/base_ALK_mUnsexed/plotFitAgeFreq_avg.pdf")
-```
-
-\newpage
-
-
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=jointPostCap, echo = FALSE}
 
@@ -67,6 +48,21 @@ plot( x = var2Mat[,1], y = var2Mat[,2],
             pch=21, bg = sampleCols[pIdx], lwd = 2, cex = 2 )
 
 ```
+
+
+
+```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=idxFitsCap, echo = FALSE}
+knitr::include_graphics("data/base_ALK_mUnsexed/plotMLEindices.pdf")
+```
+
+\newpage
+
+```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=ageFitsCap, echo = FALSE}
+knitr::include_graphics("data/base_ALK_mUnsexed/plotFitAgeFreq_avg.pdf")
+```
+
+\newpage
+
 
 \newpage
 

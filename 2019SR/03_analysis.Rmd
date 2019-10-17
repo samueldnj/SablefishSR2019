@@ -50,7 +50,7 @@ to a gamma density function, (ii) reducing the youngest model
 age class from age-3 to age-2 for all age composition series 
 to better reflect the range of age-composition observations, 
 (iii) adding new commercial trawl age-composition data (Appendix 
-A), (iv) adding an (optional) estimated recruitment deviation in 
+A), (iv) adding an estimated recruitment deviation in 
 2016, rather than using the expected recruitment off the 
 stock-recruit curve, (v) updating the ageing-error matrix to use 
 a simpler normal approximation a recommended in the previous CSAS
@@ -75,7 +75,7 @@ is a focus of the robustness OMs (described below).
 #### Reference OMs
 
 The reference OMs were derived using the same method as the previous 
-MSE cycle (Cox et al. 2019). Briefly, we derive 5 OMs defined by the 
+MSE cycle [@cox2019evaluating]. Briefly, we derive 5 OMs defined by the 
 joint posterior distribution of 2018 spawning stock biomass (to reflect 
 short-term biological risk) and stock-recruitment steepness (to reflect 
 long-term stock productivity risk). The 5 combinations are chosen to 
@@ -84,7 +84,7 @@ outer points lying at the intersection of the mean of one variable,
 and the 10th and 90th percentiles of the marginal density of the other 
 variable (Figure 1). For each of the 5 posterior points, the operating 
 model was conditioned on a sample of 100 posterior draws constrained to 
-lie within a Mahalanobis distance of 0.6 units from that point. We then 
+lie within a Mahalanobis distance of 0.75 units from that point. We then 
 used an empirical estimate of the posterior density at each of the 5 
 centres as a plausibility score for weighting MP performance across the 
 5 OMs within each of the reference and robustness sets (Table 2).
@@ -92,13 +92,14 @@ centres as a plausibility score for weighting MP performance across the
 #### Robustness OMs
 
 The robustness OMs were identical to the 5 reference OMs with the exception 
-of how Year 2016 recruitment was treated in the OM historical conditioning 
-and projections. The reference OM used draws from the joint posterior 
-distribution (as defined above) for Year 2016 recruitment, which is 
-approximately 12 million fish or about 5 times the historical average. For 
-the robustness OMs, we simulated Year 2016 recruitment off the stock-recruitment 
-relationship resulting in expected Year 2016 recruitment that was more similar 
-to the long-term average ($\sim 2.3$ million). 
+of how the recruitment from the 2015 year class was treated in the OM 
+historical conditioning and projections. The reference OM used draws 
+from the joint posterior distribution (as defined above) for the 2015 
+year class, which is approximately 22 million fish or about 8 times 
+the historical average. For the robustness OMs, we simulated the  
+recruitment off the stock-recruitment relationship resulting in an
+expected 2015 year class that was more similar 
+to the long-term average ($\sim 2.63$ million). 
 
 ### Fishery Objectives
 
@@ -133,7 +134,8 @@ Performance measures corresponding to Objectives 1-4 (in bold) are read as
 "Probability of (condition)". Performance measures are calculated for each 
 simulation replicate, and the expected performance for a management procedure 
 is summarized by the mean (or median) over the 100 replicates of each simulation. 
-Full details of performance measures and calculations are given in @cox2019evaluating.
+Full details of performance measures and calculations are given in 
+@cox2019evaluating.
 
 As noted above, there is a price premium for larger size classes of sablefish, 
 which means that the same tonnage of landed catch may yield widely different 
@@ -170,57 +172,59 @@ rate from 9.5% in Year 2017 to 5.5% in Year 2021. Complete details of the
 current MP specifications are given in @cox2019evaluating.
 
 For this Science Response, we evaluated performance of the current MP for 
-sablefish, a NoFishing reference case, and 13 variations of the current MP 
+sablefish, a NoFishing reference case, and 15 variations of the current MP 
 that only change at-sea release regulations. The MP variants are constructed 
 by combining 3 features: 
 
 1. at-sea sub-legal release cap in which all at-sea releases below the cap 
       may be released without penalty and amounts exceeding the cap go to 
       overages. Caps are noCap, 0%, 50%, 100%, and 150% over the average 
-      (VALUE) at-sea releases that occurred between 2006 and 2018. The 
+      464t of at-sea releases that occurred between 2006 and 2018. The 
       current MP involves no cap (unlimited at-sea releases without penalty), 
       while a full retention (frt) case allows no at-sea releases (all fish 
       brought on-board vessels must be landed and counted against the TAC). 
 2. fixed allocations of the total at-sea release cap to each fleet (i.e., 
       trap, longline hook, trawl). Allocations are computed based on either
-      recent (rct = $(23\%, 18\%, 59\%)$ )  or historical 
-      (hst = $(30\%, 37\%, 33\%)$ ) fleet-specific average proportions of 
-      the total annual at-sea releases.
+      recent (rct = $(23\%, 18\%, 59\%)$, 2016 - 2018)  or historical 
+      (hst = $(30\%, 37\%, 33\%)$, 2006-2018) fleet-specific average 
+      proportions of the total annual at-sea releases.
 3. amortization period of either 5 (am5) or 10 (am10) years over which to 
       spread at-sea release overages to future TACs. 
 
 
-Our naming convention for MPs attempts to describe the at-sea release 
-regulations by concatenating CAP_ALLOCATION_AMORTIZATION settings. For 
-example, the **cap.5_hstAl_am5** MP involves a total at-sea release cap that 
-is 50% of the historical average (**cap.5**), a cap allocation among fleets 
-that is computed from the historical, fleet-specific average proportions
-(**hstAl**), and a 5-year amortization period for at-sea release overages 
-(**am5**). The two special cases are the current MP (**noCap**), which has no 
-cap, and full retention (frt), which has no releases. 
+The naming convention we followed for MPs attempts to describe the 
+at-sea release regulations by concatenating CAP_ALLOCATION_AMORTIZATION 
+settings. For example, the **cap.5_hstAl_am5** MP involves a total at-sea 
+release cap that is 50% of the historical average (**cap.5**), a cap 
+allocation among fleets that is computed from the historical, fleet-specific 
+average proportions (**hstAl**), and a 5-year amortization period for 
+at-sea release overages (**am5**). The two special cases are the 
+current MP (**noCap**), which has no cap, and full retention 
+(frt), which has no releases. Note that the allocation is irrelevant
+for the 0% cap, as all fleets would have a cap of 0t, and only
+the amortization period for overages would apply.
 
 #### A worked example at-sea release regulation for **cap.5_hstAl_am5**.
 
 Here we provide the sequence of calculations used to establish annual at-sea 
 release caps and then how they affect future TAC allocations. In the 
-computations below, the following notation applies: $t$ is Year, $g$ is fleet, 
-$p(g)$ is allocation proportion for fleet $g$, and $\bar{R}$ is the average 
-total (over all fleets) at-sea releases between 2006 and 2018.
+computations below, the following notation applies: $t$ is year, $g$ is fleet, 
+and $p(g)$ is proportion of releases allcoated to fleet $g$.
 
 1.    Calculate 50% at-sea release CAP for year and fleet:
 \begin{equation*}
-            CAP(t,g) = 0.5 \cdot \bar{R} x p(g).
+            CAP(t,g) = 0.5 \cdot 0.464 \cdot p(g).
 \end{equation*}
 2.    Run simulation for year t to get actual at-sea releases: $R(t,g)$.
 3.    Calculate overage $o(t,g)$ for the year as the difference between 
       actual releases $R(t,g)$ and the $CAP(t,g)$:  $o(t,g) = R(t,g) - CAP(t,g)$
 4.    Amortization period is 5 years, so add 1/5th of this year's overage.
-      to the accumulated overage account $O(t,g)$ in each of the next 5 years: 
+      to the accumulated overage account $O(t+k,g)$ in each of the next 5 years: 
 \begin{equation*}
-      O(t',g) = O(t',g) + o(t,g)/5, \mbox{ for } t' = t+1, ..., t+5.
+      O(t + k,g) = O(t+k,g) + o(t,g)/5, \mbox{ for } k = 1, ..., 5.
 \end{equation*}
 5.    Get adjusted legal-sized sablefish TAC for next year by subtracting 
-      overage account for that year from initial TAC' (TAC' set by the MP 
+      overage account for that year from initial $TAC'$ ($TAC'$ set by the MP 
       prior to at-sea regulations): $TAC(t,g) = TAC'(t,g) - O(t,g)$.
 
 
@@ -229,23 +233,24 @@ future TAC reductions (using a one-for-one accounting of sub-legal biomass
 to legal sized sablefish biomass), while also allowing some flexibility 
 year-to-year for unpredictably large at-sea releases in any given year. Note 
 that the overage account can never be less than zero, so that TACs cannot be 
-increased above the initial TAC set by the first stage MP.
+increased above the initial TAC set by the first stage MP (i.e., banking of 
+TAC cannot occur).
 
 ### Management procedure tuning
 
-There are five primary dimensions of MP performance against objectives. The 
-first three represent biomass conservation performance against the LRP, 
-short-term probability of decline, and achieving a long-term target near 
-$B_{MSY}$, while the fourth and fifth dimensions relate to maintaining catch 
-levels above an industry-preferred floor and short-term average catch. It 
-is rare that two MPs would have comparable performance across four of these 
-objectives while only differing on one. If this were the case, then MP 
-decisions would be straightforward – choose the MP with better performance 
-on the fifth criterion. Unfortunately, MPs typically differ on all 5 dimensions 
-simultaneously, which makes it difficult to compare performance without, at 
-least, establishing some equivalency between conservation probabilities 
-(performance dimensions 1-3) and short-term average catch (performance 
-dimension 5). 
+The Sablefish management strategy evaluation considers five primary dimensions 
+of MP performance against objectives. The first three represent biomass 
+conservation performance against the LRP, short-term probability of decline, 
+and achieving a long-term target at or near $B_{MSY}$, while the fourth and 
+fifth dimensions relate to maintaining catch levels above an industry-preferred 
+floor and short-term average catch. It is rare that two MPs would have comparable 
+performance across four of these objectives while only differing on one. If 
+this were the case, then MP decisions would be straightforward – choose the 
+MP with better performance on the fifth criterion. Unfortunately, MPs typically 
+differ on all 5 dimensions simultaneously, which makes it difficult to compare 
+performance without, at least, establishing some equivalency between 
+conservation probabilities (performance dimensions 1-3) and short-term average 
+catch (performance dimension 5). 
 
 Management procedure tuning provides a means of establishing equivalent MP 
 performance against objectives for which the values and probabilities are 
@@ -270,175 +275,201 @@ realistic MPs. However, this raises a new question: how much is it worth
 $P(B_{2052} \geq B_MSY) = 0.5$ to $P(B_{2052} \geq B_MSY) = 0.55$? The probability 
 difference of only 5 percentage points could mean a difference of several 
 hundred tonnes in average annual catch, which would cumulatively added up 
-to tens of millions of dollars in landed value. MPs that are better at 
-Objective 3 do so at the expense of Objectives 4 and 5. 
+to tens of millions of dollars in landed value. MPs that perform better 
+under Objective 3 almost always do so at the expense of performance
+under Objectives 4 and 5. 
 
 We aimed to simplify interpretation of MP performance by tuning all MPs to 
-a standard $P(B_{2052} \geq B_MSY) = 0.5$, which ensures that all MPs under 
-consideration meet all the stated conservation objectives under the reference
-OMs and only differ in their catch performance. This simplification is needed 
-in the current context, because the at-sea regulations we evaluated have catch 
+a standard $P(B_{2052} \geq B_MSY) = 0.5$, which ensured that all MPs under 
+consideration meet all the stated conservation objectives. We applied the
+tuning in a cross test design, where MPs were tuned to meet Objective 3 under 
+both the reference and the robustness OMs, and the performance
+of tuned MPs on both sets of OMs were reported. This tuning ensured that all MPs
+met the conservation objectives of the OMs that they were tuned to, and only 
+differed in catch performance on those OM sets. This simplification was needed 
+in the current context, because the at-sea regulations we evaluated had catch 
 and fishing opportunity implications across fishing sectors.
 
 Tuning was achieved by iteratively adjusting Year 2022 phased-in maximum target 
 fishing mortality rates $F_{2022}$ until each MP met the lower limit of Objective 
 3, i.e., $P(B_{2052} \geq B_{MSY}) = 0.5$. We tuned the surplus production model 
-management procedures separately to the reference OM (**hiRec2016**) and robustness 
-OM (**simRec2016**) scenarios, leading to different $F_{2022}$ values under each 
+management procedures separately to the reference OM and 
+robustness OM scenarios, leading to different $F_{2022}$ values under each 
 recruitment scenario. Note that this target maximum harvest rate replaces the 
 final maximum target rate of 5.5% after the 5-year phase-in from 2017
-[@cox2019evaluating]
-
-The most critical, and perhaps unrealistic in some cases, assumption in the above 
-is that fleets stop fishing when their fleet-specific TACs are fully landed.
+[@cox2019evaluating]. The most critical, and perhaps unrealistic in some cases, 
+assumption in the above is that fleets stop fishing when their 
+fleet-specific TACs are fully landed.
 
 ## Results
 
-
-
 ### Operating model update and implications for stocks status
 
+Operating model fits to survey and fishery biomass indices are similar to 
+previous versions, where both the model and data show a long-term steady 
+decline. The most recent two stratified random survey (StRS) data points 
+are substantially higher than the preceding ones, suggesting potential 
+increases in the offshore stock biomass (Figure 2). 
+
+In general, the age-structured operating model fit the age-composition data 
+reasonably well (Figure 3). Fits to the trap fishery age-composition 
+continue to show a large residual at the plus-group age 35+. The plus-group
+residual is also positive, but considerably smaller for females (Figure 3, 
+Trap:Females). The trawl age fits show a large positive residual at age-2 
+for males, which appears to arise from the 2017 and 2018 samples that are 
+large and, therefore, tend to drive the average to have what appears to be 
+a large residual at age-2. This could be a contributing factor, or at least 
+contributing to the uncertainty, regarding the estimated 2015 year-class. 
+
+Model fits to the standardized survey are similar to previous OM versions — 
+error patterns in these lie somewhere between the fishery data fits (worst) 
+and StRS fits (best) (Figure 2). The OM continues to fit StRS very well, 
+which probably arises because the StRS is specifically designed for 
+monitoring the offshore sablefish population (none of the other data series
+do that).
+
+The updated stock status of Canadian sablefish depends on the absolute size 
+of the 2015 year-class (age-3 in assessment Year 2018) (Table 1). The raw 
+estimate of this year-class is about 5 times the historical average, which 
+creates the impression of the largest recorded recruitment from one of the 
+lowest spawning biomasses ever observed. Such a high recruitment at low 
+spawning biomass has cascading effects on the model parameter estimates, 
+biological reference points, and estimated current biomass. These effects 
+include: (i) the estimated stock productivity (i.e., stock-recruitment 
+steepness parameter) is adjusted upwards; (ii) the most productive stock 
+size ($B_MSY$) is adjusted downwards, because the stock is apparently more 
+productive at low biomass; (iii) the optimal fishing mortality rate 
+($F_{MSY}$) is adjusted upwards because the more productive stock can 
+sustain higher fishing pressure; and (iv) current spawning biomass is 
+adjusted upwards because about 20-25% of age-3 fish are maturing. Although 
+these are positive and encouraging signs that sablefish status is improving, 
+there is some risk in tuning future management procedures to substantial 
+models changes that arise from a small number of observations. Other 
+fisheries for Pacific groundfish (e.g., Pacific Hake, Gulf of Alaska 
+Sablefish [*Merluccius productus*]) have treated large recruitments with 
+caution until the data more fully materialize. Here, we deal with the 
+uncertainty in 2015 year-class size by developing reference (using 
+age-3 data) and robustness (ignoring age-3 data) OMs for use in 
+evaluating management procedures.
 
 ### Management Procedure Evaluation Results
 
 #### Reference oeprating model set
 
-Year 2016 recruitment is a main driver of spawning biomass and fishery outcomes in 
-the reference OM simulations. Given the high 2016 recruitment, spawning biomass
-increases rapidly over the first 5 years of the projection period as these fish 
-become fully recruited to the fisheries and then the spawning biomass (Fig). Spawning 
-biomass then trends downward toward $B_{MSY}$ in the long-term as this large year class 
-is fished down. Under these conditions, all MPs met all the conservation criteria 
-defined by Objectives 1-3. The probability of catch below the 1,992 t floor was 
-2.6% or less across all MPs. Tuning MPs to meet Objectives 1-3, and specifically 
-treating Objective 3 as a target, highlights MP performance differences in average 
-annual catch over the next 10 years.
+Recruitment from the 2015 year class is a main driver of projected 
+spawning biomass and fishery outcomes in the reference OM simulations. 
+Given the high 2015 recruitment, spawning biomass increases rapidly over 
+the first 5 years of the projection period as these fish become fully 
+recruited to the fisheries and then the spawning biomass (Figure 4 and 6). 
+Spawning biomass then trends downward toward $B_MSY$ in the long-term as this 
+large year class is fished down. Under these conditions, all MPs met all 
+the conservation criteria defined by Objectives 1-3. The probability of 
+catch below the 1,992 t floor was 2.6% or less across all MPs. Tuning MPs 
+to meet Objectives 1-3, and specifically treating Objective 3 as a target, 
+highlights MP performance differences in average annual catch over the next 
+10 years.
 
-As expected, management procedures with more restricted at-sea release regulations 
-ranked higher in terms of 10-year average catch (Table X) with the values ranging 
-from 4,510 t per year for full retention (**frt**) to 3,700 t per year for a cap 150% 
-higher than average, recent cap allocation among fleets (i.e., allocating 59% to 
-trawl), and 5-year amortization (MP13 **cap1.5_rctAl_am5**).  This difference is 
-attributable to two factors. First, the key assumption here is that fishing activity 
-stops once the TAC is reached, so full retention involves less mortality of sub-legal 
-fish over all fleets. This leads to a large reduction in growth overfishing for the 
-full retention regulation – gains in sablefish body growth are much higher than 
-losses due to natural mortality in sub-legal size classes – and, therefore, average 
-weight of legal-sized fish in the catch is larger. Second, the fishery can operate at 
-higher fishing mortality rates because survival over sub-legal size classes is higher 
-and therefore higher survival to fisheries and the spawning stock. Indeed, the current 
-MP maximum target $F = 5.5\%$ is largely the result of lower survival through sub-legal 
-size classes, which inhibits MPs from meeting the future spawning biomass Objective 
-3. In contrast, the full retention MP meets Objective 3 despite a maximum target 
-4. $F = 7.4\%$ (Table X).
+As expected, management procedures with more restricted at-sea release 
+regulations ranked higher in terms of 10-year average catch (Table 2) 
+with the values ranging from 4,510 t per year for full retention (**frt**) 
+to 3,700 t per year for a cap 150% higher than average, recent cap 
+allocation among fleets (i.e., allocating 59% to trawl), and 5-year 
+amortization (MP13 **cap1.5_rctAl_am5**). This difference is attributable 
+to two factors. First, the key assumption here is that fishing activity 
+stops once the TAC is reached, so full retention involves less mortality 
+of sub-legal fish over all fleets. This leads to a large reduction in 
+growth overfishing for the full retention regulation — gains in sablefish 
+body growth are much higher than losses due to natural mortality in 
+sub-legal size classes — and, therefore, average weight of legal-sized 
+fish in the catch is larger. Second, the fishery can operate at higher 
+fishing mortality rates because survival over sub-legal size classes is 
+higher and therefore higher survival to fisheries and the spawning stock. 
+Indeed, the current MP maximum target $F=5.5\%$ is largely the result of 
+lower survival through sub-legal size classes, which inhibits MPs from 
+meeting the future spawning biomass Objective 3. In contrast, the full 
+retention MP meets Objective 3 despite a maximum target $F=7.4\%$ (Table 2).
 
-Differences in average annual catch were smaller among at-sea regulation options not 
-involving full retention. An at-sea release cap of 50% of the historical average 
-resulted in average annual catch levels approximately 200 t higher than the current 
-MP (**noCap**), regardless of how the cap in the former was allocated among fleets (MP3 
-and MP5 vs MP15; Table X). 
+Differences in average annual catch were smaller among at-sea regulation 
+options not involving full retention. An at-sea release cap of 50% of the 
+historical average resulted in average annual catch levels approximately 
+200 t higher than the current MP (**noCap**), regardless of how the cap in 
+the former was allocated among fleets (MP3 and MP5 vs. MP15; Table 2).
 
-An at-sea release cap equal to 100% of the historical average also produced 200 t 
-more average annual catch compared to the current MP, as long as the cap was allocated 
-according to the historical at-sea release proportions and amortized over 5 years. The 
-similarity to the lower 50% caps described above mainly reflects cap allocation to the 
-trawl fleet, where the recent allocation (57%) is approximately twice the historical 
-(29%), so switching to the lower, historical allocation allows for doubling the cap, 
-i.e., the total at-sea release amounts allocated to the trawl fleet are similar. In 
-general, the historical allocation options ranked higher than the recent allocations 
-because the historical allocation involves lower at-sea releases by the trawl fleet. 
-The amortization period did not have as noticeable an effect as the overall cap and 
-allocation options, in that order.
+An at-sea release cap equal to 100% of the historical average also produced 
+200 t more average annual catch compared to the current MP, as long as the 
+cap was allocated according to the historical at-sea release proportions 
+and amortized over 5 years. The similarity to the lower 50% caps described 
+above mainly reflects cap allocation to the trawl fleet, where the recent 
+allocation (57%) is approximately twice the historical (29%), so switching 
+to the lower, historical allocation allows for doubling the cap, i.e., the 
+total at-sea release amounts allocated to the trawl fleet are similar. In 
+general, the historical allocation options ranked higher than the recent 
+allocations because the historical allocation involves lower at-sea 
+releases by the trawl fleet. The amortization period did not have as 
+noticeable an effect as the overall cap and allocation options, in that 
+order.
 
-Increasing the cap to 150% of the historical average produced the lowest average annual 
-catch, despite the current MP having no cap at all. Although average 10-year catches 
-were similar, at-sea releases in the current MP (**noCap**) change mainly with recruitment 
-and therefore have less impact than a 150% cap, which decouples at-sea releases and 
-recruitment to some (small) degree and allows trawl fishing to continue past current 
-sub-legal catch rates. 
+Increasing the cap to 150% of the historical average produced the lowest 
+average annual catch, despite the current MP having no cap at all. 
+Although average 10-year catches were similar, at-sea releases in the 
+current MP (**noCap**) change mainly with recruitment and therefore have 
+less impact than a 150% cap, which decouples at-sea releases and 
+recruitment to some (small) degree and allows trawl fishing to continue 
+past current sub-legal catch rates.
 
-For higher caps and recent at-sea release allocation, the effect of amortization switched 
-from 5 years being better to 10 years being better. Although the differences were small 
-(MP 12 vs MP13; Table X), the switch probably occurs because there is little to no 
-growth overfishing benefit of amortization at high caps and recent allocations, which 
-would mean higher trawl releases than present. In this case, the amortization period 
-has a direct effect on TACs with longer amortization periods having less impact 
-because any overages are spread over the longer period.
+For higher caps and recent at-sea release allocation, the effect of 
+amortization switched from 5 years being better to 10 years being better.
+Although the differences were small (MP12 vs MP13; Table 2), the switch 
+probably occurs because there is little to no growth overfishing benefit 
+of amortization at high caps and recent allocations, which would mean 
+higher trawl releases than present. In this case, the amortization period 
+has a direct effect on TACs with longer amortization periods having less 
+impact because any overages are spread over the longer period.
 
-We initially expected that a full retention and/or lower cap regulations would negatively 
-affect fishery landed value because the landed catch would consist of higher proportions 
-of sub-legal fish. Price premiums for sablefish (see table below; C. Acheson per comm., 
-Spring 2019) may result in several dollars per pound differences between sub-legal 
-(< 3 lbs) and legal-sized sablefish.
+We initially expected that a full retention and/or lower cap regulations 
+would negatively affect fishery landed value because the landed catch 
+would consist of higher proportions of sub-legal fish. Price premiums 
+for sablefish (***see Table X; C. Acheson per comm., Spring 2019***) may result 
+in several dollars per pound differences between sub-legal (< 3 lbs) and 
+legal-sized sablefish.
 
-**TABLE OF SABLEFISH VALUES**
+Indeed, the average landed value per tonne was approximately $170 lower 
+for a full retention trap fishery compared to any of the other at-sea 
+release regulations (Table 4), while landed value was approximately $20 
+and $90 per tonne lower for longline hook and trawl landings, respectively. 
+Size-selectivity for trap, and especially longline hook, fisheries is 
+shifted far enough toward larger sizes that the impacts of retaining 
+smaller fish are relatively small compared to the benefits of higher 
+average TACs. Indeed, cumulative landed values over ten years were 
+$47 million, $18 million, and $15 million higher for trap, longline 
+hook, and trawl fisheries under full retention fishery compared to 
+the next best average annual catch regulation option (i.e., MP3, 
+**cap.5_hstAl_am5** Table 4).
 
-Indeed, the average landed value per tonne was approximately $170 lower for a 
-full retention trap fishery compared to any of the other at-sea release 
-regulations (Table X), while landed value was approximately $20 and $90 
-per tonne lower for longline hook and trawl landings, respectively. 
-Size-selectivity for trap, and especially longline hook, fisheries is shifted 
-far enough toward larger sizes that the impacts of retaining smaller fish are 
-relatively small compared to the benefits of higher average TACs. Indeed, 
-cumulative landed values over ten years were $47 million, $18 million, and 
-$15 million higher for trap, longling hook, and trawl fisheries under full 
-retention fishery compared to the next best average annual catch regulation 
-option (i.e., MP3, **cap.5_hstAl_am5**). 
-
-The next best at-sea release regulation option after full retention was very 
-different between trap and longline hook fisheries and trawl. For instance, 
-as noted above MP3 (cap.5_hstAl_am5) was the next best option for trap and 
-longline hook, in terms of both average annual TAC and cumulative value 
-(Table X). In contrast, the next best option for trawl landed value was 
-MP13 (**cap1.5_rctAl_am5**), which had the lowest average annual TAC. The value 
-difference for trawl between this option and full retention was only $5 
-million over 10 years, while the value differences between MP3 and MP13 
-for trap and longline hook were $33 million and $32 million, respectively. 
-Thus, trap and longline hook fisheries benefit from more restrictive at-sea 
-regulations while trawl benefits from the least restrictive, even without 
-considering the implications for trawl's main target fisheries.
-
-
-#### Robustness operating model set
-
-Unlike the reference OMs, in which biomass and catch increases are large 
-over the next decade, sablefish biomass and catch projections under the 
-robustness OMs increased more gradually and generally required lower 
-fishing rates. In fact, these simulations closely resemble previous sablefish 
-MSE results in suggesting relatively conservative harvest strategies. 
-
-Tuning MPs to meet Objective 3 under the robustness OMs was more challenging 
-because higher Fs had more noticeable impacts on the short term decline 
-objective (P(decline); Table X). MP tuning produced relatively low target 
-fishing mortality rates ranging from 5.24% (current MP) to 6.7% (full 
-retention). Whereas the probability of catches less than 1,992 t (Objective 
-4) were negligible (< 3%) in the reference OMs, they were all greater than 
-17% in the robustness OMs except for full retention, which was 8% (Table X). 
-
-Average annual catch under the robustness OMs ranged from 2,310 t under 
-the current MP (MP15, noCap) to 2,770 t under full retention. Thus, the 
-current MP with no limit on at-sea releases performed worse than any of 
-the cap options, although most of the differences between cap options and 
-the current MP were 80 t or less (Table X). There was a slight difference 
-in the rank order of MPs (ranked by average 10-year catch) under the 
-robustness OMs, although the absolute difference among most MPs was small.
-
-Annual TACs were also more sensitive to variation in the MP data as indicated 
-by higher average annual variation in catch (AAV), which was 14-16% under 
-the robustness OMs compared to 7-9% under the reference OMs. This probably 
-occurs because the stock is sometimes assessed below BMSY, leading to changes 
-in both stock status and the maximum target fishing mortality, which has been 
-relatively common in realized applications of sablefish MPs.
-
-Cumulative 10-year landed value under the robustness OMs was approximately 
-60% of landed value in the reference OMs. Although the absolute scales differ, 
-the cumulative value patterns were similar to the reference set; that is, 
-full retention produced the highest overall value, as well as value in each 
-fleet, and the next best at-sea release regulation option was the least 
-restrictive for trawl and next-most-restrictive for trap and longline hook.
+The next best at-sea release regulation option after full retention 
+was very different between trap and longline hook fisheries and trawl. 
+For instance, as noted above, MP3 (**cap.5_hstAl_am5**) was the next best 
+option for trap and longline hook, in terms of both average annual 
+TAC and cumulative value (Table 4). In contrast, the next best option
+for trawl landed value was MP13 (**cap1.5_rctAl_am5**), which had the 
+lowest average annual TAC. The value difference for trawl between 
+this option and full retention was only $5 million over 10 years, 
+while the value differences between MP3 and MP13 for trap and longline 
+hook were $33 million and $32 million, respectively. Thus, the results 
+suggest trap and longline hook fisheries would benefit from more 
+restrictive at-sea regulations while trawl would benefit from the 
+least restrictive at-sea regulations, even without considering the 
+implications for trawl’s main target fisheries.
 
 
+#### Robustness operating model set: under robustness $F_{2022}$ tuning
 
+Unlike the reference OMs, in which biomass and catch increases are large over the next decade, sablefish biomass and catch projections under the robustness OMs increased more gradually and generally required lower fishing rates to meet conservation objectives. In fact, these simulations closely resemble previous sablefish MSE results in suggesting relatively conservative harvest strategies.
+Tuning MPs to meet Objective 3 under the robustness OMs was more challenging because higher Fs had more noticeable impacts on the short-term decline objective (P(decline); Table 3). MP tuning produced relatively low target fishing mortality rates ranging from 5.24% (current MP) to 6.7% (full retention). Whereas the probability of catches less than 1,992 t (Objective 4) were negligible (< 3%) in the reference OMs, they were all greater than 17% in the robustness OMs except for full retention, which was 8% (Table 3).
+Average annual catch under the robustness OMs ranged from 2,310 t under the current MP (MP15, noCap) to 2,770 t under full retention. Thus, the current MP with no limit on at-sea releases performed worse than any of the cap options, although most of the differences between cap options and the current MP were 80 t or less (Table 3). There was a slight difference in the rank order of MPs (ranked by average 10-year catch) under the robustness OMs, although the absolute difference among most MPs was small.
+Annual TACs were also more sensitive to variation in the MP data as indicated by higher average annual variation in catch (AAV), which was 14-16% under the robustness OMs compared to 7-9% under the reference OMs (Table 3). This probably occurs because the stock is sometimes assessed below BMSY, leading to changes in both stock status and the maximum target fishing mortality, which has been relatively common in realized applications of sablefish MPs over the past several years.
+Cumulative 10-year landed value under the robustness OMs was approximately 60% of landed value in the reference OMs. Although the absolute scales differ, the cumulative value patterns were similar to the reference set; that is, full retention produced the highest overall value, as well as value in each fleet, and the next best at-sea release regulation option was the least restrictive for trawl and next-most-restrictive for trap and longline hook (Table 5).
 
+#### Robustness operating model set: under reference $F_{2022}$ tuning
 
-
+TBA: describe results of MP performance using robustness set of OMs but maximum target harvest rates tuned from the reference set of OMs, and visa-versa. This allows us to understand the risks of getting it wrong when it comes to the magnitude of Year 2015 recruitment (Tables 6 and 7)]
