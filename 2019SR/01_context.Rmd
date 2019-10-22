@@ -43,7 +43,7 @@ formally evaluated through the sablefish MSE process. Indeed,
 closed-loop simulations suggest that both full avoidance and 
 full retention of sub-legal sablefish may improve both average 
 annual sablefish yield in directed fisheries as well as the 
-probability of stock rebuilding to BMSY [@cox2011management; 
+probability of stock rebuilding to $B_{MSY}$ [@cox2011management; 
 @cox2019evaluating]. Unfortunately, full avoidance may not 
 be feasible, especially in trawl fisheries, which encounter 
 sub-legal sablefish as part of fishing operations for other 

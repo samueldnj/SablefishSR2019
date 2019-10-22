@@ -1,4 +1,5 @@
 \newpage
+\setcounter{table}{0}
 # Tables
 
 \newpage
@@ -231,65 +232,21 @@ passObj <- function( X, target = .95, comp = "gt" )
   return(out)
 }
 
-newMPLabels <- c( "NoFish",
-                  "cap.5_hstAl_am10",
-                  "cap.5_hstAl_am5",
-                  "cap.5_rctAl_am10",
-                  "cap.5_rctAl_am5",
-                  "cap1.0_hstAl_am10",
-                  "cap1.0_hstAl_am5",
-                  "cap1.0_rctAl_am10",
-                  "cap1.0_rctAl_am5",
-                  "cap1.5_hstAl_am10",
-                  "cap1.5_hstAl_am5",
-                  "cap1.5_rctAl_am10",
-                  "cap1.5_rctAl_am5",
-                  "frt",
-                  "noCap")
 
-names(newMPLabels) <- c(  "NoFish",
-                          "SP_cap.5_hstAl_am10",
-                          "SP_cap.5_hstAl_am5",
-                          "SP_cap.5_rctAl_am10",
-                          "SP_cap.5_rctAl_am5",
-                          "SP_cap1.0_hstAl_am10",
-                          "SP_cap1.0_hstAl_am5",
-                          "SP_cap1.0_rctAl_am10",
-                          "SP_cap1.0_rctAl_am5",
-                          "SP_cap1.5_hstAl_am10",
-                          "SP_cap1.5_hstAl_am5",
-                          "SP_cap1.5_rctAl_am10",
-                          "SP_cap1.5_rctAl_am5",
-                          "SP_frt_rctAl_am5",
-                          "SP_noCap_rctAl_am5")
-
-replaceLabels <- function(  label,
-                            newLabels = newMPLabels )
-{
-  newLabel <- newLabels[label]
-
-  newLabel
-}
+refOMobjTable <- read.csv("./data/hiRec_wtdTable_hiRecTuned.csv", header = TRUE, stringsAsFactors = FALSE ) %>%
+                  dplyr::mutate(  Label = sapply( X = Label, FUN = texFriendlyUnderscore ))
 
 
-refOMobjTable <- read.csv("./data/hiRec_wtdTable.csv", header = TRUE, stringsAsFactors = FALSE ) %>%
-                  dplyr::mutate(  Label = sapply( X = Label, FUN = replaceLabels ),
-                                  Label = sapply( X = Label, FUN = texFriendlyUnderscore ))
-
-
-refOMobjTable_robTune <- read.csv("./data/hiRec_wtdTable_RobTuned.csv", header = TRUE, stringsAsFactors = FALSE ) %>%
-                  dplyr::mutate(  Label = sapply( X = Label, FUN = replaceLabels ),
-                                  Label = sapply( X = Label, FUN = texFriendlyUnderscore ))
+refOMobjTable_robTune <- read.csv("./data/hiRec_wtdTable_simRecTuned.csv", header = TRUE, stringsAsFactors = FALSE ) %>%
+                  dplyr::mutate(  Label = sapply( X = Label, FUN = texFriendlyUnderscore ))
 
                   
 
-robOMobjTable <- read.csv("./data/simRec_wtdTable.csv", header = TRUE, stringsAsFactors = FALSE ) %>%
-                  dplyr::mutate(  Label = sapply( X = Label, FUN = replaceLabels ),
-                                  Label = sapply( X = Label, FUN = texFriendlyUnderscore ))
+robOMobjTable <- read.csv("./data/simRec_wtdTable_simRecTuned.csv", header = TRUE, stringsAsFactors = FALSE ) %>%
+                  dplyr::mutate(  Label = sapply( X = Label, FUN = texFriendlyUnderscore ))
 
-robOMobjTable_refTune <- read.csv("./data/simRec_wtdTable_RefTune.csv", header = TRUE, stringsAsFactors = FALSE ) %>%
-                            dplyr::mutate(  Label = sapply( X = Label, FUN = replaceLabels ),
-                                            Label = sapply( X = Label, FUN = texFriendlyUnderscore ))
+robOMobjTable_refTune <- read.csv("./data/simRec_wtdTable_hiRecTuned.csv", header = TRUE, stringsAsFactors = FALSE ) %>%
+                            dplyr::mutate(  Label = sapply( X = Label, FUN = texFriendlyUnderscore ))
 
 SP_refTable <-  refOMobjTable %>%
                 dplyr::arrange(desc(medAvgCatch)) %>%
@@ -305,7 +262,16 @@ SP_refTable <-  refOMobjTable %>%
                                 "C2019",
                                 "D2019",
                                 HR = inputF ) %>%
-                dplyr::mutate_if( is.numeric, signif, 3 ) %>%
+                dplyr::mutate(  AcceptProbDec = round(AcceptProbDec,2),
+                                ProbBtGtLRP = round(ProbBtGtLRP,2),
+                                ObsProbDec = round(ObsProbDec,2),
+                                ProbB2052GtBmsy = round(ProbB2052GtBmsy,2),
+                                ProbCtLt1992 = round(ProbCtLt1992,2),
+                                medAvgCatch = round(medAvgCatch,3),
+                                medAAV = round(medAAV),
+                                C2019 = round(C2019,2),
+                                D2019 = round(D2019,2),
+                                HR = signif(HR,3) ) %>%
                 dplyr::mutate(  pObj1     =  sapply(X = ProbBtGtLRP, FUN = passObj, target = .95),
                                 pDecline  =  mapply(FUN = passObj, X = ObsProbDec, target = AcceptProbDec, comp = "lt") ,
                                 pObj3     =  sapply(X = ProbB2052GtBmsy, FUN = passObj, target = .5) ) %>%
@@ -335,7 +301,16 @@ SP_robTable <-  robOMobjTable %>%
                                 "C2019",
                                 "D2019",
                                 HR = inputF ) %>%
-                dplyr::mutate_if( is.numeric, signif, 3 ) %>%
+                dplyr::mutate(  AcceptProbDec = round(AcceptProbDec,2),
+                                ProbBtGtLRP = round(ProbBtGtLRP,2),
+                                ObsProbDec = round(ObsProbDec,2),
+                                ProbB2052GtBmsy = round(ProbB2052GtBmsy,2),
+                                ProbCtLt1992 = round(ProbCtLt1992,2),
+                                medAvgCatch = round(medAvgCatch,3),
+                                medAAV = round(medAAV),
+                                C2019 = round(C2019,2),
+                                D2019 = round(D2019,2),
+                                HR = signif(HR,3) ) %>%
                 dplyr::mutate(  pObj1     =  sapply(X = ProbBtGtLRP, FUN = passObj, target = .95),
                                 pDecline  =  mapply(FUN = passObj, X = ObsProbDec, target = AcceptProbDec, comp = "lt"),
                                 pObj3     =  sapply(X = ProbB2052GtBmsy, FUN = passObj, target = .5)) %>%
@@ -363,7 +338,7 @@ informHeaders <- c( "No.",
                     "$\\bar{C}_{2019:2028}$",
                     "$AAV$",
                     "$C_{2019}$",
-                    "$D_{2019}$",
+                    "$B_{2019}/B0$",
                     "$F_{2022}$" )
 
 
@@ -390,52 +365,10 @@ objNames <- c(" " = 2,
 names(SP_refTable) <- informHeaders
 names(SP_robTable) <- informHeaders
 
-refOMtableCap <- "Weighted performance metrics for all candidate management procedures on the reference set of operating models, where recruitment is taken from the OM estimate in 2016. Conservation performance metrics that pass the criteria in the header are indicated by a bullet."
-robOMtableCap <- "Weighted performance metrics for all candidate management procedures on the robustness set of operating models, where recruitment is simulated stochastically off the stock-recruit curve in 2016. Conservation performance metrics that pass the criteria in the header are indicated by a bullet."
+refOMtableCap <- "Weighted performance metrics for all candidate management procedures on the reference set of operating models, where recruitment is taken from the OM estimate for the 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
+robOMtableCap <- "Weighted performance metrics for all candidate management procedures on the robustness set of operating models, where recruitment is simulated stochastically off the stock-recruit curve for the 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
 
 ```
-
-
-
-```{r,  echo = FALSE, warning =  FALSE }
-
-csasdown::csas_table( SP_refTable, 
-                      caption = refOMtableCap, 
-                      format = kable_format, 
-                      landscape =TRUE,
-                      escape = FALSE, font_size = 9,
-                      booktabs = TRUE,
-                      align = c( "l","l",rep("c", ncol(SP_refTable) - 2 )) ) %>%
-    kable_styling(  latex_options = c("hold_position", "scale_down"),
-                     bootstrap_options = c("striped", "hover","scale_down")) %>%
-    add_header_above( criteria,
-                      bold = T ) %>%
-    add_header_above( objNames,
-                      bold = T )
-
-
-```
-
-\newpage
-
-```{r,  echo = FALSE, warning =  FALSE }
-csasdown::csas_table( SP_robTable, 
-                      caption = robOMtableCap, 
-                      format = kable_format, 
-                      landscape =TRUE,
-                      escape = FALSE, font_size = 9,
-                      booktabs = TRUE,
-                      align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
-    kable_styling(  latex_options = c("hold_position", "scale_down"),
-                    bootstrap_options = c("striped", "hover","scale_down")) %>%
-    add_header_above( criteria, bold = T) %>%
-    add_header_above( objNames,
-                      bold = T )
-
-```
-
-\newpage
-
 
 ```{r npvTables, echo = FALSE, include = FALSE, warning = FALSE}
 NPV_refTable <-  refOMobjTable %>%
@@ -479,24 +412,63 @@ npvHeaders <- c(  "No.",
                   "$D^{trap}$",
                   "$D^{hook}$",
                   "$D^{trawl}$",
-                  "$I^{trap}$",
-                  "$I^{hook}$",
-                  "$I^{trawl}$" )
+                  "$R^{trap}$",
+                  "$R^{hook}$",
+                  "$R^{trawl}$" )
 
 npvUnits <- c(  " " = 2,
                   "Av. Catch (kt)" = 1,
-                  "10 year value ($ millions)" = 6,
-                  "Av. income ($/t)" = 3 )
+                  "10 year revenue ($ millions)" = 6,
+                  "Av. revenue ($/t)" = 3 )
 
 
 colnames(NPV_robTable) <- npvHeaders
 colnames(NPV_refTable) <- npvHeaders
 
-refNPVcap <- "Weighted economic performance metrics for the first 10 years of the projections in the reference OM set. Column 3 shows the average catch over the first 10 years, and the remaining columns show the total value (\\$m) of catch $C$ and discards $D$ for all sectors, and the yearly average income $I$ in dollars per tonne of catch, over the next 10 years. All values are taken at 4 significant figures."
-robNPVcap <- "Weighted economic performance metrics for the first 10 years of the projections in the robustness OM set. Column 3 shows the average catch over the first 10 years, and the remaining columns show the total value (\\$m) of catch $C$ and discards $D$ for all sectors, and the yearly average income $I$ in dollars per tonne of catch, over the next 10 years. All values are taken at 4 significant figures."
+refNPVcap <- "Weighted economic performance metrics for the first 10 years of the projections in the reference OM set. Column 3 shows the average catch over the first 10 years, and the remaining columns show the total value (\\$m) of catch $C$ and discards $D$ for all sectors, and the yearly average income $I$ in dollars per tonne of catch, over the next 10 years. All values are taken at 4 significant figures. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$."
+robNPVcap <- "Weighted economic performance metrics for the first 10 years of the projections in the robustness OM set. Column 3 shows the average catch over the first 10 years, and the remaining columns show the total value (\\$m) of catch $C$ and discards $D$ for all sectors, and the yearly average income $I$ in dollars per tonne of catch, over the next 10 years. All values are taken at 4 significant figures. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$."
 
 ```
 
+
+
+```{r,  echo = FALSE, warning =  FALSE }
+
+csasdown::csas_table( SP_refTable, 
+                      caption = refOMtableCap, 
+                      format = kable_format, 
+                      landscape =TRUE,
+                      escape = FALSE, font_size = 9,
+                      booktabs = TRUE,
+                      align = c( "l","l",rep("c", ncol(SP_refTable) - 2 )) ) %>%
+    kable_styling(  latex_options = c("hold_position", "scale_down"),
+                     bootstrap_options = c("striped", "hover","scale_down")) %>%
+    add_header_above( criteria,
+                      bold = T ) %>%
+    add_header_above( objNames,
+                      bold = T )
+
+
+```
+
+\newpage
+
+```{r, echo = FALSE, include = FALSE, warning = FALSE}
+valTable <- read.csv("./data/sableValue.csv", header = TRUE, stringsAsFactors = FALSE)
+```
+
+```{r, echo = FALSE, warning = FALSE, results = "as-is"}
+names(valTable) <- c("Weight Class (lb)", "Price (\\$/lb)" )
+csasdown::csas_table( valTable,
+                      caption = "Price per pound of sablefish in each weight class. Weight classes are defined by the limits of that class, in pounds (e.g., 2/3 is the class of fish between 2 and 3 pounds).",
+                      booktabs = TRUE, escape = FALSE, 
+                      font_size = 12, format = kable_format ) %>%
+    kable_styling(  latex_options = c("hold_position", "scale_down"),
+                    bootstrap_options = c("striped", "hover","scale_down"))
+
+```
+
+\newpage
 
 ```{r, echo = FALSE, results = "as-is"}
 csasdown::csas_table( NPV_refTable, 
@@ -513,9 +485,29 @@ csasdown::csas_table( NPV_refTable,
 
 \newpage
 
+```{r,  echo = FALSE, warning =  FALSE }
+csasdown::csas_table( SP_robTable, 
+                      caption = robOMtableCap, 
+                      format = kable_format, 
+                      landscape =TRUE,
+                      escape = FALSE, font_size = 9,
+                      booktabs = TRUE,
+                      align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
+    kable_styling(  latex_options = c("hold_position", "scale_down"),
+                    bootstrap_options = c("striped", "hover","scale_down")) %>%
+    add_header_above( criteria, bold = T) %>%
+    add_header_above( objNames,
+                      bold = T )
+
+```
+
+\newpage
+
+
+
 ```{r, echo = FALSE, results = "as-is"}
 csasdown::csas_table( NPV_robTable, 
-                      caption = refNPVcap, 
+                      caption = robNPVcap, 
                       format = kable_format, 
                       landscape =TRUE,
                       escape = FALSE, font_size = 12,
@@ -525,6 +517,7 @@ csasdown::csas_table( NPV_robTable,
                     bootstrap_options = c("striped", "hover","scale_down")) %>%
     add_header_above( npvUnits, bold = T)
 ```
+
 
 
 ```{r, echo = FALSE, warning = FALSE, include = FALSE}
@@ -542,7 +535,16 @@ SP_robTableRefTune <-  robOMobjTable_refTune %>%
                                         "C2019",
                                         "D2019",
                                         HR = inputF ) %>%
-                        dplyr::mutate_if( is.numeric, signif, 3 ) %>%
+                        dplyr::mutate(  AcceptProbDec = round(AcceptProbDec,2),
+                                        ProbBtGtLRP = round(ProbBtGtLRP,2),
+                                        ObsProbDec = round(ObsProbDec,2),
+                                        ProbCtLt1992 = round(ProbCtLt1992,2),
+                                        ProbB2052GtBmsy = round(ProbB2052GtBmsy,2),
+                                        medAvgCatch = round(medAvgCatch,3),
+                                        medAAV = round(medAAV),
+                                        C2019 = round(C2019,2),
+                                        D2019 = round(D2019,2),
+                                        HR = signif(HR,3) ) %>%
                         dplyr::mutate(  pObj1     =  sapply(X = ProbBtGtLRP, FUN = passObj, target = .95),
                                         pDecline  =  mapply(FUN = passObj, X = ObsProbDec, target = AcceptProbDec, comp = "lt"),
                                         pObj3     =  sapply(X = ProbB2052GtBmsy, FUN = passObj, target = .5)) %>%
@@ -572,7 +574,16 @@ SP_refTableRobTune <-  refOMobjTable_robTune %>%
                                         "C2019",
                                         "D2019",
                                         HR = inputF ) %>%
-                        dplyr::mutate_if( is.numeric, signif, 3 ) %>%
+                        dplyr::mutate(  AcceptProbDec = round(AcceptProbDec,2),
+                                        ProbBtGtLRP = round(ProbBtGtLRP,2),
+                                        ObsProbDec = round(ObsProbDec,2),
+                                        ProbB2052GtBmsy = round(ProbB2052GtBmsy,2),
+                                        ProbCtLt1992 = round(ProbCtLt1992,2),
+                                        medAvgCatch = round(medAvgCatch,3),
+                                        medAAV = round(medAAV),
+                                        C2019 = round(C2019,2),
+                                        D2019 = round(D2019,2),
+                                        HR = signif(HR,3) ) %>%
                         dplyr::mutate(  pObj1     =  sapply(X = ProbBtGtLRP, FUN = passObj, target = .95),
                                         pDecline  =  mapply(FUN = passObj, X = ObsProbDec, target = AcceptProbDec, comp = "lt"),
                                         pObj3     =  sapply(X = ProbB2052GtBmsy, FUN = passObj, target = .5)) %>%
@@ -591,8 +602,8 @@ SP_refTableRobTune <-  refOMobjTable_robTune %>%
 names(SP_robTableRefTune) <- informHeaders
 names(SP_refTableRobTune) <- informHeaders
 
-robOMtableCapRefTune <- "Weighted performance metrics for all candidate management procedures, with harvest rates tuned to performance on the reference set of operating models, and applied to the robustness set of operating models where recruitment is simulated stochastically off the stock-recruit curve in 2016. Conservation performance metrics that pass the criteria in the header are indicated by a bullet."
-refOMtableCapRobTune <- "Weighted performance metrics for all candidate management procedures, with harvest rates tuned to performance on the robustness set of operating models, and applied to the reference set of operating models accepting the high 2016 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet."
+robOMtableCapRefTune <- "Weighted performance metrics for all candidate management procedures, with harvest rates tuned to performance on the reference set of operating models, and applied to the robustness set of operating models where recruitment is simulated stochastically off the stock-recruit curve for the 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
+refOMtableCapRobTune <- "Weighted performance metrics for all candidate management procedures, with harvest rates tuned to performance on the robustness set of operating models, and applied to the reference set of operating models accepting the high 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
 ```
 
 \newpage

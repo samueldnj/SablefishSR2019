@@ -1117,7 +1117,7 @@ plotSelFuncs <- function()
 
 .plotCatAgeFreq <- function( obj, minAge=3, seriesNames=NULL,
   gfx=list( annotate=TRUE, bygears=FALSE, doLegend=TRUE, showProj=FALSE,
-            xLim=NULL, yLim=NULL ) )
+            xLim=NULL, yLim=NULL, pLim = NULL ) )
 {
   # obj is an array with dimensions nT by (plusGrpAge-minAge+1).
   
@@ -1137,7 +1137,9 @@ plotSelFuncs <- function()
   xLim <- gfx$xLim
   yLim <- gfx$yLim
     
-  pLim <- c( 0, 0.25 )
+  pLim <- gfx$pLim
+  if(is.null(pLim))
+    pLim <- c( 0, 0.25 )
   
   yearClasses <- c( 1:dim(obj)[2] )
   

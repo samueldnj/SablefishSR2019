@@ -9,17 +9,15 @@ approver: |
   Regional Director\
   Science Branch, Pacific Region\
   Fisheries and Oceans Canada
-approval_year: 20XX
-approval_month: January
+approval_year: 2019
+approval_month: October
 approval_day: 01
 branch: Science Branch
 region: Pacific Region
 address: |
   ^1^Pacific Biological Station\
      Fisheries and Oceans Canada, 3190 Hammond Bay Road\
-     Nanaimo, British Columbia, V9T 6N7, Canada\
-  ^2^Far, far away\
-     Another Galaxy
+     Nanaimo, British Columbia, V9T 6N7, Canada
 phone: (250) 756-7208
 email: csap@dfo-mpo.gc.ca
 output:
@@ -44,6 +42,8 @@ header-includes:
   - \usepackage{pdflscape}
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
+  - \newcommand{\beginAppA}{ \setcounter{table}{0}\renewcommand{\thetable}{A\arabic{table}}\setcounter{figure}{0}\renewcommand{\thefigure}{A\arabic{figure}} }
+
 ---
 
 ```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}

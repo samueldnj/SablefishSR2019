@@ -3,7 +3,7 @@ export PATH := /usr/local/bin:~/.local/bin:$(PATH) # add pandoc-citeproc-preambl
 
 # Cluster targets
 pdf: index.pdf tandf.pdf appendices.pdf
-docx: index.docx tandf.docx appendices.pdf
+docx: index.docx tandf.docx appendices.docx
 
 all: pdf docx
 
