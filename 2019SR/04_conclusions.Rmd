@@ -4,32 +4,37 @@ The current MP for Canadian sablefish (MP15, **noCap**), involving no limits on
 at-sea releases, was able to meet conservation objectives under both 
 reference and robustness OMs, although it ranked near the bottom in terms 
 of catch performance compared to MPs with at-sea release regulations. Of 
-the MPs regulating at-sea releases, MP14 (full retention), MP17 (0% cap, 
+the MPs regulating at-sea releases, MP14 (no size limit), MP17 (0% cap, 
 5 year amortization), MP3 (50% cap, historical allocation, and 5-year 
 amortization) ranked among the top-3 most often under both reference 
 and robustness OMs, provided that maximum target fishing mortality 
 rates were tuned to meet conservation objectives. 
 
-As indicated in previous MSE work, full retention MPs result in the 
+As indicated in previous MSE work, no size limit MPs result in the 
 highest average annual landed catch while still allowing the fishery 
-to meet conservation objectives in both the short- and long-term. Landed 
-value is also greatest for a full retention MP, suggesting that price 
+to meet conservation objectives in both the short- and long-term 
+(actually, 100% avoidance would be superior to NSL, but we did
+not include that here) [@cox2019evaluating]. Landed 
+value is also greatest for a no size limit MP, suggesting that price 
 premiums that place relatively low value on sub-legal sablefish are not 
-that influential. These results held across reference and robustness OMs,
-however, it should be noted that we did not include variable costs of
-fishing in our analysis. The full retention MP produced 500 t and 310 t 
-more average annual landed catch in the reference and robustness OMs, 
-respectively, compared to the 
-next-best performing MP. Given the current price structure 
-for sablefish size, these differences equate to approximately $8.5 
-million/yr in average annual total landed value under the reference 
-OM and $5.3 million/yr under the robustness OM. 
+that influential when measured over 10 years. These results held across 
+reference and robustness OMs; however, it should be noted that we did 
+not include variable costs of fishing in our analysis. 
 
-For MPs not involving full retention, the range of differences in 
-annual average catch among all MPs was only 29 t and 16 t, for reference 
-and robustness OMs, respectively. These equate to approximately $5.6 
-million/yr in average annual total landed value under the reference 
-OM and $2.4 million/yr under the robustness OM.
+The no size limit MP produced 500 t and 310 t more average annual 
+landed catch in the reference and robustness OMs, respectively, 
+compared to the next-best performing MP. Given the current 
+price structure for sablefish size, these differences equate to 
+approximately $8.5 million/yr in average annual total landed 
+value under the reference OM and $5.3 million/yr under the 
+robustness OM. 
+
+For MPs involving a size limit, the range of differences in 
+annual average catch among all MPs was only 410 t and 200 t, 
+for reference and robustness OMs, respectively. These equate 
+to approximately $7.7 million/yr in average annual total 
+landed value under the reference OM and $3.6 million/yr under 
+the robustness OM.
 
 The largest conservation risk appears to be tuning an MP to meet 
 conservation objectives under the reference OM only to find out, 

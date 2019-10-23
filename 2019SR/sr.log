@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.18)  22 OCT 2019 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.18)  22 OCT 2019 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -518,4 +518,1043 @@ Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex
+Package color Info: Driver file: pdftex.def on input line 147.
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+\everycr=\toks35
+\minrowclearance=\skip105
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen161
+\dashlinegap=\dimen162
+\adl@box=\box44
+\adl@height=\dimen163
+\adl@heightsave=\dimen164
+\adl@depth=\dimen165
+\adl@depthsave=\dimen166
+\adl@finaldepth=\dimen167
+\adl@columns=\count152
+\adl@ncol=\count153
+\adl@currentcolumn=\count154
+\adl@currentcolumnsave=\count155
+\adl@totalheight=\count156
+\adl@totalheightsave=\count157
+\adl@dash=\count158
+\adl@gap=\count159
+\adl@cla=\count160
+\adl@clb=\count161
+\adl@everyvbox=\toks36
+\adl@LTpagetotal=\dimen168
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count162
+)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count163
+\sf@farskip=\skip106
+\sf@captopadj=\dimen169
+\sf@capskip=\skip107
+\sf@nearskip=\skip108
+\c@subfigure=\count164
+\c@subfigure@save=\count165
+\c@subtable=\count166
+\c@subtable@save=\count167
+\sf@top=\skip109
+\sf@bottom=\skip110
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2019/10/08 v1.6180339 publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count168
+\@cmidlb=\count169
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count170
+\@lastruleclass=\count171
+\@thisrulewidth=\dimen182
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip111
+\multirow@cntb=\count172
+\multirow@dima=\skip112
+\bigstrutjot=\dimen183
+)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.st
+y
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.st
+y
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common.tex
+\pgfutil@everybye=\toks37
+\pgfutil@tempdima=\dimen184
+\pgfutil@tempdimb=\dimen185
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common-lists.tex))
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-latex.def
+\pgfutil@abb=\box45
+)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.
+code.tex (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revi
+sion.tex)
+Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
+))
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks40
+))) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.st
+y
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.
+code.tex
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.
+code.tex
+\pgf@x=\dimen186
+\pgf@xa=\dimen187
+\pgf@xb=\dimen188
+\pgf@xc=\dimen189
+\pgf@y=\dimen190
+\pgf@ya=\dimen191
+\pgf@yb=\dimen192
+\pgf@yc=\dimen193
+\c@pgf@counta=\count173
+\c@pgf@countb=\count174
+\c@pgf@countc=\count175
+\c@pgf@countd=\count176
+)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen194
+\pgfmath@count=\count177
+\pgfmath@box=\box46
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
+)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count178
+)))
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.
+code.tex
+Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex)
+\pgffor@iter=\dimen195
+\pgffor@skip=\dimen196
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
+)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/placeins/placeins.st
+y
+Package: placeins 2005/04/18  v 2.2
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2019/09/21 v0.5n Insert pages of external PDF documents (AM)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen197
+\AM@pageheight=\dimen198
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2019/09/21 v0.5n Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box47
+\AM@global@opts=\toks46
+\AM@toc@title=\toks47
+\c@AM@survey=\count179
+\AM@templatesizebox=\box48
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks48
+\SOUL@lasttoken=\toks49
+\SOUL@cmds=\toks50
+\SOUL@buffer=\toks51
+\SOUL@token=\toks52
+\SOUL@spaceskip=\skip113
+\SOUL@ttwidth=\dimen199
+Normal \dimen register pool exhausted, switching to extended pool.
+\SOUL@uldp=\dimen257
+\SOUL@ulht=\dimen258
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks53
+\inpenc@posthook=\toks54
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/scalerel/scalerel.st
+y
+Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretchi
+ng of objects, relative to a reference object or in absolute terms
+\thesrwidth=\skip114
+\thesrheight=\skip115
+\srblobheight=\skip116
+\srblobdepth=\skip117
+\mnxsrwidth=\skip118
+\LMex=\skip119
+\LMpt=\skip120
+)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdfcomment/pdfcomment.s
+ty
+Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
+2, 2015-2016, 2018
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (
+/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks55
+\XKV@tempa@toks=\toks56
+)
+\XKV@depth=\count180
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@pc@count@i=\count181
+\c@pc@count@ii=\count182
+\c@pc@count@iii=\count183
+\c@pc@count@iv=\count184
+\pc@mathannot@box=\box49
+\pc@nullbox=\box50
+\pc@dima=\skip121
+\pc@dimb=\skip122
+\pc@Sposx=\skip123
+\pc@Sposy=\skip124
+\pc@Eposx=\skip125
+\pc@Eposy=\skip126
+\pc@column=\skip127
+\pc@box@width=\skip128
+\pc@box@height=\skip129
+\pc@box@depth=\skip130
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/datetime2/datetime2.sty
+Package: datetime2 2018/07/20 v1.5.3 (NLCT) date and time formats
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2019/10/06 v1.3.8 (NLCT) Track Languages
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tracklang.t
+ex)))
+\c@zref@unique=\count185
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/marginnote/marginnote.s
+ty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count186
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/soulpos/soulpos.sty
+Package: soulpos 2012/02/25 v1.1 Fancy underlining
+\ulp@subcnt=\count187
+\ulp@cnt=\count188
+\ulp@out=\write4
+\ulp@in=\read3
+\ulwidth=\dimen259
+)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 1369.
+
+Package zref Info: New property list: pdfcomment on input line 2735.
+Package zref Info: New property: PCPDFOBJID on input line 2736.
+) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)) (./sr.aux)
+\openout1 = `sr.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+4.
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 64
+.
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+\AtBeginShipoutBox=\box51
+Package hyperref Info: Link coloring ON on input line 64.
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/gettitlestri
+ng.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count189
+)
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(18.06749pt, 668.4975pt, 108.405pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=641.03455pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-86.0763pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=116.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: longtable package is loaded.
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/epstopdf-base.
+sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sy
+s.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)) ABD: EveryShipout initializing macros
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 64.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 66.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 66.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 66.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=38.30426pt
+* \topmargin=-8.74641pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=116.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<csas-style/images/title-header.png, id=12, 5334.93124pt x 981.6675pt>
+File: csas-style/images/title-header.png Graphic file (type png)
+<use csas-style/images/title-header.png>
+Package pdftex.def Info: csas-style/images/title-header.png  used on input line
+ 78.
+(pdftex.def)             Requested size: 261.76526pt x 48.15755pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 78.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 82.90941pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+<csas-style/images/title-footer.png, id=13, 3014.26125pt x 719.68875pt>
+File: csas-style/images/title-footer.png Graphic file (type png)
+<use csas-style/images/title-footer.png>
+Package pdftex.def Info: csas-style/images/title-footer.png  used on input line
+ 78.
+(pdftex.def)             Requested size: 100.72256pt x 24.0386pt.
+
+Package Fancyhdr Warning: \footskip is too small (27.46295pt): 
+Make it at least 28.51863pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1
+
+{/Users/sdnjohnson/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+}
+
+\openout4 = `sr.upa'.
+
+ <./csas-style/images/title-header.png> <./csas-style/images/title-footer.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 81.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 103.
+[2] [3
+
+] [4] [5] [6] [7] [8] [9] [10] [11]
+Overfull \hbox (30.0pt too wide) in paragraph at lines 303--304
+$[]$  
+ []
+
+[12] [13] [14]pdfTeX warning (ext4): destination with the same identifier (name
+{table.0.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.355 \begin{longtable}[t]{llllllll}
+                                    
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 360.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 360.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 360.
+[15
+
+]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 403.
+[16
+
+
+] [17
+
+] [18
+
+] [19
+
+
+] [20
+
+
+] [21
+
+
+] [22
+
+
+]
+<knitr-figs-pdfunnamed-chunk-17-1.png, id=223, 1541.76pt x 818.05624pt>
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 678.
+(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 678.
+(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 678.
+(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 678.
+(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=225, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 686.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 686.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 686.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 686.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+[23
+
+ <./knitr-figs-pdfunnamed-chunk-17-1.png>]
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=235, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 695.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 695.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 695.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 695.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+[24 <./data/base_ALK_mUnsexed/plotMLEindices.png>] [25 <./data/base_ALK_mUnsexe
+d/plotFitAgeFreq_avg.png>]
+<data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=250, 794.97p
+t x 578.16pt>
+File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
+e (type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
+p13.pdf  used on input line 707.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
+e (type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
+p13.pdf  used on input line 707.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
+e (type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
+p13.pdf  used on input line 707.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
+e (type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
+p13.pdf  used on input line 707.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+
+LaTeX Warning: Float too large for page by 7.83693pt on input line 712.
+
+<data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5
+.pdf, id=252, 794.97pt x 578.16pt>
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
+l_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
+_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 716.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
+l_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
+_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 716.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
+l_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
+_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 716.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
+l_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
+_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 716.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+<data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=254, 794.97
+pt x 578.16pt>
+File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
+le (type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
+ep13.pdf  used on input line 725.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
+le (type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
+ep13.pdf  used on input line 725.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
+le (type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
+ep13.pdf  used on input line 725.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
+le (type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
+ep13.pdf  used on input line 725.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+
+LaTeX Warning: Float too large for page by 7.83693pt on input line 730.
+
+<data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hstAl_a
+m5.pdf, id=256, 794.97pt x 578.16pt>
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
+tAl_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
+Al_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 734.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
+tAl_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
+Al_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 734.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
+tAl_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
+Al_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 734.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
+tAl_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
+Al_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 734.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+[26 <./data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [27 <./d
+ata/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5.p
+df>] [28 <./data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [2
+9 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
+Al_am5.pdf>] [30
+
+
+] [31] [32]
+<data/ageErr1.png, id=343, 469.755pt x 469.755pt>
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 819.
+(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 819.
+(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 819.
+(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 819.
+(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+[33 <./data/ageErr1.png>]
+<data/ageErr2.png, id=353, 469.755pt x 406.6392pt>
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 828.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 828.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 828.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 828.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+[34 <./data/ageErr2.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=361, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 837.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 837.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 837.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 837.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+[35 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=369, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 846.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 846.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 846.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 846.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+[36 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
+<data/trawlSelOverlay.pdf, id=377, 1011.78pt x 495.89517pt>
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 855.
+(pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 855.
+(pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 855.
+(pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 855.
+(pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
+[37 <./data/trawlSelOverlay.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
+61.
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
+61.
+(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+<csas-style/images/recycle.png, id=454, 38.39343pt x 38.39343pt>
+File: csas-style/images/recycle.png Graphic file (type png)
+<use csas-style/images/recycle.png>
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 861.
+
+(pdftex.def)             Requested size: 36.85785pt x 36.85785pt.
+[38 <./csas-style/images/recycle.png>] 
+AED: lastpage setting LastPage
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 863.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 863.
+(./sr.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 863.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 863.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 863.
+ ) 
+Here is how much of TeX's memory you used:
+ 23080 strings out of 494111
+ 411344 string characters out of 6172653
+ 523592 words of memory out of 5000000
+ 26611 multiletter control sequences out of 15000+600000
+ 49186 words of font info for 66 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 51i,15n,51p,1884b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/sdnjohnson/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.6
+00pk>{/Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}
+</Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfo
+nts/cmextra/cmex8.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb></Users/sdnjohnson/Library/TinyTeX/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></Users/sdnjohnson/Library/Tiny
+TeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/sdnjohnson/Libr
+ary/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/sdnjohn
+son/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></Users
+/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr9.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/sdnjohnson/Library/TinyTe
+X/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/sdnjohnson/Librar
+y/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/sdnjohnso
+n/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></Users/s
+dnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></User
+s/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></
+Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
+></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
+.pfb>
+Output written on sr.pdf (38 pages, 1885540 bytes).
+PDF statistics:
+ 675 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+

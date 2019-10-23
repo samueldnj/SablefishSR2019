@@ -76,7 +76,11 @@ Nanaimo, British Columbia, V9T 6N7, Canada}
 \begingroup\fontsize{12}{14}\selectfont
 \begin{landscape}
 \begin{longtable}[t]{llllllll}
-\caption{\label{tab:unnamed-chunk-3}Operating model posterior mean (standard deviation) biological parameter and reference point estimates for the full posterior and 5 sampled regions for each productivity/biomass scenario.}\\
+\caption{\label{tab:unnamed-chunk-3}Operating model posterior distribution mean (standard deviation) biological parameter, reference point estimates, and stock status indicators for fits to the 2016 data 
+and 2018 data. The columns \textbf{2016 Fit} and \textbf{2018 Fit} show the mean and standard deviation of the full posterior for the respective fits, while the remaining columns just show posterior mean values 
+from the 5 stratified regions for each productivity/biomass scenario. Stock status is shown relative to unfished ($B_t/B_0$), theoretical
+most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point ($B_t/(.4B_{MSY})$) for $t \in \{2016, 2018\}$. The bottom
+two rows show the posterior probability of biomass being above the limit reference point in both 2016 and 2018.}\\
 \toprule
 \textbf{ } & \textbf{2016 Fit} & \textbf{2018 Fit} & \textbf{hiB} & \textbf{hih} & \textbf{loB} & \textbf{loh} & \textbf{mhmB}\\
 \midrule
@@ -102,8 +106,12 @@ Legal $U_{MSY}$ & 0.0423 (0.006) & 0.0773 (0.011) & 0.0775 & 0.0902 & 0.0766 & 0
 $MSY$ & 2.79 (0.27) & 4.37 (0.45) & 4.46 & 4.75 & 4.27 & 3.98 & 4.38\\
 $B_{2016}/B_0$ & 0.191 (0.018) & 0.231 (0.021) & 0.253 & 0.231 & 0.212 & 0.232 & 0.231\\
 $B_{2016}/B_{MSY}$ & 0.467 (0.049) & 0.613 (0.065) & 0.673 & 0.66 & 0.558 & 0.573 & 0.612\\
+$B_{2016}/(.4B_{MSY})$ & 1.17 (0.12) & 1.53 (0.16) & 1.68 & 1.65 & 1.39 & 1.43 & 1.53\\
 $B_{2018}/B_0$ &  & 0.301 (0.032) & 0.335 & 0.301 & 0.271 & 0.304 & 0.302\\
-$B_{2018}/B_{MSY}$ &  & 0.8 (0.096) & 0.891 & 0.86 & 0.714 & 0.75 & 0.799\\*
+$B_{2018}/B_{MSY}$ &  & 0.8 (0.096) & 0.891 & 0.86 & 0.714 & 0.75 & 0.799\\
+$B_{2018}/(.4B_{MSY})$ &  & 2 (0.24) & 2.23 & 2.15 & 1.79 & 1.88 & 2\\
+$P(B_{2016} \geq .4B_{MSY})$ & 0.93 & 1 &  &  &  &  & \\
+$P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 \end{longtable}
 \end{landscape}
 \endgroup{}

@@ -73,31 +73,31 @@ simRecSimRepCap <- "A single simulation replicate drawn from the robustness set 
 ```
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=hiRecSimRepCap}
-knitr::include_graphics("data/BtFitUtRt/hiRec2016_wtd/SP_rctAl_am5/BtFitUtRt_rep13.pdf")
+knitr::include_graphics("data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf")
 ```
 
 \newpage
 
 ```{r, echo = FALSE, include = FALSE, warning = FALSE}
-hiRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the reference recruitment scenario, showing management procedures that applied the recent allocation of discarding, and amortized overages over 5 years. The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate."
-simRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the robustness recruitment scenario, showing management procedures that applied the recent allocation of discarding, and amortized overages over 5 years. The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate."
+hiRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the reference recruitment scenario, showing management procedures that applied the historical allocation of discarding, and amortized overages over 5 years. The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate."
+simRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the robustness recruitment scenario, showing management procedures that applied the historical allocation of discarding, and amortized overages over 5 years. The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate."
 ```
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=hiRecSimEnvCap}
-knitr::include_graphics("data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_rctAl_am5.pdf")
+knitr::include_graphics("data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5.pdf")
 ```
 
 \newpage
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=simRecSimRepCap}
-knitr::include_graphics("data/BtFitUtRt/simRec2016_wtd/SP_rctAl_am5/BtFitUtRt_rep13.pdf")
+knitr::include_graphics("data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf")
 ```
 
 
 \newpage
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=simRecSimEnvCap}
-knitr::include_graphics("data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_rctAl_am5.pdf")
+knitr::include_graphics("data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hstAl_am5.pdf")
 ```
 
 <!-- \newpage

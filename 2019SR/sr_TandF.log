@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.18)  18 OCT 2019 14:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.18)  22 OCT 2019 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,15 +1153,19 @@ This may cause the page layout to be inconsistent, however.
  <./csas-style/images/title-header.png> <./csas-style/images/title-footer.png>]
 [2]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 79.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 83.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 83.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 83.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 81.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 85.
 [3
 
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 118.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 126.
 [4
 
 
@@ -1182,191 +1186,191 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 
 
 ]
-<knitr-figs-pdfunnamed-chunk-15-1.png, id=77, 1541.76pt x 818.05624pt>
+<knitr-figs-pdfunnamed-chunk-15-1.png, id=78, 1541.76pt x 818.05624pt>
 File: knitr-figs-pdfunnamed-chunk-15-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-15-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-15-1.png  used on input li
-ne 393.
+ne 401.
 (pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
 File: knitr-figs-pdfunnamed-chunk-15-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-15-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-15-1.png  used on input li
-ne 393.
+ne 401.
 (pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
 File: knitr-figs-pdfunnamed-chunk-15-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-15-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-15-1.png  used on input li
-ne 393.
+ne 401.
 (pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
 File: knitr-figs-pdfunnamed-chunk-15-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-15-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-15-1.png  used on input li
-ne 393.
+ne 401.
 (pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
-<data/base_ALK_mUnsexed/plotMLEindices.png, id=79, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=80, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 401.
+ut line 409.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 401.
+ut line 409.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 401.
+ut line 409.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 401.
+ut line 409.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [11
 
  <./knitr-figs-pdfunnamed-chunk-15-1.png>]
-<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=89, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=90, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 410.
+ input line 418.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 410.
+ input line 418.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 410.
+ input line 418.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 410.
+ input line 418.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [12 <./data/base_ALK_mUnsexed/plotMLEindices.png>] [13 <./data/base_ALK_mUnsexe
 d/plotFitAgeFreq_avg.png>]
-<data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=104, 794.97p
+<data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=105, 794.97p
 t x 578.16pt>
 File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
 e (type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 422.
+p13.pdf  used on input line 430.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
 e (type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 422.
+p13.pdf  used on input line 430.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
 e (type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 422.
+p13.pdf  used on input line 430.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
 e (type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 422.
+p13.pdf  used on input line 430.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 7.83693pt on input line 427.
+LaTeX Warning: Float too large for page by 7.83693pt on input line 435.
 
 <data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5
-.pdf, id=106, 794.97pt x 578.16pt>
+.pdf, id=107, 794.97pt x 578.16pt>
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
 l_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
 _am5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 431.
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 439.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
 l_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
 _am5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 431.
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 439.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
 l_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
 _am5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 431.
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 439.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
 l_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
 _am5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 431.
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 439.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-<data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=108, 794.97
+<data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=109, 794.97
 pt x 578.16pt>
 File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
 le (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 440.
+ep13.pdf  used on input line 448.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
 le (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 440.
+ep13.pdf  used on input line 448.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
 le (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 440.
+ep13.pdf  used on input line 448.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
 le (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 440.
+ep13.pdf  used on input line 448.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 7.83693pt on input line 445.
+LaTeX Warning: Float too large for page by 7.83693pt on input line 453.
 
 <data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hstAl_a
-m5.pdf, id=110, 794.97pt x 578.16pt>
+m5.pdf, id=111, 794.97pt x 578.16pt>
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
 tAl_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
 Al_am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 449.
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 457.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
 tAl_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
 Al_am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 449.
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 457.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
 tAl_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
 Al_am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 449.
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 457.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
 tAl_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
 Al_am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 449.
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 457.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 [14 <./data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [15 <./d
 ata/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5.p
@@ -1374,43 +1378,43 @@ df>] [16 <./data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [1
 7 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
 Al_am5.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-56.
+64.
 (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
-56.
+64.
 (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
-<csas-style/images/recycle.png, id=158, 38.39343pt x 38.39343pt>
+<csas-style/images/recycle.png, id=159, 38.39343pt x 38.39343pt>
 File: csas-style/images/recycle.png Graphic file (type png)
 <use csas-style/images/recycle.png>
-Package pdftex.def Info: csas-style/images/recycle.png  used on input line 456.
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 464.
 
 (pdftex.def)             Requested size: 36.85785pt x 36.85785pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 456.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 464.
 [18
 
 
  <./csas-style/images/recycle.png>] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 466.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 466.
 (./sr_TandF.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 458.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 466.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 466.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 466.
  ) 
 Here is how much of TeX's memory you used:
- 22859 strings out of 494111
- 407333 string characters out of 6172653
+ 22862 strings out of 494111
+ 407369 string characters out of 6172653
  523610 words of memory out of 5000000
- 26512 multiletter control sequences out of 15000+600000
- 46330 words of font info for 64 fonts, out of 8000000 for 9000
+ 26514 multiletter control sequences out of 15000+600000
+ 49186 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 51i,15n,51p,894b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,15n,51p,925b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/sdnjohnson/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.6
 00pk>{/Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}
 </Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -1427,15 +1431,16 @@ s/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 ></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr8.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr9.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy9.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type
-1/urw/helvetic/uhvb8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvbo8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fon
-ts/type1/urw/helvetic/uhvr8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/
-fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on sr_TandF.pdf (18 pages, 1270266 bytes).
+/amsfonts/cm/cmsy10.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy9.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/f
+onts/type1/urw/helvetic/uhvb8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dis
+t/fonts/type1/urw/helvetic/uhvbo8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf
+-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/sdnjohnson/Library/TinyTeX/te
+xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on sr_TandF.pdf (18 pages, 1284309 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 262 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
  39 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 

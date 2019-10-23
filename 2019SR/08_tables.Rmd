@@ -61,6 +61,25 @@ rownames(postPairsDF) <- NULL
 # Take mcmcDF, and turn into a table of posterior
 # median estimates for
 # B0, R0, M_f, M_m, h, B2019, Bmsy, Fmsy, MSY, B/Bmsy, B/B0
+
+# calculate probability of being above LRP in 2018
+# and 2016
+
+mcmcProbLRP2018 <- mcmcDF %>%
+                    mutate(OM = "2018 Fit") %>%
+                    dplyr::select( OM,
+                                    B2018 = spawnB54,
+                                    B2016 = spawnB52,
+                                    Bmsy ) %>%
+                    mutate( B2018gtLRP = ifelse( B2018 >= .4*Bmsy, 1, 0 ),
+                            B2016gtLRP = ifelse( B2016 >= .4*Bmsy, 1, 0 ) ) %>%
+                    group_by( OM ) %>%
+                    summarise( ProbB2016GtLRP = as.character(round(mean(B2016gtLRP),2)),
+                               ProbB2018GtLRP = as.character(round(mean(B2018gtLRP),2)) ) %>%
+                    dplyr::select(  ProbB2016GtLRP,
+                                    ProbB2018GtLRP )
+
+
 mcmcPostMean <- mcmcDF %>%
                 mutate(OM = "2018 Fit") %>%
                 dplyr::select(  OM,
@@ -73,14 +92,31 @@ mcmcPostMean <- mcmcDF %>%
                                 Bmsy, Umsy, legUmsy, MSY ) %>%
                 mutate( D2016     = B2016/B0,
                         Dmsy2016  = B2016/Bmsy,
+                        Dlrp2016  = B2016/(.4*Bmsy),
                         D2018     = B2018/B0,
-                        Dmsy2018  = B2018/Bmsy ) %>%
+                        Dmsy2018  = B2018/Bmsy,
+                        Dlrp2018  = B2018/(.4*Bmsy) ) %>%
                 group_by(OM) %>%
-                summarise_if( is.numeric, summPostMeanSD, se = TRUE )
+                summarise_if( is.numeric, summPostMeanSD, se = TRUE ) %>%
+                cbind( mcmcProbLRP2018 )
                 
 
 # read in mcmc output
 mcmc2016    <- as.mcmc(read.table ("./data/mcoutMSY_2016.dat", header = TRUE) )
+
+mcmcProbLRP2016 <- as.data.frame(mcmc2016) %>%
+                    mutate(OM = "2016 Fit") %>%
+                    dplyr::select( OM,
+                                    B2016 = spawnB52,
+                                    Bmsy ) %>%
+                    mutate( B2016gtLRP = ifelse( B2016 >= .4*Bmsy, 1, 0 ) ) %>%
+                    group_by( OM ) %>%
+                    summarise( ProbB2016GtLRP = as.character(round(mean(B2016gtLRP),2)) ) %>%
+                    mutate( ProbB2018GtLRP = NA ) %>%
+                    dplyr::select(  ProbB2016GtLRP,
+                                    ProbB2018GtLRP)
+
+
 mcmc2016    <- as.data.frame(mcmc2016) %>%
                 dplyr::select(  B0 = "SSB0",
                                 M_m, 
@@ -89,10 +125,12 @@ mcmc2016    <- as.data.frame(mcmc2016) %>%
                                 B2016 = spawnB52,
                                 Bmsy, Umsy, legUmsy, MSY ) %>%
                 mutate( Dmsy2016 = B2016/Bmsy,
+                        Dlrp2016 = B2016/(.4*Bmsy),
                         D2016 = B2016/B0 ) %>%
                 summarise_if( is.numeric, summPostMeanSD, se = TRUE ) %>%
                 mutate( B2018 = NA,
                         Dmsy2018 = NA,
+                        Dlrp2018 = NA,
                         D2018 = NA,
                         OM    = "2016 Fit" ) %>%
                 dplyr::select(  OM,
@@ -104,9 +142,12 @@ mcmc2016    <- as.data.frame(mcmc2016) %>%
                                 B2018,
                                 Bmsy, Umsy, legUmsy, MSY,
                                 D2016,  
-                                Dmsy2016, 
+                                Dmsy2016,
+                                Dlrp2016, 
                                 D2018,
-                                Dmsy2018 )
+                                Dmsy2018,
+                                Dlrp2018 ) %>%
+                cbind( mcmcProbLRP2016 )
 
 
 
@@ -139,10 +180,14 @@ subPostOMs <- do.call(rbind,subPosts) %>%
                             Bmsy, Umsy, legUmsy, MSY ) %>%
             mutate( D2016     = B2016/B0,
                     Dmsy2016  = B2016/Bmsy,
+                    Dlrp2016  = B2016/(.4 * Bmsy),
                     D2018     = B2018/B0,
-                    Dmsy2018  = B2018/Bmsy ) %>%
+                    Dmsy2018  = B2018/Bmsy,
+                    Dlrp2018  = B2018/(.4 * Bmsy) ) %>%
             group_by(OM) %>%
-            summarise_if(is.numeric, summPostMeanSD)
+            summarise_if(is.numeric, summPostMeanSD) %>%
+            mutate( ProbB2016GtLRP = NA,
+                    ProbB2018GtLRP = NA )
 
 write.csv(mcmcPostMean, file = "mcmcPostMean.csv")
 
@@ -166,13 +211,21 @@ fancyRowNames <- c( "$B_0$",
                     "$MSY$",
                     "$B_{2016}/B_0$",
                     "$B_{2016}/B_{MSY}$",
+                    "$B_{2016}/(.4B_{MSY})$",
                     "$B_{2018}/B_0$",
-                    "$B_{2018}/B_{MSY}$")
+                    "$B_{2018}/B_{MSY}$",
+                    "$B_{2018}/(.4B_{MSY})$",
+                    "$P(B_{2016} \\geq .4B_{MSY})$",
+                    "$P(B_{2018} \\geq .4B_{MSY})$")
 
 posteriorOMstats <- t(posteriorOMstats)
 rownames(posteriorOMstats) <- fancyRowNames
 
-OMsummTableCap <- "Operating model posterior mean (standard deviation) biological parameter and reference point estimates for the full posterior and 5 sampled regions for each productivity/biomass scenario."
+OMsummTableCap <- "Operating model posterior distribution mean (standard deviation) biological parameter, reference point estimates, and stock status indicators for fits to the 2016 data 
+and 2018 data. The columns \\textbf{2016 Fit} and \\textbf{2018 Fit} show the mean and standard deviation of the full posterior for the respective fits, while the remaining columns just show posterior mean values 
+from the 5 stratified regions for each productivity/biomass scenario. Stock status is shown relative to unfished ($B_t/B_0$), theoretical
+most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point ($B_t/(.4B_{MSY})$) for $t \\in \\{2016, 2018\\}$. The bottom
+two rows show the posterior probability of biomass being above the limit reference point in both 2016 and 2018."
 
 postPairsDFcap <- "Posterior points used to define the 5 centres for the reference and robustness sets of operating models, around which each OM samples the posterior for historical period conditioning."
 
