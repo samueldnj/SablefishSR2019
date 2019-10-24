@@ -22,7 +22,7 @@
 \newcommand{\rdTitleFr}{}
 
 % Title short
-\newcommand{\rdTitleShort}{Robustness of sablefish MPs in BC}
+\newcommand{\rdTitleShort}{Robustness of Sablefish MPs in BC}
 
 % Publication year
 \newcommand{\rdYear}{2019}
@@ -77,11 +77,11 @@ Nanaimo, British Columbia, V9T 6N7, Canada}
 \hypertarget{updated-ageing-error-matrix}{%
 \subsection{Updated ageing error matrix}\label{updated-ageing-error-matrix}}
 
-The Sablefish age-structured assessment model relies on catch-at-age data to estimate the true age-composition of the population; however, observed catch-at-age data are based on otolith readings that are imperfectly known. Failure to account for errors in otolith readings may lead to smoothing estimates of age-classe, making it more difficult to detect strong recruitment years or stock-recruit relationships (Hanselman et al. \protect\hyperlink{ref-hanselman2012statistical}{2012}). Ageing errors may also bias estimates of growth parameters, maturity schedules, and natural mortality that can lead to overfishing or inaccurate yield projections (Lai and Gunderson \protect\hyperlink{ref-lai1987effects}{1987}; Tyler et al. \protect\hyperlink{ref-tyler1989implications}{1989})
+The Sablefish age-structured assessment model relies on catch-at-age data to estimate the true age-composition of the population; however, observed catch-at-age data are based on otolith readings that are imperfectly known. Failure to account for errors in otolith readings may lead to smoothing estimates of age-classes, making it more difficult to detect strong recruitment years or stock-recruit relationships (Hanselman et al. \protect\hyperlink{ref-hanselman2012statistical}{2012}). Ageing errors may also bias estimates of growth parameters, maturity schedules, and natural mortality that can lead to overfishing or inaccurate yield projections (Lai and Gunderson \protect\hyperlink{ref-lai1987effects}{1987}; Tyler et al. \protect\hyperlink{ref-tyler1989implications}{1989})
 
-To account for ageing-error, the sablefish age-structured operating model uses an ageing error matrix. In this MSE cycle, we simplified the formulation of the ageing-error matrix from a double-geometric model to a discretized normal distribution. The two major differences between these two formulations are (i) that the error structure is constrained to be symmetric for the normal formulation, while the double geometric model allows for some skew in the error distribution; and (ii) the normal assumes the assigned true age is the mode of the normal density, forcing ageing errors to be on average unbiased.
+To account for ageing-error, the Sablefish age-structured operating model uses an ageing error matrix. In this MSE cycle, we simplified the formulation of the ageing-error matrix from the previously used double-geometric model to a discretized normal distribution. The two major differences between these two formulations are (i) that the error structure is constrained to be symmetric for the normal formulation, while the double geometric model allows for some skew in the error distribution; and (ii) the normal assumes the assigned true age is the mode of the normal density, forcing ageing errors to be on average unbiased.
 
-We developed our ageing error matrix using otoliths that had been read by two different readers at the DFO Pacific Biological Station ageing lab. These data account for approximately 15\% of the total otolith readings for BC Sablefish, which are read first by the primary reader and then by a secondary reader as a quality control. In the majority of cases both readers agreed (62\%) and in cases where the two readings differ (38\%), both readers conferred to resolve the discrepancy and agree on the final age assigned (Pers. Comm, B. Connors, DFO). In most cases the final age reading was that assigned by the secondary or primary reader (36\%), but in a few cases a new age was assigned (2\%).
+We developed our ageing error matrix using otoliths that had been read by two different readers at the DFO Pacific Biological Station ageing lab. These data account for approximately 15\% of the total otolith readings for BC Sablefish, which are read first by the primary reader and then by a secondary reader as a quality control. In the majority of cases both readers agreed (62\%) and in cases where the two readings differ (38\%), both readers conferred to resolve the discrepancy and agree on the final age assigned (Pers. Comm, J. Groot, DFO). In most cases the final age reading was that assigned by the secondary or primary reader (36\%), but in a few cases a new age was assigned (2\%).
 
 We applied statistical models for estimating the probability of observing an age class (a) given the true age (b) based on methods described in Richards et al. (\protect\hyperlink{ref-richards1992statistical}{1992}) and Heifetz et al. (\protect\hyperlink{ref-heifetz1999age}{1999}). The model assumes a normal ageing-error distribution where the estimated standard deviation of the observed age for a true age b is based on three parameters \(\Phi = \{ \sigma_1, \sigma_A, \alpha \}\) in the form:
 \begin{equation}
@@ -107,7 +107,7 @@ where \(b_i\) is the assumed `true age' of fish \(i\), and \(a_{ij}\) is the age
 \hypertarget{trawl-age-length-key-and-updated-selectivity-curve}{%
 \subsection{Trawl Age-Length Key and updated selectivity curve}\label{trawl-age-length-key-and-updated-selectivity-curve}}
 
-The sablefish age-structured operating model uses observations of catch at age from commercial fisheries to estimate natural mortality and gear selectivity functions. Trawl selectivity has been identified a key determinant in reducing uncertainty in estimates of sub-legal sablefish catch and releases (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}), as up until now the trawl selectivity model was heavily dependent on priors for a normal selectivity curve developed from commercial tagging data with 1 year at liberty. To improve estimates of legal and sub-legal fishing mortality from the trawl sector, we leveraged catch-at-age and catch-at-length data from the trawl sector to develop a sex-specific age-length key, which was in turn used to increase the catch-at-age sample size.
+The Sablefish age-structured operating model uses observations of catch at age from commercial fisheries to estimate natural mortality and gear selectivity functions. Trawl selectivity has been identified a key determinant in reducing uncertainty in estimates of sub-legal Sablefish catch and releases (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}), as up until now the trawl selectivity model was heavily dependent on priors for a normal selectivity curve estimated from tagged fish recovereed (within one year from release) in the commercial trawl fishery. To improve estimates of legal and sub-legal fishing mortality from the trawl sector, we leveraged catch-at-age and catch-at-length data from BC trawl fisheries to develop a sex-specific age-length key, which was in turn used to increase the catch-at-age sample size.
 
 To develop our age-length key, we used all available catch-at-age data collected from observed trips in the commercial trawl fishery. We then used this to populate an empirical age-length frequency matrix, binning fish into 3cm length bins and 1 year age classes. We defined this matrix as \begin{equation}
 F = \left[ n_{l,a} \right],
@@ -117,7 +117,7 @@ P_{l,a} = F_{l,a} / \sum_{a'} F_{l,a'}.
 We then generated expected age composition data by applying the matrix \(P\) to length compositions \(C_l\) derived from the commercial trawl catch-at-length data. \begin{align}
 C_a &= P^T \cdot C_l,
 \end{align} where \(P\) is transposed so that the length dimension matches the vector \(C_l\). We restricted \(C_l\) to catch-at-length data from years where at least 5 trips were sampled. We defined keys \(P_m\) and \(P_f\) for male and female fish, respectively, and generated sex-specific age observations (Figures A3 and A4). Length observations from unsexed fish were treated as male specimens, as the operating model optimisation would not converge when they were treated as females.
-Inferred catch-at-age compositions had a noticable effect on the selectivity-at-length curves for the trawl fleet. The fully selected size class moved from about 42 cm to 48 cm, and the shape of the Gamma selection curve dome was narrower, deselecting to about 60\% by the 55cm size limit, as opposed to about 80\% for the normal model in 2016.
+Inferred catch-at-age compositions had a noticable effect on the selectivity-at-length curves for the trawl fleet (Figure A5). The fully selected size class moved from about 42 cm to 48 cm, and the shape of the Gamma selection curve dome was narrower, deselecting to about 60\% by the 55cm size limit, as opposed to about 80\% for the normal model in 2016.
 
 \newpage
 
@@ -147,7 +147,7 @@ Case & True Age & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 
 }
 
-\caption{Estimated standard deviation of observed ages for the two cases considered..}\label{fig:unnamed-chunk-5}
+\caption{Estimated standard deviation of observed ages for the two age assignment cases cases considered.}\label{fig:unnamed-chunk-5}
 \end{figure}
 \newpage
 \begin{figure}[htb]
@@ -156,7 +156,7 @@ Case & True Age & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 
 }
 
-\caption{Probability of observed ages given the true age indicated in top right corner of each plot for both cases considered.}\label{fig:unnamed-chunk-6}
+\caption{Probability of observed ages given the true age indicated in top right corner of each panel for the two age assignment cases considered.}\label{fig:unnamed-chunk-6}
 \end{figure}
 \newpage
 \begin{figure}[htb]
@@ -174,7 +174,7 @@ Case & True Age & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 
 }
 
-\caption{Inferred male catch-at-age compositions generated by the trawl age-length key from length observations of male and unsexed fish.}\label{fig:unnamed-chunk-8}
+\caption{Inferred female catch-at-age compositions generated by the trawl age-length key from length observations of female fish}\label{fig:unnamed-chunk-8}
 \end{figure}
 \newpage
 \begin{figure}[htb]

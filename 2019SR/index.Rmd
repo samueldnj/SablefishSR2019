@@ -1,6 +1,6 @@
 ---
 title: "Evaluating the robustness of candidate management procedures in the BC sablefish (*Anoplopoma fibria*) for 2019-2020."
-title_short: "Robustness of sablefish MPs in BC"
+title_short: "Robustness of Sablefish MPs in BC"
 year: 2019
 month: October
 report_number: nnn

@@ -3,57 +3,57 @@
 Since 2008, Fisheries and Oceans Canada (DFO) and the British Columbia 
 (BC) groundfish fishing industry have collaborated on a management 
 strategy evaluation (MSE) process intended to maintain a transparent 
-and sustainable harvest strategy for sablefish fisheries in BC. 
+and sustainable harvest strategy for Sablefish fisheries in BC. 
 Transparency and potential sustainability of candidate management 
 procedures (MPs) are demonstrated by simulating MP performance 
 against a set of pre-agreed conservation and socio-economic objectives. 
 Operating models underlying the simulations are intended to represent 
-key uncertainties related to sablefish stock status and productivity. 
-The sablefish MSE process has been reviewed in several Canadian 
+key uncertainties related to Sablefish stock status and productivity. 
+The Sablefish MSE process has been reviewed in several Canadian 
 Science Advisory Secretariat processes, Canadian Science Advisory 
 Secretariat Science Responses, and independent peer-reviewed 
 scientific journals and books since 2008 [@cox2008practical;
 @cox2011management; @cox2013roles; @cox2019evaluating; 
-@dfo2014performanc]. Canadian sablefish harvest advice derived
+@dfo2014performanc]. Canadian Sablefish harvest advice derived
 from simulation-tested MPs has been adopted and subsequently
 approved by the Minister of Fisheries every year since 2011.
 
-The sablefish MSE aims to follow a 3-year cycle in which the 
-operating model is re-fitted to updated fishery and survey 
+The Sablefish MSE aims to follow a 3-year cycle in which the 
+operating model (OM) is re-fitted to updated fishery and survey 
 biomass indices, catch-at-age, at-sea releases, and tag 
 release-recoveries. Each 3-year update also offers an opportunity 
 to revise the conservation and fishery objectives, as well as to 
 propose new candidate MPs. 
 
-Previous BC sablefish assessment and MSE work demonstrated that 
+Previous BC Sablefish assessment and MSE work demonstrated that 
 low recruitment, on average over the past three decades, has 
 contributed to a long-term decline in spawning stock biomass 
 and harvest opportunities. Stakeholder and management 
 consultations identified at-sea release mortality of 
-sub-legal sablefish (i.e., fish smaller than 55 cm size limit) 
+sub-legal Sablefish (i.e., fish smaller than 55 cm size limit) 
 as a potential source of mortality that, if reduced or avoided, 
-may improve production of over-55 cm sablefish, spawning stock 
+may improve production of over-55 cm Sablefish, spawning stock 
 biomass, and, ultimately, future harvest opportunities 
 [@cox2019evaluating]. While some voluntary tactics 
 aimed at reducing sub-legal mortality have been identified 
 (e.g., improved fleet communication, informal move on 
 rules, and increased electronic monitoring), to date management 
 tactics aimed at reducing sub-legal mortality have not been 
-formally evaluated through the sablefish MSE process. Indeed, 
-closed-loop simulations suggest that both full avoidance and 
-full retention of sub-legal sablefish may improve both average 
-annual sablefish yield in directed fisheries as well as the 
+formally evaluated through the Sablefish MSE process. However, 
+past closed-loop simulations suggest that both full avoidance and 
+full retention of sub-legal Sablefish may improve both average 
+annual Sablefish yield in directed fisheries as well as the 
 probability of stock rebuilding to $B_{MSY}$ [@cox2011management; 
 @cox2019evaluating]. Unfortunately, full avoidance may not 
 be feasible, especially in trawl fisheries, which encounter 
-sub-legal sablefish as part of fishing operations for other 
+sub-legal Sablefish as part of fishing operations for other 
 species, while full retention may involve lost fishing 
 opportunities (particularly for the trawl sector) and 
 lower profitability for directed fisheries, because sub-legal 
-sablefish are worth less per-kilogram than legal-sized fish. 
+Sablefish are worth less per-kilogram than legal-sized fish. 
 In consultations, industry stakeholders suggested that 
-an ideal solution would involve incentives that shift fishing 
-behaviour toward higher avoidance of sub-legal sablefish.
+a potential solution would involve incentives that shift fishing 
+behaviour toward higher avoidance of sub-legal Sablefish.
 
 The DFO Fisheries Management Branch has, therefore, requested that 
 the Science Branch (i) update the Sablefish operating model to 
@@ -62,17 +62,17 @@ advice about expected performance of the current MP; and
 (iii) evaluate alternative MP and/or regulation options aimed at 
 reducing productivity losses to sub-legal mortality. The key issue 
 in (iii) is identifying MPs that minimize the impact of such regulations 
-on fishing opportunities in non-directed fisheries (i.e., bottom trawl) 
-where sub-legal sablefish are captured incidentally.
+on fishing opportunities in non-directed fisheries (i.e., trawl) 
+where sub-legal Sablefish are captured incidentally.
 
 Advice arising from this Canadian Science Advisory Secretariat Science 
 Response will be used to select a new MP for BC Sablefish for years 
 2020-2022 that is compliant with the DFO Sustainable Fisheries Framework 
-and A fishery decision-making framework incorporating the Precautionary 
+and A Fishery Decision-making Framework Incorporating the Precautionary 
 Approach policy [@DFO2009]. In addition, this Science Response informs 
 fishery managers and stakeholders about the fishery implications of limiting 
-productivity losses due to sub-legal sablefish releases at-sea. 
+productivity losses due to sub-legal Sablefish releases at-sea. 
 
 This Science Response Report results from the Science Response Process of 
 September 2019 on evaluating the robustness of candidate management procedures 
-in the BC sablefish (*Anoplopoma fibria*) fishery for 2019-2020.
+in the BC Sablefish (*Anoplopoma fibria*) fishery for 2019-2020.

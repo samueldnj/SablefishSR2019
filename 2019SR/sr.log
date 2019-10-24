@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.18)  22 OCT 2019 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.18)  24 OCT 2019 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1158,7 +1158,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 [2] [3
 
 ] [4] [5] [6] [7] [8] [9] [10] [11]
-Overfull \hbox (30.0pt too wide) in paragraph at lines 303--304
+Overfull \hbox (30.0pt too wide) in paragraph at lines 302--303
 $[]$  
  []
 
@@ -1166,30 +1166,90 @@ $[]$
 {table.0.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.355 \begin{longtable}[t]{llllllll}
+l.354 \begin{longtable}[t]{llllllll}
                                     
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 360.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 365.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 360.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 365.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 360.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 365.
 [15
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 403.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 414.
 [16
 
 
 ] [17
 
-] [18
+]
+Overfull \hbox (35.34813pt too wide) in alignment at lines 473--486
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (35.34813pt too wide) in alignment at lines 486--491
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (35.34813pt too wide) in alignment at lines 491--493
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (35.34813pt too wide) in alignment at lines 493--495
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (35.34813pt too wide) in alignment at lines 495--513
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (35.34813pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[18
 
 ] [19
 
 
-] [20
+]
+Overfull \hbox (28.67621pt too wide) in alignment at lines 571--583
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.67621pt too wide) in alignment at lines 583--588
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.67621pt too wide) in alignment at lines 588--590
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.67621pt too wide) in alignment at lines 590--592
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.67621pt too wide) in alignment at lines 592--610
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.67621pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[20
 
 
 ] [21
@@ -1198,327 +1258,333 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 ] [22
 
 
-]
-<knitr-figs-pdfunnamed-chunk-17-1.png, id=223, 1541.76pt x 818.05624pt>
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 678.
-(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 678.
-(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 678.
-(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 678.
-(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
-<data/base_ALK_mUnsexed/plotMLEindices.png, id=225, 1027.84pt x 770.88pt>
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 686.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 686.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 686.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 686.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-[23
+] [23
 
- <./knitr-figs-pdfunnamed-chunk-17-1.png>]
-<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=235, 1027.84pt x 770.88pt>
+]
+<knitr-figs-pdfunnamed-chunk-17-1.png, id=230, 1541.76pt x 818.05624pt>
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 722.
+(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 722.
+(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 722.
+(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 722.
+(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=232, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 730.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 730.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 730.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 730.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+[24 <./knitr-figs-pdfunnamed-chunk-17-1.png>]
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=240, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 695.
+ input line 739.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 695.
+ input line 739.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 695.
+ input line 739.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 695.
+ input line 739.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-[24 <./data/base_ALK_mUnsexed/plotMLEindices.png>] [25 <./data/base_ALK_mUnsexe
+[25 <./data/base_ALK_mUnsexed/plotMLEindices.png>] [26 <./data/base_ALK_mUnsexe
 d/plotFitAgeFreq_avg.png>]
-<data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=250, 794.97p
+<data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=255, 794.97p
 t x 578.16pt>
 File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
 e (type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 707.
+p13.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
 e (type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 707.
+p13.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
 e (type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 707.
+p13.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
 e (type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 707.
+p13.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 7.83693pt on input line 712.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 756.
 
 <data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5
-.pdf, id=252, 794.97pt x 578.16pt>
+.pdf, id=257, 794.97pt x 578.16pt>
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
 l_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
 _am5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 716.
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
 l_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
 _am5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 716.
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
 l_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
 _am5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 716.
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
 l_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
 _am5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 716.
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-<data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=254, 794.97
+
+LaTeX Warning: Float too large for page by 19.83693pt on input line 765.
+
+<data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=259, 794.97
 pt x 578.16pt>
 File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
 le (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 725.
+ep13.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
 le (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 725.
+ep13.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
 le (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 725.
+ep13.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
 le (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 725.
+ep13.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 7.83693pt on input line 730.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 774.
 
 <data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hstAl_a
-m5.pdf, id=256, 794.97pt x 578.16pt>
+m5.pdf, id=261, 794.97pt x 578.16pt>
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
 tAl_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
 Al_am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 734.
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 778.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
 tAl_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
 Al_am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 734.
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 778.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
 tAl_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
 Al_am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 734.
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 778.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
 tAl_am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
 Al_am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 734.
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 778.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-[26 <./data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [27 <./d
+
+LaTeX Warning: Float too large for page by 19.83693pt on input line 783.
+
+[27 <./data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [28 <./d
 ata/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5.p
-df>] [28 <./data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [2
-9 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
-Al_am5.pdf>] [30
+df>] [29 <./data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [3
+0 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
+Al_am5.pdf>] [31
 
 
-] [31] [32]
-<data/ageErr1.png, id=343, 469.755pt x 469.755pt>
+] [32] [33]
+<data/ageErr1.png, id=348, 469.755pt x 469.755pt>
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 819.
+Package pdftex.def Info: data/ageErr1.png  used on input line 863.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 819.
+Package pdftex.def Info: data/ageErr1.png  used on input line 863.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 819.
+Package pdftex.def Info: data/ageErr1.png  used on input line 863.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 819.
+Package pdftex.def Info: data/ageErr1.png  used on input line 863.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
-[33 <./data/ageErr1.png>]
-<data/ageErr2.png, id=353, 469.755pt x 406.6392pt>
+[34 <./data/ageErr1.png>]
+<data/ageErr2.png, id=358, 469.755pt x 406.6392pt>
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 828.
+Package pdftex.def Info: data/ageErr2.png  used on input line 872.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 828.
+Package pdftex.def Info: data/ageErr2.png  used on input line 872.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 828.
+Package pdftex.def Info: data/ageErr2.png  used on input line 872.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 828.
+Package pdftex.def Info: data/ageErr2.png  used on input line 872.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
-[34 <./data/ageErr2.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=361, 1027.84pt x 770.88pt>
+[35 <./data/ageErr2.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=366, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 837.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 837.
+input line 881.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 837.
+input line 881.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 837.
+input line 881.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-[35 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=369, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 881.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+[36 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=374, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 846.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 846.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 846.
+input line 890.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 846.
+input line 890.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-[36 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
-<data/trawlSelOverlay.pdf, id=377, 1011.78pt x 495.89517pt>
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 890.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 890.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+[37 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
+<data/trawlSelOverlay.pdf, id=383, 1011.78pt x 495.89517pt>
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 855.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 855.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 855.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 855.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
-[37 <./data/trawlSelOverlay.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
-61.
+[38 <./data/trawlSelOverlay.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
+05.
 (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
-61.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
+05.
 (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
-<csas-style/images/recycle.png, id=454, 38.39343pt x 38.39343pt>
+<csas-style/images/recycle.png, id=459, 38.39343pt x 38.39343pt>
 File: csas-style/images/recycle.png Graphic file (type png)
 <use csas-style/images/recycle.png>
-Package pdftex.def Info: csas-style/images/recycle.png  used on input line 861.
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 905.
 
 (pdftex.def)             Requested size: 36.85785pt x 36.85785pt.
-[38 <./csas-style/images/recycle.png>] 
+[39 <./csas-style/images/recycle.png>] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 863.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 863.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 907.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 907.
 (./sr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 863.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 863.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 863.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 907.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 907.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 907.
  ) 
 Here is how much of TeX's memory you used:
- 23080 strings out of 494111
- 411344 string characters out of 6172653
+ 23081 strings out of 494111
+ 411273 string characters out of 6172653
  523592 words of memory out of 5000000
  26611 multiletter control sequences out of 15000+600000
  49186 words of font info for 66 fonts, out of 8000000 for 9000
@@ -1551,10 +1617,10 @@ s/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></
 Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
 .pfb>
-Output written on sr.pdf (38 pages, 1885540 bytes).
+Output written on sr.pdf (39 pages, 1785103 bytes).
 PDF statistics:
- 675 PDF objects out of 1000 (max. 8388607)
- 551 compressed objects within 6 object streams
- 155 named destinations out of 1000 (max. 500000)
+ 680 PDF objects out of 1000 (max. 8388607)
+ 555 compressed objects within 6 object streams
+ 156 named destinations out of 1000 (max. 500000)
  316 words of extra memory for PDF output out of 10000 (max. 10000000)
 

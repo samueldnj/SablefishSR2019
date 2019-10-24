@@ -22,7 +22,7 @@
 \newcommand{\rdTitleFr}{}
 
 % Title short
-\newcommand{\rdTitleShort}{Robustness of sablefish MPs in BC}
+\newcommand{\rdTitleShort}{Robustness of Sablefish MPs in BC}
 
 % Publication year
 \newcommand{\rdYear}{2019}
@@ -76,11 +76,17 @@ Nanaimo, British Columbia, V9T 6N7, Canada}
 \begingroup\fontsize{12}{14}\selectfont
 \begin{landscape}
 \begin{longtable}[t]{llllllll}
-\caption{\label{tab:unnamed-chunk-3}Operating model posterior distribution mean (standard deviation) biological parameter, reference point estimates, and stock status indicators for fits to the 2016 data 
-and 2018 data. The columns \textbf{2016 Fit} and \textbf{2018 Fit} show the mean and standard deviation of the full posterior for the respective fits, while the remaining columns just show posterior mean values 
-from the 5 stratified regions for each productivity/biomass scenario. Stock status is shown relative to unfished ($B_t/B_0$), theoretical
-most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point ($B_t/(.4B_{MSY})$) for $t \in \{2016, 2018\}$. The bottom
-two rows show the posterior probability of biomass being above the limit reference point in both 2016 and 2018.}\\
+\caption{\label{tab:unnamed-chunk-3}Operating model posterior distribution mean (standard deviation) biological parameter, 
+reference point estimates, and stock status indicators for fits to the 2016 data 
+and 2018 data. The columns \textbf{2016 Fit} and \textbf{2018 Fit} show the mean 
+and standard deviation of the full posterior for the respective fits, while the remaining columns 
+show posterior mean values from the five posterior strata defining the productivity/biomass 
+scenarios indicated by the column label (see Figure 1). Stock status is shown relative to 
+unfished ($B_t/B_0$), theoretical
+most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point 
+($B_t/(.4B_{MSY})$) for $t \in \{2016, 2018\}$. The bottom
+two rows show the posterior probability of spawning biomass 
+being above the limit reference point in both 2016 and 2018.}\\
 \toprule
 \textbf{ } & \textbf{2016 Fit} & \textbf{2018 Fit} & \textbf{hiB} & \textbf{hih} & \textbf{loB} & \textbf{loh} & \textbf{mhmB}\\
 \midrule
@@ -121,7 +127,13 @@ $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 \begingroup\fontsize{9}{11}\selectfont
 \begin{landscape}
 \begin{longtable}[t]{llccccccccc}
-\caption{\label{tab:unnamed-chunk-5}Weighted performance metrics for all candidate management procedures on the reference set of operating models, where recruitment is taken from the OM estimate for the 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$.}\\
+\caption{\label{tab:unnamed-chunk-5}Weighted performance metrics for all candidate management procedures on the 
+\textbf{reference operating models}. Conservation performance metrics 
+that pass the criteria in 
+the header are indicated by a bullet. Catch is given in biomass units, which are measured in 
+kilotonnes. Table is sorted by 10 year average catch $\bar{C}_{2019:2028}$. For Objective 2, 
+Obs refers to the observed probability of decline, and Acc to the acceptable probability of 
+decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$.}\\
 \toprule
 \multicolumn{2}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Objective 1}} & \multicolumn{1}{c}{\textbf{Objective 2}} & \multicolumn{1}{c}{\textbf{Objective 3}} & \multicolumn{1}{c}{\textbf{Objective 4}} & \multicolumn{1}{c}{\textbf{Objective 5}} & \multicolumn{4}{c}{\textbf{Other Important Quantities}} \\
 \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5} \cmidrule(l{3pt}r{3pt}){6-6} \cmidrule(l{3pt}r{3pt}){7-7} \cmidrule(l{3pt}r{3pt}){8-11}
@@ -164,7 +176,7 @@ $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 
 \begingroup\fontsize{12}{14}\selectfont
 \begin{longtable}[t]{lr}
-\caption{\label{tab:unnamed-chunk-7}Price per pound of sablefish in each weight class. Weight classes are defined by the limits of that class, in pounds (e.g., 2/3 is the class of fish between 2 and 3 pounds).}\\
+\caption{\label{tab:unnamed-chunk-7}Price per pound of Sablefish in each weight class. Weight classes are defined by the limits of that class, in pounds (e.g., 2/3 is the class of fish between 2 and 3 pounds).}\\
 \toprule
 \textbf{Weight Class (lb)} & \textbf{Price (\$/lb)}\\
 \midrule
@@ -182,40 +194,46 @@ $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 
 \begingroup\fontsize{12}{14}\selectfont
 \begin{landscape}
-\begin{longtable}[t]{llcccccccccl}
-\caption{\label{tab:unnamed-chunk-8}Weighted economic performance metrics for the first 10 years of the projections in the reference OM set. Column 3 shows the average catch over the first 10 years, and the remaining columns show the total value (\$m) of catch $C$ and discards $D$ for all sectors, and the yearly average income $I$ in dollars per tonne of catch, over the next 10 years. All values are taken at 4 significant figures. Table is sorted by 10 year average catch $\bar{C}_{2019:2028}$.}\\
+\begin{longtable}[t]{llcccccccccll}
+\caption{\label{tab:unnamed-chunk-8}Weighted economic performance metrics for the first 10 years of the projections 
+in the \textbf{reference operating models}. Column 3 shows the average catch 
+over the first 10 years, and the remaining columns show the total cumulative revenue (\$m) of 
+catch $C$ and discards $D$ for each sector, catch revenue $C^{tot}$ for all sectors combined, 
+and the yearly average revenue $R$ in dollars per tonne of catch, over the next 10 years. 
+All values are taken at 4 significant figures. Table is sorted by 10 year average catch 
+$\bar{C}_{2019:2028}$.}\\
 \toprule
-\multicolumn{2}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Av. Catch (kt)}} & \multicolumn{6}{c}{\textbf{10 year revenue (\$ millions)}} & \multicolumn{3}{c}{\textbf{Av. revenue (\$/t)}} \\
-\cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-9} \cmidrule(l{3pt}r{3pt}){10-12}
-\textbf{No.} & \textbf{MP Label} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$C^{trap}$} & \textbf{$C^{hook}$} & \textbf{$C^{trawl}$} & \textbf{$D^{trap}$} & \textbf{$D^{hook}$} & \textbf{$D^{trawl}$} & \textbf{$R^{trap}$} & \textbf{$R^{hook}$} & \textbf{$R^{trawl}$}\\
+\multicolumn{2}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Av. Catch (kt)}} & \multicolumn{7}{c}{\textbf{10 year revenue (\$ millions)}} & \multicolumn{3}{c}{\textbf{Av. revenue (\$/t)}} \\
+\cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-10} \cmidrule(l{3pt}r{3pt}){11-13}
+\textbf{No.} & \textbf{MP Label} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$C^{trap}$} & \textbf{$C^{hook}$} & \textbf{$C^{trawl}$} & \textbf{$D^{trap}$} & \textbf{$D^{hook}$} & \textbf{$D^{trawl}$} & \textbf{$C^{tot}$} & \textbf{$R^{trap}$} & \textbf{$R^{hook}$} & \textbf{$R^{trawl}$}\\
 \midrule
 \endfirsthead
 \caption*{}\\
 \toprule
-\textbf{No.} & \textbf{MP Label} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$C^{trap}$} & \textbf{$C^{hook}$} & \textbf{$C^{trawl}$} & \textbf{$D^{trap}$} & \textbf{$D^{hook}$} & \textbf{$D^{trawl}$} & \textbf{$R^{trap}$} & \textbf{$R^{hook}$} & \textbf{$R^{trawl}$}\\
+\textbf{No.} & \textbf{MP Label} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$C^{trap}$} & \textbf{$C^{hook}$} & \textbf{$C^{trawl}$} & \textbf{$D^{trap}$} & \textbf{$D^{hook}$} & \textbf{$D^{trawl}$} & \textbf{$C^{tot}$} & \textbf{$R^{trap}$} & \textbf{$R^{hook}$} & \textbf{$R^{trawl}$}\\
 \midrule
 \endhead
 \
 \endfoot
 \bottomrule
 \endlastfoot
-14 & NSL & 4.510 & 417.6 & 335.4 & 60.81 & 0.000 & 0.00 & 0.00 & 17970 & 18320 & 16270\\
-17 & cap0\_am5 & 4.112 & 385.7 & 321.0 & 42.67 & 10.950 & 13.45 & 25.81 & 18130 & 18340 & 17320\\
-3 & cap.5\_hstAl\_am5 & 4.005 & 370.9 & 312.5 & 46.34 & 10.550 & 13.08 & 27.75 & 18130 & 18340 & 17330\\
-16 & cap0\_am10 & 4.005 & 375.1 & 306.2 & 47.97 & 10.680 & 12.83 & 28.92 & 18130 & 18340 & 17330\\
-5 & cap.5\_rctAl\_am5 & 3.930 & 362.8 & 302.2 & 50.54 & 10.320 & 12.65 & 29.97 & 18140 & 18340 & 17330\\
-7 & cap1.0\_hstAl\_am5 & 3.927 & 358.3 & 305.8 & 50.07 & 10.210 & 12.78 & 29.71 & 18140 & 18340 & 17330\\
-2 & cap.5\_hstAl\_am10 & 3.921 & 364.1 & 299.3 & 49.78 & 10.400 & 12.53 & 29.86 & 18130 & 18340 & 17330\\
-4 & cap.5\_rctAl\_am10 & 3.864 & 358.6 & 292.9 & 52.15 & 10.240 & 12.27 & 31.12 & 18140 & 18340 & 17340\\
-6 & cap1.0\_hstAl\_am10 & 3.850 & 355.3 & 294.0 & 51.77 & 10.160 & 12.31 & 30.90 & 18140 & 18340 & 17340\\
-11 & cap1.5\_hstAl\_am5 & 3.842 & 348.0 & 298.1 & 52.75 & 9.943 & 12.46 & 31.14 & 18140 & 18340 & 17340\\
-10 & cap1.5\_hstAl\_am10 & 3.804 & 349.1 & 289.1 & 53.25 & 10.000 & 12.11 & 31.70 & 18140 & 18340 & 17340\\
-8 & cap1.0\_rctAl\_am10 & 3.782 & 348.5 & 284.7 & 55.07 & 9.982 & 11.93 & 32.71 & 18140 & 18340 & 17340\\
-9 & cap1.0\_rctAl\_am5 & 3.767 & 343.6 & 286.5 & 55.58 & 9.818 & 12.00 & 32.67 & 18140 & 18340 & 17340\\
-15 & noCap & 3.729 & 347.9 & 277.5 & 53.58 & 10.010 & 11.66 & 32.11 & 18140 & 18340 & 17340\\
-12 & cap1.5\_rctAl\_am10 & 3.721 & 342.4 & 279.8 & 54.97 & 9.830 & 11.73 & 32.73 & 18140 & 18340 & 17340\\
-13 & cap1.5\_rctAl\_am5 & 3.702 & 336.7 & 280.8 & 56.10 & 9.642 & 11.76 & 33.18 & 18140 & 18340 & 17340\\
-1 & NoFish & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.00 & 0.00 & 0 & 0 & 0\\*
+14 & NSL & 4.510 & 417.6 & 335.4 & 60.81 & 0.000 & 0.00 & 0.00 & 813.9 & 17970 & 18320 & 16270\\
+17 & cap0\_am5 & 4.112 & 385.7 & 321.0 & 42.67 & 10.950 & 13.45 & 25.81 & 749.4 & 18130 & 18340 & 17320\\
+3 & cap.5\_hstAl\_am5 & 4.005 & 370.9 & 312.5 & 46.34 & 10.550 & 13.08 & 27.75 & 729.7 & 18130 & 18340 & 17330\\
+16 & cap0\_am10 & 4.005 & 375.1 & 306.2 & 47.97 & 10.680 & 12.83 & 28.92 & 729.3 & 18130 & 18340 & 17330\\
+5 & cap.5\_rctAl\_am5 & 3.930 & 362.8 & 302.2 & 50.54 & 10.320 & 12.65 & 29.97 & 715.6 & 18140 & 18340 & 17330\\
+7 & cap1.0\_hstAl\_am5 & 3.927 & 358.3 & 305.8 & 50.07 & 10.210 & 12.78 & 29.71 & 714.2 & 18140 & 18340 & 17330\\
+2 & cap.5\_hstAl\_am10 & 3.921 & 364.1 & 299.3 & 49.78 & 10.400 & 12.53 & 29.86 & 713.2 & 18130 & 18340 & 17330\\
+4 & cap.5\_rctAl\_am10 & 3.864 & 358.6 & 292.9 & 52.15 & 10.240 & 12.27 & 31.12 & 703.6 & 18140 & 18340 & 17340\\
+6 & cap1.0\_hstAl\_am10 & 3.850 & 355.3 & 294.0 & 51.77 & 10.160 & 12.31 & 30.90 & 701.1 & 18140 & 18340 & 17340\\
+11 & cap1.5\_hstAl\_am5 & 3.842 & 348.0 & 298.1 & 52.75 & 9.943 & 12.46 & 31.14 & 698.9 & 18140 & 18340 & 17340\\
+10 & cap1.5\_hstAl\_am10 & 3.804 & 349.1 & 289.1 & 53.25 & 10.000 & 12.11 & 31.70 & 691.5 & 18140 & 18340 & 17340\\
+8 & cap1.0\_rctAl\_am10 & 3.782 & 348.5 & 284.7 & 55.07 & 9.982 & 11.93 & 32.71 & 688.3 & 18140 & 18340 & 17340\\
+9 & cap1.0\_rctAl\_am5 & 3.767 & 343.6 & 286.5 & 55.58 & 9.818 & 12.00 & 32.67 & 685.7 & 18140 & 18340 & 17340\\
+15 & noCap & 3.729 & 347.9 & 277.5 & 53.58 & 10.010 & 11.66 & 32.11 & 679.0 & 18140 & 18340 & 17340\\
+12 & cap1.5\_rctAl\_am10 & 3.721 & 342.4 & 279.8 & 54.97 & 9.830 & 11.73 & 32.73 & 677.2 & 18140 & 18340 & 17340\\
+13 & cap1.5\_rctAl\_am5 & 3.702 & 336.7 & 280.8 & 56.10 & 9.642 & 11.76 & 33.18 & 673.6 & 18140 & 18340 & 17340\\
+1 & NoFish & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.00 & 0.00 & 0.0 & 0 & 0 & 0\\*
 \end{longtable}
 \end{landscape}
 \endgroup{}
@@ -225,7 +243,13 @@ $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 \begingroup\fontsize{9}{11}\selectfont
 \begin{landscape}
 \begin{longtable}[t]{llccccccccc}
-\caption{\label{tab:unnamed-chunk-9}Weighted performance metrics for all candidate management procedures on the robustness set of operating models, where recruitment is simulated stochastically off the stock-recruit curve for the 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$.}\\
+\caption{\label{tab:unnamed-chunk-9}Weighted performance metrics for all candidate management procedures on the 
+\textbf{robustness operating models}. Conservation performance 
+metrics that pass the criteria in the header are indicated by a bullet. Catch is given in 
+biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch 
+$\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, 
+and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at 
+$0.4B_{MSY}$ and 0.5 at $B_{MSY}$.}\\
 \toprule
 \multicolumn{2}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Objective 1}} & \multicolumn{1}{c}{\textbf{Objective 2}} & \multicolumn{1}{c}{\textbf{Objective 3}} & \multicolumn{1}{c}{\textbf{Objective 4}} & \multicolumn{1}{c}{\textbf{Objective 5}} & \multicolumn{4}{c}{\textbf{Other Important Quantities}} \\
 \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5} \cmidrule(l{3pt}r{3pt}){6-6} \cmidrule(l{3pt}r{3pt}){7-7} \cmidrule(l{3pt}r{3pt}){8-11}
@@ -268,40 +292,45 @@ $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 
 \begingroup\fontsize{12}{14}\selectfont
 \begin{landscape}
-\begin{longtable}[t]{llcccccccccl}
-\caption{\label{tab:unnamed-chunk-10}Weighted economic performance metrics for the first 10 years of the projections in the robustness OM set. Column 3 shows the average catch over the first 10 years, and the remaining columns show the total value (\$m) of catch $C$ and discards $D$ for all sectors, and the yearly average income $I$ in dollars per tonne of catch, over the next 10 years. All values are taken at 4 significant figures. Table is sorted by 10 year average catch $\bar{C}_{2019:2028}$.}\\
+\begin{longtable}[t]{llcccccccccll}
+\caption{\label{tab:unnamed-chunk-10}Weighted economic performance metrics for the first 10 years of the projections in the 
+\textbf{robustness operating models}. Column 3 shows the average catch over the first 10 years, and 
+the remaining columns show the total cumulative revenue (\$m) of catch $C$ and discards $D$ for each 
+sector, catch revenue $C^{tot}$ for all sectors combined, and 
+the yearly average revenue $R$ in dollars per tonne of catch, over the next 10 years. All values are 
+taken at 4 significant figures. Table is sorted by 10 year average catch $\bar{C}_{2019:2028}$.}\\
 \toprule
-\multicolumn{2}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Av. Catch (kt)}} & \multicolumn{6}{c}{\textbf{10 year revenue (\$ millions)}} & \multicolumn{3}{c}{\textbf{Av. revenue (\$/t)}} \\
-\cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-9} \cmidrule(l{3pt}r{3pt}){10-12}
-\textbf{No.} & \textbf{MP Label} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$C^{trap}$} & \textbf{$C^{hook}$} & \textbf{$C^{trawl}$} & \textbf{$D^{trap}$} & \textbf{$D^{hook}$} & \textbf{$D^{trawl}$} & \textbf{$R^{trap}$} & \textbf{$R^{hook}$} & \textbf{$R^{trawl}$}\\
+\multicolumn{2}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Av. Catch (kt)}} & \multicolumn{7}{c}{\textbf{10 year revenue (\$ millions)}} & \multicolumn{3}{c}{\textbf{Av. revenue (\$/t)}} \\
+\cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-10} \cmidrule(l{3pt}r{3pt}){11-13}
+\textbf{No.} & \textbf{MP Label} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$C^{trap}$} & \textbf{$C^{hook}$} & \textbf{$C^{trawl}$} & \textbf{$D^{trap}$} & \textbf{$D^{hook}$} & \textbf{$D^{trawl}$} & \textbf{$C^{tot}$} & \textbf{$R^{trap}$} & \textbf{$R^{hook}$} & \textbf{$R^{trawl}$}\\
 \midrule
 \endfirsthead
 \caption*{}\\
 \toprule
-\textbf{No.} & \textbf{MP Label} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$C^{trap}$} & \textbf{$C^{hook}$} & \textbf{$C^{trawl}$} & \textbf{$D^{trap}$} & \textbf{$D^{hook}$} & \textbf{$D^{trawl}$} & \textbf{$R^{trap}$} & \textbf{$R^{hook}$} & \textbf{$R^{trawl}$}\\
+\textbf{No.} & \textbf{MP Label} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$C^{trap}$} & \textbf{$C^{hook}$} & \textbf{$C^{trawl}$} & \textbf{$D^{trap}$} & \textbf{$D^{hook}$} & \textbf{$D^{trawl}$} & \textbf{$C^{tot}$} & \textbf{$R^{trap}$} & \textbf{$R^{hook}$} & \textbf{$R^{trawl}$}\\
 \midrule
 \endhead
 \
 \endfoot
 \bottomrule
 \endlastfoot
-14 & NSL & 2.767 & 256.2 & 205.8 & 36.44 & 0.000 & 0.000 & 0.00 & 18030 & 18340 & 15880\\
-17 & cap0\_am5 & 2.505 & 237.6 & 195.3 & 22.96 & 6.304 & 8.055 & 17.00 & 18190 & 18360 & 17170\\
-3 & cap.5\_hstAl\_am5 & 2.440 & 226.8 & 189.8 & 26.25 & 5.976 & 7.804 & 19.56 & 18200 & 18370 & 17220\\
-16 & cap0\_am10 & 2.435 & 229.9 & 186.1 & 26.50 & 6.061 & 7.657 & 20.09 & 18200 & 18360 & 17210\\
-7 & cap1.0\_hstAl\_am5 & 2.392 & 220.4 & 184.6 & 29.42 & 5.778 & 7.571 & 22.07 & 18200 & 18370 & 17230\\
-2 & cap.5\_hstAl\_am10 & 2.385 & 223.0 & 182.3 & 28.56 & 5.853 & 7.482 & 21.69 & 18200 & 18370 & 17230\\
-5 & cap.5\_rctAl\_am5 & 2.377 & 220.6 & 181.0 & 29.58 & 5.776 & 7.426 & 22.12 & 18200 & 18370 & 17230\\
-6 & cap1.0\_hstAl\_am10 & 2.364 & 219.4 & 179.3 & 30.70 & 5.741 & 7.351 & 23.39 & 18200 & 18370 & 17240\\
-11 & cap1.5\_hstAl\_am5 & 2.358 & 218.2 & 178.0 & 31.63 & 5.696 & 7.292 & 23.92 & 18200 & 18370 & 17240\\
-4 & cap.5\_rctAl\_am10 & 2.349 & 219.3 & 177.4 & 30.72 & 5.735 & 7.274 & 23.37 & 18200 & 18370 & 17240\\
-10 & cap1.5\_hstAl\_am10 & 2.340 & 217.2 & 175.1 & 32.03 & 5.670 & 7.176 & 24.50 & 18210 & 18370 & 17240\\
-12 & cap1.5\_rctAl\_am10 & 2.322 & 214.6 & 173.2 & 33.28 & 5.590 & 7.083 & 25.58 & 18210 & 18370 & 17240\\
-8 & cap1.0\_rctAl\_am10 & 2.322 & 215.0 & 173.8 & 33.06 & 5.605 & 7.114 & 25.30 & 18210 & 18370 & 17240\\
-13 & cap1.5\_rctAl\_am5 & 2.312 & 212.5 & 173.4 & 33.49 & 5.526 & 7.091 & 25.62 & 18210 & 18370 & 17240\\
-9 & cap1.0\_rctAl\_am5 & 2.309 & 212.7 & 174.3 & 33.22 & 5.537 & 7.131 & 25.16 & 18210 & 18370 & 17250\\
-15 & noCap & 2.305 & 214.7 & 171.1 & 32.79 & 5.600 & 7.004 & 25.31 & 18210 & 18370 & 17240\\
-1 & NoFish & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.000 & 0.00 & 0 & 0 & 0\\*
+14 & NSL & 2.767 & 256.2 & 205.8 & 36.44 & 0.000 & 0.000 & 0.00 & 498.5 & 18030 & 18340 & 15880\\
+17 & cap0\_am5 & 2.505 & 237.6 & 195.3 & 22.96 & 6.304 & 8.055 & 17.00 & 455.8 & 18190 & 18360 & 17170\\
+3 & cap.5\_hstAl\_am5 & 2.440 & 226.8 & 189.8 & 26.25 & 5.976 & 7.804 & 19.56 & 442.8 & 18200 & 18370 & 17220\\
+16 & cap0\_am10 & 2.435 & 229.9 & 186.1 & 26.50 & 6.061 & 7.657 & 20.09 & 442.5 & 18200 & 18360 & 17210\\
+7 & cap1.0\_hstAl\_am5 & 2.392 & 220.4 & 184.6 & 29.42 & 5.778 & 7.571 & 22.07 & 434.5 & 18200 & 18370 & 17230\\
+2 & cap.5\_hstAl\_am10 & 2.385 & 223.0 & 182.3 & 28.56 & 5.853 & 7.482 & 21.69 & 433.9 & 18200 & 18370 & 17230\\
+5 & cap.5\_rctAl\_am5 & 2.377 & 220.6 & 181.0 & 29.58 & 5.776 & 7.426 & 22.12 & 431.2 & 18200 & 18370 & 17230\\
+6 & cap1.0\_hstAl\_am10 & 2.364 & 219.4 & 179.3 & 30.70 & 5.741 & 7.351 & 23.39 & 429.4 & 18200 & 18370 & 17240\\
+11 & cap1.5\_hstAl\_am5 & 2.358 & 218.2 & 178.0 & 31.63 & 5.696 & 7.292 & 23.92 & 427.8 & 18200 & 18370 & 17240\\
+4 & cap.5\_rctAl\_am10 & 2.349 & 219.3 & 177.4 & 30.72 & 5.735 & 7.274 & 23.37 & 427.4 & 18200 & 18370 & 17240\\
+10 & cap1.5\_hstAl\_am10 & 2.340 & 217.2 & 175.1 & 32.03 & 5.670 & 7.176 & 24.50 & 424.3 & 18210 & 18370 & 17240\\
+12 & cap1.5\_rctAl\_am10 & 2.322 & 214.6 & 173.2 & 33.28 & 5.590 & 7.083 & 25.58 & 421.1 & 18210 & 18370 & 17240\\
+8 & cap1.0\_rctAl\_am10 & 2.322 & 215.0 & 173.8 & 33.06 & 5.605 & 7.114 & 25.30 & 421.9 & 18210 & 18370 & 17240\\
+13 & cap1.5\_rctAl\_am5 & 2.312 & 212.5 & 173.4 & 33.49 & 5.526 & 7.091 & 25.62 & 419.4 & 18210 & 18370 & 17240\\
+9 & cap1.0\_rctAl\_am5 & 2.309 & 212.7 & 174.3 & 33.22 & 5.537 & 7.131 & 25.16 & 420.2 & 18210 & 18370 & 17250\\
+15 & noCap & 2.305 & 214.7 & 171.1 & 32.79 & 5.600 & 7.004 & 25.31 & 418.6 & 18210 & 18370 & 17240\\
+1 & NoFish & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.000 & 0.00 & 0.0 & 0 & 0 & 0\\*
 \end{longtable}
 \end{landscape}
 \endgroup{}
@@ -311,7 +340,14 @@ $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 \begingroup\fontsize{9}{11}\selectfont
 \begin{landscape}
 \begin{longtable}[t]{llccccccccc}
-\caption{\label{tab:unnamed-chunk-12}Weighted performance metrics for all candidate management procedures, with harvest rates tuned to performance on the reference set of operating models, and applied to the robustness set of operating models where recruitment is simulated stochastically off the stock-recruit curve for the 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$.}\\
+\caption{\label{tab:unnamed-chunk-12}Weighted performance metrics for all candidate management procedures, with 
+harvest rates tuned to performance on the \textbf{reference operating models}, and applied to the 
+\textbf{robustness operating models} where recruitment is simulated stochastically off the 
+stock-recruit curve for the 2015 year class. Conservation performance metrics that pass the 
+criteria in the header are indicated by a bullet. Catch is given in biomass units, which are 
+measured in kilotonnes. Table is sorted by 10 year average catch $\bar{C}_{2019:2028}$. For 
+Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable 
+probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$.}\\
 \toprule
 \multicolumn{2}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Objective 1}} & \multicolumn{1}{c}{\textbf{Objective 2}} & \multicolumn{1}{c}{\textbf{Objective 3}} & \multicolumn{1}{c}{\textbf{Objective 4}} & \multicolumn{1}{c}{\textbf{Objective 5}} & \multicolumn{4}{c}{\textbf{Other Important Quantities}} \\
 \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5} \cmidrule(l{3pt}r{3pt}){6-6} \cmidrule(l{3pt}r{3pt}){7-7} \cmidrule(l{3pt}r{3pt}){8-11}
@@ -355,7 +391,14 @@ $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 \begingroup\fontsize{9}{11}\selectfont
 \begin{landscape}
 \begin{longtable}[t]{llccccccccc}
-\caption{\label{tab:unnamed-chunk-13}Weighted performance metrics for all candidate management procedures, with harvest rates tuned to performance on the robustness set of operating models, and applied to the reference set of operating models accepting the high 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$.}\\
+\caption{\label{tab:unnamed-chunk-13}Weighted performance metrics for all candidate management procedures, 
+with harvest rates tuned to performance on the \textbf{robustness operating models}, and applied 
+to the \textbf{reference operating models} accepting the high 2015 year class. Conservation 
+performance metrics that pass the criteria in the header are indicated by a bullet. Catch is 
+given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average 
+catch $\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of 
+decline, and Acc to the acceptable probability of decline, linearly interpolated between 
+0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$.}\\
 \toprule
 \multicolumn{2}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Objective 1}} & \multicolumn{1}{c}{\textbf{Objective 2}} & \multicolumn{1}{c}{\textbf{Objective 3}} & \multicolumn{1}{c}{\textbf{Objective 4}} & \multicolumn{1}{c}{\textbf{Objective 5}} & \multicolumn{4}{c}{\textbf{Other Important Quantities}} \\
 \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5} \cmidrule(l{3pt}r{3pt}){6-6} \cmidrule(l{3pt}r{3pt}){7-7} \cmidrule(l{3pt}r{3pt}){8-11}
@@ -396,30 +439,32 @@ $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 
 \hypertarget{figures}{%
 \section{Figures}\label{figures}}
+
+\newpage
 \begin{figure}[htb]
 
 {\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{knitr-figs-pdfunnamed-chunk-15-1}}{Figure \ref{fig:unnamed-chunk-15}} 
 
 }
 
-\caption{Joint marginal posterior distribution MCMC samples (grey dots) for stock-recruit steepness ($h$) and spawning biomass in 2018 ($B_{2018}$). Dashed lines indicate the mean, 10th and 90th percentiles of each marginal distribution, with the percentiles of the spawning biomass distribution adjusted to match the regression line between the two marginal distributions. Coloured dots with black borders at the intersections of selected percentiles are the sample centres for the 5 productivity/biomass operating model scenarios, with the coloured posterior MCMC samples showing the set of all points within a Mahalanobis distance of .6 from the centre of the same colour.}\label{fig:unnamed-chunk-15}
+\caption{Joint marginal posterior distribution MCMC samples (grey dots) for stock-recruit steepness ($h$; $x$-axis) and spawning biomass in 2018 ($B_{2018}$; $y$-axis). Dashed lines indicate the mean, 10th and 90th percentiles of each marginal distribution, with the percentiles of the spawning biomass distribution adjusted to match the regression line between the two marginal distributions. Coloured dots with black borders at the intersections of selected percentiles are the sample centres for the 5 productivity and biomass operating model scenarios with labels matching columns of Table 1, with the coloured posterior MCMC samples showing the set of all points within a Mahalanobis distance of .6 from the centre of the same colour.}\label{fig:unnamed-chunk-15}
 \end{figure}
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/base_ALK_mUnsexed/plotMLEindices}}{Figure \ref{fig:unnamed-chunk-16}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/base_ALK_mUnsexed/plotMLEindices}}{Figure \ref{fig:unnamed-chunk-17}} 
 
 }
 
-\caption{Operating model fits to Catch per Unit of Effort (CPUE) indices (kg/trap) from the commercial trap fishery (Trap, top), standardized sablefish survey (Std., middle), and stratified random sablefish survey (StRS, bottom). Points show observations scaled by catchability, and lines show operating model vulnerable biomass.}\label{fig:unnamed-chunk-16}
+\caption{Operating model fits to Catch per Unit of Effort (CPUE) indices (kg/trap) from the commercial trap fishery (Trap, top), standardized Sablefish survey (Std., middle), and stratified random Sablefish survey (StRS, bottom). Points show observations scaled by catchability, and lines show operating model vulnerable biomass.}\label{fig:unnamed-chunk-17}
 \end{figure}
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/base_ALK_mUnsexed/plotFitAgeFreq_avg}}{Figure \ref{fig:unnamed-chunk-17}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/base_ALK_mUnsexed/plotFitAgeFreq_avg}}{Figure \ref{fig:unnamed-chunk-18}} 
 
 }
 
-\caption{Averaged operating model fits to age observations for, from top to bottom, the commercial trap fishery (Trap), commercial trawl fishery (Trawl), standardized survey (Std.), and stratified random survey (StRS). Grey bars are the average proportion of age observations, and the points joined with a line show the average expected distribution of age observations in the operating model. Averages are taken over the years with observations.}\label{fig:unnamed-chunk-17}
+\caption{Averaged operating model fits to age observations for, from top to bottom, the commercial trap fishery (Trap), commercial trawl fishery (Trawl), standardized survey (Std.), and stratified random survey (StRS). Grey bars are the average proportion of age observations, and the points joined with a line show the average expected distribution of age observations in the operating model. Averages are taken over the years with observations.}\label{fig:unnamed-chunk-18}
 \end{figure}
 \newpage
 
@@ -427,38 +472,38 @@ $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 \begin{landscape}
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13}}{Figure \ref{fig:unnamed-chunk-19}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13}}{Figure \ref{fig:unnamed-chunk-20}} 
 
 }
 
-\caption{A single simulation replicate drawn from the reference set of operating models with the high estimated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of an MP. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points).}\label{fig:unnamed-chunk-19}
+\caption{A single simulation replicate drawn from the \textbf{reference operating models} with the high estimated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of the management procedure. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points). First and second fit refer to the first and second years that the management procedure was applied.}\label{fig:unnamed-chunk-20}
 \end{figure}
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5}}{Figure \ref{fig:unnamed-chunk-21}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5}}{Figure \ref{fig:unnamed-chunk-22}} 
 
 }
 
-\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the reference recruitment scenario, showing management procedures that applied the historical allocation of discarding, and amortized overages over 5 years. The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate.}\label{fig:unnamed-chunk-21}
+\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{reference recruitment scenario}, showing the current MP (noCap),three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulationa replicates as thin black lines.}\label{fig:unnamed-chunk-22}
 \end{figure}
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13}}{Figure \ref{fig:unnamed-chunk-22}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13}}{Figure \ref{fig:unnamed-chunk-23}} 
 
 }
 
-\caption{A single simulation replicate drawn from the robustness set of operating models with a stochastically simulated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of an MP. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points).}\label{fig:unnamed-chunk-22}
+\caption{A single simulation replicate drawn from the \textbf{robustness operating models} with a stochastically simulated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of the management procedure. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points). First and second fit refer to the first and second years that the management procedure was applied.}\label{fig:unnamed-chunk-23}
 \end{figure}
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hstAl_am5}}{Figure \ref{fig:unnamed-chunk-23}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hstAl_am5}}{Figure \ref{fig:unnamed-chunk-24}} 
 
 }
 
-\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the robustness recruitment scenario, showing management procedures that applied the historical allocation of discarding, and amortized overages over 5 years. The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate.}\label{fig:unnamed-chunk-23}
+\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{robustness recruitment scenario}, showing showing the current MP (noCap), three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulationa replicates as thin black lines.}\label{fig:unnamed-chunk-24}
 \end{figure}
 \end{landscape}
 \MakeAvailable

@@ -2,24 +2,19 @@
 
 ```{r, echo = FALSE, warning = FALSE, include = FALSE}
 
-idxFitsCap <- "Operating model fits to Catch per Unit of Effort (CPUE) indices (kg/trap) from the commercial trap fishery (Trap, top), standardized sablefish survey (Std., middle), and stratified random sablefish survey (StRS, bottom). Points show observations scaled by catchability, and lines show operating model vulnerable biomass."
 ageFitsCap <- "Averaged operating model fits to age observations for, from top to bottom, the commercial trap fishery (Trap), commercial trawl fishery (Trawl), standardized survey (Std.), and stratified random survey (StRS). Grey bars are the average proportion of age observations, and the points joined with a line show the average expected distribution of age observations in the operating model. Averages are taken over the years with observations."
 
-jointPostCap <- "Joint marginal posterior distribution MCMC samples (grey dots) for stock-recruit steepness ($h$) and spawning biomass in 2018 ($B_{2018}$). Dashed lines indicate the mean, 10th and 90th percentiles of each marginal distribution, with the percentiles of the spawning biomass distribution adjusted to match the regression line between the two marginal distributions. Coloured dots with black borders at the intersections of selected percentiles are the sample centres for the 5 productivity/biomass operating model scenarios, with the coloured posterior MCMC samples showing the set of all points within a Mahalanobis distance of .6 from the centre of the same colour."
+jointPostCap <- "Joint marginal posterior distribution MCMC samples (grey dots) for stock-recruit steepness ($h$; $x$-axis) and spawning biomass in 2018 ($B_{2018}$; $y$-axis). Dashed lines indicate the mean, 10th and 90th percentiles of each marginal distribution, with the percentiles of the spawning biomass distribution adjusted to match the regression line between the two marginal distributions. Coloured dots with black borders at the intersections of selected percentiles are the sample centres for the 5 productivity and biomass operating model scenarios with labels matching columns of Table 1, with the coloured posterior MCMC samples showing the set of all points within a Mahalanobis distance of .6 from the centre of the same colour."
 
 ```
+
+\newpage
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=jointPostCap, echo = FALSE}
 
 
 sampleCols <- RColorBrewer::brewer.pal(n = 5, "Dark2")
 
-# drawMahal(  var2Mat,
-#             center=pairs[[1]],
-#             covariance=v1v2cov,
-#             quantile=c(0.1,.2,.3,.4,.5,.6,.7),las=1,
-#             lwd=c(2),col="grey75",xlab="Stock-recruit Steepness",
-#             ylab="2018 Spawning Biomass (kt)", pch=16)
 plot( x = var2Mat[,1], y = var2Mat[,2],
       xlab = "Stock-recruit steepness",
       ylab = "2018 spawning biomass (kt)",
@@ -50,6 +45,11 @@ plot( x = var2Mat[,1], y = var2Mat[,2],
 ```
 
 
+```{r, echo = FALSE, warning = FALSE, include = FALSE}
+idxFitsCap <- "Operating model fits to Catch per Unit of Effort (CPUE) indices (kg/trap) from the commercial trap fishery (Trap, top), standardized Sablefish survey (Std., middle), and stratified random Sablefish survey (StRS, bottom). Points show observations scaled by catchability, and lines show operating model vulnerable biomass."
+
+```
+
 
 ```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=idxFitsCap, echo = FALSE}
 knitr::include_graphics("data/base_ALK_mUnsexed/plotMLEindices.pdf")
@@ -68,8 +68,9 @@ knitr::include_graphics("data/base_ALK_mUnsexed/plotFitAgeFreq_avg.pdf")
 
 \blandscape
 ```{r, echo = FALSE, include = FALSE, warning = FALSE}
-hiRecSimRepCap <- "A single simulation replicate drawn from the reference set of operating models with the high estimated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of an MP. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points)."
-simRecSimRepCap <- "A single simulation replicate drawn from the robustness set of operating models with a stochastically simulated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of an MP. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points)."
+hiRecSimRepCap <- "A single simulation replicate drawn from the \\textbf{reference operating models} with the high estimated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of the management procedure. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points). First and second fit refer to the first and second years that the management procedure was applied."
+
+simRecSimRepCap <- "A single simulation replicate drawn from the \\textbf{robustness operating models} with a stochastically simulated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of the management procedure. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points). First and second fit refer to the first and second years that the management procedure was applied."
 ```
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=hiRecSimRepCap}
@@ -79,8 +80,9 @@ knitr::include_graphics("data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep
 \newpage
 
 ```{r, echo = FALSE, include = FALSE, warning = FALSE}
-hiRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the reference recruitment scenario, showing management procedures that applied the historical allocation of discarding, and amortized overages over 5 years. The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate."
-simRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the robustness recruitment scenario, showing management procedures that applied the historical allocation of discarding, and amortized overages over 5 years. The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate."
+hiRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \\textbf{reference recruitment scenario}, showing the current MP (noCap),three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \\% of the envelope is shown as grey shading, and the three illustrated simulationa replicates as thin black lines."
+
+simRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \\textbf{robustness recruitment scenario}, showing showing the current MP (noCap), three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \\% of the envelope is shown as grey shading, and the three illustrated simulationa replicates as thin black lines."
 ```
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=hiRecSimEnvCap}

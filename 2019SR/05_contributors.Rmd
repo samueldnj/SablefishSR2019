@@ -3,11 +3,12 @@
 ```{r, echo=FALSE, include=FALSE}
 contributors <- tibble::tribble(
   ~Name,              ~Affiliation,
-  "Sean Cox",         "Simon Fraser University, BC",
-  "Samuel Johnson",   "Simon Fraser University, BC",
+  "Sean Cox",         "Simon Fraser University, BC; Landmark Fisheries Research",
+  "Samuel Johnson",   "Simon Fraser University, BC; Landmark Fisheries Research",
   "Brendan Connors",  "DFO Science, Pacific Region",
-  "Lindsay Gardner",  "DFO Science, Pacific Region",
+  "Lindsay Gardner",  "DFO Fisheries Management, Pacific Region",
   "Sean Anderson",    "DFO Science, Pacific Region (reviewer)",
+  "Elise Keppel",     "DFO Science, Pacific Region (reviewer)",
   "Lisa Christiansen","DFO Centre for Science Advice, Pacific Region (editor)"
 )
 ```

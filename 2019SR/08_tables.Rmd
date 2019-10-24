@@ -221,13 +221,19 @@ fancyRowNames <- c( "$B_0$",
 posteriorOMstats <- t(posteriorOMstats)
 rownames(posteriorOMstats) <- fancyRowNames
 
-OMsummTableCap <- "Operating model posterior distribution mean (standard deviation) biological parameter, reference point estimates, and stock status indicators for fits to the 2016 data 
-and 2018 data. The columns \\textbf{2016 Fit} and \\textbf{2018 Fit} show the mean and standard deviation of the full posterior for the respective fits, while the remaining columns just show posterior mean values 
-from the 5 stratified regions for each productivity/biomass scenario. Stock status is shown relative to unfished ($B_t/B_0$), theoretical
-most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point ($B_t/(.4B_{MSY})$) for $t \\in \\{2016, 2018\\}$. The bottom
-two rows show the posterior probability of biomass being above the limit reference point in both 2016 and 2018."
+OMsummTableCap <- "Operating model posterior distribution mean (standard deviation) biological parameter, 
+reference point estimates, and stock status indicators for fits to the 2016 data 
+and 2018 data. The columns \\textbf{2016 Fit} and \\textbf{2018 Fit} show the mean 
+and standard deviation of the full posterior for the respective fits, while the remaining columns 
+show posterior mean values from the five posterior strata defining the productivity/biomass 
+scenarios indicated by the column label (see Figure 1). Stock status is shown relative to 
+unfished ($B_t/B_0$), theoretical
+most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point 
+($B_t/(.4B_{MSY})$) for $t \\in \\{2016, 2018\\}$. The bottom
+two rows show the posterior probability of spawning biomass 
+being above the limit reference point in both 2016 and 2018."
 
-postPairsDFcap <- "Posterior points used to define the 5 centres for the reference and robustness sets of operating models, around which each OM samples the posterior for historical period conditioning."
+# postPairsDFcap <- "Posterior points used to define the 5 centres for the reference and robustness sets of operating models, around which each OM samples the posterior for historical period conditioning."
 
 ```
 
@@ -418,14 +424,28 @@ objNames <- c(" " = 2,
 names(SP_refTable) <- informHeaders
 names(SP_robTable) <- informHeaders
 
-refOMtableCap <- "Weighted performance metrics for all candidate management procedures on the reference set of operating models, where recruitment is taken from the OM estimate for the 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
-robOMtableCap <- "Weighted performance metrics for all candidate management procedures on the robustness set of operating models, where recruitment is simulated stochastically off the stock-recruit curve for the 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
+refOMtableCap <- "Weighted performance metrics for all candidate management procedures on the 
+\\textbf{reference operating models}. Conservation performance metrics 
+that pass the criteria in 
+the header are indicated by a bullet. Catch is given in biomass units, which are measured in 
+kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For Objective 2, 
+Obs refers to the observed probability of decline, and Acc to the acceptable probability of 
+decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
+
+robOMtableCap <- "Weighted performance metrics for all candidate management procedures on the 
+\\textbf{robustness operating models}. Conservation performance 
+metrics that pass the criteria in the header are indicated by a bullet. Catch is given in 
+biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch 
+$\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, 
+and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at 
+$0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
 
 ```
 
 ```{r npvTables, echo = FALSE, include = FALSE, warning = FALSE}
 NPV_refTable <-  refOMobjTable %>%
                 dplyr::arrange(desc(medAvgCatch)) %>%
+                dplyr::mutate( totCatchRev = npvC_trap + npvC_LL + npvC_trawl ) %>%
                 dplyr::select(  "MP", 
                                 "Label", 
                                 "medAvgCatch",
@@ -435,13 +455,16 @@ NPV_refTable <-  refOMobjTable %>%
                                 npvD_trap,
                                 npvD_LL,
                                 npvD_trawl,
+                                totCatchRev,
                                 vptC_trap,
                                 vptC_LL,
                                 vptC_trawl ) %>%
                 dplyr::mutate_if( is.numeric, signif, 4 )
 
+
 NPV_robTable <-  robOMobjTable %>%
                 dplyr::arrange(desc(medAvgCatch)) %>%
+                dplyr::mutate( totCatchRev =npvC_trap + npvC_LL +npvC_trawl ) %>%
                 dplyr::select(  "MP", 
                                 "Label", 
                                 "medAvgCatch",
@@ -451,6 +474,7 @@ NPV_robTable <-  robOMobjTable %>%
                                 npvD_trap,
                                 npvD_LL,
                                 npvD_trawl,
+                                totCatchRev,
                                 vptC_trap,
                                 vptC_LL,
                                 vptC_trawl ) %>%
@@ -465,21 +489,34 @@ npvHeaders <- c(  "No.",
                   "$D^{trap}$",
                   "$D^{hook}$",
                   "$D^{trawl}$",
+                  "$C^{tot}$",
                   "$R^{trap}$",
                   "$R^{hook}$",
                   "$R^{trawl}$" )
 
 npvUnits <- c(  " " = 2,
                   "Av. Catch (kt)" = 1,
-                  "10 year revenue ($ millions)" = 6,
+                  "10 year revenue ($ millions)" = 7,
                   "Av. revenue ($/t)" = 3 )
 
 
 colnames(NPV_robTable) <- npvHeaders
 colnames(NPV_refTable) <- npvHeaders
 
-refNPVcap <- "Weighted economic performance metrics for the first 10 years of the projections in the reference OM set. Column 3 shows the average catch over the first 10 years, and the remaining columns show the total value (\\$m) of catch $C$ and discards $D$ for all sectors, and the yearly average income $I$ in dollars per tonne of catch, over the next 10 years. All values are taken at 4 significant figures. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$."
-robNPVcap <- "Weighted economic performance metrics for the first 10 years of the projections in the robustness OM set. Column 3 shows the average catch over the first 10 years, and the remaining columns show the total value (\\$m) of catch $C$ and discards $D$ for all sectors, and the yearly average income $I$ in dollars per tonne of catch, over the next 10 years. All values are taken at 4 significant figures. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$."
+refNPVcap <- "Weighted economic performance metrics for the first 10 years of the projections 
+in the \\textbf{reference operating models}. Column 3 shows the average catch 
+over the first 10 years, and the remaining columns show the total cumulative revenue (\\$m) of 
+catch $C$ and discards $D$ for each sector, catch revenue $C^{tot}$ for all sectors combined, 
+and the yearly average revenue $R$ in dollars per tonne of catch, over the next 10 years. 
+All values are taken at 4 significant figures. Table is sorted by 10 year average catch 
+$\\bar{C}_{2019:2028}$."
+
+robNPVcap <- "Weighted economic performance metrics for the first 10 years of the projections in the 
+\\textbf{robustness operating models}. Column 3 shows the average catch over the first 10 years, and 
+the remaining columns show the total cumulative revenue (\\$m) of catch $C$ and discards $D$ for each 
+sector, catch revenue $C^{tot}$ for all sectors combined, and 
+the yearly average revenue $R$ in dollars per tonne of catch, over the next 10 years. All values are 
+taken at 4 significant figures. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$."
 
 ```
 
@@ -513,7 +550,7 @@ valTable <- read.csv("./data/sableValue.csv", header = TRUE, stringsAsFactors = 
 ```{r, echo = FALSE, warning = FALSE, results = "as-is"}
 names(valTable) <- c("Weight Class (lb)", "Price (\\$/lb)" )
 csasdown::csas_table( valTable,
-                      caption = "Price per pound of sablefish in each weight class. Weight classes are defined by the limits of that class, in pounds (e.g., 2/3 is the class of fish between 2 and 3 pounds).",
+                      caption = "Price per pound of Sablefish in each weight class. Weight classes are defined by the limits of that class, in pounds (e.g., 2/3 is the class of fish between 2 and 3 pounds).",
                       booktabs = TRUE, escape = FALSE, 
                       font_size = 12, format = kable_format ) %>%
     kable_styling(  latex_options = c("hold_position", "scale_down"),
@@ -655,8 +692,24 @@ SP_refTableRobTune <-  refOMobjTable_robTune %>%
 names(SP_robTableRefTune) <- informHeaders
 names(SP_refTableRobTune) <- informHeaders
 
-robOMtableCapRefTune <- "Weighted performance metrics for all candidate management procedures, with harvest rates tuned to performance on the reference set of operating models, and applied to the robustness set of operating models where recruitment is simulated stochastically off the stock-recruit curve for the 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
-refOMtableCapRobTune <- "Weighted performance metrics for all candidate management procedures, with harvest rates tuned to performance on the robustness set of operating models, and applied to the reference set of operating models accepting the high 2015 year class. Conservation performance metrics that pass the criteria in the header are indicated by a bullet. Catch is given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
+robOMtableCapRefTune <- "Weighted performance metrics for all candidate management procedures, with 
+harvest rates tuned to performance on the \\textbf{reference operating models}, and applied to the 
+\\textbf{robustness operating models} where recruitment is simulated stochastically off the 
+stock-recruit curve for the 2015 year class. Conservation performance metrics that pass the 
+criteria in the header are indicated by a bullet. Catch is given in biomass units, which are 
+measured in kilotonnes. Table is sorted by 10 year average catch $\\bar{C}_{2019:2028}$. For 
+Objective 2, Obs refers to the observed probability of decline, and Acc to the acceptable 
+probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
+
+refOMtableCapRobTune <- "Weighted performance metrics for all candidate management procedures, 
+with harvest rates tuned to performance on the \\textbf{robustness operating models}, and applied 
+to the \\textbf{reference operating models} accepting the high 2015 year class. Conservation 
+performance metrics that pass the criteria in the header are indicated by a bullet. Catch is 
+given in biomass units, which are measured in kilotonnes. Table is sorted by 10 year average 
+catch $\\bar{C}_{2019:2028}$. For Objective 2, Obs refers to the observed probability of 
+decline, and Acc to the acceptable probability of decline, linearly interpolated between 
+0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$."
+
 ```
 
 \newpage

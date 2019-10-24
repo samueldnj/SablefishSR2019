@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.18)  22 OCT 2019 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.18)  24 OCT 2019 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,7 +1291,7 @@ Here is how much of TeX's memory you used:
  26472 multiletter control sequences out of 15000+600000
  36828 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 51i,16n,51p,830b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,16n,51p,871b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/sdnjohnson/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.6
 00pk>{/Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}
 </Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -1311,7 +1311,7 @@ lvetic/uhvb8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw
 /helvetic/uhvbo8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1
 /urw/helvetic/uhvr8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvro8a.pfb>
-Output written on sr_app.pdf (10 pages, 935483 bytes).
+Output written on sr_app.pdf (10 pages, 935625 bytes).
 PDF statistics:
  286 PDF objects out of 1000 (max. 8388607)
  214 compressed objects within 3 object streams
