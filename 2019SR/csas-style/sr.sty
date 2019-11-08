@@ -1,4 +1,4 @@
-%% sr.sty - Unoffocial LaTeX style file for Canadian
+%% sr.sty - Unofficial LaTeX style file for Canadian
 %%  Science Response Documents.
 %% Authors:
 %% Andrew Edwards
@@ -453,8 +453,8 @@
 \usepackage{multirow}
 % To do 'for' loops in latex
 \usepackage{pgffor}
-% For float barriers
-\usepackage{placeins}
+% For float barriers --  add a silent floatbarrier to section commands
+\usepackage[section]{placeins}
 % Include PDFs (i.e., whole page)
 \usepackage{pdfpages}
 
@@ -561,7 +561,7 @@
   \begin{minipage}[c]{\linewidth}
   \begin{center}
   \rdApp{}\\
-  Science Branch, \rdRegion{}\\
+  \rdBranch{}, \rdRegion{}\\
   Fisheries and Oceans Canada\\
   \rdAppDate{}\\
   \end{center}
@@ -600,9 +600,7 @@ DFO Can.\ Sci.\ Advis.\ Sec.\ Sci.\ Resp.
 \emph{Aussi disponible en fran\c{c}ais:}
 
 \hangindent=0.6cm
-\emph{MPO. \rdYear{}. \rdTitleFr{}.
-Secr.\ can.\ de consult.\ sci.\ du MPO, R\'{e}p.\ des Sci.\
-\rdYear{}/\rdNumber{}.}
+\emph{MPO. \rdYear{}. \rdTitleFr{}. Secr.\ can.\ de consult.\ sci.\ du MPO, R\'{e}p.\ des Sci.\ \rdYear{}/\rdNumber{}.}
 
 \newpage
 }

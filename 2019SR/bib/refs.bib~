@@ -1,0 +1,29 @@
+@article{francis2011,
+	author = {R. I. C. C. Francis},
+	title = {Data weighting in statistical fisheries stock assessment models},
+  journal   = {Can. J. Fish. Aquat. Sci.},
+	year = {2011},
+	Volume = {68},
+	Number = {6},
+	Pages = {1124-1138},
+}
+
+@article{edwards2013,
+  author       = {A. M. Edwards and R. Haigh and P. J. Starr},
+  year         = {2014},
+  title        = {Pacific {Ocean Perch} ({\emph{Sebastes alutus}}) stock
+    assessment for the north and west coasts of {Haida Gwaii, British Columbia}},
+  journal   = {DFO Can. Sci. Advis. Sec. Res. Doc.},
+  volume    = {2013/092},
+  pages     = {vi + 126~p}
+}
+
+@article{dfo2009PA,
+   author    = {DFO},
+   title     = {A fishery decision-making framework incorporating the Precautionary Approach},
+   fulljournal   = {},
+   journal   = {Fisheries and Oceans Canada},
+   year      = {2009},
+   volume    = {online},
+   pages     = {(last reportedly modified 23 May 2009, however, figures have since changed)}
+}
