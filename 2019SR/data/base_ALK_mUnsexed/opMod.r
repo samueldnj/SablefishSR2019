@@ -86,12 +86,12 @@ dev.off()
 
 png( "plotObsAgeFreq_m3.png", width=pngWidth, height=pngHeight, pointsize=ptSize )
 par( oma=.OMA, mar=.MAR )
-.plotCatAgeFreq( repList$ageObsProp_m2, seriesNames="Trawl: Males", gfx=list( bygears=TRUE, pLim = c(0,.4) ) )
+.plotCatAgeFreq( repList$ageObsProp_m2, seriesNames="Trawl: Males", gfx=list( bygears=TRUE ) )
 dev.off()
 
 png( "plotObsAgeFreq_f3.png", width=pngWidth, height=pngHeight, pointsize=ptSize )
 par( oma=.OMA, mar=.MAR )
-.plotCatAgeFreq( repList$ageObsProp_f2, seriesNames="Trawl: Females", gfx=list( bygears=TRUE, pLim = c(0,.4) ) )
+.plotCatAgeFreq( repList$ageObsProp_f2, seriesNames="Trawl: Females", gfx=list( bygears=TRUE ) )
 dev.off()
 
 png( "plotObsAgeFreq_m4.png", width=pngWidth, height=pngHeight, pointsize=ptSize )

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.18)  25 OCT 2019 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.30)  19 NOV 2019 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1179,6 +1179,36 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 414.
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 405--420
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 420--425
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 425--427
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 427--429
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 429--447
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
 [16
 
 
@@ -1187,18 +1217,138 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 482.
+
+Overfull \hbox (3.2113pt too wide) in alignment at lines 473--486
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.2113pt too wide) in alignment at lines 486--491
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.2113pt too wide) in alignment at lines 491--493
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.2113pt too wide) in alignment at lines 493--495
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.2113pt too wide) in alignment at lines 495--513
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.2113pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
 [18
 
-] [19
+]
+Overfull \hbox (48.53976pt too wide) in alignment at lines 521--536
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 536--541
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 541--543
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 543--545
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 545--563
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[19
 
 
 ] [20
 
 
-] [21
+]
+Overfull \hbox (48.53976pt too wide) in alignment at lines 618--634
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
 
 
-] [22
+Overfull \hbox (48.53976pt too wide) in alignment at lines 634--639
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 639--641
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 641--643
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 643--661
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[21
+
+
+]
+Overfull \hbox (48.53976pt too wide) in alignment at lines 669--685
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 685--690
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 690--692
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 692--694
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) in alignment at lines 694--712
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (48.53976pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[22
 
 
 ] [23
@@ -1270,135 +1420,135 @@ Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [25 <./data/base_ALK_mUnsexed/plotMLEindices.png>] [26 <./data/base_ALK_mUnsexe
 d/plotFitAgeFreq_avg.png>]
-<data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=255, 794.97p
-t x 578.16pt>
-File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
-e (type pdf)
-<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
-Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 751.
+<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=255, 794.97pt x
+ 578.16pt>
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
-e (type pdf)
-<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
-Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 751.
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
-e (type pdf)
-<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
-Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 751.
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
-e (type pdf)
-<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
-Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
-p13.pdf  used on input line 751.
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
 LaTeX Warning: Float too large for page by 19.83693pt on input line 756.
 
-<data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5
-.pdf, id=257, 794.97pt x 578.16pt>
-File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
-l_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
-_am5.pdf>
+<data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
+f, id=257, 794.97pt x 578.16pt>
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 760.
+_depCatchHR_hstAl_am5.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
-l_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
-_am5.pdf>
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 760.
+_depCatchHR_hstAl_am5.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
-l_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
-_am5.pdf>
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 760.
+_depCatchHR_hstAl_am5.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
-l_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
-_am5.pdf>
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_SP_hstAl_am5.pdf  used on input line 760.
+_depCatchHR_hstAl_am5.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
 LaTeX Warning: Float too large for page by 19.83693pt on input line 765.
 
-<data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=259, 794.97
-pt x 578.16pt>
-File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
-le (type pdf)
-<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
-Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 769.
+<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=259, 794.97pt 
+x 578.16pt>
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
-le (type pdf)
-<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
-Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 769.
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
-le (type pdf)
-<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
-Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 769.
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
-le (type pdf)
-<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
-Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
-ep13.pdf  used on input line 769.
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
 LaTeX Warning: Float too large for page by 19.83693pt on input line 774.
 
-<data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hstAl_a
-m5.pdf, id=261, 794.97pt x 578.16pt>
-File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
-tAl_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
-Al_am5.pdf>
+<data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
+pdf, id=261, 794.97pt x 578.16pt>
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 778.
+td_depCatchHR_hstAl_am5.pdf  used on input line 778.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
-tAl_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
-Al_am5.pdf>
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 778.
+td_depCatchHR_hstAl_am5.pdf  used on input line 778.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
-tAl_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
-Al_am5.pdf>
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 778.
+td_depCatchHR_hstAl_am5.pdf  used on input line 778.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
-tAl_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
-Al_am5.pdf>
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_SP_hstAl_am5.pdf  used on input line 778.
+td_depCatchHR_hstAl_am5.pdf  used on input line 778.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
 LaTeX Warning: Float too large for page by 19.83693pt on input line 783.
 
-[27 <./data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [28 <./d
-ata/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5.p
-df>] [29 <./data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>] [3
-0 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
-Al_am5.pdf>] [31
+[27 <./data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>] [28 <./data
+/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pdf>] [
+29 <./data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>] [30 <./data
+/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.pdf>]
+[31
 
 
 ] [32] [33]
@@ -1527,8 +1677,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 907.
  ) 
 Here is how much of TeX's memory you used:
  23085 strings out of 494111
- 411327 string characters out of 6172653
- 523592 words of memory out of 5000000
+ 411243 string characters out of 6172653
+ 526592 words of memory out of 5000000
  26613 multiletter control sequences out of 15000+600000
  53070 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1560,7 +1710,7 @@ s/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></
 Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
 .pfb>
-Output written on sr.pdf (39 pages, 1783924 bytes).
+Output written on sr.pdf (39 pages, 1770659 bytes).
 PDF statistics:
  680 PDF objects out of 1000 (max. 8388607)
  555 compressed objects within 6 object streams

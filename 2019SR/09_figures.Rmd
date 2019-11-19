@@ -74,7 +74,7 @@ simRecSimRepCap <- "A single simulation replicate drawn from the \\textbf{robust
 ```
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=hiRecSimRepCap}
-knitr::include_graphics("data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf")
+knitr::include_graphics("data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf")
 ```
 
 \newpage
@@ -86,20 +86,20 @@ simRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivi
 ```
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=hiRecSimEnvCap}
-knitr::include_graphics("data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5.pdf")
+knitr::include_graphics("data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pdf")
 ```
 
 \newpage
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=simRecSimRepCap}
-knitr::include_graphics("data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf")
+knitr::include_graphics("data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf")
 ```
 
 
 \newpage
 
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=simRecSimEnvCap}
-knitr::include_graphics("data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hstAl_am5.pdf")
+knitr::include_graphics("data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.pdf")
 ```
 
 <!-- \newpage
