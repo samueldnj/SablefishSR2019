@@ -127,7 +127,7 @@ guiding this fishery are:
       a target level of (a) $B_{MSY}$ when inside the healthy zone, 
       or (b) $0.8B_{MSY}$ when rebuilding from the Cautious zone, 
       in the year 2052 with a probability of 50%;
-4.  **P(Catch > 1,992 t)**: Minimize probability that annual catch levels 
+4.  **P(TAC < 1,992 t)**: Minimize probability that annual TAC levels 
       are below 1,992 tonnes measured over two Sablefish 
       generations; and
 5.  **MaxCatch**: Maximize the average annual catch over 10 years 
@@ -251,7 +251,9 @@ TAC cannot occur).
 
 ### Management procedure tuning
 
-The Sablefish management strategy evaluation quantifies MP performance against performance statistics representing each of the the Fishery Objectives. The first three performance statistics are represented by biomass 
+The Sablefish management strategy evaluation quantifies MP performance 
+against performance statistics representing each of the the Fishery 
+Objectives. The first three performance statistics are represented by biomass 
 conservation performance against the LRP, short-term probability of decline, 
 and achieving a long-term target at or near $B_{MSY}$, while the fourth and 
 fifth ones relate to maintaining catch levels above an industry-preferred 
@@ -293,11 +295,20 @@ under Fishery Objectives 4 and 5.
 
 We aimed to simplify interpretation of MP performance by tuning all MPs to 
 a standard $P(B_{2052} \geq B_{MSY}) = 0.5$, which ensured that all MPs meet 
-Fishery Objectives 1-3.Tuning was achieved by iteratively adjusting $F_{2022}$, which is the maximum target fishing mortality rate scheduled for 
-Year 2022 (as part of 5-year phase-in perriod for the current MP)[@cox2019evaluating], 
-until each MP satisfied Objective 3, i.e., $P(B_{2052} \geq B_{MSY}) = 0.5$. These $F_{2022}$ target maximum harvest rates then replace the scheduled maximum target harvest rate of 5.5% for Year 2022 and beyond.
+Fishery Objectives 1-3.Tuning was achieved by iteratively adjusting $F_{2021}$, 
+which is the maximum target fishing mortality rate scheduled for 
+Year 2021 (as part of 5-year phase-in period for the current MP)
+[@cox2019evaluating], until each MP satisfied Objective 3, i.e., 
+$P(B_{2052} \geq B_{MSY}) = 0.5$. These $F_{2021}$ target maximum 
+harvest rates then replace the scheduled maximum target harvest rate 
+of 5.5% for Year 2022 and beyond.
 
-Each MP was tuned seperately to the reference and robustness OM scenarios, leading to different $F_{2022}$ values for each MP (i.e., once for each OM). We then simulated a cross-test in which $F_{2022}$ values tuned under the reference OM were applied in MPs for the robustness OM and vice versa. The cross-test reveals the potential biological and catch consequences of using the wrong $F_{2022}$ values.
+Each MP was tuned seperately to the reference and robustness OM scenarios, 
+leading to different $F_{2021}$ values for each MP (i.e., once for each 
+OM). We then simulated a cross-test in which $F_{2021}$ values tuned 
+under the reference OM were applied in MPs for the robustness OM and 
+vice versa. The cross-test reveals the potential biological and catch 
+consequences of using the wrong $F_{2021}$ values.
 
 ## Results
 
@@ -363,7 +374,7 @@ from 93% (2016 fit) to 100% (2018 fit).
 
 ### Management procedure evaluation results
 
-#### Reference OM set under reference $F_{2022}$ tuning
+#### Reference OM set under reference $F_{2021}$ tuning
 
 As expected, recruitment from the 2015 year class was the primary driver
 of projected spawning biomass and fishery outcomes in the reference OM simulations. 
@@ -406,7 +417,7 @@ maximum target $F=5.5\%$/yr was largely the result of lower survival
 through sub-legal size classes, which inhibited MPs from meeting 
 the future spawning biomass Fishery Objective 3. In contrast, the no 
 size limit MP met Fishery Objective 3 despite a maximum target 
-$F=7.4\%$/yr on legal-sized fish (Table 2; $F_{2022}$).
+$F=7.4\%$/yr on legal-sized fish (Table 2; $F_{2021}$).
 
 Differences in average annual catch were smaller among at-sea management measures 
 that involved a size limit. A 0% at sea-release cap and five year
@@ -491,7 +502,7 @@ least restrictive at-sea management measures other than the status quo, even
 without considering the implications for trawl’s main target fisheries.
 
 
-#### Robustness OM set under robustness $F_{2022}$ tuning
+#### Robustness OM set under robustness $F_{2021}$ tuning
 
 Unlike the reference OMs, in which biomass and catch increases were large over 
 the next decade, Sablefish biomass and catch projections under the robustness 
@@ -539,7 +550,7 @@ for trawl and next-most-restrictive for trap and longline hook (MP17,
 **cap0_am5**; Table 6).
 
 
-#### Cross tests of OMs under opposite $F_{2022}$ tuning
+#### Cross tests of OMs under opposite $F_{2021}$ tuning
 
 As expected, there was considerable asymmetry of risk between 
 MPs tuned under the robustness OMs and reference OMs. For example, 
