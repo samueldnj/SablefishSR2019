@@ -377,9 +377,9 @@ from 93% (2016 fit) to 100% (2018 fit).
 #### Reference OM set under reference $F_{2021}$ tuning
 
 As expected, recruitment from the 2015 year class was the primary driver
-of projected spawning biomass and fishery outcomes in the reference OM simulations. 
-Spawning biomass increased rapidly over 
-the first five years of the projection period as age-3 (i.e., 2015
+of projected spawning biomass and fishery outcomes in the reference 
+OM simulations. Spawning biomass increased rapidly over the first 
+five years of the projection period as age-3 (i.e., 2015
 year class) fish became fully recruited to the fisheries and then the 
 spawning biomass (Figures 4 and 5, top row). Spawning biomass then trended 
 downward toward $B_{MSY}$ over the long-term as the 2015 year class was fished down
@@ -399,10 +399,10 @@ treating Fishery Objective 3 as a target, focuses MP performance
 differences on average annual catch over the next 10 years (Table 2; Fishery Objective
 5). As expected, MPs with more restricted at-sea release 
 management measures ranked higher in terms of 10-year average catch (Table 2) 
-with the values ranging from 4,510 t per year for no size limit (**NSL**) 
-to 3,700 t per year for management measures with a cap 150% higher than average, 
+with the values ranging from 4,530 t per year for no size limit (MP17 **NSL**) 
+to 3,710 t per year for management measures with a cap 150% higher than average, 
 recent cap allocation among fleets (i.e., allocating 59% to trawl), and 5-year 
-amortization (MP13 **cap1.5_rctAl_am5**). This difference was attributable 
+amortization (MP14 **cap1.5_rctAl_am5**). This difference was attributable 
 to two factors. First, the key assumption here was that fishing activity 
 stops once the TAC is reached, so no size limit results in less mortality 
 of sub-legal fish over all fleets. This led to a large reduction in 
@@ -416,26 +416,26 @@ spawning stock. Indeed, the apparently conservative current MP
 maximum target $F=5.5\%$/yr was largely the result of lower survival 
 through sub-legal size classes, which inhibited MPs from meeting 
 the future spawning biomass Fishery Objective 3. In contrast, the no 
-size limit MP met Fishery Objective 3 despite a maximum target 
-$F=7.4\%$/yr on legal-sized fish (Table 2; $F_{2021}$).
+size limit MP almost met Fishery Objective 3 despite a maximum target 
+$F=7.5\%$/yr on legal-sized fish (Table 2; $F_{2021}$).
 
 Differences in average annual catch were smaller among at-sea management measures 
 that involved a size limit. A 0% at sea-release cap and five year
-amortization (MP17) resulted in catches about 400 t higher than the 
+amortization (MP6) resulted in catches about 400 t higher than the 
 current MP (MP15; Table 2), while the gain was 300 t for a 10-year 
-amortization (MP16).  
+amortization (MP5).  
 
 An at-sea release cap of 50% of the historical average resulted in average 
 annual catch levels 160 t and 300 t higher than the current MP, depending on the allocation
-and the amortization period (MP3 and MP5 vs. MP15; Table 2). Interestingly,
+and the amortization period (MP3 and MP4 vs. MP15; Table 2). Interestingly,
 a 10-year amortization with a 0% cap gives identical 10-year average catch
-to a 50% cap with a historical allocation and 
-5-year amortization period (MP 3 vs MP16; Table 2).
+to a 50% cap with a historical allocation and 5-year amortization period 
+(MP5 vs MP6; Table 2).
 
 An at-sea release cap equal to 100% of the historical average also produced 
 200 t more average annual catch than the current MP, as long as the 
 cap was allocated according to the historical at-sea release proportions 
-and amortized over five years (MP5 vs MP15, Table 2). The similarity to the 
+and amortized over five years (MP8 vs MP15, Table 2). The similarity to the 
 lower 50% caps described above mainly reflects cap allocation to the trawl 
 fleet, where the recent allocation (59%) is approximately twice the historical 
 (33%), so switching to the lower, historical allocation allowed for doubling 
@@ -448,7 +448,7 @@ order.
 
 Increasing the cap to 150% of the historical average produced the lowest 
 average annual catch, despite the current MP having no cap at all 
-(MP 10 vs 13; Table 2). Although average 10-year catches were similar, 
+(MP13 vs 15; Table 2). Although average 10-year catches were similar, 
 at-sea releases in the current MP (**noCap**) change mainly with 
 recruitment and therefore have less impact than a 150% cap, which decoupled 
 at-sea releases and recruitment to some (small) degree and allowed trawl 
@@ -457,7 +457,7 @@ fishing to continue past current sub-legal catch rates.
 As caps increased under recent at-sea release allocation,
 the effect of amortization switched from 5 years being better (under low 
 caps) to 10 years being better (under high caps). Although the differences 
-were small (MP12  vs MP13; Table 2), the switch 
+were small (MP12  vs MP3; Table 2), the switch 
 probably occured because there is little to no growth overfishing benefit 
 of amortization at high caps and recent allocations, which would mean 
 higher trawl releases than present. In this case, the amortization period 
@@ -482,19 +482,19 @@ smaller fish are relatively small compared to the benefits of higher
 average TACs. Cumulative revenues over ten years were 
 $47 million, $18 million, and $15 million higher for trap, longline 
 hook, and trawl fisheries under the no size limit MP compared to 
-the next best MP from an average annual catch perspective (i.e., MP17, 
+the next best MP from an average annual catch perspective (i.e., MP6, 
 **cap0_am5**; Table 4).
 
 The next best at-sea release management measures, from a total catch and
 cumulative revenue perspective, after the no size limit MP
 were different between trap and longline hook fisheries and trawl. 
-For instance, as noted above, MP17 (**cap0_am5**) was the next best 
+For instance, as noted above, MP6 (**cap0_am5**) was the next best 
 option for trap and longline hook, in terms of both average annual 
 TAC and cumulative revenue (Table 4). In contrast, the next best option
-for trawl revenue was MP13 (**cap1.5_rctAl_am5**), which had the 
+for trawl revenue was MP14 (**cap1.5_rctAl_am5**), which had the 
 lowest average annual TAC. The revenue difference for trawl between 
 this option and no size limit was only $5 million over 10 years, 
-while the revenue differences between MP3 and MP13 for trap and longline 
+while the revenue differences between MP6 and MP17 for trap and longline 
 hook were $33 million and $32 million, respectively. Thus, the results 
 suggest trap and longline hook fisheries would benefit from more 
 restrictive at-sea management measures while trawl would benefit from the 
@@ -523,7 +523,7 @@ negligible (< 3%) in the reference OMs, they were all greater than
 which was 8% (Table 5).
 
 Average annual catch under the robustness OMs ranged from 2,305 t under the 
-current MP (MP15, noCap) to 2,767 t under no size limit (MP14, NSL). Thus, 
+current MP (MP15, noCap) to 2,767 t under no size limit (MP17, NSL). Thus, 
 the current MP with no limit on at-sea releases performed worse than any 
 of the cap options by as much as 200 t per year for the top-ranking
 cap options (Table 5). There was a slight difference in 
@@ -531,7 +531,7 @@ the rank order of MPs (ranked by average 10-year catch) under the
 robustness OMs compared to the reference OMs, although the absolute 
 difference among most MPs was small.
 
-Average annual variation in catch (AAV) was 11-16% under the robustness
+Average annual variation in catch (AAV) was 9-11% under the robustness
 OMs compared to 7-8% under the reference OMs (Table 5). This probably 
 occurs because the stock remains below $B_{MSY}$ for most of the
 projection period and is, therefore, assessed below $B_{MSY}$ at times.
@@ -546,7 +546,7 @@ differ, the cumulative value patterns were similar to the reference
 set; that is, no size limit produced the highest overall value, as 
 well as value in each fleet, and the next best at-sea release management measure 
 option, from a cumulative revenue perspective, was the most restrictive 
-for trawl and next-most-restrictive for trap and longline hook (MP17, 
+for trawl and next-most-restrictive for trap and longline hook (MP6, 
 **cap0_am5**; Table 6).
 
 

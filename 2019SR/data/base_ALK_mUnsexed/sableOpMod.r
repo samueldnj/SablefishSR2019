@@ -1179,6 +1179,7 @@ plotSelFuncs <- function()
         {        
           plot( xLim, pLim, type="n", axes=FALSE, xlab="", ylab="" )
           lines( yearClasses+minAge-1, y=obj[t,], type="h", lwd=2 )
+          grid()
         
           panLab( 0.9, 0.9, cex=1, .INITYEAR+t-1 )
         
