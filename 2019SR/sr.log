@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.30)  19 NOV 2019 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.30)  19 NOV 2019 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1234,7 +1234,7 @@ Overfull \hbox (3.2113pt too wide) has occurred while \output is active
 ] [23
 
 ]
-<knitr-figs-pdfunnamed-chunk-17-1.png, id=226, 1541.76pt x 818.05624pt>
+<knitr-figs-pdfunnamed-chunk-17-1.png, id=227, 1541.76pt x 818.05624pt>
 File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-17-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
@@ -1255,7 +1255,7 @@ File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
 ne 721.
 (pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
-<data/base_ALK_mUnsexed/plotMLEindices.png, id=228, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=229, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
@@ -1277,7 +1277,7 @@ Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
 ut line 729.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [24 <./knitr-figs-pdfunnamed-chunk-17-1.png>]
-<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=236, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=237, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
@@ -1300,7 +1300,7 @@ Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [25 <./data/base_ALK_mUnsexed/plotMLEindices.png>] [26 <./data/base_ALK_mUnsexe
 d/plotFitAgeFreq_avg.png>]
-<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=251, 794.97pt x
+<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=252, 794.97pt x
  578.16pt>
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
@@ -1330,7 +1330,7 @@ Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
 LaTeX Warning: Float too large for page by 19.83693pt on input line 755.
 
 <data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
-f, id=253, 794.97pt x 578.16pt>
+f, id=254, 794.97pt x 578.16pt>
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
@@ -1362,7 +1362,7 @@ _depCatchHR_hstAl_am5.pdf  used on input line 759.
 
 LaTeX Warning: Float too large for page by 19.83693pt on input line 764.
 
-<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=255, 794.97pt 
+<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=256, 794.97pt 
 x 578.16pt>
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
@@ -1392,7 +1392,7 @@ Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
 LaTeX Warning: Float too large for page by 19.83693pt on input line 773.
 
 <data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
-pdf, id=257, 794.97pt x 578.16pt>
+pdf, id=258, 794.97pt x 578.16pt>
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
@@ -1432,7 +1432,7 @@ LaTeX Warning: Float too large for page by 19.83693pt on input line 782.
 
 
 ] [32] [33]
-<data/ageErr1.png, id=346, 469.755pt x 469.755pt>
+<data/ageErr1.png, id=347, 469.755pt x 469.755pt>
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
 Package pdftex.def Info: data/ageErr1.png  used on input line 862.
@@ -1450,7 +1450,7 @@ File: data/ageErr1.png Graphic file (type png)
 Package pdftex.def Info: data/ageErr1.png  used on input line 862.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 [34 <./data/ageErr1.png>]
-<data/ageErr2.png, id=356, 469.755pt x 406.6392pt>
+<data/ageErr2.png, id=357, 469.755pt x 406.6392pt>
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
 Package pdftex.def Info: data/ageErr2.png  used on input line 871.
@@ -1468,7 +1468,7 @@ File: data/ageErr2.png Graphic file (type png)
 Package pdftex.def Info: data/ageErr2.png  used on input line 871.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 [35 <./data/ageErr2.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=364, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=365, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
@@ -1490,7 +1490,7 @@ Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on
 input line 880.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [36 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=372, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=373, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
@@ -1512,7 +1512,7 @@ Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on
 input line 889.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [37 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
-<data/trawlSelOverlay.pdf, id=381, 1011.78pt x 495.89517pt>
+<data/trawlSelOverlay.pdf, id=382, 1011.78pt x 495.89517pt>
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
 Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 898.
@@ -1540,7 +1540,7 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
 (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
-<csas-style/images/recycle.png, id=457, 38.39343pt x 38.39343pt>
+<csas-style/images/recycle.png, id=458, 38.39343pt x 38.39343pt>
 File: csas-style/images/recycle.png Graphic file (type png)
 <use csas-style/images/recycle.png>
 Package pdftex.def Info: csas-style/images/recycle.png  used on input line 904.
@@ -1558,7 +1558,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 906.
 Here is how much of TeX's memory you used:
  23071 strings out of 494111
  411115 string characters out of 6172653
- 526568 words of memory out of 5000000
+ 527568 words of memory out of 5000000
  26606 multiletter control sequences out of 15000+600000
  49043 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1590,10 +1590,10 @@ s/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></
 Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
 .pfb>
-Output written on sr.pdf (39 pages, 1805530 bytes).
+Output written on sr.pdf (39 pages, 1806153 bytes).
 PDF statistics:
- 675 PDF objects out of 1000 (max. 8388607)
- 550 compressed objects within 6 object streams
+ 676 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
  154 named destinations out of 1000 (max. 500000)
  308 words of extra memory for PDF output out of 10000 (max. 10000000)
 

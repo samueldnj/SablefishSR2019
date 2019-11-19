@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.30)  19 NOV 2019 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.30)  19 NOV 2019 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1164,38 +1164,8 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 139.
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 130--145
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 145--150
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 150--152
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 152--154
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 154--172
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
 [4
 
 
@@ -1236,112 +1206,22 @@ Overfull \hbox (3.2113pt too wide) has occurred while \output is active
 
 [6
 
-]
-Overfull \hbox (48.53976pt too wide) in alignment at lines 246--261
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 261--266
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 266--268
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 268--270
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 270--288
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-[7
+] [7
 
 
 ] [8
 
 
-]
-Overfull \hbox (48.53976pt too wide) in alignment at lines 343--359
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
+] [9
 
 
-Overfull \hbox (48.53976pt too wide) in alignment at lines 359--364
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 364--366
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 366--368
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 368--386
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-[9
-
-
-]
-Overfull \hbox (48.53976pt too wide) in alignment at lines 394--410
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 410--415
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 415--417
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 417--419
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) in alignment at lines 419--437
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (48.53976pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-[10
+] [10
 
 
 ] [11
 
 ]
-<knitr-figs-pdfunnamed-chunk-15-1.png, id=84, 1541.76pt x 818.05624pt>
+<knitr-figs-pdfunnamed-chunk-15-1.png, id=82, 1541.76pt x 818.05624pt>
 File: knitr-figs-pdfunnamed-chunk-15-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-15-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-15-1.png  used on input li
@@ -1362,7 +1242,7 @@ File: knitr-figs-pdfunnamed-chunk-15-1.png Graphic file (type png)
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-15-1.png  used on input li
 ne 447.
 (pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
-<data/base_ALK_mUnsexed/plotMLEindices.png, id=86, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=84, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
@@ -1384,7 +1264,7 @@ Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
 ut line 455.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [12 <./knitr-figs-pdfunnamed-chunk-15-1.png>]
-<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=94, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=92, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
@@ -1407,7 +1287,7 @@ Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [13 <./data/base_ALK_mUnsexed/plotMLEindices.png>] [14 <./data/base_ALK_mUnsexe
 d/plotFitAgeFreq_avg.png>]
-<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=109, 794.97pt x
+<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=107, 794.97pt x
  578.16pt>
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
@@ -1437,7 +1317,7 @@ Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
 LaTeX Warning: Float too large for page by 19.83693pt on input line 481.
 
 <data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
-f, id=111, 794.97pt x 578.16pt>
+f, id=109, 794.97pt x 578.16pt>
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
@@ -1469,7 +1349,7 @@ _depCatchHR_hstAl_am5.pdf  used on input line 485.
 
 LaTeX Warning: Float too large for page by 19.83693pt on input line 490.
 
-<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=113, 794.97pt 
+<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=111, 794.97pt 
 x 578.16pt>
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
@@ -1499,7 +1379,7 @@ Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
 LaTeX Warning: Float too large for page by 19.83693pt on input line 499.
 
 <data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
-pdf, id=115, 794.97pt x 578.16pt>
+pdf, id=113, 794.97pt x 578.16pt>
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
@@ -1545,7 +1425,7 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
 (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
-<csas-style/images/recycle.png, id=164, 38.39343pt x 38.39343pt>
+<csas-style/images/recycle.png, id=162, 38.39343pt x 38.39343pt>
 File: csas-style/images/recycle.png Graphic file (type png)
 <use csas-style/images/recycle.png>
 Package pdftex.def Info: csas-style/images/recycle.png  used on input line 510.
@@ -1566,11 +1446,11 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 512.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 512.
  ) 
 Here is how much of TeX's memory you used:
- 22865 strings out of 494111
- 407313 string characters out of 6172653
+ 22857 strings out of 494111
+ 407239 string characters out of 6172653
  526586 words of memory out of 5000000
- 26515 multiletter control sequences out of 15000+600000
- 50180 words of font info for 67 fonts, out of 8000000 for 9000
+ 26511 multiletter control sequences out of 15000+600000
+ 49043 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  51i,15n,51p,980b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/sdnjohnson/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.6
@@ -1578,27 +1458,25 @@ Here is how much of TeX's memory you used:
 </Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 mi10.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi12.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/t
+lic/amsfonts/cm/cmmi5.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmmi7.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/sdnjohnson/Library/TinyTeX/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></Users/sdnjohnson/Library/Ti
-nyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/sdnjohnson/Li
-brary/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/sdnjo
-hnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></User
-s/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr9.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy9.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/f
-onts/type1/urw/helvetic/uhvb8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dis
-t/fonts/type1/urw/helvetic/uhvbo8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf
--dist/fonts/type1/urw/helvetic/uhvr8a.pfb></Users/sdnjohnson/Library/TinyTeX/te
-xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on sr_TandF.pdf (19 pages, 1162446 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/sdnjohnson/Library/Ti
+nyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/sdnjohnson/Li
+brary/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></Users/sdnjoh
+nson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users
+/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/
+helvetic/uhvb8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/u
+rw/helvetic/uhvbo8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/
+type1/urw/helvetic/uhvro8a.pfb>
+Output written on sr_TandF.pdf (19 pages, 1146568 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
+ 259 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
  40 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
