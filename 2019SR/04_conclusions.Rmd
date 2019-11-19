@@ -1,20 +1,20 @@
 # Conclusions
 
 The current MP for Canadian Sablefish (MP15, **noCap**), which includes no 
-limits on at-sea releases, was able to meet conservation objectives under both 
+limits on at-sea releases, was able to meet biological objectives (i.e., Fishery Objectives 1-3) under both 
 reference and robustness OMs, although it ranked near the bottom in terms 
-of catch performance compared to MPs with at-sea release regulations. Of 
-the MPs regulating at-sea releases, MP14 (no size limit), MP17 (0% cap, 
+of catch performance compared to MPs with at-sea release management measures. Of 
+the MPs with management measures for at-sea releases, MP14 (no size limit), MP17 (0% cap, 
 5 year amortization), MP3 (50% cap, historical allocation, and 5-year 
 amortization) ranked among the top-3 most often under both reference 
 and robustness OMs, provided that maximum target fishing mortality 
-rates were tuned to meet conservation objectives. 
+rates were tuned to meet the first three Fishery Objectives. 
 
 As indicated in previous MSE work, no size limit MPs result in the 
 highest average annual landed catch while still allowing the fishery 
-to meet conservation objectives in both the short- and long-term 
+to meet biological objectives in both the short- and long-term 
 (actually, 100% avoidance would be superior to NSL, but we did
-not include that here) [@cox2019evaluating]. Landed 
+not consider that here) [@cox2019evaluating]. Landed 
 value is also greatest for a no size limit MP, suggesting that price 
 premiums that place relatively low value on sub-legal Sablefish are not 
 that influential when measured over 10 years. These results held across 
@@ -33,7 +33,7 @@ value under the reference OM and $5.3 million/yr under the
 robustness OM. 
 
 For MPs involving a size limit, the range of differences in 
-annual average catch among all MPs was only 410 t and 200 t, 
+annual average catch among all MPs was 410 t and 200 t, 
 for reference and robustness OMs, respectively. These equate 
 to approximately $7.7 million/yr in average annual total 
 landed value under the reference OM and $3.6 million/yr under 
@@ -46,12 +46,12 @@ not materialize as hoped (which would not be unprecedented in
 fisheries). We tested the implications of such a scenario by simulating 
 a cross-test of MP performance under the robustness OMs where maximum 
 target fishing mortality was tuned under the reference OMs. As 
-expected, performance against Objectives 2 and 3 was poor for all MPs 
+expected, performance against Fishery Objectives 2 and 3 was poor for all MPs 
 in these trials.
 
 On the other hand, the opposite cross-test — robustness-tuned MPs 
 against the reference OMs — showed that robustness-tuned MPs do 
-exceptionally well against conservation objectives under the 
+exceptionally well against Fishery Obectives 1-3 under the 
 reference OMs. Therefore, the cost in yield of adopting a 
 robustness-tuned MP is relatively low given the high additional 
 certainty regarding conservation performance. These annual 

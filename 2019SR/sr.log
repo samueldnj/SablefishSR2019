@@ -1,13 +1,17 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.30)  19 NOV 2019 10:17
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  1 NOV 2019 11:12
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **sr.tex
 (./sr.tex
 LaTeX2e <2019-10-01> patch level 1
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/08/27 v1.4j Standard LaTeX document class
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -22,10 +26,12 @@ File: bk11.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./csas-style/sr.sty (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/
-tools/tabularx.sty
+) (./csas-style/sr.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.
+sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen103
 \ar@mcellbox=\box27
@@ -42,22 +48,26 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@delta=\dimen109
 \TX@cols=\count89
 \TX@ftn=\toks15
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.s
+ty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count90
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
+ef.sty
 Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/hobsub-hyper
-ref.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/hobs
+ub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/hobsub-gener
-ic.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/hobs
+ub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -92,29 +102,38 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval
+.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/ifxetex/ifxet
+ex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/auxhook.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/auxhoo
+k.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/kvoptions.st
-y
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/kvopti
+ons.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen110
 \Hy@linkcounter=\count91
 \Hy@pagecounter=\count92
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
+.def
 File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count93
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/hyperref.cf
-g
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/hyp
+erref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 4414.
@@ -127,7 +146,7 @@ Package hyperref Info: Backreferencing OFF on input line 4560.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4793.
 \c@Hy@tempcnt=\count94
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -150,13 +169,15 @@ LaTeX Info: Redefining \pageref on input line 6497.
 \c@Hfootnote=\count98
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdfte
+x.def
 File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
 \Fld@listcount=\count99
 \c@bookmark@seq@number=\count100
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/rerunfilecheck
-.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/rerunf
+ilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -166,28 +187,43 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 Package hyperref Info: Option `plainpages' set `true' on input line 26.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 26.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/bookmark.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/bookma
+rk.sty
 Package: bookmark 2019/06/04 v1.27 PDF bookmarks (HO)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/bkm-pd
+ftex.def
 File: bkm-pdftex.def 2019/06/04 v1.27 bookmark driver for pdfTeX (HO)
 \BKM@id=\count101
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/ncctools/nccmath.sty
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ncctools/nccmat
+h.sty
 Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath
+.sty
 Package: amsmath 2019/04/01 v2.17c AMS math features
 \@mathmargin=\skip48
 For additional information on amsmath, use the `?' option.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext
+.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.
+sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen114
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.
+sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen115
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.
+sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count102
@@ -229,7 +265,9 @@ LaTeX Info: Redefining \[ on input line 2855.
 LaTeX Info: Redefining \] on input line 2856.
 )
 \NCC@fracrulewidth=\dimen123
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/lineno/lineno.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/lineno/lineno.s
+ty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count114
 \output=\toks22
@@ -246,7 +284,9 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframesep=\dimen128
 \bframebox=\box31
 LaTeX Info: Redefining \\ on input line 3056.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/geometry/geomet
+ry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@cnth=\count121
 \Gm@cntv=\count122
@@ -260,7 +300,9 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layouthoffset=\dimen135
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks23
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyh
+dr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip51
@@ -272,9 +314,13 @@ s
 \f@nch@O@erf=\skip57
 \f@nch@O@olf=\skip58
 \f@nch@O@orf=\skip59
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/caption/caption
+.sty
 Package: caption 2019/09/01 v3.3d Customizing captions (AR)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/caption/caption
+3.sty
 Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen137
@@ -288,17 +334,23 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@caption@flags=\count124
 \c@ContinuedFloat=\count125
 Package caption Info: hyperref package is loaded.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/afterpage.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/afterpage
+.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks24
 \AP@partial=\box32
 \AP@footins=\box33
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/makecell/makece
+ll.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen144
 \c@nlinenum=\count126
 \TeXr@lab=\toks25
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tocloft/tocloft.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tocloft/tocloft
+.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip60
@@ -337,22 +389,31 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip91
 \cfttabindent=\skip92
 \cfttabnumwidth=\skip93
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/epsfig.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/epsfig
+.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cs.sty
 Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.s
+ty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.c
-fg
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/gr
+aphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pd
+ftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen145
@@ -360,19 +421,27 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 \epsfxsize=\dimen147
 \epsfysize=\dimen148
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/helvet.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/helvet.s
+ty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/pdflscape.st
-y
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/pdflsc
+ape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape
+.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/textpos/textpos.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/textpos/textpos
+.sty
 Package: textpos 2019/04/15 v1.9.1
 Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/ms/everyshi.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box34
@@ -388,10 +457,14 @@ Grid set 16 x 16 = 38.39343pt x 49.68562pt
 \TP@tbargs=\toks26
 \TP@prevdepth=\dimen156
 TextBlockOrigin set to 0pt x 0pt
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/enumerate
+.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks27
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/enumitem/enumit
+em.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip94
 \enit@outerparindent=\dimen157
@@ -400,29 +473,31 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count129
 \enitdp@description=\count130
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/algorithms/algorithm.st
-y
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithms/algo
+rithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count131
 \float@exts=\toks29
 \float@box=\box37
 \@float@everytoks=\toks30
 \@floatcapt=\box38
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks31
 \c@algorithm=\count132
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/algpseudoc
-ode.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/al
+gpseudocode.sty
 Package: algpseudocode 
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/algorithmi
-cx.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/al
+gorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count133
@@ -437,21 +512,29 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip97
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/linegoal/linegoal.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/linegoal/linego
+al.sty
 Package: linegoal 2011/02/25 v2.9 - Measuring the remaining width of the line
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/etex-pkg/etex.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/etex-pkg/etex.s
+ty
 Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
 \et@xins=\count140
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/zref.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/zref.s
+ty
 Package: zref 2018/11/21 v2.27 A new reference scheme for LaTeX (HO)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/zref-base.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/zref-b
+ase.sty
 Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 ))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/zref-savepos.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/zref-s
+avepos.sty
 Package: zref-savepos 2018/11/21 v2.27 Module savepos for zref (HO)
 Package zref Info: New property list: savepos on input line 80.
 Package zref Info: New property: posx on input line 81.
@@ -460,11 +543,13 @@ Package zref Info: New property: posy on input line 82.
 Package zref Info: New property: linegoal on input line 39.
 \LNGL@unique=\count277
 \LNGL@tempdim=\dimen256
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
+) (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable
+.sty
 Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
 \LTleft=\skip98
 \LTright=\skip99
@@ -481,25 +566,33 @@ Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
 \c@LT@tables=\count144
 \c@LT@chunks=\count145
 \LT@p@ftn=\toks32
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/import/import.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/import/import.s
+ty
 Package: import 2009/03/23  v 5.1
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.
+sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks33
 \verbatim@line=\toks34
 \verbatim@in@stream=\read1
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2019/01/15
-Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyv
+rb.sty
+Package: fancyvrb 2019/10/22
+Style option: `fancyvrb' v3.3 <2019/10/22> (tvz)
 \FV@CodeLineNo=\count146
 \FV@InFile=\read2
 \FV@TabBox=\box43
 \c@FancyVerbLine=\count147
 \FV@StepNumber=\count148
 \FV@OutFile=\write3
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen
+.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count149
 \calc@Bcount=\count150
@@ -511,19 +604,29 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count151
 \calc@Cskip=\skip104
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg
+.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.
+sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colort
+bl.sty
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 \everycr=\toks35
 \minrowclearance=\skip105
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/arydshln/arydshln.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/arydshln/arydsh
+ln.sty
 Package: arydshln 2019/02/21 v1.76 
 \dashlinedash=\dimen161
 \dashlinegap=\dimen162
@@ -545,14 +648,22 @@ Package: arydshln 2019/02/21 v1.76
 \adl@clb=\count161
 \adl@everyvbox=\toks36
 \adl@LTpagetotal=\dimen168
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/parskip/parskip
+.sty
 Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
+ox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count162
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/hypcap.sty
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/hypcap
+.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/subfig/subfig.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/subfig/subfig.s
+ty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count163
 \sf@farskip=\skip106
@@ -565,9 +676,13 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@subtable@save=\count167
 \sf@top=\skip109
 \sf@bottom=\skip110
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/relsize/relsize.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/relsize/relsize
+.sty
 Package: relsize 2013/03/29 ver 4.1
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/booktabs/bookta
+bs.sty
 Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \heavyrulewidth=\dimen170
 \lightrulewidth=\dimen171
@@ -586,52 +701,56 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \@thisruleclass=\count170
 \@lastruleclass=\count171
 \@thisrulewidth=\dimen182
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/multirow/multir
+ow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip111
 \multirow@cntb=\count172
 \multirow@dima=\skip112
 \bigstrutjot=\dimen183
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.st
-y
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.st
-y
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil
--common.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gffor.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gfrcs.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-common.tex
 \pgfutil@everybye=\toks37
 \pgfutil@tempdima=\dimen184
 \pgfutil@tempdimb=\dimen185
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil
--common-lists.tex))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil
--latex.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-common-lists.tex))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-latex.def
 \pgfutil@abb=\box45
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.
-code.tex (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revi
-sion.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfrcs.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revis
+ion.tex)
 Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
 ))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.s
-ty
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys
-.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gfkeys.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks38
 \pgfkeys@temptoks=\toks39
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys
-filtered.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks40
-))) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.st
-y
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code
-.tex
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.
-code.tex
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.
-code.tex
+)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmat
+h.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athcalc.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athutil.code.tex
 \pgf@x=\dimen186
 \pgf@xa=\dimen187
 \pgf@xb=\dimen188
@@ -645,8 +764,8 @@ code.tex
 \c@pgf@countc=\count175
 \c@pgf@countd=\count176
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparse
-r.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athparser.code.tex
 \pgfmath@dimen=\dimen194
 \pgfmath@count=\count177
 \pgfmath@box=\box46
@@ -654,49 +773,56 @@ r.code.tex
 \pgfmath@stack@operand=\toks42
 \pgfmath@stack@operation=\toks43
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.code.tex
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.basic.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.trigonometric.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.random.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.comparison.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.base.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.round.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.misc.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.integerarithmetics.code.tex)))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat
-.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.basic.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.trigonometric.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.random.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.comparison.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.base.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.round.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.misc.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.integerarithmetics.code.tex)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count178
 )))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.
-code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgffor.code.tex
 Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code
-.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex)
 \pgffor@iter=\dimen195
 \pgffor@skip=\dimen196
 \pgffor@stack=\toks44
 \pgffor@toks=\toks45
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/placeins/placeins.st
-y
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/placeins/placei
+ns.sty
 Package: placeins 2005/04/18  v 2.2
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpag
+es.sty
 Package: pdfpages 2019/09/21 v0.5n Insert pages of external PDF documents (AM)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic
+.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
 \AM@pagewidth=\dimen197
 \AM@pageheight=\dimen198
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pppdftex.def
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pppdft
+ex.def
 File: pppdftex.def 2019/09/21 v0.5n Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box47
@@ -704,7 +830,9 @@ File: pppdftex.def 2019/09/21 v0.5n Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks47
 \c@AM@survey=\count179
 \AM@templatesizebox=\box48
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.s
+ty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -718,11 +846,13 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -860,11 +990,17 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/lastpage/lastpa
+ge.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+ty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -878,7 +1014,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/soul/soul.sty
+) (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks48
 \SOUL@lasttoken=\toks49
@@ -890,17 +1026,22 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 Normal \dimen register pool exhausted, switching to extended pool.
 \SOUL@uldp=\dimen257
 \SOUL@ulht=\dimen258
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.s
+ty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks53
 \inpenc@posthook=\toks54
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/t1enc.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/scalerel/scalerel.st
-y
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/scalerel/scaler
+el.sty
 Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretchi
 ng of objects, relative to a reference object or in absolute terms
 \thesrwidth=\skip114
@@ -911,14 +1052,19 @@ ng of objects, relative to a reference object or in absolute terms
 \LMex=\skip119
 \LMpt=\skip120
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdfcomment/pdfcomment.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdfcomment/pdfc
+omment.sty
 Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
 2, 2015-2016, 2018
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval
+.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (
-/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyv
+al.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvut
+ils.tex
 \XKV@toks=\toks55
 \XKV@tempa@toks=\toks56
 )
@@ -942,21 +1088,25 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pc@box@height=\skip129
 \pc@box@depth=\skip130
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/datetime2/datetime2.sty
-Package: datetime2 2018/07/20 v1.5.3 (NLCT) date and time formats
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/datetime2/datet
+ime2.sty
+Package: datetime2 2019/10/21 v1.5.4 (NLCT) date and time formats
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tracklang/tracklang.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tracklang/track
+lang.sty
 Package: tracklang 2019/10/06 v1.3.8 (NLCT) Track Languages
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tracklang.t
-ex)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tra
+cklang.tex)))
 \c@zref@unique=\count185
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/marginnote/marginnote.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/marginnote/marg
+innote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
 \c@mn@abspage=\count186
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/soulpos/soulpos.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/soulpos/soulpos
+.sty
 Package: soulpos 2012/02/25 v1.1 Fancy underlining
 \ulp@subcnt=\count187
 \ulp@cnt=\count188
@@ -970,51 +1120,56 @@ Package hyperref Warning: Option `pdftex' has already been used,
 
 Package zref Info: New property list: pdfcomment on input line 2735.
 Package zref Info: New property: PCPDFOBJID on input line 2736.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/textcase/textcase.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/textcase/textca
+se.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )) (./sr.aux)
 \openout1 = `sr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-4.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+5.
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 64
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 65
 .
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 64.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring ON on input line 65.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/namere
+f.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/gettitlestri
-ng.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/gett
+itlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count189
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1054,15 +1209,19 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: longtable package is loaded.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcapti
+on.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/epstopdf-base.
-sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/epstop
+df-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/grfext.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/grfext
+.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1071,20 +1230,20 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sy
-s.cfg
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/eps
+topdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )) ABD: EveryShipout initializing macros
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 64.
+(lastpage)             ! on input line 65.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 66.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 66.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 66.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 67.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1121,10 +1280,10 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
 File: csas-style/images/title-header.png Graphic file (type png)
 <use csas-style/images/title-header.png>
 Package pdftex.def Info: csas-style/images/title-header.png  used on input line
- 78.
+ 79.
 (pdftex.def)             Requested size: 261.76526pt x 48.15755pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 79.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 82.90941pt.
@@ -1135,7 +1294,7 @@ This may cause the page layout to be inconsistent, however.
 File: csas-style/images/title-footer.png Graphic file (type png)
 <use csas-style/images/title-footer.png>
 Package pdftex.def Info: csas-style/images/title-footer.png  used on input line
- 78.
+ 79.
 (pdftex.def)             Requested size: 100.72256pt x 24.0386pt.
 
 Package Fancyhdr Warning: \footskip is too small (27.46295pt): 
@@ -1145,20 +1304,20 @@ This may cause the page layout to be inconsistent, however.
 
 [1
 
-{/Users/sdnjohnson/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-}
+{/Users/brendanconnorsESSA/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pd
+ftex.map}
 
 \openout4 = `sr.upa'.
 
  <./csas-style/images/title-header.png> <./csas-style/images/title-footer.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 81.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 103.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 101.
 [2] [3
 
 ] [4] [5] [6] [7] [8] [9] [10] [11]
-Overfull \hbox (30.0pt too wide) in paragraph at lines 302--303
+Overfull \hbox (30.0pt too wide) in paragraph at lines 301--302
 $[]$  
  []
 
@@ -1166,18 +1325,19 @@ $[]$
 {table.0.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.354 \begin{longtable}[t]{llllllll}
+l.353 \begin{longtable}[t]{llllllll}
                                     
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 365.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 364.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 365.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 364.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 365.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 364.
 [15
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
+<<<<<<< HEAD
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 414.
 
 Overfull \hbox (48.53976pt too wide) in alignment at lines 405--420
@@ -1209,6 +1369,9 @@ Overfull \hbox (48.53976pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
+=======
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 413.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 [16
 
 
@@ -1216,6 +1379,7 @@ Overfull \hbox (48.53976pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+<<<<<<< HEAD
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 482.
 
 Overfull \hbox (3.2113pt too wide) in alignment at lines 473--486
@@ -1247,6 +1411,9 @@ Overfull \hbox (3.2113pt too wide) has occurred while \output is active
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
+=======
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 481.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 [18
 
 ]
@@ -1354,72 +1521,73 @@ Overfull \hbox (48.53976pt too wide) has occurred while \output is active
 ] [23
 
 ]
-<knitr-figs-pdfunnamed-chunk-17-1.png, id=230, 1541.76pt x 818.05624pt>
+<knitr-figs-pdfunnamed-chunk-17-1.png, id=228, 1626.075pt x 1004.75375pt>
 File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-17-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 722.
-(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+ne 721.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
 File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-17-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 722.
-(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+ne 721.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
 File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-17-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 722.
-(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
+ne 721.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
 File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-17-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 722.
-(pdftex.def)             Requested size: 422.77664pt x 224.3233pt.
-<data/base_ALK_mUnsexed/plotMLEindices.png, id=232, 1027.84pt x 770.88pt>
+ne 721.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=230, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 730.
+ut line 729.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 730.
+ut line 729.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 730.
+ut line 729.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 730.
+ut line 729.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [24 <./knitr-figs-pdfunnamed-chunk-17-1.png>]
-<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=240, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=238, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 739.
+ input line 738.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 739.
+ input line 738.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 739.
+ input line 738.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 739.
+ input line 738.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [25 <./data/base_ALK_mUnsexed/plotMLEindices.png>] [26 <./data/base_ALK_mUnsexe
 d/plotFitAgeFreq_avg.png>]
+<<<<<<< HEAD
 <data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=255, 794.97pt x
  578.16pt>
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
@@ -1445,10 +1613,38 @@ type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
 .pdf  used on input line 751.
+=======
+<data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=253, 794.97p
+t x 578.16pt>
+File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
+e (type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
+p13.pdf  used on input line 750.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
+e (type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
+p13.pdf  used on input line 750.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
+e (type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
+p13.pdf  used on input line 750.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fil
+e (type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/SP_hstAl_am5/BtFitUtRt_re
+p13.pdf  used on input line 750.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 756.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 755.
 
+<<<<<<< HEAD
 <data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
 f, id=257, 794.97pt x 578.16pt>
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
@@ -1457,31 +1653,54 @@ m5.pdf Graphic file (type pdf)
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
 _depCatchHR_hstAl_am5.pdf  used on input line 760.
+=======
+<data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl_am5
+.pdf, id=255, 794.97pt x 578.16pt>
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstA
+l_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_SP_hstAl
+_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 759.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+<<<<<<< HEAD
 _depCatchHR_hstAl_am5.pdf  used on input line 760.
+=======
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 759.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+<<<<<<< HEAD
 _depCatchHR_hstAl_am5.pdf  used on input line 760.
+=======
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 759.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+<<<<<<< HEAD
 _depCatchHR_hstAl_am5.pdf  used on input line 760.
+=======
+_depCatchHR_SP_hstAl_am5.pdf  used on input line 759.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 765.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 764.
 
+<<<<<<< HEAD
 <data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=259, 794.97pt 
 x 578.16pt>
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
@@ -1507,10 +1726,38 @@ File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
 3.pdf  used on input line 769.
+=======
+<data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf, id=257, 794.97
+pt x 578.16pt>
+File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
+le (type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
+ep13.pdf  used on input line 768.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
+le (type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
+ep13.pdf  used on input line 768.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
+le (type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
+ep13.pdf  used on input line 768.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf Graphic fi
+le (type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/SP_hstAl_am5/BtFitUtRt_r
+ep13.pdf  used on input line 768.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 774.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 773.
 
+<<<<<<< HEAD
 <data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
 pdf, id=261, 794.97pt x 578.16pt>
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
@@ -1519,30 +1766,52 @@ _am5.pdf Graphic file (type pdf)
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
 td_depCatchHR_hstAl_am5.pdf  used on input line 778.
+=======
+<data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hstAl_a
+m5.pdf, id=259, 794.97pt x 578.16pt>
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hs
+tAl_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_SP_hst
+Al_am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 777.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+<<<<<<< HEAD
 td_depCatchHR_hstAl_am5.pdf  used on input line 778.
+=======
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 777.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+<<<<<<< HEAD
 td_depCatchHR_hstAl_am5.pdf  used on input line 778.
+=======
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 777.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+<<<<<<< HEAD
 td_depCatchHR_hstAl_am5.pdf  used on input line 778.
+=======
+td_depCatchHR_SP_hstAl_am5.pdf  used on input line 777.
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 783.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 782.
 
 [27 <./data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>] [28 <./data
 /tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pdf>] [
@@ -1552,130 +1821,133 @@ LaTeX Warning: Float too large for page by 19.83693pt on input line 783.
 
 
 ] [32] [33]
-<data/ageErr1.png, id=348, 469.755pt x 469.755pt>
+<data/ageErr1.png, id=346, 469.755pt x 469.755pt>
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 863.
+Package pdftex.def Info: data/ageErr1.png  used on input line 862.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 863.
+Package pdftex.def Info: data/ageErr1.png  used on input line 862.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 863.
+Package pdftex.def Info: data/ageErr1.png  used on input line 862.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 863.
+Package pdftex.def Info: data/ageErr1.png  used on input line 862.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 [34 <./data/ageErr1.png>]
-<data/ageErr2.png, id=358, 469.755pt x 406.6392pt>
+<data/ageErr2.png, id=356, 469.755pt x 406.6392pt>
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 872.
+Package pdftex.def Info: data/ageErr2.png  used on input line 871.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 872.
+Package pdftex.def Info: data/ageErr2.png  used on input line 871.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 872.
+Package pdftex.def Info: data/ageErr2.png  used on input line 871.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 872.
+Package pdftex.def Info: data/ageErr2.png  used on input line 871.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 [35 <./data/ageErr2.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=366, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=364, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 881.
+input line 880.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 881.
+input line 880.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 881.
+input line 880.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 881.
+input line 880.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [36 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=374, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=372, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 890.
+input line 889.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 890.
+input line 889.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 890.
+input line 889.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 890.
+input line 889.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 [37 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
-<data/trawlSelOverlay.pdf, id=383, 1011.78pt x 495.89517pt>
+<data/trawlSelOverlay.pdf, id=381, 1011.78pt x 495.89517pt>
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 898.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 898.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 898.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 898.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 [38 <./data/trawlSelOverlay.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
-05.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
+04.
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
-05.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd
+04.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.f
+d
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
-<csas-style/images/recycle.png, id=459, 38.39343pt x 38.39343pt>
+<csas-style/images/recycle.png, id=457, 38.39343pt x 38.39343pt>
 File: csas-style/images/recycle.png Graphic file (type png)
 <use csas-style/images/recycle.png>
-Package pdftex.def Info: csas-style/images/recycle.png  used on input line 905.
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 904.
 
 (pdftex.def)             Requested size: 36.85785pt x 36.85785pt.
 [39 <./csas-style/images/recycle.png>] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 907.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 907.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 906.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 906.
 (./sr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 907.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 907.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 907.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 906.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 906.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 906.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  23085 strings out of 494111
  411243 string characters out of 6172653
  526592 words of memory out of 5000000
@@ -1711,9 +1983,48 @@ Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></Users/sdnjohnson/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
 .pfb>
 Output written on sr.pdf (39 pages, 1770659 bytes).
+=======
+ 23082 strings out of 494111
+ 414132 string characters out of 6170576
+ 523674 words of memory out of 5000000
+ 26611 multiletter control sequences out of 15000+600000
+ 50180 words of font info for 67 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 51i,15n,51p,1910b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/brendanconnorsESSA/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+tt1095.600pk>{/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/enc/dv
+ips/base/8r.enc}</Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb></Users/brendanconnorsESSA/Library/TinyTeX/tex
+mf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></Users/brendanconnorsESS
+A/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/
+brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/brendanconnorsESSA/Library/Tin
+yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/brendanconnors
+ESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></User
+s/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/brendanconnorsESSA/Library/Tin
+yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/brendanconnorsE
+SSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/
+brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb></Users/brendanconnorsESSA/Library/Tiny
+TeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/brendanconnorsE
+SSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></Users
+/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.
+pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helve
+tic/uhvbo8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dis
+t/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on sr.pdf (39 pages, 1787075 bytes).
+>>>>>>> 5b0b3336d309efa0fecec71ff045041014898121
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 555 compressed objects within 6 object streams
- 156 named destinations out of 1000 (max. 500000)
- 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 

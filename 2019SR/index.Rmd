@@ -1,23 +1,24 @@
 ---
-title: "Evaluating the robustness of candidate management procedures in the BC sablefish (*Anoplopoma fibria*) for 2019-2020."
+title: "Evaluating the robustness of candidate management procedures in the BC sablefish (*Anoplopoma fibria*) fishery for 2019-2020."
 title_short: "Robustness of Sablefish MPs in BC"
 year: 2019
 month: October
 report_number: nnn
 approver: |
-  Approver Name\
+  Carmel Lowe\
   Regional Director\
   Science Branch, Pacific Region\
   Fisheries and Oceans Canada
 approval_year: 2019
 approval_month: October
-approval_day: 01
+approval_day: XX
 branch: Science Branch
 region: Pacific Region
 address: |
-  ^1^Pacific Biological Station\
-     Fisheries and Oceans Canada, 3190 Hammond Bay Road\
-     Nanaimo, British Columbia, V9T 6N7, Canada
+     Fisheries and Oceans Canada,\
+     3190 Hammond Bay Road\
+     Nanaimo, British Columbia,\
+     V9T 6N7, Canada
 phone: (250) 756-7208
 email: csap@dfo-mpo.gc.ca
 output:

@@ -95,7 +95,7 @@ been identified a key determinant in reducing uncertainty in
 estimates of sub-legal Sablefish catch and releases 
 [@cox2019evaluating], as up until now the trawl selectivity
 model was heavily dependent on priors for a normal selectivity 
-curve estimated from tagged fish recovereed (within one year
+curve estimated from tagged fish recovered (within one year
 from release) in the commercial trawl fishery. To improve estimates 
 of legal and sub-legal fishing mortality from the 
 trawl sector, we leveraged catch-at-age and catch-at-length data
