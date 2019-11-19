@@ -172,7 +172,15 @@ is below 40% of $B_{MSY}$ to a maximum value when estimated biomass is
 above 60% of estimated $B_{MSY}$; (iv) __a meta rule__ stating that TAC increases are 
 0 unless the HCR recommended increase is more than 200 tonnes (TAC decreases 
 are always adopted); and (v) __a meta rule__ adjusting the maximum target 
-fishing mortality rate from 9.5% in 2017 to 5.5% in 2021.
+fishing mortality rate from 9.5% in 2017 to 5.5% in 2021. Total
+TACs are allocated among the three sectors according to
+40.37% for longline trap, 50.90% for longline hook, and 8.75%
+for trawl, with the remaining quota being reserved for
+surveys. The trawl allocation is based on negotiations between
+the sectors that fixed trawl allocation in previous MSE work 
+[@cox2011management], while the trap and hook split is calculated
+based on the average proportion of catch in each sector over the
+years 2009 - 2018.
 
 For this Science Response, we evaluated performance of the current MP for 
 Sablefish, a no fishing reference case, and 15 variations of the current MP 
