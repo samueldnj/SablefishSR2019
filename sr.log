@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.9)  9 JAN 2020 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.9)  4 FEB 2020 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1413,35 +1413,35 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 )) (./sr.aux)
 \openout1 = `sr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-5.
+8.
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 65
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 68
 .
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring ON on input line 65.
+Package hyperref Info: Link coloring ON on input line 68.
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/namere
 f.sty
@@ -1453,9 +1453,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count289
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1521,15 +1521,15 @@ topdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 65.
-LaTeX Info: Redefining \microtypecontext on input line 65.
+LaTeX Info: Redefining \selectfont on input line 68.
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 65.
+LaTeX Info: Redefining \showhyphens on input line 68.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1540,20 +1540,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 ABD: EveryShipout initializing macros
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 65.
+(lastpage)             ! on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 69.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 69.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 72.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 69.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 72.
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-cm
 r.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Overfull \hbox (0.1211pt too wide) in paragraph at lines 80--81
+Overfull \hbox (0.1211pt too wide) in paragraph at lines 83--84
 \T1/phv/m/n/10.95 (+1) issue in (iii) is identifying MPs that minimize the impa
 ct of such measures on fishing opportunities 
  []
@@ -1595,10 +1595,10 @@ ct of such measures on fishing opportunities
 File: csas-style/images/Fip-stacked-DFO-EOS-eng.png Graphic file (type png)
 <use csas-style/images/Fip-stacked-DFO-EOS-eng.png>
 Package pdftex.def Info: csas-style/images/Fip-stacked-DFO-EOS-eng.png  used on
- input line 81.
+ input line 84.
 (pdftex.def)             Requested size: 261.76526pt x 43.3343pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 81.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 84.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 78.08617pt.
@@ -1608,7 +1608,7 @@ This may cause the page layout to be inconsistent, however.
 <csas-style/images/canada_c.png, id=16, 3014.26125pt x 719.68875pt>
 File: csas-style/images/canada_c.png Graphic file (type png)
 <use csas-style/images/canada_c.png>
-Package pdftex.def Info: csas-style/images/canada_c.png  used on input line 81.
+Package pdftex.def Info: csas-style/images/canada_c.png  used on input line 84.
 
 (pdftex.def)             Requested size: 100.72256pt x 24.0386pt.
 
@@ -1627,18 +1627,18 @@ ftex.map}
  <./csas-style/images/Fip-stacked-DFO-EOS-eng.png> <./csas-style/images/canada_
 c.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 84.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 87.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 103.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 106.
 
-Overfull \hbox (0.22502pt too wide) in paragraph at lines 110--111
+Overfull \hbox (0.22502pt too wide) in paragraph at lines 113--114
 \T1/phv/m/n/10.95 (+19) in the pre-vi-ous CSAS re-view (Cox et al. [][]2019[][]
 ); and (vi) im-pos-ing a stan-dard de-vi-a-tion of $\OML/cmm/m/it/10.95 ^^[ \OT
 1/cmr/m/n/10.95 (+19) = 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 (+19) 1$ 
  []
 
 
-Overfull \hbox (0.12354pt too wide) in paragraph at lines 110--111
+Overfull \hbox (0.12354pt too wide) in paragraph at lines 113--114
 \T1/phv/m/n/10.95 (+15) on a model that could not ad-e-quately fit his-tor-i-ca
 l at-sea re-leases. This change has a po-ten-tially 
  []
@@ -1656,26 +1656,26 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 [3
 
 ]
-Overfull \hbox (0.12228pt too wide) in paragraph at lines 137--139
+Overfull \hbox (0.12228pt too wide) in paragraph at lines 140--142
 \T1/phv/m/n/10.95 (+13) when inside the healthy zone, or (b) $\OT1/cmr/m/n/10.9
 5 (+13) 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 (+13) 8\OML/cmm/m/it/10.95 B[]
 $ \T1/phv/m/n/10.95 (+13) when rebuilding from the Cautious zone, in the 
  []
 
 
-Overfull \hbox (0.20007pt too wide) in paragraph at lines 150--151
+Overfull \hbox (0.20007pt too wide) in paragraph at lines 153--154
 \T1/phv/m/n/10.95 (+12) sess-ment out-puts into catch lim-its, and meta rules t
 hat may in-clude con-straints on TAC changes, 
  []
 
 
-Overfull \hbox (0.18948pt too wide) in paragraph at lines 152--153
+Overfull \hbox (0.18948pt too wide) in paragraph at lines 155--156
 []\T1/phv/m/n/10.95 (+20) The MP cur-rently used to set an-nual Sable-fish TACs
  was ini-tially de-vel-oped in 2011 and re-vised 
  []
 
 
-Overfull \hbox (0.17068pt too wide) in paragraph at lines 152--153
+Overfull \hbox (0.17068pt too wide) in paragraph at lines 155--156
 \T1/phv/m/n/10.95 (+1) sec-tors that fixed trawl al-lo-ca-tion in pre-vi-ous MS
 E work (Cox et al. [][]2011[][]), while the trap and hook 
  []
@@ -1686,7 +1686,7 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [4]
-Overfull \hbox (0.12134pt too wide) in paragraph at lines 170--172
+Overfull \hbox (0.12134pt too wide) in paragraph at lines 173--175
 \T1/phv/m/n/10.95 (+9) below we provide the sequence of calculations used to es
 tablish annual at-sea release caps and 
  []
@@ -1697,31 +1697,31 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [5]
-Overfull \hbox (0.23355pt too wide) in paragraph at lines 193--194
+Overfull \hbox (0.23355pt too wide) in paragraph at lines 196--197
 \T1/phv/m/n/10.95 (+16) This ap-proach aims to cre-ate an in-cen-tive to avoid 
 sub-legal Sable-fish via fu-ture TAC re-duc-tions 
  []
 
 
-Overfull \hbox (0.13881pt too wide) in paragraph at lines 198--199
+Overfull \hbox (0.13881pt too wide) in paragraph at lines 201--202
 \T1/phv/m/n/10.95 (+13) The Sable-fish man-age-ment strat-egy eval-u-a-tion qua
 n-ti-fies MP per-for-mance against per-for-mance 
  []
 
 
-Overfull \hbox (0.16873pt too wide) in paragraph at lines 198--199
+Overfull \hbox (0.16873pt too wide) in paragraph at lines 201--202
 \T1/phv/m/n/10.95 (+15) pre-ferred would be straight-for-ward -- choose the MP 
 with bet-ter per-for-mance on the fifth statis-tic. 
  []
 
 
-Overfull \hbox (0.22578pt too wide) in paragraph at lines 198--199
+Overfull \hbox (0.22578pt too wide) in paragraph at lines 201--202
 \T1/phv/m/n/10.95 (+16) Un-for-tu-nately, MPs typ-i-cally dif-fer on all five p
 er-for-mance statis-tics si-mul-ta-ne-ously, which makes 
  []
 
 
-Overfull \hbox (0.21045pt too wide) in paragraph at lines 198--199
+Overfull \hbox (0.21045pt too wide) in paragraph at lines 201--202
 \T1/phv/m/n/10.95 (+4) ser-va-tion prob-a-bil-i-ties (Fish-ery Ob-jec-tives 1-3
 ) and short-term av-er-age catch (Fish-ery Ob-jec-tives 
  []
@@ -1732,20 +1732,20 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [6]
-Overfull \hbox (0.14745pt too wide) in paragraph at lines 202--203
+Overfull \hbox (0.14745pt too wide) in paragraph at lines 205--206
 []\T1/phv/m/n/10.95 We aimed to sim-plify in-ter-pre-ta-tion of MP per-for-manc
 e by tun-ing all MPs to a stan-dard $\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\
 OML/cmm/m/it/10.95 B[] \OMS/cmsy/m/n/10.95 ^^U 
  []
 
 
-Overfull \hbox (0.16556pt too wide) in paragraph at lines 204--205
+Overfull \hbox (0.16556pt too wide) in paragraph at lines 207--208
 \T1/phv/m/n/10.95 (+4) versa. The cross-test re-veals the po-ten-tial bi-o-log-
 i-cal and catch con-se-quences of us-ing the wrong 
  []
 
 
-Overfull \hbox (0.11644pt too wide) in paragraph at lines 216--217
+Overfull \hbox (0.11644pt too wide) in paragraph at lines 219--220
 []\T1/phv/m/n/10.95 (+18) Model fits to the stan-dard-ized sur-vey were sim-i-l
 ar to pre-vi-ous OM ver-sions --- pat-terns lie some- 
  []
@@ -1756,7 +1756,7 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [7]
-Overfull \hbox (0.10587pt too wide) in paragraph at lines 232--233
+Overfull \hbox (0.10587pt too wide) in paragraph at lines 235--236
 \T1/phv/m/n/10.95 (+13) tar-get, fo-cuses MP per-for-mance dif-fer-ences on av-
 er-age an-nual catch over the next 10 years (Ta- 
  []
@@ -1767,38 +1767,38 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [8]
-Overfull \hbox (0.17337pt too wide) in paragraph at lines 234--235
+Overfull \hbox (0.17337pt too wide) in paragraph at lines 237--238
 []\T1/phv/m/n/10.95 (+20) Differences in av-er-age an-nual catch were smaller a
 mong at-sea man-age-ment mea-sures that in- 
  []
 
 
-Overfull \hbox (0.12602pt too wide) in paragraph at lines 238--239
+Overfull \hbox (0.12602pt too wide) in paragraph at lines 241--242
 \T1/phv/m/n/10.95 (+13) at-sea release proportions and amortized over five year
 s (MP8 vs MP15, Table 2). The similarity 
  []
 
 
-Overfull \hbox (0.1308pt too wide) in paragraph at lines 238--239
+Overfull \hbox (0.1308pt too wide) in paragraph at lines 241--242
 \T1/phv/m/n/10.95 (+17) the recent allocation (59%) is approximately twice the 
 historical (33%), so switching to the lower, 
  []
 
 
-Overfull \hbox (0.11649pt too wide) in paragraph at lines 240--241
+Overfull \hbox (0.11649pt too wide) in paragraph at lines 243--244
 \T1/phv/m/n/10.95 (+14) catches were sim-i-lar, at-sea re-leases in the cur-ren
 t MP (\T1/phv/b/n/10.95 noCap\T1/phv/m/n/10.95 (+14) ) change mainly with re-cr
 uit-ment 
  []
 
 
-Overfull \hbox (0.20163pt too wide) in paragraph at lines 242--243
+Overfull \hbox (0.20163pt too wide) in paragraph at lines 245--246
 \T1/phv/m/n/10.95 (+10) is little to no growth overfishing benefit of amortizat
 ion at high caps and recent allocations, which 
  []
 
 
-Overfull \hbox (0.12656pt too wide) in paragraph at lines 242--243
+Overfull \hbox (0.12656pt too wide) in paragraph at lines 245--246
 \T1/phv/m/n/10.95 (+8) would mean higher trawl releases than present. In this c
 ase, the amortization period had a direct 
  []
@@ -1809,7 +1809,7 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [9]
-Overfull \hbox (0.20348pt too wide) in paragraph at lines 255--256
+Overfull \hbox (0.20348pt too wide) in paragraph at lines 258--259
 \T1/phv/m/n/10.95 (+18) Ta-ble 5). MP tun-ing pro-duced rel-a-tively low tar-ge
 t fish-ing mor-tal-ity rates rang-ing from 5.2% (cur- 
  []
@@ -1820,13 +1820,13 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [10]
-Overfull \hbox (0.17421pt too wide) in paragraph at lines 266--267
+Overfull \hbox (0.17421pt too wide) in paragraph at lines 269--270
 \T1/phv/m/n/10.95 (+12) 7). The ben-e-fit of ac-cept-ing this con-ser-va-tion r
 isk was ap-prox-i-mately 150 t of ex-tra an-nual catch, 
  []
 
 
-Overfull \hbox (0.18404pt too wide) in paragraph at lines 281--282
+Overfull \hbox (0.18404pt too wide) in paragraph at lines 284--285
 []\T1/phv/m/n/10.95 (+13) The largest con-ser-va-tion risk ap-pears to be tun-i
 ng an MP to meet con-ser-va-tion ob-jec-tives un-der 
  []
@@ -1837,13 +1837,13 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [11]
-Overfull \hbox (0.10269pt too wide) in paragraph at lines 323--325
+Overfull \hbox (0.10269pt too wide) in paragraph at lines 326--328
  [][]\T1/phv/m/n/10.95 (+19) Cox, S., Kronlund, A., and Lacko, L. 2011. Managem
 ent procedures for the multi-gear Sablefish 
  []
 
 
-Overfull \hbox (0.19547pt too wide) in paragraph at lines 323--325
+Overfull \hbox (0.19547pt too wide) in paragraph at lines 326--328
  \T1/phv/m/n/10.95 (+8) (\T1/phv/m/sl/10.95 (+8) Anoplopoma fimbria\T1/phv/m/n/
 10.95 (+8) ) fishery in British Columbia, Canada. Can. Sci. Advis. Secret. Res.
  Doc 
@@ -1855,7 +1855,7 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [12]
-Overfull \hbox (0.12036pt too wide) in paragraph at lines 344--346
+Overfull \hbox (0.12036pt too wide) in paragraph at lines 347--349
  \T1/phv/m/n/10.95 (+7) and yield per recruit for walleye Pollock (\T1/phv/m/sl
 /10.95 (+7) Theragra chalcogramma\T1/phv/m/n/10.95 (+7) ). Fisheries Research 5
 (2-3): 
@@ -1875,14 +1875,14 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.363 \begin{longtable}[t]{llllllll}
+l.366 \begin{longtable}[t]{llllllll}
                                     
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 374.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 377.
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 374.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 377.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 374.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 377.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
@@ -1892,7 +1892,7 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 423.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 426.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
@@ -1910,29 +1910,29 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 491.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 494.
 
-Overfull \hbox (3.2113pt too wide) in alignment at lines 482--495
+Overfull \hbox (3.2113pt too wide) in alignment at lines 485--498
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.2113pt too wide) in alignment at lines 495--500
+Overfull \hbox (3.2113pt too wide) in alignment at lines 498--503
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.2113pt too wide) in alignment at lines 500--502
+Overfull \hbox (3.2113pt too wide) in alignment at lines 503--505
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.2113pt too wide) in alignment at lines 502--504
+Overfull \hbox (3.2113pt too wide) in alignment at lines 505--507
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.2113pt too wide) in alignment at lines 504--522
+Overfull \hbox (3.2113pt too wide) in alignment at lines 507--525
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1992,43 +1992,43 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-17-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 731.
+ne 734.
 (pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
 File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-17-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 731.
+ne 734.
 (pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
 File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-17-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 731.
+ne 734.
 (pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
 File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
 <use knitr-figs-pdfunnamed-chunk-17-1.png>
 Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 731.
+ne 734.
 (pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
 <data/base_ALK_mUnsexed/plotMLEindices.png, id=235, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 739.
+ut line 742.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 739.
+ut line 742.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 739.
+ut line 742.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotMLEindices.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 739.
+ut line 742.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2040,22 +2040,22 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 748.
+ input line 751.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 748.
+ input line 751.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 748.
+ input line 751.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 748.
+ input line 751.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2074,28 +2074,28 @@ File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 760.
+.pdf  used on input line 763.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 760.
+.pdf  used on input line 763.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 760.
+.pdf  used on input line 763.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 760.
+.pdf  used on input line 763.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 765.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 768.
 
 <data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
 f, id=260, 794.97pt x 578.16pt>
@@ -2104,31 +2104,31 @@ m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 769.
+_depCatchHR_hstAl_am5.pdf  used on input line 772.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 769.
+_depCatchHR_hstAl_am5.pdf  used on input line 772.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 769.
+_depCatchHR_hstAl_am5.pdf  used on input line 772.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 769.
+_depCatchHR_hstAl_am5.pdf  used on input line 772.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 774.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 777.
 
 <data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=262, 794.97pt 
 x 578.16pt>
@@ -2136,28 +2136,28 @@ File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 778.
+3.pdf  used on input line 781.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 778.
+3.pdf  used on input line 781.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 778.
+3.pdf  used on input line 781.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 778.
+3.pdf  used on input line 781.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 783.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 786.
 
 <data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
 pdf, id=264, 794.97pt x 578.16pt>
@@ -2166,31 +2166,31 @@ _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 787.
+td_depCatchHR_hstAl_am5.pdf  used on input line 790.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 787.
+td_depCatchHR_hstAl_am5.pdf  used on input line 790.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 787.
+td_depCatchHR_hstAl_am5.pdf  used on input line 790.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 787.
+td_depCatchHR_hstAl_am5.pdf  used on input line 790.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 792.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 795.
 
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2215,25 +2215,25 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 
 [30 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstA
 l_am5.pdf>]
-Overfull \hbox (0.11134pt too wide) in paragraph at lines 808--809
+Overfull \hbox (0.11134pt too wide) in paragraph at lines 811--812
  \T1/phv/m/n/10.95 (+11) differences between these two formulations are (i) tha
 t the error structure is constrained to be 
  []
 
 
-Overfull \hbox (0.11295pt too wide) in paragraph at lines 808--809
+Overfull \hbox (0.11295pt too wide) in paragraph at lines 811--812
  \T1/phv/m/n/10.95 (+7) symmetric for the normal formulation, while the double 
 geometric model allows for some skew 
  []
 
 
-Overfull \hbox (0.16397pt too wide) in paragraph at lines 810--811
+Overfull \hbox (0.16397pt too wide) in paragraph at lines 813--814
  \T1/phv/m/n/10.95 (+4) (62%) and in cases where the two readings differ (38%),
  both readers conferred to resolve the 
  []
 
 
-Overfull \hbox (0.10315pt too wide) in paragraph at lines 810--811
+Overfull \hbox (0.10315pt too wide) in paragraph at lines 813--814
  \T1/phv/m/n/10.95 (+3) discrepancy and agree on the final age assigned (Pers. 
 Comm, J. Groot, DFO). In most cases 
  []
@@ -2247,13 +2247,13 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 
 
 ]
-Overfull \hbox (0.15839pt too wide) in paragraph at lines 845--847
+Overfull \hbox (0.15839pt too wide) in paragraph at lines 848--850
  \T1/phv/m/n/10.95 (+4) (Figures A3 and A4). Length observations from unsexed f
 ish were treated as male specimens, 
  []
 
 
-Overfull \hbox (0.18103pt too wide) in paragraph at lines 845--847
+Overfull \hbox (0.18103pt too wide) in paragraph at lines 848--850
  \T1/phv/m/n/10.95 (+12) for the trawl fleet (Figure A5). The fully selected si
 ze class moved from about 42 cm to 48 cm, 
  []
@@ -2272,19 +2272,19 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 <data/ageErr1.png, id=353, 469.755pt x 469.755pt>
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 872.
+Package pdftex.def Info: data/ageErr1.png  used on input line 875.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 872.
+Package pdftex.def Info: data/ageErr1.png  used on input line 875.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 872.
+Package pdftex.def Info: data/ageErr1.png  used on input line 875.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 872.
+Package pdftex.def Info: data/ageErr1.png  used on input line 875.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2295,19 +2295,19 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 <data/ageErr2.png, id=363, 469.755pt x 406.6392pt>
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 881.
+Package pdftex.def Info: data/ageErr2.png  used on input line 884.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 881.
+Package pdftex.def Info: data/ageErr2.png  used on input line 884.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 881.
+Package pdftex.def Info: data/ageErr2.png  used on input line 884.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 881.
+Package pdftex.def Info: data/ageErr2.png  used on input line 884.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2319,22 +2319,22 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 890.
+input line 893.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 890.
+input line 893.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 890.
+input line 893.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 890.
+input line 893.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2346,22 +2346,22 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 899.
+input line 902.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 899.
+input line 902.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 899.
+input line 902.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 899.
+input line 902.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2372,19 +2372,19 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 <data/trawlSelOverlay.pdf, id=388, 1011.78pt x 495.89517pt>
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 908.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 911.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 908.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 911.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 908.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 911.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 908.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 911.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2393,7 +2393,7 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 
 [38 <./data/trawlSelOverlay.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
-14.
+17.
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -2402,7 +2402,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
-14.
+17.
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.f
 d
@@ -2415,7 +2415,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 <csas-style/images/recycle.png, id=464, 38.39343pt x 38.39343pt>
 File: csas-style/images/recycle.png Graphic file (type png)
 <use csas-style/images/recycle.png>
-Package pdftex.def Info: csas-style/images/recycle.png  used on input line 914.
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 917.
 
 (pdftex.def)             Requested size: 36.85785pt x 36.85785pt.
 
@@ -2427,21 +2427,21 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 he same identifier (name{refs}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.917 \hypertarget{refs}{}
+l.920 \hypertarget{refs}{}
                            
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 919.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 919.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 922.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 922.
 (./sr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 919.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 919.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 919.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 922.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 922.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 922.
  ) 
 Here is how much of TeX's memory you used:
- 29752 strings out of 494111
- 560244 string characters out of 6172119
- 697166 words of memory out of 5000000
- 32989 multiletter control sequences out of 15000+600000
+ 29755 strings out of 494111
+ 560273 string characters out of 6172119
+ 697591 words of memory out of 5000000
+ 32992 multiletter control sequences out of 15000+600000
  55070 words of font info for 144 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,15n,61p,1925b,832s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2474,7 +2474,7 @@ pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helve
 tic/uhvbo8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dis
 t/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on sr.pdf (39 pages, 1744538 bytes).
+Output written on sr.pdf (39 pages, 1744864 bytes).
 PDF statistics:
  685 PDF objects out of 1000 (max. 8388607)
  559 compressed objects within 6 object streams
