@@ -9,6 +9,9 @@
 
 % header-includes from R markdown entry
 \usepackage{pdflscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+\newcommand{\beginAppA}{ \setcounter{table}{0}\renewcommand{\thetable}{A\arabic{table}}\setcounter{figure}{0}\renewcommand{\thefigure}{A\arabic{figure}} }
 
 % Bibliography style file
 % \bibliographystyle{../csas-style/res-doc}
@@ -770,7 +773,7 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 
 }
 
-\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{reference recruitment scenario}, showing the current MP (noCap),three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines.}\label{fig:unnamed-chunk-24}
+\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{reference recruitment scenario}, showing the current MP (noCap),three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines. In the top row the green line is $B_{MSY}$ and the lower dashed line is the Limit Reference Point (0.4$B_{MSY}$)}\label{fig:unnamed-chunk-24}
 \end{figure}
 \newpage
 \begin{figure}[htb]
@@ -788,7 +791,7 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 
 }
 
-\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{robustness recruitment scenario}, showing showing the current MP (noCap), three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines.}\label{fig:unnamed-chunk-26}
+\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{robustness recruitment scenario}, showing the current MP (noCap), three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines.In the top row the green line is $B_{MSY}$ and the lower dashed line is the Limit Reference Point (0.4$B_{MSY}$)}\label{fig:unnamed-chunk-26}
 \end{figure}
 \end{landscape}
 \hypertarget{appendix-appendices}{%
