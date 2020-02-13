@@ -8,8 +8,6 @@ jointPostCap <- "Joint marginal posterior distribution MCMC samples (grey dots) 
 
 ```
 
-\newpage
-
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=jointPostCap, echo = FALSE}
 
 

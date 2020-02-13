@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.11)  12 FEB 2020 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.11)  13 FEB 2020 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1750,22 +1750,22 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[13]
+[13]pdfTeX warning (ext4): destination with the same identifier (name{table.0.1
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.357 \begin{longtable}[t]{lll}
+                               
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 368.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 368.
+
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[14]pdfTeX warning (ext4): destination with the same identifier (name{table.0.1
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.360 \begin{longtable}[t]{llllllll}
-                                    
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 371.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 371.
-
+[14]
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
@@ -1779,36 +1779,28 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 
 [16
 
-
 ]
-Underfull \hbox (badness 7308) has occurred while \output is active
- []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
- []
-
-[17
-
-]
-Overfull \hbox (3.2113pt too wide) in alignment at lines 479--492
+Overfull \hbox (3.2113pt too wide) in alignment at lines 466--479
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.2113pt too wide) in alignment at lines 492--497
+Overfull \hbox (3.2113pt too wide) in alignment at lines 479--484
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.2113pt too wide) in alignment at lines 497--499
+Overfull \hbox (3.2113pt too wide) in alignment at lines 484--486
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.2113pt too wide) in alignment at lines 499--501
+Overfull \hbox (3.2113pt too wide) in alignment at lines 486--488
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (3.2113pt too wide) in alignment at lines 501--519
+Overfull \hbox (3.2113pt too wide) in alignment at lines 488--506
  [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1822,7 +1814,15 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
+[17
+
+]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
 [18
+
 
 ]
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -1849,255 +1849,242 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 
 
 ]
+<knitr-figs-pdfunnamed-chunk-17-1.png, id=222, 1626.075pt x 1004.75375pt>
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 713.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 713.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 713.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 713.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=225, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 721.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 721.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 721.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 721.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
 [22
 
-
-]
-Underfull \hbox (badness 7308) has occurred while \output is active
- []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
- []
-
-[23
-
-]
-<knitr-figs-pdfunnamed-chunk-17-1.png, id=232, 1626.075pt x 1004.75375pt>
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 728.
-(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 728.
-(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 728.
-(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 728.
-(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
-<data/base_ALK_mUnsexed/plotMLEindices.png, id=235, 1027.84pt x 770.88pt>
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 736.
+ <./knitr-figs-pdfunnamed-chunk-17-1.png>]
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=235, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 730.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 736.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 730.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 736.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 730.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 736.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 730.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[24 <./knitr-figs-pdfunnamed-chunk-17-1.png>]
-<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=243, 1027.84pt x 770.88pt>
-File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 745.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 745.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 745.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 745.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-
+[23 <./data/base_ALK_mUnsexed/plotMLEindices.png>]
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[25 <./data/base_ALK_mUnsexed/plotMLEindices.png>]
-Underfull \hbox (badness 7308) has occurred while \output is active
- []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
- []
-
-[26 <./data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>]
-<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=258, 794.97pt x
+[24 <./data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>]
+<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=249, 794.97pt x
  578.16pt>
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 757.
+.pdf  used on input line 742.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 757.
+.pdf  used on input line 742.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 757.
+.pdf  used on input line 742.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 757.
+.pdf  used on input line 742.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 762.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 747.
 
 <data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
-f, id=260, 794.97pt x 578.16pt>
+f, id=251, 794.97pt x 578.16pt>
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 766.
+_depCatchHR_hstAl_am5.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 766.
+_depCatchHR_hstAl_am5.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 766.
+_depCatchHR_hstAl_am5.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
 m5.pdf Graphic file (type pdf)
 <use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
 5.pdf>
 Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 766.
+_depCatchHR_hstAl_am5.pdf  used on input line 751.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 771.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 756.
 
-<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=262, 794.97pt 
+<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=253, 794.97pt 
 x 578.16pt>
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 775.
+3.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 775.
+3.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 775.
+3.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 775.
+3.pdf  used on input line 760.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 780.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 765.
 
 <data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
-pdf, id=264, 794.97pt x 578.16pt>
+pdf, id=255, 794.97pt x 578.16pt>
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 784.
+td_depCatchHR_hstAl_am5.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 784.
+td_depCatchHR_hstAl_am5.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 784.
+td_depCatchHR_hstAl_am5.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
 _am5.pdf Graphic file (type pdf)
 <use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>
 Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 784.
+td_depCatchHR_hstAl_am5.pdf  used on input line 769.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
-LaTeX Warning: Float too large for page by 19.83693pt on input line 789.
+LaTeX Warning: Float too large for page by 19.83693pt on input line 774.
 
 
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[27 <./data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
+[25 <./data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[28 <./data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_
+[26 <./data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>]
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[29 <./data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
+[27 <./data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[30 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstA
+[28 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstA
 l_am5.pdf>]
-Overfull \hbox (0.1011pt too wide) in paragraph at lines 801--802
+Overfull \hbox (0.1011pt too wide) in paragraph at lines 786--787
 \T1/phv/m/n/10.95 (+15) a secondary reader as a quality control. In the majorit
 y of cases both readers agreed (62%) and 
  []
 
 
-Overfull \hbox (0.18565pt too wide) in paragraph at lines 815--817
+Overfull \hbox (0.18565pt too wide) in paragraph at lines 800--802
 \T1/phv/m/n/10.95 (+16) the age read-ings and whether cer-tain age classes are 
 more likely to be un-der or over-estimated. 
  []
@@ -2107,7 +2094,7 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[31
+[29
 
 
 ]
@@ -2115,137 +2102,137 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[32]
+[30]
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[33]
-<data/ageErr1.png, id=352, 469.755pt x 469.755pt>
+[31]
+<data/ageErr1.png, id=344, 469.755pt x 469.755pt>
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 863.
+Package pdftex.def Info: data/ageErr1.png  used on input line 848.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 863.
+Package pdftex.def Info: data/ageErr1.png  used on input line 848.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 863.
+Package pdftex.def Info: data/ageErr1.png  used on input line 848.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 863.
+Package pdftex.def Info: data/ageErr1.png  used on input line 848.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
-
-Underfull \hbox (badness 7308) has occurred while \output is active
- []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
- []
-
-[34 <./data/ageErr1.png>]
-<data/ageErr2.png, id=362, 469.755pt x 406.6392pt>
-File: data/ageErr2.png Graphic file (type png)
-<use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 872.
-(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
-File: data/ageErr2.png Graphic file (type png)
-<use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 872.
-(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
-File: data/ageErr2.png Graphic file (type png)
-<use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 872.
-(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
-File: data/ageErr2.png Graphic file (type png)
-<use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 872.
-(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[35 <./data/ageErr2.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=370, 1027.84pt x 770.88pt>
+[32 <./data/ageErr1.png>]
+<data/ageErr2.png, id=354, 469.755pt x 406.6392pt>
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 857.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 857.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 857.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 857.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[33 <./data/ageErr2.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=362, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 881.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 881.
+input line 866.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 881.
+input line 866.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 881.
+input line 866.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 866.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[36 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=378, 1027.84pt x 770.88pt>
+[34 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=370, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 890.
+input line 875.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 890.
+input line 875.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 890.
+input line 875.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 890.
+input line 875.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[37 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
-<data/trawlSelOverlay.pdf, id=387, 1011.78pt x 495.89517pt>
+[35 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
+<data/trawlSelOverlay.pdf, id=378, 1011.78pt x 495.89517pt>
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 884.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 884.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 884.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 899.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 884.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[38 <./data/trawlSelOverlay.pdf>]
+[36 <./data/trawlSelOverlay.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
-19.
+04.
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.f
 d
@@ -2255,14 +2242,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<csas-style/images/recycle.png, id=463, 51.19125pt x 51.19125pt>
+<csas-style/images/recycle.png, id=454, 51.19125pt x 51.19125pt>
 File: csas-style/images/recycle.png Graphic file (type png)
 <use csas-style/images/recycle.png>
-Package pdftex.def Info: csas-style/images/recycle.png  used on input line 921.
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 906.
 
 (pdftex.def)             Requested size: 49.14381pt x 49.14381pt.
 
-Overfull \hbox (12.02786pt too wide) in paragraph at lines 925--926
+Overfull \hbox (12.02786pt too wide) in paragraph at lines 910--911
 \T1/phv/m/n/10.95 (-20) (\T1/phv/m/sl/10.95 (-20) Anoplopoma fib-ria\T1/phv/m/n
 /10.95 (-20) ) fish-ery for 2019-2020.. DFO Can. Sci. Ad-vis. Sec. Sci. Resp. 2
 019/999.  
@@ -2272,7 +2259,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{refs}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.932 \hypertarget{refs}{}
+l.917 \hypertarget{refs}{}
                            
 AED: lastpage setting LastPage
 
@@ -2280,21 +2267,21 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
  []
 
-[39
+[37
 
  <./csas-style/images/recycle.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 934.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 934.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 919.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 919.
 (./sr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 934.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 934.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 934.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 919.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 919.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 919.
  ) 
 Here is how much of TeX's memory you used:
- 29530 strings out of 483161
- 562826 string characters out of 5963269
- 876195 words of memory out of 5000000
- 43624 multiletter control sequences out of 15000+600000
+ 29524 strings out of 483161
+ 562726 string characters out of 5963269
+ 876042 words of memory out of 5000000
+ 43620 multiletter control sequences out of 15000+600000
  582929 words of font info for 154 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,15n,68p,1925b,823s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2326,10 +2313,10 @@ norsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users
 .pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helv
 etic/uhvr8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb>
-Output written on sr.pdf (39 pages, 1724309 bytes).
+Output written on sr.pdf (37 pages, 1723011 bytes).
 PDF statistics:
- 668 PDF objects out of 1000 (max. 8388607)
- 554 compressed objects within 6 object streams
- 155 named destinations out of 1000 (max. 500000)
+ 660 PDF objects out of 1000 (max. 8388607)
+ 548 compressed objects within 6 object streams
+ 153 named destinations out of 1000 (max. 500000)
  34120 words of extra memory for PDF output out of 35830 (max. 10000000)
 

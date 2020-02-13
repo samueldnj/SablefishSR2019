@@ -2,8 +2,6 @@
 \setcounter{table}{0}
 # Tables
 
-\newpage
-
 ```{r, echo = FALSE}
 
 source(here::here("mseRtools.r"))
@@ -193,7 +191,8 @@ write.csv(mcmcPostMean, file = "mcmcPostMean.csv")
 
 write.csv(subPostOMs, file = "subPostOMs_stats.csv")
 
-posteriorOMstats <- rbind(mcmc2016,mcmcPostMean,subPostOMs)
+#posteriorOMstats <- rbind(mcmc2016,mcmcPostMean,subPostOMs) # drop posterior strata so that table can be regular (instead of landscape) format
+posteriorOMstats <- rbind(mcmc2016,mcmcPostMean)
 
 OMnames <- posteriorOMstats$OM
 rownames(posteriorOMstats) <- OMnames
@@ -241,7 +240,7 @@ being above the limit reference point in both 2016 and 2018."
 csasdown::csas_table( posteriorOMstats,
                       caption = OMsummTableCap,
                       booktabs = TRUE, escape = FALSE,
-                      landscape = TRUE,
+                      landscape = FALSE,
                       font_size = 12, format = kable_format ) %>%
     kable_styling(  latex_options = c("hold_position", "scale_down"),
                     bootstrap_options = c("striped", "hover","scale_down"))
