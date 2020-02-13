@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.11)  13 FEB 2020 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.11)  13 FEB 2020 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1721,16 +1721,9 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [11]
-Overfull \hbox (0.10269pt too wide) in paragraph at lines 316--318
- [][]\T1/phv/m/n/10.95 (+19) Cox, S., Kronlund, A., and Lacko, L. 2011. Managem
-ent procedures for the multi-gear Sablefish 
- []
-
-
-Overfull \hbox (0.19547pt too wide) in paragraph at lines 316--318
- \T1/phv/m/n/10.95 (+8) (\T1/phv/m/sl/10.95 (+8) Anoplopoma fimbria\T1/phv/m/n/
-10.95 (+8) ) fishery in British Columbia, Canada. Can. Sci. Advis. Secret. Res.
- Doc 
+Overfull \hbox (4.44434pt too wide) in paragraph at lines 313--315
+ \T1/phv/m/sl/10.95 (-20) fim-bria\T1/phv/m/n/10.95 (-20) ) in british columbia
+, canada for 2008/09. DFO Can. Sci. Ad-vis. Sec. Res. Doc. 2019/042: 
  []
 
 
@@ -2108,22 +2101,22 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [31]
-<data/ageErr1.png, id=344, 469.755pt x 469.755pt>
+<data/ageErr1.png, id=342, 469.755pt x 469.755pt>
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 848.
+Package pdftex.def Info: data/ageErr1.png  used on input line 842.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 848.
+Package pdftex.def Info: data/ageErr1.png  used on input line 842.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 848.
+Package pdftex.def Info: data/ageErr1.png  used on input line 842.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 848.
+Package pdftex.def Info: data/ageErr1.png  used on input line 842.
 (pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2131,22 +2124,22 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [32 <./data/ageErr1.png>]
-<data/ageErr2.png, id=354, 469.755pt x 406.6392pt>
+<data/ageErr2.png, id=350, 469.755pt x 406.6392pt>
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 857.
+Package pdftex.def Info: data/ageErr2.png  used on input line 851.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 857.
+Package pdftex.def Info: data/ageErr2.png  used on input line 851.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 857.
+Package pdftex.def Info: data/ageErr2.png  used on input line 851.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 857.
+Package pdftex.def Info: data/ageErr2.png  used on input line 851.
 (pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2154,26 +2147,26 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [33 <./data/ageErr2.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=362, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=358, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 866.
+input line 860.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 866.
+input line 860.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 866.
+input line 860.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 866.
+input line 860.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2181,26 +2174,26 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [34 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=370, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=366, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 875.
+input line 869.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 875.
+input line 869.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 875.
+input line 869.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
-input line 875.
+input line 869.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2208,22 +2201,22 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [35 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
-<data/trawlSelOverlay.pdf, id=378, 1011.78pt x 495.89517pt>
+<data/trawlSelOverlay.pdf, id=374, 1011.78pt x 495.89517pt>
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 884.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 878.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 884.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 878.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 884.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 878.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 884.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 878.
 (pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
 
 Underfull \hbox (badness 7308) has occurred while \output is active
@@ -2231,8 +2224,8 @@ Underfull \hbox (badness 7308) has occurred while \output is active
  []
 
 [36 <./data/trawlSelOverlay.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
-04.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
+98.
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.f
 d
@@ -2242,14 +2235,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<csas-style/images/recycle.png, id=454, 51.19125pt x 51.19125pt>
+<csas-style/images/recycle.png, id=450, 51.19125pt x 51.19125pt>
 File: csas-style/images/recycle.png Graphic file (type png)
 <use csas-style/images/recycle.png>
-Package pdftex.def Info: csas-style/images/recycle.png  used on input line 906.
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 900.
 
 (pdftex.def)             Requested size: 49.14381pt x 49.14381pt.
 
-Overfull \hbox (12.02786pt too wide) in paragraph at lines 910--911
+Overfull \hbox (12.02786pt too wide) in paragraph at lines 904--905
 \T1/phv/m/n/10.95 (-20) (\T1/phv/m/sl/10.95 (-20) Anoplopoma fib-ria\T1/phv/m/n
 /10.95 (-20) ) fish-ery for 2019-2020.. DFO Can. Sci. Ad-vis. Sec. Sci. Resp. 2
 019/999.  
@@ -2259,7 +2252,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{refs}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.917 \hypertarget{refs}{}
+l.911 \hypertarget{refs}{}
                            
 AED: lastpage setting LastPage
 
@@ -2270,19 +2263,19 @@ Underfull \hbox (badness 7308) has occurred while \output is active
 [37
 
  <./csas-style/images/recycle.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 919.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 919.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 913.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 913.
 (./sr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 919.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 919.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 919.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 913.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 913.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 913.
  ) 
 Here is how much of TeX's memory you used:
- 29524 strings out of 483161
- 562726 string characters out of 5963269
- 876042 words of memory out of 5000000
- 43620 multiletter control sequences out of 15000+600000
- 582929 words of font info for 154 fonts, out of 8000000 for 9000
+ 29513 strings out of 483161
+ 562627 string characters out of 5963269
+ 876023 words of memory out of 5000000
+ 43616 multiletter control sequences out of 15000+600000
+ 582678 words of font info for 152 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,15n,68p,1925b,823s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r
@@ -2313,10 +2306,10 @@ norsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users
 .pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helv
 etic/uhvr8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb>
-Output written on sr.pdf (37 pages, 1723011 bytes).
+Output written on sr.pdf (37 pages, 1722892 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 548 compressed objects within 6 object streams
- 153 named destinations out of 1000 (max. 500000)
- 34120 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 649 PDF objects out of 1000 (max. 8388607)
+ 537 compressed objects within 6 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 34104 words of extra memory for PDF output out of 35830 (max. 10000000)
 
