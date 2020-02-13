@@ -223,9 +223,7 @@ rownames(posteriorOMstats) <- fancyRowNames
 OMsummTableCap <- "Operating model posterior distribution mean (standard deviation) biological parameter, 
 reference point estimates, and stock status indicators for fits to the 2016 data 
 and 2018 data. The columns \\textbf{2016 Fit} and \\textbf{2018 Fit} show the mean 
-and standard deviation of the full posterior for the respective fits, while the remaining columns 
-show posterior mean values from the five posterior strata defining the productivity/biomass 
-scenarios indicated by the column label (see Figure 1). Stock status is shown relative to 
+and standard deviation of the full posterior for the respective fits. Stock status is shown relative to 
 unfished ($B_t/B_0$), theoretical
 most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point 
 ($B_t/(.4B_{MSY})$) for $t \\in \\{2016, 2018\\}$. The bottom
