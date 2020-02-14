@@ -1,0 +1,40 @@
+## Parameters for time-varying proportion directed fishery
+## to help reduce bias in trawl releases (1996 - 2017)
+## for time steps t=32:53 (t=1 is 1965)
+
+# pDirOn
+0 0 0
+
+## Time steps to model prop directed over
+# firstProp
+54 54 54
+# lastProp
+54 54 54
+
+## Scale par for reducing pDir
+.5
+
+## base translation of alphaDirDevs
+0 0 0
+
+## Phases for estimation
+# ph_logit_pDir_t
+-8 -8 -8
+# ph_log_selAlphaDirDev
+-8 -8 -8
+# ph_log_selBetaDirDev
+-8 -8 -8
+
+# priorSD_logit_pDir
+.5
+# priorSD_sel_dev
+1
+
+## Penalty for undirected catch
+# penaliseUndir
+0
+# undirK
+.5
+
+# Check
+999

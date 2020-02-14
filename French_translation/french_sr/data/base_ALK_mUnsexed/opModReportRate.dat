@@ -1,0 +1,17 @@
+## Parameters for a reporting rate
+## ogive
+
+# lenRep95_g
+55 99 99
+
+# lenRep50_g
+65 100 100
+
+# phzLenRep50_g
+-8 -1 -1
+
+# phzLenRep95_g
+8 -1 -1
+
+# Check
+999

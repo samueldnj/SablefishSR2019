@@ -1,0 +1,2733 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.11)  13 FEB 2020 17:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**_main.tex
+(./_main.tex
+LaTeX2e <2020-02-02> patch level 1
+L3 programming layer <2020-02-11> (/Users/brendanconnorsESSA/Library/TinyTeX/te
+xmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (./csas-style/sr-french.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.
+sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen135
+\ar@mcellbox=\box45
+\extrarowheight=\dimen136
+\NC@list=\toks14
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box46
+)
+\TX@col@width=\dimen137
+\TX@old@table=\dimen138
+\TX@old@col=\dimen139
+\TX@target=\dimen140
+\TX@delta=\dimen141
+\TX@cols=\count176
+\TX@ftn=\toks15
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.s
+ty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count177
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
+ef.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcm
+ds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.s
+ty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdftexcmds/pdft
+excmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/inf
+warerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval
+.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvs
+etkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/
+kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdf
+escape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor
+.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/let
+ltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook
+.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvopt
+ions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen142
+\Hy@linkcounter=\count178
+\Hy@pagecounter=\count179
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
+.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intca
+lc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etex
+cmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count180
+\pdfmajorversion=\count181
+Package hyperref Info: Option `breaklinks' set `true' on input line 4421.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count182
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen143
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset
+.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bi
+gintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count183
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/atbegshi/atbe
+gshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count184
+\c@Item=\count185
+\c@Hfootnote=\count186
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdfte
+x.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/atveryend/atver
+yend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count187
+\c@bookmark@seq@number=\count188
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/
+rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter
+/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip53
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
+Package hyperref Info: Option `plainpages' set `true' on input line 22.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 22.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box47
+\UL@hyphenbox=\box48
+\UL@skip=\skip54
+\UL@hook=\toks17
+\UL@height=\dimen146
+\UL@pe=\count189
+\UL@pixel=\dimen147
+\ULC@box=\box49
+Package: ulem 2019/11/18
+\ULdepth=\dimen148
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookma
+rk.sty
+Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pd
+ftex.def
+File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
+\BKM@id=\count190
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ncctools/nccmat
+h.sty
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath
+.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip55
+For additional information on amsmath, use the `?' option.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext
+.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.
+sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen149
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.
+sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.
+sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count191
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count192
+\leftroot@=\count193
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count194
+\DOTSCASE@=\count195
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count196
+\c@MaxMatrixCols=\count197
+\dotsspace@=\muskip17
+\c@parentequation=\count198
+\dspbrk@lvl=\count199
+\tag@help=\toks19
+\row@=\count266
+\column@=\count267
+\maxfields@=\count268
+\andhelp@=\toks20
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks21
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+\NCC@fracrulewidth=\dimen158
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/lineno/lineno.s
+ty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count269
+\output=\toks23
+\linenoprevgraf=\count270
+\linenumbersep=\dimen159
+\linenumberwidth=\dimen160
+\c@linenumber=\count271
+\c@pagewiselinenumber=\count272
+\c@LN@truepage=\count273
+\c@internallinenumber=\count274
+\c@internallinenumbers=\count275
+\quotelinenumbersep=\dimen161
+\bframerule=\dimen162
+\bframesep=\dimen163
+\bframebox=\box52
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/geometry/geomet
+ry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.
+sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count276
+\Gm@cntv=\count277
+\c@Gm@tempcnt=\count278
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
+\Gm@dimlist=\toks24
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyh
+dr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/caption/caption
+.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/caption/caption
+3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen172
+\captionmargin@=\dimen173
+\captionwidth=\dimen174
+\caption@tempdima=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+Package caption Info: hyperref package is loaded.
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/afterpage
+.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks25
+\AP@partial=\box53
+\AP@footins=\box54
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/makecell/makece
+ll.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen179
+\c@nlinenum=\count281
+\TeXr@lab=\toks26
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tocloft/tocloft
+.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip67
+\cftbeforetoctitleskip=\skip68
+\cftaftertoctitleskip=\skip69
+\cftbeforepartskip=\skip70
+\cftpartnumwidth=\skip71
+\cftpartindent=\skip72
+\cftbeforechapskip=\skip73
+\cftchapindent=\skip74
+\cftchapnumwidth=\skip75
+\cftbeforesecskip=\skip76
+\cftsecindent=\skip77
+\cftsecnumwidth=\skip78
+\cftbeforesubsecskip=\skip79
+\cftsubsecindent=\skip80
+\cftsubsecnumwidth=\skip81
+\cftbeforesubsubsecskip=\skip82
+\cftsubsubsecindent=\skip83
+\cftsubsubsecnumwidth=\skip84
+\cftbeforeparaskip=\skip85
+\cftparaindent=\skip86
+\cftparanumwidth=\skip87
+\cftbeforesubparaskip=\skip88
+\cftsubparaindent=\skip89
+\cftsubparanumwidth=\skip90
+\cftbeforeloftitleskip=\skip91
+\cftafterloftitleskip=\skip92
+\cftbeforefigskip=\skip93
+\cftfigindent=\skip94
+\cftfignumwidth=\skip95
+\c@lofdepth=\count282
+\c@lotdepth=\count283
+\cftbeforelottitleskip=\skip96
+\cftafterlottitleskip=\skip97
+\cftbeforetabskip=\skip98
+\cfttabindent=\skip99
+\cfttabnumwidth=\skip100
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/epsfig
+.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cs.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.s
+ty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/gr
+aphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pd
+ftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen180
+\Gin@req@width=\dimen181
+)
+\epsfxsize=\dimen182
+\epsfysize=\dimen183
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged
+2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip101
+\RaggedLeftLeftskip=\skip102
+\RaggedRightLeftskip=\skip103
+\CenteringRightskip=\skip104
+\RaggedLeftRightskip=\skip105
+\RaggedRightRightskip=\skip106
+\CenteringParfillskip=\skip107
+\RaggedLeftParfillskip=\skip108
+\RaggedRightParfillskip=\skip109
+\JustifyingParfillskip=\skip110
+\CenteringParindent=\skip111
+\RaggedLeftParindent=\skip112
+\RaggedRightParindent=\skip113
+\JustifyingParindent=\skip114
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type.sty
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+\MT@toks=\toks27
+\MT@count=\count284
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen184
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+\MT@listname@count=\count285
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type-pdftex.def
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip115
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type.cfg
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/helvet.s
+ty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdfls
+cape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape
+.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/textpos/textpos
+.sty
+Package: textpos 2019/04/15 v1.9.1
+Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)
+\TP@textbox=\box55
+\TP@holdbox=\box56
+\TPHorizModule=\dimen185
+\TPVertModule=\dimen186
+\TP@margin=\dimen187
+\TP@absmargin=\dimen188
+Grid set 16 x 16 = 38.39343pt x 49.68562pt
+\TPboxrulesize=\dimen189
+\TP@ox=\dimen190
+\TP@oy=\dimen191
+\TP@tbargs=\toks28
+\TP@prevdepth=\dimen192
+TextBlockOrigin set to 0pt x 0pt
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/enumerate
+.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks29
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/enumitem/enumit
+em.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip116
+\enit@outerparindent=\dimen193
+\enit@toks=\toks30
+\enit@inbox=\box57
+\enit@count@id=\count286
+\enitdp@description=\count287
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithms/algo
+rithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks31
+\float@box=\box58
+\@float@everytoks=\toks32
+\@floatcapt=\box59
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks33
+\c@algorithm=\count289
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/al
+gpseudocode.sty
+Package: algpseudocode 
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/al
+gorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count290
+\c@ALG@rem=\count291
+\c@ALG@nested=\count292
+\ALG@tlm=\skip117
+\ALG@thistlm=\skip118
+\c@ALG@Lnr=\count293
+\c@ALG@blocknr=\count294
+\c@ALG@storecount=\count295
+\c@ALG@tmpcounter=\count296
+\ALG@tmplength=\skip119
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/linegoal/linego
+al.sty
+Package: linegoal 2011/02/25 v2.9 - Measuring the remaining width of the line
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/etex-pkg/etex.s
+ty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+
+Package etex Warning: Extended allocation already in use.
+(etex)                etex.sty code will not be used.
+(etex)                To force etex package to load, add
+(etex)                \RequirePackage{etex}
+(etex)                at the start of the document.
+
+) (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/zref/zref.sty
+Package: zref 2019/11/29 v2.28 A new reference scheme for LaTeX (HO)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/zref/zref-base.
+sty
+Package: zref-base 2019/11/29 v2.28 Module base for zref (HO)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/zref/zref-savep
+os.sty
+Package: zref-savepos 2019/11/29 v2.28 Module savepos for zref (HO)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.s
+ty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+Package zref Info: New property list: savepos on input line 84.
+Package zref Info: New property: posx on input line 85.
+Package zref Info: New property: posy on input line 86.
+)
+Package zref Info: New property: linegoal on input line 39.
+\LNGL@unique=\count297
+\LNGL@tempdim=\dimen194
+) (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable
+.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip120
+\LTright=\skip121
+\LTpre=\skip122
+\LTpost=\skip123
+\LTchunksize=\count298
+\LTcapwidth=\dimen195
+\LT@head=\box60
+\LT@firsthead=\box61
+\LT@foot=\box62
+\LT@lastfoot=\box63
+\LT@cols=\count299
+\LT@rows=\count300
+\c@LT@tables=\count301
+\c@LT@chunks=\count302
+\LT@p@ftn=\toks34
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/import/import.s
+ty
+Package: import 2009/03/23  v 5.1
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.
+sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks35
+\verbatim@line=\toks36
+\verbatim@in@stream=\read2
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyv
+rb.sty
+Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count303
+\FV@InFile=\read3
+\FV@TabBox=\box64
+\c@FancyVerbLine=\count304
+\FV@StepNumber=\count305
+\FV@OutFile=\write3
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen
+.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count306
+\calc@Bcount=\count307
+\calc@Adimen=\dimen196
+\calc@Bdimen=\dimen197
+\calc@Askip=\skip124
+\calc@Bskip=\skip125
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count308
+\calc@Cskip=\skip126
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg
+.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.
+sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colort
+bl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks37
+\minrowclearance=\skip127
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/arydshln/arydsh
+ln.sty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen198
+\dashlinegap=\dimen199
+\adl@box=\box65
+\adl@height=\dimen256
+\adl@heightsave=\dimen257
+\adl@depth=\dimen258
+\adl@depthsave=\dimen259
+\adl@finaldepth=\dimen260
+\adl@columns=\count309
+\adl@ncol=\count310
+\adl@currentcolumn=\count311
+\adl@currentcolumnsave=\count312
+\adl@totalheight=\count313
+\adl@totalheightsave=\count314
+\adl@dash=\count315
+\adl@gap=\count316
+\adl@cla=\count317
+\adl@clb=\count318
+\adl@everyvbox=\toks38
+\adl@LTpagetotal=\dimen261
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/parskip/parskip
+.sty
+Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
+ox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count319
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/hypcap
+.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/subfig/subfig.s
+ty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count320
+\sf@farskip=\skip128
+\sf@captopadj=\dimen262
+\sf@capskip=\skip129
+\sf@nearskip=\skip130
+\c@subfigure=\count321
+\c@subfigure@save=\count322
+\c@subtable=\count323
+\c@subtable@save=\count324
+\sf@top=\skip131
+\sf@bottom=\skip132
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/relsize/relsize
+.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/booktabs/bookta
+bs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen263
+\lightrulewidth=\dimen264
+\cmidrulewidth=\dimen265
+\belowrulesep=\dimen266
+\belowbottomsep=\dimen267
+\aboverulesep=\dimen268
+\abovetopsep=\dimen269
+\cmidrulesep=\dimen270
+\cmidrulekern=\dimen271
+\defaultaddspace=\dimen272
+\@cmidla=\count325
+\@cmidlb=\count326
+\@aboverulesep=\dimen273
+\@belowrulesep=\dimen274
+\@thisruleclass=\count327
+\@lastruleclass=\count328
+\@thisrulewidth=\dimen275
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/multirow/multir
+ow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip133
+\multirow@cntb=\count329
+\multirow@dima=\skip134
+\bigstrutjot=\dimen276
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gffor.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gfrcs.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-common.tex
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen277
+\pgfutil@tempdimb=\dimen278
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-common-lists.tex))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-latex.def
+\pgfutil@abb=\box66
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfrcs.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revis
+ion.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gfkeys.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks42
+)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmat
+h.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athcalc.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athutil.code.tex
+\pgf@x=\dimen279
+\pgf@xa=\dimen280
+\pgf@xb=\dimen281
+\pgf@xc=\dimen282
+\pgf@y=\dimen283
+\pgf@ya=\dimen284
+\pgf@yb=\dimen285
+\pgf@yc=\dimen286
+\c@pgf@counta=\count330
+\c@pgf@countb=\count331
+\c@pgf@countc=\count332
+\c@pgf@countd=\count333
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athparser.code.tex
+\pgfmath@dimen=\dimen287
+\pgfmath@count=\count334
+\pgfmath@box=\box67
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.basic.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.trigonometric.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.random.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.comparison.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.base.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.round.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.misc.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.integerarithmetics.code.tex)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count335
+)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex)
+\pgffor@iter=\dimen288
+\pgffor@skip=\dimen289
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/placeins/placei
+ns.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpag
+es.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic
+.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen290
+\AM@pageheight=\dimen291
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pppdft
+ex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box68
+\AM@global@opts=\toks48
+\AM@pagecnt=\count336
+\AM@toc@title=\toks49
+\c@AM@survey=\count337
+\AM@templatesizebox=\box69
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.s
+ty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/lastpage/lastpa
+ge.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+ty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks50
+\SOUL@lasttoken=\toks51
+\SOUL@cmds=\toks52
+\SOUL@buffer=\toks53
+\SOUL@token=\toks54
+\SOUL@spaceskip=\skip135
+\SOUL@ttwidth=\dimen292
+\SOUL@uldp=\dimen293
+\SOUL@ulht=\dimen294
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.s
+ty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks55
+\inpenc@posthook=\toks56
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
+Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
+2.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/scalerel/scaler
+el.sty
+Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretchi
+ng of objects, relative to a reference object or in absolute terms
+\thesrwidth=\skip136
+\thesrheight=\skip137
+\srblobheight=\skip138
+\srblobdepth=\skip139
+\mnxsrwidth=\skip140
+\LMex=\skip141
+\LMpt=\skip142
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdfcomment/pdfc
+omment.sty
+Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
+2, 2015-2016, 2018
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval
+.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyv
+al.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvut
+ils.tex
+\XKV@toks=\toks57
+\XKV@tempa@toks=\toks58
+)
+\XKV@depth=\count338
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@pc@count@i=\count339
+\c@pc@count@ii=\count340
+\c@pc@count@iii=\count341
+\c@pc@count@iv=\count342
+\pc@mathannot@box=\box70
+\pc@nullbox=\box71
+\pc@dima=\skip143
+\pc@dimb=\skip144
+\pc@Sposx=\skip145
+\pc@Sposy=\skip146
+\pc@Eposx=\skip147
+\pc@Eposy=\skip148
+\pc@column=\skip149
+\pc@box@width=\skip150
+\pc@box@height=\skip151
+\pc@box@depth=\skip152
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/datetime2/datet
+ime2.sty
+Package: datetime2 2019/11/11 v1.5.5 (NLCT) date and time formats
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tracklang/track
+lang.sty
+Package: tracklang 2019/11/30 v1.4 (NLCT) Track Languages
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tra
+cklang.tex)))
+\c@zref@unique=\count343
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcou
+nt.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/marginnote/marg
+innote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count344
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluate
+x.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/soulpos/soulpos
+.sty
+Package: soulpos 2012/02/25 v1.1 Fancy underlining
+\ulp@subcnt=\count345
+\ulp@cnt=\count346
+\ulp@out=\write4
+\ulp@in=\read4
+\ulwidth=\dimen295
+)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 1369.
+
+Package zref Info: New property list: pdfcomment on input line 2735.
+Package zref Info: New property: PCPDFOBJID on input line 2736.
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/textcase/textca
+se.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/background/back
+ground.sty
+Package: background 2014/03/04 v2.1 background material
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/frontendlay
+er/tikz.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/
+pgf.sty
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/
+pgfcore.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer
+/pgfsys.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeys.code.tex)
+\pgf@x=\dimen296
+\pgf@y=\dimen297
+\pgf@xa=\dimen298
+\pgf@ya=\dimen299
+\pgf@xb=\dimen300
+\pgf@yb=\dimen301
+\pgf@xc=\dimen302
+\pgf@yc=\dimen303
+\pgf@xd=\dimen304
+\pgf@yd=\dimen305
+\w@pgf@writea=\write5
+\r@pgf@reada=\read5
+\c@pgf@counta=\count347
+\c@pgf@countb=\count348
+\c@pgf@countc=\count349
+\c@pgf@countd=\count350
+\t@pgf@toka=\toks59
+\t@pgf@tokb=\toks60
+\t@pgf@tokc=\toks61
+\pgf@sys@id@count=\count351
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count352
+\pgfsyssoftpath@bigbuffer@items=\count353
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfi
+nt.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen306
+\pgf@picmaxx=\dimen307
+\pgf@picminy=\dimen308
+\pgf@picmaxy=\dimen309
+\pgf@pathminx=\dimen310
+\pgf@pathmaxx=\dimen311
+\pgf@pathminy=\dimen312
+\pgf@pathmaxy=\dimen313
+\pgf@xx=\dimen314
+\pgf@xy=\dimen315
+\pgf@yx=\dimen316
+\pgf@yy=\dimen317
+\pgf@zx=\dimen318
+\pgf@zy=\dimen319
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen320
+\pgf@path@lasty=\dimen321
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen322
+\pgf@shorten@start@additional=\dimen323
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count354
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen324
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen325
+\pgf@pt@y=\dimen326
+\pgf@pt@temp=\dimen327
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen328
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen329
+\pgf@sys@shading@range@num=\count355
+\pgf@shadingcount=\count356
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box75
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box76
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibili
+ty/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen330
+\pgf@nodesepend=\dimen331
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibili
+ty/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries
+/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count357
+\pgfplotmarksize=\dimen332
+)
+\tikz@lastx=\dimen333
+\tikz@lasty=\dimen334
+\tikz@lastxsaved=\dimen335
+\tikz@lastysaved=\dimen336
+\tikz@lastmovetox=\dimen337
+\tikz@lastmovetoy=\dimen338
+\tikzleveldistance=\dimen339
+\tikzsiblingdistance=\dimen340
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count358
+\tikznumberofchildren=\count359
+\tikznumberofcurrentchild=\count360
+\tikz@fig@count=\count361
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count362
+\pgfmatrixcurrentcolumn=\count363
+\pgf@matrix@numberofcolumns=\count364
+)
+\tikz@expandcount=\count365
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/everypage/every
+page.sty
+Package: everypage 2007/06/20 1.1 Hooks to run on every page
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwid
+th.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box81
+\sift@deathcycles=\count366
+\@vwid@loff=\dimen341
+\@vwid@roff=\dimen342
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3bac
+kend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count367
+\l__pdf_internal_box=\box82
+) (./_main.aux)
+\openout1 = `_main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+\AtBeginShipoutBox=\box83
+Package hyperref Info: Link coloring ON on input line 58.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/namere
+f.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/gettitlestrin
+g/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count368
+)
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(18.06749pt, 668.4975pt, 108.405pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=641.03455pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-86.0763pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=116.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcapti
+on.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/ep
+stopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/eps
+topdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)) ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 58.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 58.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ABD: EveryShipout initializing macros
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 58.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 64.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-cm
+r.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=38.30426pt
+* \topmargin=-8.74641pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=116.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<csas-style/images/Fip-stacked-DFO-EOS-fra_bw.png, id=15, 1138.2525pt x 193.723
+75pt>
+File: csas-style/images/Fip-stacked-DFO-EOS-fra_bw.png Graphic file (type png)
+<use csas-style/images/Fip-stacked-DFO-EOS-fra_bw.png>
+Package pdftex.def Info: csas-style/images/Fip-stacked-DFO-EOS-fra_bw.png  used
+ on input line 74.
+(pdftex.def)             Requested size: 261.76526pt x 44.5496pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 79.30147pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+<csas-style/images/canada_bw.png, id=16, 3014.26125pt x 719.68875pt>
+File: csas-style/images/canada_bw.png Graphic file (type png)
+<use csas-style/images/canada_bw.png>
+Package pdftex.def Info: csas-style/images/canada_bw.png  used on input line 74
+.
+(pdftex.def)             Requested size: 100.72256pt x 24.0386pt.
+
+Package Fancyhdr Warning: \footskip is too small (27.46295pt): 
+Make it at least 28.51863pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1
+
+{/Users/brendanconnorsESSA/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pd
+ftex.map}
+
+\openout4 = `_main.upa'.
+
+ <./csas-style/images/Fip-stacked-DFO-EOS-fra_bw.png> <./csas-style/images/cana
+da_bw.png>]
+Overfull \hbox (0.13153pt too wide) in paragraph at lines 75--76
+\T1/phv/m/n/10.95 (+5) rendement escompté de la procédure de gestion actuelle; 
+et iii) d'évaluer d'autres procédures ou 
+ []
+
+
+Overfull \hbox (0.14433pt too wide) in paragraph at lines 75--76
+\T1/phv/m/n/10.95 (+7) des individus de taille inférieure à la taille réglement
+aire. La question clé en iii) est de déterminer 
+ []
+
+
+Overfull \hbox (0.20442pt too wide) in paragraph at lines 84--85
+\T1/phv/m/n/10.95 (+14) La présente réponse des Sciences a adopté une approche 
+de simulation en boucle fermée pour 
+ []
+
+
+Overfull \hbox (0.18651pt too wide) in paragraph at lines 84--85
+\T1/phv/m/n/10.95 (+11) façonner le modèle d'exploitation de la morue charbonni
+ère, les changements requis en fonction 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[2]
+Overfull \hbox (0.18344pt too wide) in paragraph at lines 103--104
+\T1/phv/m/n/10.95 (+3) commerciale au casier, ainsi que les prises et les remis
+es à l'eau totales (en unités de biomasse) 
+ []
+
+
+Overfull \hbox (0.18353pt too wide) in paragraph at lines 103--104
+\T1/phv/m/n/10.95 (+19) pour la pêche commerciale au casier, à la palangre et a
+u chalut. Nous avons également obtenu 
+ []
+
+
+Overfull \hbox (0.20642pt too wide) in paragraph at lines 103--104
+\T1/phv/m/n/10.95 (+1) de nouveaux ensembles de données sur les prises selon l'
+âge et selon la longueur pour la pêche 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[3
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[4]
+Overfull \hbox (0.14932pt too wide) in paragraph at lines 140--141
+\T1/phv/m/n/10.95 (+20) sur les mesures de ges-tion des in-di-vidus de taille i
+n-férieure à la taille ré-gle-men-taire, qui ex-i-gent 
+ []
+
+
+Overfull \hbox (0.18002pt too wide) in paragraph at lines 145--146
+\T1/phv/m/n/10.95 (+5) cir-con-stances ex-cep-tion-nelles) pour dé-clencher des
+ dévi-a-tions par rap-port à l'avis habituel sur la 
+ []
+
+
+Overfull \hbox (0.14227pt too wide) in paragraph at lines 147--148
+\T1/phv/m/n/10.95 (+9) at-tribuée à la pêche au cha-lut dé-coule de né-go-ci-a-
+tions en-tre les secteurs qui ont fixé l'attribution 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[5]
+Overfull \hbox (0.15054pt too wide) in paragraph at lines 149--151
+\T1/phv/m/n/10.95 (+4) gestion actuelle pour la morue charbonnière, un scénario
+ de référence où la population n'est pas 
+ []
+
+
+Overfull \hbox (33.59726pt too wide) in paragraph at lines 156--158
+\T1/phv/m/n/10.95 (-20) moyenne des parts ré-centes (rct = $\OT1/cmr/m/n/10.95 
+(-20) (23%\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 (-20) 18%\OML/cmm/m/it/10.95
+ ; \OT1/cmr/m/n/10.95 (-20) 59%)$\T1/phv/m/n/10.95 (-20) , 2016-2018) ou his-to
+riques (hst = $\OT1/cmr/m/n/10.95 (-20) (30%\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/
+10.95 (-20) 37%\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 (-20) 33%)$\T1/phv/m/n/
+10.95 (-20) , 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[6]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 177.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 184.
+
+
+Overfull \hbox (43.9289pt too wide) in paragraph at lines 184--184
+\T1/phv/m/n/10.95 (-20) l'année prochaine en soustrayant le to-tal de l'excéden
+t pour l'année en ques-tion du $\OML/cmm/m/it/10.95 TAC[]Sinitial\OT1/cmr/m/n/1
+0.95 (-20) ($\T1/phv/m/n/10.95 (-20) TAC'S 
+ []
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 185.
+
+
+Overfull \hbox (0.1304pt too wide) in paragraph at lines 193--194
+\T1/phv/m/n/10.95 (+2) de $\OML/cmm/m/it/10.95 B[]$\T1/phv/m/n/10.95 (+2) , tan
+-dis que les qua-trième et cin-quième statis-tiques ont trait au main-tien des 
+niveaux de 
+ []
+
+
+Overfull \hbox (0.10136pt too wide) in paragraph at lines 193--194
+\T1/phv/m/n/10.95 (+20) meilleur ren-de-ment pour la cin-quième statis-tique. M
+al-heureuse-ment, les procé-dures de ges-tion 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[7]
+Overfull \hbox (0.1739pt too wide) in paragraph at lines 195--196
+\T1/phv/m/n/10.95 (+12) Toute-fois, une nou-velle ques-tion se pose à cet égard
+ : Que vaut l'amélioration (c.-à-d. en prises) 
+ []
+
+
+Overfull \hbox (0.11261pt too wide) in paragraph at lines 195--196
+\T1/phv/m/n/10.95 (+11) pour-rait sig-ni-fier une dif-férence de plusieurs cen-
+taines de tonnes de prises an-nuelles moyennes, 
+ []
+
+
+Overfull \hbox (0.12276pt too wide) in paragraph at lines 195--196
+\T1/phv/m/n/10.95 (+20) meilleur ren-de-ment rel-a-tive-ment à l'objectif de pê
+che 3 le font presque tou-jours au détri-ment du 
+ []
+
+
+Overfull \hbox (16.48692pt too wide) in paragraph at lines 199--200
+[]\T1/phv/m/n/10.95 (-20) Chaque procé-dure de ges-tion a été ajustée sé-paré-m
+ent avec les scé-nar-ios des mod-èles d'exploitation 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[8]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 213.
+
+Overfull \hbox (0.10008pt too wide) in paragraph at lines 213--214
+\T1/phv/m/n/10.95 (+6) parce que le stock plus pro-duc-tif peut subir des pres-
+sions supérieures sur le plan de la pêche; et 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[9]
+Overfull \hbox (0.20122pt too wide) in paragraph at lines 215--216
+\T1/phv/m/n/10.95 (+17) d'une sur-pêche. De même, la prob-a-bil-ité a pos-te-or
+i que la biomasse de l'année précé-dente soit 
+ []
+
+
+Overfull \hbox (0.21661pt too wide) in paragraph at lines 225--226
+[]\T1/phv/m/n/10.95 (+16) Dans ces conditions, toutes les procédures de gestion
+ respectaient tous les critères biologiques 
+ []
+
+
+Overfull \hbox (0.18198pt too wide) in paragraph at lines 225--226
+\T1/phv/m/n/10.95 (+9) pourront atteindre $\OML/cmm/m/it/10.95 B[]$ \T1/phv/m/n
+/10.95 (+9) 15 à 20 ans avant la dernière année, tandis que d'autres arriveront
+ tout 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[10]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[11]
+Overfull \hbox (0.10674pt too wide) in paragraph at lines 239--240
+\T1/phv/m/n/10.95 (+5) à la taille ré-gle-men-taire. La boni-fi-ca-tion des pri
+x pour la morue char-bon-nière (tableau 3; C. Ache- 
+ []
+
+
+Overfull \hbox (0.20276pt too wide) in paragraph at lines 241--242
+\T1/phv/m/n/10.95 (+4) de pêche à la palan-gre et au cha-lut, re-spec-tive-ment
+. Les pêches au casier, et surtout les pêches 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[12]
+Overfull \hbox (0.21402pt too wide) in paragraph at lines 248--249
+\T1/phv/m/n/10.95 (+19) prises de morue char-bon-nière en vertu des mod-èles d'
+exploitation de ro-bustesse ont aug-menté 
+ []
+
+
+Overfull \hbox (0.22493pt too wide) in paragraph at lines 250--251
+\T1/phv/m/n/10.95 (+10) en vertu des mod-èles d'exploitation de ro-bustesse, pa
+rce que les valeurs $\OML/cmm/m/it/10.95 F$ \T1/phv/m/n/10.95 (+10) plus élevée
+s avaient 
+ []
+
+
+Overfull \hbox (0.1507pt too wide) in paragraph at lines 250--251
+\T1/phv/m/n/10.95 (+16) faibles, qui vari-aient de 5,2 % (procé-dure de ges-tio
+n actuelle) à 7,2 % (pla-fond 0). Ces faibles $\OML/cmm/m/it/10.95 F$ 
+ []
+
+
+Overfull \hbox (18.83853pt too wide) in paragraph at lines 254--255
+[]\T1/phv/m/n/10.95 (-20) La vari-a-tion an-nuelle moyenne des prises se situ-a
+it en-tre 9 et 11 % aux fins des mod-èles d'exploitation 
+ []
+
+
+Overfull \hbox (0.23064pt too wide) in paragraph at lines 254--255
+\T1/phv/m/n/10.95 (+9) de ro-bustesse, com-par-a-tive-ment à celle des mod-èles
+ d'exploitation de référence qui s'établissait 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[13]
+Overfull \hbox (0.17822pt too wide) in paragraph at lines 261--262
+\T1/phv/m/n/10.95 (+16) Comme on s'y at-tendait, il y avait une asymétrie con-s
+id-érable du risque en-tre les procé-dures de 
+ []
+
+
+Overfull \hbox (0.22673pt too wide) in paragraph at lines 268--269
+\T1/phv/m/n/10.95 (+18) et de ro-bustesse. Toute-fois, elle s'est classée presq
+ue au dernier rang pour ce qui est du ren-de- 
+ []
+
+
+Overfull \hbox (0.18127pt too wide) in paragraph at lines 270--271
+\T1/phv/m/n/10.95 (+6) la pêche dans notre analyse. Nous n'avons pas non plus t
+enu compte des conséquences de ces 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[14]
+Overfull \hbox (0.2185pt too wide) in paragraph at lines 274--275
+\T1/phv/m/n/10.95 (+8) modèles d'exploitation de référence et de robustesse, re
+spectivement. Ces écarts équivalent sur 
+ []
+
+
+Overfull \hbox (0.13806pt too wide) in paragraph at lines 276--277
+\T1/phv/m/n/10.95 (+17) référence. Comme prévu, le ren-de-ment par rap-port aux
+ ob-jec-tifs de pêche 2 et 3 était mé-diocre 
+ []
+
+
+Overfull \hbox (2.47426pt too wide) in paragraph at lines 278--279
+[]\T1/phv/m/n/10.95 (-20) D'autre part, le test croisé in-verse --- les procé-d
+ures de ges-tion ajustées des mod-èles d'exploitation 
+ []
+
+
+Overfull \hbox (0.19504pt too wide) in paragraph at lines 280--281
+\T1/phv/m/n/10.95 (-8) ges-tion (2020-2022), alors que la taille des classes de
+ 2015 pour-rait être mieux es-timée à mesure 
+ []
+
+
+Overfull \hbox (0.10808pt too wide) in paragraph at lines 302--304
+\T1/phv/m/n/10.95 (+12) for the sablefish (\T1/phv/m/sl/10.95 (+12) anoplopoma 
+fimbria\T1/phv/m/n/10.95 (+12) ) fishery in british columbia, canada for 2017-1
+8. Secr. can. 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[15]
+Overfull \hbox (0.17148pt too wide) in paragraph at lines 326--328
+[][]\T1/phv/m/n/10.95 (+4) MPO. 2009. Un cadre décisionnel pour les pêches inté
+grant l'approche de précaution. Pêches et 
+ []
+
+
+Overfull \hbox (0.16739pt too wide) in paragraph at lines 326--328
+\T1/phv/m/n/10.95 (+4) Océans Canada sur internet: (aurait été modifié pour la 
+dernière fois le 23 mai 2009, bienque les 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[16]pdfTeX warning (ext4): destination with the same identifier (name{table.0.1
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.349 \begin{longtable}[t]{lll}
+                               
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 350.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 350.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[17]
+
+LaTeX Warning: Command \' invalid in math mode on input line 387.
+
+Missing character: There is no é in font cmr7!
+
+LaTeX Warning: Command \' invalid in math mode on input line 392.
+
+Missing character: There is no é in font cmr7!
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[18
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[19
+
+]
+Overfull \hbox (47.29654pt too wide) in alignment at lines 442--449
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 449--454
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 454--456
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 456--458
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 458--476
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[20
+
+]
+
+LaTeX Warning: Command \' invalid in math mode on input line 491.
+
+Missing character: There is no é in font cmr7!
+
+LaTeX Warning: Command \' invalid in math mode on input line 496.
+
+Missing character: There is no é in font cmr7!
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[21
+
+
+]
+Overfull \hbox (47.29654pt too wide) in alignment at lines 528--535
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 535--540
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 540--542
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 542--544
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 544--562
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[22
+
+
+]
+
+LaTeX Warning: Command \' invalid in math mode on input line 577.
+
+Missing character: There is no é in font cmr7!
+
+LaTeX Warning: Command \' invalid in math mode on input line 582.
+
+Missing character: There is no é in font cmr7!
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[23
+
+
+]
+
+LaTeX Warning: Command \' invalid in math mode on input line 621.
+
+Missing character: There is no é in font cmr7!
+
+LaTeX Warning: Command \' invalid in math mode on input line 626.
+
+Missing character: There is no é in font cmr7!
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[24
+
+
+]
+<knitr-figs-pdfunnamed-chunk-17-1.png, id=232, 1626.075pt x 1004.75375pt>
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 658.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 658.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 658.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 658.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=235, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 666.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 666.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 666.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 666.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[25
+
+ <./knitr-figs-pdfunnamed-chunk-17-1.png>]
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=246, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 675.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 675.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 675.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 675.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[26 <./data/base_ALK_mUnsexed/plotMLEindices.png>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[27 <./data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>]
+<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=260, 794.97pt x
+ 578.16pt>
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 687.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 687.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 687.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 687.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+
+LaTeX Warning: Float too large for page by 31.83693pt on input line 692.
+
+<data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
+f, id=262, 794.97pt x 578.16pt>
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 696.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 696.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 696.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 696.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+
+LaTeX Warning: Float too large for page by 31.83693pt on input line 701.
+
+<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=264, 794.97pt 
+x 578.16pt>
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 705.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 705.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 705.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 705.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+
+LaTeX Warning: Float too large for page by 31.83693pt on input line 710.
+
+<data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
+pdf, id=266, 794.97pt x 578.16pt>
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 714.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 714.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 714.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 714.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+
+LaTeX Warning: Float too large for page by 31.83693pt on input line 719.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[28 <./data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[29 <./data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[30 <./data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[31 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstA
+l_am5.pdf>]
+Overfull \hbox (0.1672pt too wide) in paragraph at lines 727--728
+\T1/phv/m/n/10.95 (+11) l'âge; toute-fois, les don-nées ob-servées à ce titre p
+rovi-en-nent de lec-tures d'otolithes qui sont mal 
+ []
+
+
+Overfull \hbox (0.17915pt too wide) in paragraph at lines 727--728
+\T1/phv/m/n/10.95 (+8) an-nées de re-crute-ment ou des re-la-tions stock-recrut
+ement (Hansel-man et al. [][]2012[][]). Les er-reurs 
+ []
+
+
+Overfull \hbox (0.16473pt too wide) in paragraph at lines 729--730
+\T1/phv/m/n/10.95 (+17) ces deux for-mules sont les suiv-antes : i) la struc-tu
+re d'erreur est lim-itée de manière à as-surer la 
+ []
+
+
+Overfull \hbox (0.13797pt too wide) in paragraph at lines 733--734
+\T1/phv/m/n/10.95 (+19) déter-mi-na-tion de l'âge où l'écart-type es-timé de l'
+âge ob-servé pour un véri-ta-ble âge b est fondé 
+ []
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 738.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[32
+
+
+]
+Overfull \hbox (0.19609pt too wide) in paragraph at lines 744--746
+\T1/phv/m/n/10.95 (+19) Étant donné que l'âge réel des pois-sons est in-connu, 
+il est im-pos-si-ble de déter-miner avec pré-ci- 
+ []
+
+
+Overfull \hbox (0.10661pt too wide) in paragraph at lines 756--757
+\T1/phv/m/n/10.95 (+2) térieures pour une courbe de sélec-tiv-ité es-timée à pa
+r-tir du rétab-lisse-ment de pois-sons éti-quetés 
+ []
+
+
+Overfull \hbox (0.16187pt too wide) in paragraph at lines 760--760
+\T1/phv/m/n/10.95 (+2) matrice $\OML/cmm/m/it/10.95 A$ \T1/phv/m/n/10.95 (+2) a
+ été convertie en une matrice de probabilité $\OML/cmm/m/it/10.95 P$ \T1/phv/m/
+n/10.95 (+2) selon l'âge et la longueur $\OML/cmm/m/it/10.95 l$ \T1/phv/m/n/10.
+95 (+2) $ au moyen 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[33]
+Overfull \hbox (0.20248pt too wide) in paragraph at lines 765--767
+\T1/phv/m/n/10.95 (+3) où $\OML/cmm/m/it/10.95 P$ \T1/phv/m/n/10.95 (+3) est tr
+ans-posé de façon à ce que la di-men-sion rel-a-tive à la longueur cor-re-spond
+e au vecteur 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[34]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[35]
+<data/ageErr1.png, id=356, 469.755pt x 469.755pt>
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 786.
+(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 786.
+(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 786.
+(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 786.
+(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[36 <./data/ageErr1.png>]
+<data/ageErr2.png, id=364, 469.755pt x 406.6392pt>
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 795.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 795.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 795.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 795.
+(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[37 <./data/ageErr2.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=373, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 804.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 804.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 804.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 804.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[38 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=381, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 813.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 813.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 813.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 813.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[39 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
+<data/trawlSelOverlay.pdf, id=389, 678.10793pt x 370.57597pt>
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 822.
+(pdftex.def)             Requested size: 422.77664pt x 231.04395pt.
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 822.
+(pdftex.def)             Requested size: 422.77664pt x 231.04395pt.
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 822.
+(pdftex.def)             Requested size: 422.77664pt x 231.04395pt.
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 822.
+(pdftex.def)             Requested size: 422.77664pt x 231.04395pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[40 <./data/trawlSelOverlay.pdf>]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
+42.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.f
+d
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<csas-style/images/recycle.png, id=469, 51.19125pt x 51.19125pt>
+File: csas-style/images/recycle.png Graphic file (type png)
+<use csas-style/images/recycle.png>
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 844.
+
+(pdftex.def)             Requested size: 49.14381pt x 49.14381pt.
+
+AED: lastpage setting LastPage
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[41
+
+ <./csas-style/images/recycle.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 854.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 854.
+(./_main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 854.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 854.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 854.
+ ) 
+Here is how much of TeX's memory you used:
+ 29530 strings out of 483161
+ 563731 string characters out of 5963269
+ 883218 words of memory out of 5000000
+ 43624 multiletter control sequences out of 15000+600000
+ 582750 words of font info for 156 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 74i,15n,68p,2717b,823s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r
+.enc}</Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fon
+ts/type1/public/amsfonts/cmextra/cmex8.pfb></Users/brendanconnorsESSA/Library/T
+inyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/brendanconn
+orsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi5.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/brendanconnorsESSA/Librar
+y/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/brendanco
+nnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr5.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/brendanconnorsESSA/Library
+/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/brendanconn
+orsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Us
+ers/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/brendanconnorsESSA/Library
+/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/brendancon
+norsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users
+/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a
+.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helv
+etic/uhvr8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvro8a.pfb>
+Output written on _main.pdf (41 pages, 1649899 bytes).
+PDF statistics:
+ 665 PDF objects out of 1000 (max. 8388607)
+ 549 compressed objects within 6 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 34096 words of extra memory for PDF output out of 35830 (max. 10000000)
+

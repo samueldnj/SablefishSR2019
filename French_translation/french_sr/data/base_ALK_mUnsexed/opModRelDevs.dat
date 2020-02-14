@@ -1,0 +1,13 @@
+## Parameters for fixing release deviations
+## to help reduce bias in trawl releases (1996 - 2017)
+
+# relDevInitYr
+55 55 36
+# relDevLastYr
+55 55 54
+
+## trawlRelDevPenalty
+.1
+
+# Check
+999

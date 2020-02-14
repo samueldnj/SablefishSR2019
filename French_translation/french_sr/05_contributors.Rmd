@@ -1,0 +1,18 @@
+# Contributeurs
+
+```{r, echo=FALSE, include=FALSE}
+contributors <- tibble::tribble(
+  ~Nom ,              ~Organisme,
+  "Sean Cox",         "Université Simon Fraser, C.-B.; Landmark Fisheries Research",
+  "Samuel Johnson",   "Université Simon Fraser, C.-B.; Landmark Fisheries Research",
+  "Brendan Connors",  "Direction des sciences du MPO, région du Pacifique",
+  "Lindsay Gardner",  "Direction de la gestion des pêches du MPO, région du Pacifique",
+  "Sean Anderson",    "Direction des sciences du MPO, région du Pacifique (examinateur)",
+  "Elise Keppel",     "Direction des sciences du MPO, région du Pacifique (examinatrice)",
+  "Lisa Christiansen","Centre des avis scientifiques du MPO, région du Pacifique (rédactrice)"
+)
+```
+
+```{r, results='asis'}
+csasdown::csas_table(contributors)
+```

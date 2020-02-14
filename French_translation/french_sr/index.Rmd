@@ -1,0 +1,169 @@
+---
+title: "Évaluation de la robustesse des procédures de gestion proposées pour la pêche à la morue charbonnière en Colombie-Britannique (*Anoplopoma fimbria*), 2019-2020"
+title_short: "Robustesse des PG de la morue charbonnière en C.-B. "
+year: 2019
+month: Novembre
+report_number: 999
+approver: |
+  Carmel Lowe\
+  Directeur régional\
+  Secteur des sciences, Région du Pacifique\
+  Pêches et Océans Canada
+approval_year: 2019
+approval_month: Novembre
+approval_day: 4
+branch: Secteur des sciences
+region: Région du Pacifique
+address: |
+     Fisheries and Oceans Canada,\
+     3190 Hammond Bay Road\
+     Nanaimo, British Columbia,\
+     V9T 6N7, Canada
+phone: (250) 756-7208
+email: csap@dfo-mpo.gc.ca
+output:
+  csasdown::sr_pdf:
+    french: true
+  #csasdown::sr_word:
+    prepub: false
+
+type:
+  sr
+# ------------
+# End of options to set
+knit: bookdown::render_book
+site: bookdown::bookdown_site
+link-citations: true
+bibliography: bib/library.bib
+csl: csl/csas.csl
+lot: true
+lof: true
+always_allow_html: yes
+# Any extra LaTeX code for the header:
+header-includes:
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \newcommand{\beginAppA}{ \setcounter{table}{0}\renewcommand{\thetable}{A\arabic{table}}\setcounter{figure}{0}\renewcommand{\thefigure}{A\arabic{figure}} }
+
+---
+
+```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}
+library(knitr)
+if (is_latex_output()) {
+  knitr_figs_dir <- "knitr-figs-pdf"
+  knitr_cache_dir <- "knitr-cache-pdf"
+  fig_out_type <- "png"
+  kable_format <- "latex"
+} else {
+  knitr_figs_dir <- "knitr-figs-docx"
+  knitr_cache_dir <- "knitr-cache-docx"
+  fig_out_type <- "png"
+  kable_format <- "pandoc"
+}
+fig_asp <- 0.618
+fig_width <- 9
+fig_out_width <- "6in"
+fig_dpi <- 180
+fig_align <- "center"
+fig_pos <- "htb"
+opts_chunk$set(
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "#>",
+  fig.path = knitr_figs_dir,
+  cache.path = knitr_cache_dir,
+  fig.asp = fig_asp,
+  fig.width = fig_width,
+  out.width = fig_out_width,
+  echo = FALSE,
+  #  autodep = TRUE,
+  #  cache = TRUE,
+  cache.comments = FALSE,
+  dev = fig_out_type,
+  dpi = fig_dpi,
+  fig.align = fig_align,
+  fig.pos = fig_pos
+)
+options(xtable.comment = FALSE)
+options(kableExtra.latex.load_packages = FALSE)
+options(knitr.kable.NA = '')
+```
+
+```{r load-libraries, cache=FALSE}
+# add other packages here:
+library(csasdown)
+library(kableExtra)
+library(tidyverse)
+library(coda)
+library(MASS)
+library(chemometrics)
+library(mvtnorm)
+```
+
+```{r, echo = FALSE, warning = FALSE}
+# Try a sampling system for h and SSB using
+# Mahalnobis distance.
+.mahalanobisDist <- function( centres = NULL,
+                              post = mcmc, 
+                              pars = c("h","spawnB54"),
+                              qProb = c("mean","mean"),
+                              mDist = .3,
+                              seed = NULL )
+{
+  if( !is.null(seed) )
+    set.seed(seed)
+
+  # Reduce to the joint marginal we're interested in
+  subDist <- post[, pars ]
+
+  covMtx <- cov(subDist)
+
+  # Calc centre points for Mahalanobis calc if
+  # not explicitly  supplied
+  if(is.null(centres))
+    centres <- getCentre( subDist, pars, qProb )
+
+  # Now we loop over the distribution
+  # and calculate the dissimilarity bn
+  # the centre and each post point
+  subDist <-  subDist %>%
+              mutate( rIdx = 1:nrow(subDist),
+                      mhnDist = NA )
+
+
+  for( rIdx in 1:nrow(subDist) )
+  {
+    postPoint <- as.matrix(subDist[rIdx,pars],nrow = 1)
+    diff      <- postPoint - as.numeric(centres)
+
+    subDist[rIdx,"mhnDist"] <-  mahalanobis(  x = postPoint, 
+                                              center = centres,
+                                              cov = covMtx )
+  }
+
+  # Now reduce to points within mDist and randomly
+  # sample them
+  subDist <- subDist %>% filter( mhnDist < mDist )
+
+  # return
+  subDist
+} # END .mahalanobisSample()
+
+
+summPostMeanSD <- function( x, se = FALSE )
+{
+
+  meanX <- signif(mean(x),3)
+  sdX   <- signif(sd(x),2)
+
+  if( se )
+    out <-  paste( meanX, " (", sdX,")", sep = "")
+
+  else out <- paste(meanX)
+
+  out
+}
+
+```
