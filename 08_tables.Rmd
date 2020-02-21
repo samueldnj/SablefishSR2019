@@ -2,8 +2,6 @@
 \setcounter{table}{0}
 # Tables
 
-\newpage
-
 ```{r, echo = FALSE}
 
 source(here::here("mseRtools.r"))
@@ -193,7 +191,8 @@ write.csv(mcmcPostMean, file = "mcmcPostMean.csv")
 
 write.csv(subPostOMs, file = "subPostOMs_stats.csv")
 
-posteriorOMstats <- rbind(mcmc2016,mcmcPostMean,subPostOMs)
+#posteriorOMstats <- rbind(mcmc2016,mcmcPostMean,subPostOMs) # drop posterior strata so that table can be regular (instead of landscape) format
+posteriorOMstats <- rbind(mcmc2016,mcmcPostMean)
 
 OMnames <- posteriorOMstats$OM
 rownames(posteriorOMstats) <- OMnames
@@ -224,9 +223,7 @@ rownames(posteriorOMstats) <- fancyRowNames
 OMsummTableCap <- "Operating model posterior distribution mean (standard deviation) biological parameter, 
 reference point estimates, and stock status indicators for fits to the 2016 data 
 and 2018 data. The columns \\textbf{2016 Fit} and \\textbf{2018 Fit} show the mean 
-and standard deviation of the full posterior for the respective fits, while the remaining columns 
-show posterior mean values from the five posterior strata defining the productivity/biomass 
-scenarios indicated by the column label (see Figure 1). Stock status is shown relative to 
+and standard deviation of the full posterior for the respective fits. Stock status is shown relative to 
 unfished ($B_t/B_0$), theoretical
 most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point 
 ($B_t/(.4B_{MSY})$) for $t \\in \\{2016, 2018\\}$. The bottom
@@ -241,7 +238,7 @@ being above the limit reference point in both 2016 and 2018."
 csasdown::csas_table( posteriorOMstats,
                       caption = OMsummTableCap,
                       booktabs = TRUE, escape = FALSE,
-                      landscape = TRUE,
+                      landscape = FALSE,
                       font_size = 12, format = kable_format ) %>%
     kable_styling(  latex_options = c("hold_position", "scale_down"),
                     bootstrap_options = c("striped", "hover","scale_down"))

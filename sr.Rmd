@@ -3,7 +3,7 @@ title: "Evaluating the robustness of candidate management procedures in the BC s
 title_short: "Robustness of Sablefish MPs in BC"
 year: 2019
 month: November
-report_number: nnn
+report_number: 999
 approver: |
   Carmel Lowe\
   Regional Director\
@@ -24,8 +24,8 @@ email: csap@dfo-mpo.gc.ca
 output:
   csasdown::sr_pdf:
     french: false
-  csasdown::sr_word:
-    french: false
+    prepub: false
+
 type:
   sr
 # ------------
@@ -930,6 +930,12 @@ csasdown::csas_table(contributors)
 
 <div id="refs"></div>
 
+<<<<<<< HEAD
+=======
+\setlength{\parindent}{0in} 
+\setlength{\leftskip}{0in} 
+\setlength{\parskip}{4pt}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 <!--chapter:end:07_bibliography.Rmd-->
 
@@ -937,8 +943,11 @@ csasdown::csas_table(contributors)
 \setcounter{table}{0}
 # Tables
 
+<<<<<<< HEAD
 \newpage
 
+=======
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 ```{r, echo = FALSE}
 
 source(here::here("mseRtools.r"))
@@ -1128,7 +1137,12 @@ write.csv(mcmcPostMean, file = "mcmcPostMean.csv")
 
 write.csv(subPostOMs, file = "subPostOMs_stats.csv")
 
+<<<<<<< HEAD
 posteriorOMstats <- rbind(mcmc2016,mcmcPostMean,subPostOMs)
+=======
+#posteriorOMstats <- rbind(mcmc2016,mcmcPostMean,subPostOMs) # drop posterior strata so that table can be regular (instead of landscape) format
+posteriorOMstats <- rbind(mcmc2016,mcmcPostMean)
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 OMnames <- posteriorOMstats$OM
 rownames(posteriorOMstats) <- OMnames
@@ -1176,7 +1190,11 @@ being above the limit reference point in both 2016 and 2018."
 csasdown::csas_table( posteriorOMstats,
                       caption = OMsummTableCap,
                       booktabs = TRUE, escape = FALSE,
+<<<<<<< HEAD
                       landscape = TRUE,
+=======
+                      landscape = FALSE,
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
                       font_size = 12, format = kable_format ) %>%
     kable_styling(  latex_options = c("hold_position", "scale_down"),
                     bootstrap_options = c("striped", "hover","scale_down"))
@@ -1715,8 +1733,11 @@ jointPostCap <- "Joint marginal posterior distribution MCMC samples (grey dots) 
 
 ```
 
+<<<<<<< HEAD
 \newpage
 
+=======
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 ```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=jointPostCap, echo = FALSE}
 
 
@@ -1817,10 +1838,15 @@ knitr::include_graphics("data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wt
 
 <!--chapter:end:09_figures.Rmd-->
 
+<<<<<<< HEAD
 # (APPENDIX) Appendices {-}
 
 # Appendix A: Updated operating model components
 \beginAppA
+=======
+# Appendix\label{sec:app-minor}
+
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 ## Updated ageing error matrix
 
 The Sablefish age-structured assessment model relies on catch-at-age 
@@ -1961,8 +1987,11 @@ for the normal model in 2016.
 \newpage
 
 
+<<<<<<< HEAD
 ### Tables
 
+=======
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 ```{r, echo = FALSE, include = FALSE, warning = FALSE}
 ageErrTable <- tibble::tribble( 
     ~Case,   ~TrueAge,           ~sigma1, ~sigmaA, ~alpha, 
@@ -1987,7 +2016,10 @@ csasdown::csas_table(  ageErrTable,
 
 \newpage
 
+<<<<<<< HEAD
 ### Figures
+=======
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 ```{r, echo = FALSE, warning = FALSE, include = FALSE}
 
 ageErr1Cap <- "Estimated standard deviation of observed ages for the two age assignment cases considered."

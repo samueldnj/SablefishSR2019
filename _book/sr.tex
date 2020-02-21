@@ -5,7 +5,7 @@
 \newcommand{\locRepo}{csas-style}
 
 % Use the style file in the csas-style repository (sr.sty)
-\usepackage{\locRepo/sr}
+\usepackage{\locRepo/sr-french}
 
 % header-includes from R markdown entry
 \usepackage{pdflscape}
@@ -13,19 +13,17 @@
 \newcommand{\elandscape}{\end{landscape}}
 \newcommand{\beginAppA}{ \setcounter{table}{0}\renewcommand{\thetable}{A\arabic{table}}\setcounter{figure}{0}\renewcommand{\thefigure}{A\arabic{figure}} }
 
-% Bibliography style file
-% \bibliographystyle{../csas-style/res-doc}
-
 %%%% Commands for title page etc %%%%%
 
 % Title
 \newcommand{\rdTitle}{Evaluating the robustness of candidate management procedures in the BC sablefish (\emph{Anoplopoma fibria}) fishery for 2019-2020.}
 
-% French title
+% English title
 \newcommand{\rdTitleFr}{}
 
 % Title short
 \newcommand{\rdTitleShort}{Robustness of Sablefish MPs in BC}
+% End of title short
 
 % Publication year
 \newcommand{\rdYear}{2019}
@@ -34,17 +32,17 @@
 \newcommand{\rdMonth}{November}
 
 % Report number
-\newcommand{\rdNumber}{nnn}
+\newcommand{\rdNumber}{\threedigits{999}}
+% End of report number
 
 % Approver (name\\position)
 \newcommand{\rdApp}{Carmel Lowe\\
 Regional Director\\
 Science Branch, Pacific Region\\
 Fisheries and Oceans Canada}
-% \newcommand{\rdYear}{2019}
-% \newcommand{\rdAppMonth}{November}
-% \newcommand{\rdAppDay}{4}
-\newcommand{\rdAppDate}{November 4, 2019}
+
+% Approval date
+\newcommand{\rdAppDate}{4 November 2019}
 
 % Branch
 \newcommand{\rdBranch}{Science Branch}
@@ -52,22 +50,16 @@ Fisheries and Oceans Canada}
 % Region
 \newcommand{\rdRegion}{Pacific Region}
 
-% Address
-\newcommand{\rdAddress}{Fisheries and Oceans Canada,\\
-3190 Hammond Bay Road\\
-Nanaimo, British Columbia,\\
-V9T 6N7, Canada}
-
-% Phone
-\newcommand{\rdPhone}{(250) 756-7208}
-
-% Email
-\newcommand{\rdEmail}{\href{mailto:csap@dfo-mpo.gc.ca}{\nolinkurl{csap@dfo-mpo.gc.ca}}}
-
 %%%% End of title page commands %%%%%
+
+%Defines cslreferences environment
+%Required by pandoc 2.8
+%Copied from https://github.com/rstudio/rmarkdown/issues/1649
 \begin{document}
 
 \bookmark[dest=PageOne]{\rdTitle{}}
+
+\renewcommand{\tablename}{Tableau}
 
 \MakeFirstPage
 
@@ -318,31 +310,31 @@ Lisa Christiansen & DFO Centre for Science Advice, Pacific Region (editor)\tabul
 
 \hypertarget{refs}{}
 \leavevmode\hypertarget{ref-cox2019evaluating}{}%
-Cox, S., Holt, K., and Johnson, S. 2019. Evaluating the robustness of management procedures for the Sablefish (\emph{Anoplopoma fimbria}) fishery in British Columbia, Canada for 2017-18. Can. Sci. Adv. Sec. Res. Doc (032): vi + 79 p.
+Cox, S., Holt, K., and Johnson, S. 2019. Evaluating the robustness of management procedures for the sablefish (\emph{anoplopoma fimbria}) fishery in british columbia, canada for 2017-18. DFO Can. Sci. Advis. Sec. Res. Doc. 2019/032: v + 79p.
 
 \leavevmode\hypertarget{ref-cox2009evaluation}{}%
-Cox, S., and Kronlund, A. 2009. Evaluation of interim harvest strategies for Sablefish (\emph{Anoplopoma fimbria}) in British Columbia, Canada for 2008/09. DFO Can. Sci. Advis. Sec. Res. Doc 42.
+Cox, S., and Kronlund, A. 2009. Evaluation of interim harvest strategies for sablefish (\emph{anoplopoma fimbria}) in british columbia, canada for 2008/09. DFO Can. Sci. Advis. Sec. Res. Doc. 2019/042: v + 82p.
 
 \leavevmode\hypertarget{ref-cox2011management}{}%
-Cox, S., Kronlund, A., and Lacko, L. 2011. Management procedures for the multi-gear Sablefish (\emph{Anoplopoma fimbria}) fishery in British Columbia, Canada. Can. Sci. Advis. Secret. Res. Doc 62.
+Cox, S., Kronlund, A., and Lacko, L. 2011. Management procedures for the multi-gear sablefish (\emph{anoplopoma fimbria}) fishery in british columbia, canada. DFO Can. Sci. Advis. Sec. Res. Doc. 2011/063: v + 45p.
 
 \leavevmode\hypertarget{ref-cox2008practical}{}%
-Cox, S.P., and Kronlund, A.R. 2008. Practical stakeholder-driven harvest policies for groundfish fisheries in british columbia, canada. Fisheries Research 94(3): 224--237. Elsevier.
+Cox, S.P., and Kronlund, A.R. 2008. Practical stakeholder-driven harvest policies for groundfish fisheries in british columbia, canada. Fisheries Research 94: 224--237.
 
 \leavevmode\hypertarget{ref-cox2013roles}{}%
-Cox, S.P., Kronlund, A.R., and Benson, A.J. 2013. The roles of biological reference points and operational control points in management procedures for the Sablefish (\emph{Anoplopoma fimbria}) fishery in British Columbia, Canada. Environmental Conservation 40(4): 318--328.
+Cox, S.P., Kronlund, A.R., and Benson, A.J. 2013. The roles of biological reference points and operational control points in management procedures for the Sablefish (\emph{Anoplopoma fimbria}) fishery in British Columbia, Canada. Environmental Conservation 40: 318--328.
 
 \leavevmode\hypertarget{ref-DFO2009}{}%
-DFO. 2009. A fishery decision-making framework incorporating the precautionary approach. Fisheries; Oceans Canada.
+DFO. 2009. A fishery decision-making framework incorporating the precautionary approach. Fisheries and Oceans Canada online: (last reportedly modified 23 May 2009, however, figures have since changed).
 
 \leavevmode\hypertarget{ref-dfo2014performanc}{}%
-DFO. 2014. Performance of a revised management procedure for Sablefish in British Columbia. Can. Sci. Adv. Sec. Res. Doc (025).
+DFO. 2014. Performance of a revised management procedure for sablefish in british columbia. DFO Can. Sci. Advis. Sec. Res. Doc. 2014/025.
 
 \leavevmode\hypertarget{ref-hanselman2012statistical}{}%
-Hanselman, D.H., Clark, W.G., Heifetz, J., and Anderl, D.M. 2012. Statistical distribution of age readings of known-age Sablefish (\emph{Anoplopoma fimbria}). Fisheries Research 131: 1--8.
+Hanselman, D.H., Clark, W.G., Heifetz, J., and Anderl, D.M. 2012. Statistical distribution of age readings of known-age sablefish (\emph{anoplopoma fimbria}). Fisheries Research 131: 1--8.
 
 \leavevmode\hypertarget{ref-heifetz1999age}{}%
-Heifetz, J., Anderl, D., Maloney, N., and Rutecki, T. 1999. Age validation and analysis of ageing error from marked and recaptured Sablefish, \emph{Anoplopoma fimbria}. Fishery bulletin 97: 256--263.
+Heifetz, J., Anderl, D., Maloney, N., and Rutecki, T. 1999. Age validation and analysis of ageing error from marked and recaptured sablefish, \emph{anoplopoma fimbria}. Fishery Bulletin 97: 256--263.
 
 \leavevmode\hypertarget{ref-lai1987effects}{}%
 Lai, H.L., and Gunderson, D.R. 1987. Effects of ageing errors on estimates of growth, mortality and yield per recruit for walleye Pollock (\emph{Theragra chalcogramma}). Fisheries Research 5(2-3): 287--302.
@@ -353,17 +345,18 @@ Richards, L.J., Schnute, J.T., Kronlund, A., and Beamish, R.J. 1992. Statistical
 \leavevmode\hypertarget{ref-tyler1989implications}{}%
 Tyler, A., Beamish, R., and McFarlane, G. 1989. Implications of age determination errors to yield estimates. Canadian Special Publication of Fisheries and Aquatic Sciences 108: 27--35.
 
+\setlength{\parindent}{0in} 
+\setlength{\leftskip}{0in} 
+\setlength{\parskip}{4pt}
+
 \newpage
 \setcounter{table}{0}
 
 \hypertarget{tables}{%
 \section{Tables}\label{tables}}
 
-\newpage
-
 \begingroup\fontsize{12}{14}\selectfont
-\begin{landscape}
-\begin{longtable}[t]{llllllll}
+\begin{longtable}[t]{lll}
 \caption{\label{tab:unnamed-chunk-5}Operating model posterior distribution mean (standard deviation) biological parameter, 
 reference point estimates, and stock status indicators for fits to the 2016 data 
 and 2018 data. The columns \textbf{2016 Fit} and \textbf{2018 Fit} show the mean 
@@ -376,38 +369,28 @@ most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point
 two rows show the posterior probability of spawning biomass 
 being above the limit reference point in both 2016 and 2018.}\\
 \toprule
-\textbf{ } & \textbf{2016 Fit} & \textbf{2018 Fit} & \textbf{hiB} & \textbf{hih} & \textbf{loB} & \textbf{loh} & \textbf{mhmB}\\
+\textbf{ } & \textbf{2016 Fit} & \textbf{2018 Fit}\\
 \midrule
-\endfirsthead
-\caption*{}\\
-\toprule
-\textbf{ } & \textbf{2016 Fit} & \textbf{2018 Fit} & \textbf{hiB} & \textbf{hih} & \textbf{loB} & \textbf{loh} & \textbf{mhmB}\\
-\midrule
-\endhead
-\
-\endfoot
+$B_0$ & 57 (1.3) & 54.1 (3.3)\\
+$M_m$ & 0.0411 (0.00027) & 0.0421 (0.0026)\\
+$M_f$ & 0.0788 (0.0014) & 0.0877 (0.0025)\\
+$h$ & 0.556 (0.064) & 0.617 (0.062)\\
+$B_{2016}$ & 10.9 (1.2) & 12.5 (1.4)\\
+$B_{2018}$ &  & 16.3 (2)\\
+$B_{MSY}$ & 23.4 (0.96) & 20.4 (1.7)\\
+$U_{MSY}$ & 0.0433 (0.0062) & 0.0734 (0.01)\\
+Legal $U_{MSY}$ & 0.0423 (0.006) & 0.0773 (0.011)\\
+$MSY$ & 2.79 (0.27) & 4.37 (0.45)\\
+$B_{2016}/B_0$ & 0.191 (0.018) & 0.231 (0.021)\\
+$B_{2016}/B_{MSY}$ & 0.467 (0.049) & 0.613 (0.065)\\
+$B_{2016}/(.4B_{MSY})$ & 1.17 (0.12) & 1.53 (0.16)\\
+$B_{2018}/B_0$ &  & 0.301 (0.032)\\
+$B_{2018}/B_{MSY}$ &  & 0.8 (0.096)\\
+$B_{2018}/(.4B_{MSY})$ &  & 2 (0.24)\\
+$P(B_{2016} \geq .4B_{MSY})$ & 0.93 & 1\\
+$P(B_{2018} \geq .4B_{MSY})$ &  & 1\\
 \bottomrule
-\endlastfoot
-$B_0$ & 57 (1.3) & 54.1 (3.3) & 55.6 & 53.9 & 52.2 & 54.2 & 54\\
-$M_m$ & 0.0411 (0.00027) & 0.0421 (0.0026) & 0.0425 & 0.0419 & 0.0412 & 0.0422 & 0.042\\
-$M_f$ & 0.0788 (0.0014) & 0.0877 (0.0025) & 0.087 & 0.0874 & 0.0879 & 0.0879 & 0.0876\\
-$h$ & 0.556 (0.064) & 0.617 (0.062) & 0.62 & 0.689 & 0.617 & 0.545 & 0.618\\
-$B_{2016}$ & 10.9 (1.2) & 12.5 (1.4) & 14 & 12.4 & 11 & 12.5 & 12.5\\
-$B_{2018}$ &  & 16.3 (2) & 18.6 & 16.2 & 14.1 & 16.4 & 16.3\\
-$B_{MSY}$ & 23.4 (0.96) & 20.4 (1.7) & 20.9 & 18.9 & 19.8 & 21.9 & 20.4\\
-$U_{MSY}$ & 0.0433 (0.0062) & 0.0734 (0.01) & 0.0736 & 0.0853 & 0.0729 & 0.0619 & 0.0733\\
-Legal $U_{MSY}$ & 0.0423 (0.006) & 0.0773 (0.011) & 0.0775 & 0.0902 & 0.0766 & 0.0647 & 0.0771\\
-$MSY$ & 2.79 (0.27) & 4.37 (0.45) & 4.46 & 4.75 & 4.27 & 3.98 & 4.38\\
-$B_{2016}/B_0$ & 0.191 (0.018) & 0.231 (0.021) & 0.253 & 0.231 & 0.212 & 0.232 & 0.231\\
-$B_{2016}/B_{MSY}$ & 0.467 (0.049) & 0.613 (0.065) & 0.673 & 0.66 & 0.558 & 0.573 & 0.612\\
-$B_{2016}/(.4B_{MSY})$ & 1.17 (0.12) & 1.53 (0.16) & 1.68 & 1.65 & 1.39 & 1.43 & 1.53\\
-$B_{2018}/B_0$ &  & 0.301 (0.032) & 0.335 & 0.301 & 0.271 & 0.304 & 0.302\\
-$B_{2018}/B_{MSY}$ &  & 0.8 (0.096) & 0.891 & 0.86 & 0.714 & 0.75 & 0.799\\
-$B_{2018}/(.4B_{MSY})$ &  & 2 (0.24) & 2.23 & 2.15 & 1.79 & 1.88 & 2\\
-$P(B_{2016} \geq .4B_{MSY})$ & 0.93 & 1 &  &  &  &  & \\
-$P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 \end{longtable}
-\end{landscape}
 \endgroup{}
 
 \newpage
@@ -727,8 +710,6 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 
 \hypertarget{figures}{%
 \section{Figures}\label{figures}}
-
-\newpage
 \begin{figure}[htb]
 
 {\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{knitr-figs-pdfunnamed-chunk-17-1}}{Figure \ref{fig:unnamed-chunk-17}} 
@@ -794,14 +775,8 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 \caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{robustness recruitment scenario}, showing the current MP (noCap), three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines.In the top row the green line is $B_{MSY}$ and the lower dashed line is the Limit Reference Point (0.4$B_{MSY}$)}\label{fig:unnamed-chunk-26}
 \end{figure}
 \end{landscape}
-\hypertarget{appendix-appendices}{%
-\appendix}
-
-
-\hypertarget{appendix-a-updated-operating-model-components}{%
-\section{Appendix A: Updated operating model components}\label{appendix-a-updated-operating-model-components}}
-
-\setcounter{table}{0}\renewcommand{\thetable}{A\arabic{table}}\setcounter{figure}{0}\renewcommand{\thefigure}{A\arabic{figure}}
+\hypertarget{appendix}{%
+\section{\texorpdfstring{Appendix\label{sec:app-minor}}{Appendix}}\label{appendix}}
 
 \hypertarget{updated-ageing-error-matrix}{%
 \subsection{Updated ageing error matrix}\label{updated-ageing-error-matrix}}
@@ -849,11 +824,8 @@ C_a &= P^T \cdot C_l,
 Inferred catch-at-age compositions had a noticable effect on the selectivity-at-length curves for the trawl fleet (Figure A5). The fully selected size class moved from about 42 cm to 48 cm, and the shape of the Gamma selection curve dome was narrower, deselecting to about 60\% by the 55cm size limit, as opposed to about 80\% for the normal model in 2016.
 
 \newpage
-
-\hypertarget{tables-1}{%
-\subsubsection{Tables}\label{tables-1}}
 \begin{longtable}[]{@{}rlrrr@{}}
-\caption{\label{tab:unnamed-chunk-31}Ageing error model parameters for both true age cases tested.}\tabularnewline
+\caption{\label{tab:unnamed-chunk-28}Ageing error model parameters for both true age cases tested.}\tabularnewline
 \toprule
 Case & True Age & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 \midrule
@@ -867,54 +839,75 @@ Case & True Age & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 \bottomrule
 \end{longtable}
 \newpage
-
-\hypertarget{figures-1}{%
-\subsubsection{Figures}\label{figures-1}}
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/ageErr1}}{Figure \ref{fig:unnamed-chunk-33}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/ageErr1}}{Figure \ref{fig:unnamed-chunk-30}} 
 
 }
 
-\caption{Estimated standard deviation of observed ages for the two age assignment cases considered.}\label{fig:unnamed-chunk-33}
+\caption{Estimated standard deviation of observed ages for the two age assignment cases considered.}\label{fig:unnamed-chunk-30}
 \end{figure}
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/ageErr2}}{Figure \ref{fig:unnamed-chunk-34}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/ageErr2}}{Figure \ref{fig:unnamed-chunk-31}} 
 
 }
 
-\caption{Probability of observed ages given the true age indicated in top right corner of each panel for the two age assignment cases considered.}\label{fig:unnamed-chunk-34}
+\caption{Probability of observed ages given the true age indicated in top right corner of each panel for the two age assignment cases considered.}\label{fig:unnamed-chunk-31}
 \end{figure}
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/base_ALK_mUnsexed/plotObsAgeFreq_m3}}{Figure \ref{fig:unnamed-chunk-35}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/base_ALK_mUnsexed/plotObsAgeFreq_m3}}{Figure \ref{fig:unnamed-chunk-32}} 
 
 }
 
-\caption{Inferred male catch-at-age compositions generated by the trawl age-length key from length observations of male and unsexed fish.}\label{fig:unnamed-chunk-35}
+\caption{Inferred male catch-at-age compositions generated by the trawl age-length key from length observations of male and unsexed fish.}\label{fig:unnamed-chunk-32}
 \end{figure}
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/base_ALK_mUnsexed/plotObsAgeFreq_f3}}{Figure \ref{fig:unnamed-chunk-36}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/base_ALK_mUnsexed/plotObsAgeFreq_f3}}{Figure \ref{fig:unnamed-chunk-33}} 
 
 }
 
-\caption{Inferred female catch-at-age compositions generated by the trawl age-length key from length observations of female fish}\label{fig:unnamed-chunk-36}
+\caption{Inferred female catch-at-age compositions generated by the trawl age-length key from length observations of female fish}\label{fig:unnamed-chunk-33}
 \end{figure}
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/trawlSelOverlay}}{Figure \ref{fig:unnamed-chunk-37}} 
+{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/trawlSelOverlay}}{Figure \ref{fig:unnamed-chunk-34}} 
 
 }
 
-\caption{Trawl selectivity-at-length curves from the 2016 operating model (dashed grey line) and 2019 operating model (solid black line), and the legal size limit (vertical red dashed line). The length axis starts at the modeled length at age-1 of 32cm.}\label{fig:unnamed-chunk-37}
+\caption{Trawl selectivity-at-length curves from the 2016 operating model (dashed grey line) and 2019 operating model (solid black line), and the legal size limit (vertical red dashed line). The length axis starts at the modeled length at age-1 of 32cm.}\label{fig:unnamed-chunk-34}
 \end{figure}
-\MakeAvailable
+\clearpage
+
+\section{Le pr\'{e}sent rapport est disponible aupr\`{e}s du}
+\begin{center}
+Centre des avis scientifiques\\
+\rdRegion{}\\
+P\^{e}ches et Oc\'{e}ans Canada\\
+200 Kent St.\\Ottawa, ON, K1A 0E6\\
+\vspace{0.1cm}
+T\'{e}l\'{e}phone: (613) 990-0194\\
+Courriel: \link{mailto:csas-sccs@dfo-mpo.gc.ca}{csas-sccs@dfo-mpo.gc.ca}\\
+Addresse internet: \link{http://www.dfo-mpo.gc.ca/csas-sccs/}{www.dfo-mpo.gc.ca/csas-sccs/}\\
+\vspace{0.1cm}
+ISSN 1919-3769\\
+\copyright{} Sa Majest\'{e} la Reine du chef du Canada, \rdYear{}\\
+\vspace{0.2cm}
+\includegraphics[scale=0.96]{\locRepo/images/recycle.png}
+\end{center}
+La pr\'{e}sente publication doit \^{e}tre cit\'{e}e comme suit:
+
+\citeFr{\rdYear{}/\rdNumber{}}
+
+\emph{Also available in English:}
+
+\citeEng{\rdYear{}/\rdNumber{}}
 
 \setlength{\parindent}{0in} \setlength{\leftskip}{0in} \setlength{\parskip}{4pt}
 \hypertarget{refs}{}

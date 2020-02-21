@@ -1,7 +1,5 @@
-# (APPENDIX) Appendices {-}
+# Appendix\label{sec:app-minor}
 
-# Appendix A: Updated operating model components
-\beginAppA
 ## Updated ageing error matrix
 
 The Sablefish age-structured assessment model relies on catch-at-age 
@@ -142,8 +140,6 @@ for the normal model in 2016.
 \newpage
 
 
-### Tables
-
 ```{r, echo = FALSE, include = FALSE, warning = FALSE}
 ageErrTable <- tibble::tribble( 
     ~Case,   ~TrueAge,           ~sigma1, ~sigmaA, ~alpha, 
@@ -168,7 +164,6 @@ csasdown::csas_table(  ageErrTable,
 
 \newpage
 
-### Figures
 ```{r, echo = FALSE, warning = FALSE, include = FALSE}
 
 ageErr1Cap <- "Estimated standard deviation of observed ages for the two age assignment cases considered."

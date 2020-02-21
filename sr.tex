@@ -32,7 +32,11 @@
 \newcommand{\rdMonth}{November}
 
 % Report number
+<<<<<<< HEAD
 \newcommand{\rdNumber}{\threedigits{nnn}}
+=======
+\newcommand{\rdNumber}{\threedigits{999}}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 % End of report number
 
 % Approver (name\\position)
@@ -55,20 +59,27 @@ Fisheries and Oceans Canada}
 %Defines cslreferences environment
 %Required by pandoc 2.8
 %Copied from https://github.com/rstudio/rmarkdown/issues/1649
+<<<<<<< HEAD
 \newlength{\cslhangindent}
 \setlength{\cslhangindent}{1.5em}
 \newenvironment{cslreferences}%
   {\setlength{\parindent}{0pt}%
   \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces}%
   {\par}
+=======
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 \begin{document}
 
 \bookmark[dest=PageOne]{\rdTitle{}}
 
 \MakeFirstPage
 
+<<<<<<< HEAD
 \hypertarget{context}{%
 \section{Context}\label{context}}
+=======
+\section{Context}\label{context}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 Since 2008, Fisheries and Oceans Canada (DFO) and the British Columbia (BC) groundfish fishing industry have collaborated on a management strategy evaluation (MSE) process intended to maintain a transparent and sustainable harvest strategy for Sablefish fisheries in BC. Transparency and potential sustainability of candidate management procedures (MPs) are demonstrated by simulating MP performance against a set of pre-agreed biological and fishery objectives (hereafter referred to as Fishery Objectives). Operating models underlying the simulations are intended to represent key uncertainties related to Sablefish stock status and productivity. The Sablefish MSE process has been reviewed in several Canadian Science Advisory Secretariat (CSAS) peer-review processes, and independent peer-reviewed scientific literature (Cox and Kronlund \protect\hyperlink{ref-cox2008practical}{2008}; Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2013roles}{2013}, \protect\hyperlink{ref-cox2019evaluating}{2019}; DFO \protect\hyperlink{ref-dfo2014performanc}{2014}). Canadian Sablefish harvest advice derived from simulation-tested MPs has been adopted by DFO every year since 2011.
 
@@ -82,8 +93,12 @@ Advice arising from this CSAS Science Response will be used to select a new MP f
 
 This Science Response Report results from the Science Response Process of September 2019 on evaluating the robustness of candidate management procedures in the BC Sablefish (\emph{Anoplopoma fibria}) fishery for 2019-2020.
 
+<<<<<<< HEAD
 \hypertarget{analysis-and-response}{%
 \section{Analysis and response}\label{analysis-and-response}}
+=======
+\section{Analysis and response}\label{analysis-and-response}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 This Science Response uses a closed-loop simulation approach to evaluate the relative performance of candidate MPs for the BC Sablefish fishery, using identical methodology to that presented in the previous MSE cycle (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). The following sub-sections provide brief descriptions of the updated data used to condition the Sablefish OM, the changes required to fit that data, and the new MP elements that were tested. Additional details of the simulation procedures, diagnostic checks, and performance measure calculations are given in Cox et al. (\protect\hyperlink{ref-cox2019evaluating}{2019}).
 
@@ -98,16 +113,23 @@ In this Science Response we specifically:
 \item
   Simulate and rank candidate MPs under the reference and robustness OMs based on performance against Fishery Objectives (see below).
 \end{enumerate}
+<<<<<<< HEAD
 \hypertarget{methods}{%
 \subsection{Methods}\label{methods}}
 
 \hypertarget{updates-to-the-om}{%
 \subsubsection{Updates to the OM}\label{updates-to-the-om}}
+=======
+\subsection{Methods}\label{methods}
+
+\subsubsection{Updates to the OM}\label{updates-to-the-om}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 Data updated to 2018 included biomass indices and catch-at-age for the stratifed random trap survey (StRS), catch-at-age for the commercial longline trap fishery, catch and total at-sea releases (in biomass units) for the commercial longline trap, longline hook, and trawl fisheries. We also obtained new catch-at-age and catch-at-length datasets for the trawl fishery to help estimate trawl selectivity, which is the key determinant of sub-legal Sablefish catch in trawl fisheries. The full trawl catch-at-age dataset (with some missing years) was derived from an age-length key given age and length data from 1972 to 2017.
 
 A number of small changes were made to the OM as part of routine attempts to improve fits to various data. These included (i) changing the functional form of trawl selectivity to a gamma density function (Figure A5), (ii) reducing the youngest modelled age class from age-3 to age-2 for all age composition series to better reflect the range of age-composition observations, (iii) adding new commercial trawl age-composition data (Appendix A), (iv) adding an estimated recruitment deviation in 2015, rather than using the expected recruitment off the stock-recruit curve, (v) updating the ageing-error matrix to use a simpler normal approximation recommended in the previous CSAS review (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}); and (vi) imposing a standard deviation of \(\sigma = 0.1\) (on the log-scale) on trawl at-sea release observation errors to force a better fit to those data. Previous models avoided estimating recruitment in the three most recent years, mainly because this would have been the first age-at-entry observations provided to the model and there is typically little information to support those estimates because fish are too small to be selected by the fisheries or surveys. However, for this update, we made change (iv) above (i.e., estimated recruitment deviation in 2015) because we needed to improve fits to recent (very high) trawl at-sea release observations. Otherwise, we would be simulating effects of at-sea releases based on a model that could not adequately fit historical at-sea releases. This change has a potentially large impact on simulated MP performance and, therefore, is a focus of the robustness OMs (described below).
 
+<<<<<<< HEAD
 \hypertarget{operating-model-scenarios}{%
 \subsubsection{Operating model scenarios}\label{operating-model-scenarios}}
 
@@ -123,6 +145,19 @@ The robustness OMs were identical to the five reference OMs with the exception o
 
 \hypertarget{fishery-objectives}{%
 \subsubsection{Fishery Objectives}\label{fishery-objectives}}
+=======
+\subsubsection{Operating model scenarios}\label{operating-model-scenarios}
+
+\subsubsection{Reference OMs}\label{reference-oms}
+
+The reference OMs were derived using the same method as the previous MSE cycle (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). Briefly, we derived five OMs defined by the joint posterior distribution of 2018 spawning stock biomass (to reflect short-term biological risk) and stock-recruitment steepness (to reflect long-term stock productivity risk). The five combinations were chosen to represent the joint marginal mean of 2018 biomass and steepness and four outer points lying at the intersection of the mean of one variable, and the 10th and 90th percentiles of the marginal density of the other variable (Figure 1). This set of five OMs was chosen to maintain consistency with the previous MSE cycle (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). For each of the five posterior points, the operating model was conditioned on a sample of 100 posterior draws constrained to lie within a Mahalanobis distance of 0.75 units from that point. We then used an empirical estimate of the posterior density at each of the five centres as a plausibility score for weighting MP performance across the five OMs within each of the reference and robustness sets.
+
+\subsubsection{Robustness OMs}\label{robustness-oms}
+
+The robustness OMs were identical to the five reference OMs with the exception of how the recruitment from the 2015 year class was treated in the OM historical conditioning and projections. The reference OM used draws from the joint posterior distribution (as defined above) for the 2015 year class, which is approximately 22 million fish or about 8 times the historical average. For the robustness OMs, we simulated recruitment based on the stock-recruitment relationship resulting in an expected 2015 year class that was more similar to the long-term average (\(\sim 2.63\) million).
+
+\subsubsection{Fishery Objectives}\label{fishery-objectives}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 Objectives for the B.C. Sablefish fishery have been developed iteratively over the past decade via consultations between fishery managers, scientists, and industry stakeholders (Cox and Kronlund \protect\hyperlink{ref-cox2009evaluation}{2009}; Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2019evaluating}{2019}; DFO \protect\hyperlink{ref-dfo2014performanc}{2014}). The five primary objectives guiding this fishery are:
 \begin{enumerate}
@@ -143,8 +178,12 @@ Performance measures corresponding to Fishery Objectives 1-4 (in bold) are read 
 
 As noted above, there is a price premium for larger size classes of Sablefish, which means that the same tonnage of landed catch may yield widely different dockside values if the underlying size distributions of individual fish are substantially different. This may have consequences for sub-legal management measures that require landing small Sablefish (e.g., no size limit). Therefore, in addition to presenting catch performance statistics (e.g., Fishery Objective 5), we also computed cumulative revenue over 10 years and average revenue per tonne by fleet (because the size composition of the catch also differs by fleet).
 
+<<<<<<< HEAD
 \hypertarget{management-procedures}{%
 \subsubsection{Management procedures}\label{management-procedures}}
+=======
+\subsubsection{Management procedures}\label{management-procedures}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 A management procedure represents a specific, repeatable algorithm for computing annual total allowable catches (TACs) in a fishery. In most cases, MPs involve monitoring data, assessment methods for processing data and estimating stock status, harvest control rules for translating assessment outputs into catch limits, and meta rules that may include constraints on TAC changes, as well as conditions (e.g., exceptional circumstances) for triggering deviations from the standard MP harvest advice.
 
@@ -161,22 +200,35 @@ For this Science Response, we evaluated performance of the current MP for Sablef
 \item
   \textbf{amortization period} of either 5 (am5) or 10 (am10) years over which to spread at-sea release overages to future TACs.
 \end{enumerate}
+<<<<<<< HEAD
 In this Science Response, MPs are named by combining the three at-sea management measures detailed above: CAP\_ALLOCATION\_AMORTIZATION. For example, the \textbf{cap.5\_hstAl\_am5} MP involves a total at-sea release cap that is 50\% (0.5) of the historical average (\textbf{cap.5}), a cap allocation among fleets that is based on the historic (2006-2018), fleet-specific average proportions (\textbf{hstAl}), and a 5-year amortization period for at-sea release overages (\textbf{am5}). The two special cases to this naming convention are the current MP (\textbf{noCap}), which has no cap, and no size limit MP (\textbf{NSL}), which has no releases (all fish are landed, regardless of size). For 0\% caps, only the amortization period for overages would apply (e.g.~\textbf{cap0\_am5}) with all at-sea releases counted as overages.
 
 \hypertarget{a-worked-example-at-sea-release-management-measures-for-cap.5_hstal_am5.}{%
 \subsubsection{\texorpdfstring{A worked example at-sea release management measures for \textbf{cap.5\_hstAl\_am5}.}{A worked example at-sea release management measures for cap.5\_hstAl\_am5.}}\label{a-worked-example-at-sea-release-management-measures-for-cap.5_hstal_am5.}}
+=======
+In this Science Response, MPs are named by combining the three at-sea management measures detailed above: CAP\_ALLOCATION\_AMORTIZATION. For example, the \textbf{cap.5\_hstAl\_am5} MP involves a total at-sea release cap that is 50\% (0.5) of the historical average (\textbf{cap.5}), a cap allocation among fleets that is based on the historic (2006-2018), fleet-specific average proportions (\textbf{hstAl}), and a 5-year amortization period for at-sea release overages (\textbf{am5}). The two special cases to this naming convention are the current MP (\textbf{noCap}), which has no cap, and no size limit MP (\textbf{NSL}), which has no releases (all fish are landed, regardless of size). For 0\% caps, only the amortization period for overages would apply (e.g. \textbf{cap0\_am5}) with all at-sea releases counted as overages.
+
+\subsubsection{\texorpdfstring{A worked example at-sea release management measures for \textbf{cap.5\_hstAl\_am5}.}{A worked example at-sea release management measures for cap.5\_hstAl\_am5.}}\label{a-worked-example-at-sea-release-management-measures-for-cap.5_hstal_am5.}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 To illustrate how we simulated the implementation of the at-sea release management measures, below we provide the sequence of calculations used to establish annual at-sea release caps and then how they affect future TAC allocations. In the computations below, \(t\) is year, \(g\) is fleet, and \(p(g)\) is proportion of releases allocated to fleet \(g\).
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 
 \item
+<<<<<<< HEAD
   Calculate 50\% at-sea release CAP for year and fleet (464 t is the 2006 - 2018 average): \begin{equation*}
         CAP(t,g) = 0.5 \cdot 0.464 \cdot p(g).
+=======
+  Calculate 50\% at-sea release CAP for year and fleet (464 t is the 2006 - 2018 average):
+  \begin{equation*}
+          CAP(t,g) = 0.5 \cdot 0.464 \cdot p(g).
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
   \end{equation*}
 \item
   Run simulation for year t to get actual at-sea releases: \(R(t,g)\).
 \item
+<<<<<<< HEAD
   Calculate overage \(o(t,g)\) for the year as the difference between actual releases \(R(t,g)\) and the \(CAP(t,g)\): \tabularnewline \begin{equation*}
         o(t,g) = R(t,g) - CAP(t,g).
   \end{equation*}
@@ -187,12 +239,31 @@ To illustrate how we simulated the implementation of the at-sea release manageme
 \item
   Get adjusted legal-sized Sablefish TAC for next year by subtracting overage account for that year from initial \(TAC'\) (\(TAC'\) set by the MP prior to at-sea management measures): \begin{equation*}
         TAC(t,g) = TAC'(t,g) - O(t,g).
+=======
+  Calculate overage \(o(t,g)\) for the year as the difference between actual releases \(R(t,g)\) and the \(CAP(t,g)\): \tabularnewline
+  \begin{equation*}
+          o(t,g) = R(t,g) - CAP(t,g).
+  \end{equation*}
+\item
+  Amortization period is 5 years, so add 1/5th of this year's overage. to the accumulated overage account \(O(t+k,g)\) in each of the next 5 years:
+  \begin{equation*}
+          O(t + k,g) = O(t+k,g) + o(t,g)/5, \mbox{ for } k = 1, ..., 5.
+  \end{equation*}
+\item
+  Get adjusted legal-sized Sablefish TAC for next year by subtracting overage account for that year from initial \(TAC'\) (\(TAC'\) set by the MP prior to at-sea management measures):
+  \begin{equation*}
+          TAC(t,g) = TAC'(t,g) - O(t,g).
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
   \end{equation*}
 \end{enumerate}
 This approach aims to create an incentive to avoid sub-legal Sablefish via future TAC reductions (assuming one-for-one accounting of sub-legal biomass to legal sized Sablefish biomass), while also allowing some flexibility year-to-year for unpredictably large at-sea releases in any given year. Note that the overage account can never be less than zero, so that TACs cannot be increased above the initial TAC set by the first stage MP (i.e., banking of TAC cannot occur).
 
+<<<<<<< HEAD
 \hypertarget{management-procedure-tuning}{%
 \subsubsection{Management procedure tuning}\label{management-procedure-tuning}}
+=======
+\subsubsection{Management procedure tuning}\label{management-procedure-tuning}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 The Sablefish management strategy evaluation quantifies MP performance against performance statistics representing each of the the Fishery Objectives. The first three performance statistics are represented by biomass conservation performance against the LRP, short-term probability of decline, and achieving a long-term target at or near \(B_{MSY}\), while the fourth and fifth ones relate to maintaining catch levels above an industry-preferred floor and short-term average catch. It is rare that two MPs would have comparable performance across four of these performance statistics while only differing on one. If this were the case, then the decision on which MP is preferred would be straightforward -- choose the MP with better performance on the fifth statistic. Unfortunately, MPs typically differ on all five performance statistics simultaneously, which makes it difficult to compare performance without, at least, establishing some equivalency between conservation probabilities (Fishery Objectives 1-3) and short-term average catch (Fishery Objectives 5).
 
@@ -202,11 +273,17 @@ We aimed to simplify interpretation of MP performance by tuning all MPs to a sta
 
 Each MP was tuned seperately to the reference and robustness OM scenarios, leading to different \(F_{2021}\) values for each MP (i.e., once for each OM). We then simulated a cross-test in which \(F_{2021}\) values tuned under the reference OM were applied in MPs for the robustness OM and vice versa. The cross-test reveals the potential biological and catch consequences of using the wrong \(F_{2021}\) values.
 
+<<<<<<< HEAD
 \hypertarget{results}{%
 \subsection{Results}\label{results}}
 
 \hypertarget{operating-model-update-and-implications-for-stocks-status}{%
 \subsubsection{Operating model update and implications for stocks status}\label{operating-model-update-and-implications-for-stocks-status}}
+=======
+\subsection{Results}\label{results}
+
+\subsubsection{Operating model update and implications for stocks status}\label{operating-model-update-and-implications-for-stocks-status}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 Operating model fits to survey and fishery biomass indices were similar to previous versions, where both the model and data showed a long-term steady decline. The most recent two stratified random survey (StRS) data points (2017 and 2018) were substantially higher than the preceding 15 years, suggesting potential increases in the offshore stock biomass (Figure 2).
 
@@ -218,11 +295,17 @@ The updated stock status of Canadian Sablefish depended on the absolute size of 
 
 Under the large 2015 year class, the OM fit showed the Sablefish stock status as generally good (Table 1, 2018 Fit). Spawning biomass in 2018 was about twice the limit reference point (LRP), up from about 1.5 times the LRP, which was itself revised from the 2016 fit of about 1.17 times the LRP . This change indicated that the BC Sablefish stock might have moved out of an overfished state. Similarly, the posterior probability of the last year's biomass being above the limit reference also improved from 2016 to 2018, increasing from 93\% (2016 fit) to 100\% (2018 fit).
 
+<<<<<<< HEAD
 \hypertarget{management-procedure-evaluation-results}{%
 \subsubsection{Management procedure evaluation results}\label{management-procedure-evaluation-results}}
 
 \hypertarget{reference-om-set-under-reference-f_2021-tuning}{%
 \subsubsection{\texorpdfstring{Reference OM set under reference \(F_{2021}\) tuning}{Reference OM set under reference F\_\{2021\} tuning}}\label{reference-om-set-under-reference-f_2021-tuning}}
+=======
+\subsubsection{Management procedure evaluation results}\label{management-procedure-evaluation-results}
+
+\subsubsection{\texorpdfstring{Reference OM set under reference \(F_{2021}\) tuning}{Reference OM set under reference F\_\{2021\} tuning}}\label{reference-om-set-under-reference-f_2021-tuning}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 As expected, recruitment from the 2015 year class was the primary driver of projected spawning biomass and fishery outcomes in the reference OM simulations. Spawning biomass increased rapidly over the first five years of the projection period as age-3 (i.e., 2015 year class) fish became fully recruited to the fisheries and then the spawning biomass (Figures 4 and 5, top row). Spawning biomass then trended downward toward \(B_{MSY}\) over the long-term as the 2015 year class was fished down and recruitments returned to expected values around the stock-recruitment relationship (i.e., recruitments for 2016 onward are all simulated off the stock-recruitment relationship).
 
@@ -246,8 +329,12 @@ Indeed, the average revenue per tonne was approximately \$170 lower for a no siz
 
 The next best at-sea release management measures, from a total catch and cumulative revenue perspective, after the no size limit MP were different between trap and longline hook fisheries and trawl. For instance, as noted above, MP6 (\textbf{cap0\_am5}) was the next best option for trap and longline hook, in terms of both average annual TAC and cumulative revenue (Table 4). In contrast, the next best option for trawl revenue was MP14 (\textbf{cap1.5\_rctAl\_am5}), which had the lowest average annual TAC. The revenue difference for trawl between this option and no size limit was only \$5 million over 10 years, while the revenue differences between MP6 and MP17 for trap and longline hook were \$33 million and \$32 million, respectively. Thus, the results suggest trap and longline hook fisheries would benefit from more restrictive at-sea management measures while trawl would benefit from the least restrictive at-sea management measures other than the status quo, even without considering the implications for trawl's main target fisheries.
 
+<<<<<<< HEAD
 \hypertarget{robustness-om-set-under-robustness-f_2021-tuning}{%
 \subsubsection{\texorpdfstring{Robustness OM set under robustness \(F_{2021}\) tuning}{Robustness OM set under robustness F\_\{2021\} tuning}}\label{robustness-om-set-under-robustness-f_2021-tuning}}
+=======
+\subsubsection{\texorpdfstring{Robustness OM set under robustness \(F_{2021}\) tuning}{Robustness OM set under robustness F\_\{2021\} tuning}}\label{robustness-om-set-under-robustness-f_2021-tuning}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 Unlike the reference OMs, in which biomass and catch increases were large over the next decade, Sablefish biomass and catch projections under the robustness OMs increased more gradually, and generally required lower fishing rates to meet Fishery Objecitives 1-3 (Figures 6 and 7). In fact, these simulations closely resemble previous Sablefish MSE results, which suggested that relatively conservative harvest strategies are needed over the long-term to meet the Fishery Objecitives 1-3 (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}).
 
@@ -259,15 +346,23 @@ Average annual variation in catch (AAV) was 9-11\% under the robustness OMs comp
 
 Cumulative 10-year revenue under the robustness OMs was approximately 60\% of revenue in the reference OMs (Table 6). Although the absolute scales differ, the cumulative value patterns were similar to the reference set; that is, no size limit produced the highest overall value, as well as value in each fleet, and the next best at-sea release management measure option, from a cumulative revenue perspective, was the most restrictive for trawl and next-most-restrictive for trap and longline hook (MP6, \textbf{cap0\_am5}; Table 6).
 
+<<<<<<< HEAD
 \hypertarget{cross-tests-of-oms-under-opposite-f_2021-tuning}{%
 \subsubsection{\texorpdfstring{Cross tests of OMs under opposite \(F_{2021}\) tuning}{Cross tests of OMs under opposite F\_\{2021\} tuning}}\label{cross-tests-of-oms-under-opposite-f_2021-tuning}}
+=======
+\subsubsection{\texorpdfstring{Cross tests of OMs under opposite \(F_{2021}\) tuning}{Cross tests of OMs under opposite F\_\{2021\} tuning}}\label{cross-tests-of-oms-under-opposite-f_2021-tuning}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 As expected, there was considerable asymmetry of risk between MPs tuned under the robustness OMs and reference OMs. For example, when MPs were tuned to meet Fishery Objecitives 1-3 under the reference OMs, but the 2015 year class failed to materialise as in the robustness OMs, almost all MPs failed to meet the performance criteria for Fishery Objectives 2 and 3 (Table 7). The benefit of accepting this conservation risk was approximately 150 t of extra annual catch, or at most a 6\% increase in average annual catch.
 
 On the other hand, if MPs were tuned to meet Fishery Objecitives 1-3 under the robustness OMs, but the 2015 year class materialised as expected under the reference OMs, then, all MPs continued to meet the Fishery Objecitives 1 - 3 (Table 8). This more risk averse strategy (from a biological perspective) comes with the cost of reduced average annual catch of approximately 300 t for all MPs, or 6.5-8\% of the reference-tuned catch.
 
+<<<<<<< HEAD
 \hypertarget{conclusions}{%
 \section{Conclusions}\label{conclusions}}
+=======
+\section{Conclusions}\label{conclusions}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 The current MP for Canadian Sablefish (MP15, \textbf{noCap}), which includes no limits on at-sea releases, was able to meet biological objectives (i.e., Fishery Objectives 1-3) under both reference and robustness OMs, although it ranked near the bottom in terms of catch performance compared to MPs with at-sea release management measures. Of the MPs with management measures for at-sea releases, MP14 (no size limit), MP17 (0\% cap, 5 year amortization), MP3 (50\% cap, historical allocation, and 5-year amortization) ranked among the top-3 most often under both reference and robustness OMs, provided that maximum target fishing mortality rates were tuned to meet the first three Fishery Objectives.
 
@@ -283,8 +378,12 @@ On the other hand, the opposite cross-test --- robustness-tuned MPs against the 
 
 Revisions to the strategy could be made in the next MSE (2020-2022) cycle when the 2015 year-class size should be better estimated as several more years of fishery and survey data accumulate.
 
+<<<<<<< HEAD
 \hypertarget{contributors}{%
 \section{Contributors}\label{contributors}}
+=======
+\section{Contributors}\label{contributors}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 \begin{longtable}[]{@{}ll@{}}
 \toprule
 Name & Affiliation\tabularnewline
@@ -301,8 +400,12 @@ Lisa Christiansen & DFO Centre for Science Advice, Pacific Region (editor)\tabul
 \end{longtable}
 \MakeApproval
 
+<<<<<<< HEAD
 \hypertarget{sources-of-information}{%
 \section{Sources of information}\label{sources-of-information}}
+=======
+\section{Sources of information}\label{sources-of-information}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 \phantomsection
 
 % This manually sets the header for this unnumbered chapter.
@@ -313,6 +416,7 @@ Lisa Christiansen & DFO Centre for Science Advice, Pacific Region (editor)\tabul
 \setlength{\parskip}{8pt}
 
 \hypertarget{refs}{}
+<<<<<<< HEAD
 \begin{cslreferences}
 \leavevmode\hypertarget{ref-cox2019evaluating}{}%
 Cox, S., Holt, K., and Johnson, S. 2019. Evaluating the robustness of management procedures for the Sablefish (\emph{Anoplopoma fimbria}) fishery in British Columbia, Canada for 2017-18. Can. Sci. Adv. Sec. Res. Doc (032): vi + 79 p.
@@ -361,6 +465,52 @@ Tyler, A., Beamish, R., and McFarlane, G. 1989. Implications of age determinatio
 \begingroup\fontsize{12}{14}\selectfont
 \begin{landscape}
 \begin{longtable}[t]{llllllll}
+=======
+\hypertarget{ref-cox2009evaluation}{}
+Cox, S., and Kronlund, A. 2009. Evaluation of interim harvest strategies for sablefish (\emph{anoplopoma fimbria}) in british columbia, canada for 2008/09. DFO Can. Sci. Advis. Sec. Res. Doc. 2019/042: v + 82p.
+
+\hypertarget{ref-cox2019evaluating}{}
+Cox, S., Holt, K., and Johnson, S. 2019. Evaluating the robustness of management procedures for the sablefish (\emph{anoplopoma fimbria}) fishery in british columbia, canada for 2017-18. DFO Can. Sci. Advis. Sec. Res. Doc. 2019/032: v + 79p.
+
+\hypertarget{ref-cox2011management}{}
+Cox, S., Kronlund, A., and Lacko, L. 2011. Management procedures for the multi-gear sablefish (\emph{anoplopoma fimbria}) fishery in british columbia, canada. DFO Can. Sci. Advis. Sec. Res. Doc. 2011/063: v + 45p.
+
+\hypertarget{ref-cox2008practical}{}
+Cox, S.P., and Kronlund, A.R. 2008. Practical stakeholder-driven harvest policies for groundfish fisheries in british columbia, canada. Fisheries Research 94: 224--237.
+
+\hypertarget{ref-cox2013roles}{}
+Cox, S.P., Kronlund, A.R., and Benson, A.J. 2013. The roles of biological reference points and operational control points in management procedures for the Sablefish (\emph{Anoplopoma fimbria}) fishery in British Columbia, Canada. Environmental Conservation 40: 318--328.
+
+\hypertarget{ref-DFO2009}{}
+DFO. 2009. A fishery decision-making framework incorporating the precautionary approach. Fisheries and Oceans Canada online: (last reportedly modified 23 May 2009, however, figures have since changed).
+
+\hypertarget{ref-dfo2014performanc}{}
+DFO. 2014. Performance of a revised management procedure for sablefish in british columbia. DFO Can. Sci. Advis. Sec. Res. Doc. 2014/025.
+
+\hypertarget{ref-hanselman2012statistical}{}
+Hanselman, D.H., Clark, W.G., Heifetz, J., and Anderl, D.M. 2012. Statistical distribution of age readings of known-age sablefish (\emph{anoplopoma fimbria}). Fisheries Research 131: 1--8.
+
+\hypertarget{ref-heifetz1999age}{}
+Heifetz, J., Anderl, D., Maloney, N., and Rutecki, T. 1999. Age validation and analysis of ageing error from marked and recaptured sablefish, \emph{anoplopoma fimbria}. Fishery Bulletin 97: 256--263.
+
+\hypertarget{ref-lai1987effects}{}
+Lai, H.L., and Gunderson, D.R. 1987. Effects of ageing errors on estimates of growth, mortality and yield per recruit for walleye Pollock (\emph{Theragra chalcogramma}). Fisheries Research 5(2-3): 287--302.
+
+\hypertarget{ref-richards1992statistical}{}
+Richards, L.J., Schnute, J.T., Kronlund, A., and Beamish, R.J. 1992. Statistical models for the analysis of ageing error. Canadian Journal of Fisheries and Aquatic Sciences 49(9): 1801--1815.
+
+\hypertarget{ref-tyler1989implications}{}
+Tyler, A., Beamish, R., and McFarlane, G. 1989. Implications of age determination errors to yield estimates. Canadian Special Publication of Fisheries and Aquatic Sciences 108: 27--35.
+
+\setlength{\parindent}{0in} \setlength{\leftskip}{0in} \setlength{\parskip}{4pt}
+
+\newpage
+
+\setcounter{table}{0} \# Tables
+
+\begingroup\fontsize{12}{14}\selectfont
+\begin{longtable}[t]{lll}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 \caption{\label{tab:unnamed-chunk-5}Operating model posterior distribution mean (standard deviation) biological parameter, 
 reference point estimates, and stock status indicators for fits to the 2016 data 
 and 2018 data. The columns \textbf{2016 Fit} and \textbf{2018 Fit} show the mean 
@@ -373,6 +523,7 @@ most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point
 two rows show the posterior probability of spawning biomass 
 being above the limit reference point in both 2016 and 2018.}\\
 \toprule
+<<<<<<< HEAD
 \textbf{ } & \textbf{2016 Fit} & \textbf{2018 Fit} & \textbf{hiB} & \textbf{hih} & \textbf{loB} & \textbf{loh} & \textbf{mhmB}\\
 \midrule
 \endfirsthead
@@ -405,6 +556,30 @@ $P(B_{2016} \geq .4B_{MSY})$ & 0.93 & 1 &  &  &  &  & \\
 $P(B_{2018} \geq .4B_{MSY})$ &  & 1 &  &  &  &  & \\*
 \end{longtable}
 \end{landscape}
+=======
+\textbf{ } & \textbf{2016 Fit} & \textbf{2018 Fit}\\
+\midrule
+$B_0$ & 57 (1.3) & 54.1 (3.3)\\
+$M_m$ & 0.0411 (0.00027) & 0.0421 (0.0026)\\
+$M_f$ & 0.0788 (0.0014) & 0.0877 (0.0025)\\
+$h$ & 0.556 (0.064) & 0.617 (0.062)\\
+$B_{2016}$ & 10.9 (1.2) & 12.5 (1.4)\\
+$B_{2018}$ &  & 16.3 (2)\\
+$B_{MSY}$ & 23.4 (0.96) & 20.4 (1.7)\\
+$U_{MSY}$ & 0.0433 (0.0062) & 0.0734 (0.01)\\
+Legal $U_{MSY}$ & 0.0423 (0.006) & 0.0773 (0.011)\\
+$MSY$ & 2.79 (0.27) & 4.37 (0.45)\\
+$B_{2016}/B_0$ & 0.191 (0.018) & 0.231 (0.021)\\
+$B_{2016}/B_{MSY}$ & 0.467 (0.049) & 0.613 (0.065)\\
+$B_{2016}/(.4B_{MSY})$ & 1.17 (0.12) & 1.53 (0.16)\\
+$B_{2018}/B_0$ &  & 0.301 (0.032)\\
+$B_{2018}/B_{MSY}$ &  & 0.8 (0.096)\\
+$B_{2018}/(.4B_{MSY})$ &  & 2 (0.24)\\
+$P(B_{2016} \geq .4B_{MSY})$ & 0.93 & 1\\
+$P(B_{2018} \geq .4B_{MSY})$ &  & 1\\
+\bottomrule
+\end{longtable}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 \endgroup{}
 
 \newpage
@@ -722,10 +897,14 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 \end{landscape}
 \endgroup{}
 
+<<<<<<< HEAD
 \hypertarget{figures}{%
 \section{Figures}\label{figures}}
 
 \newpage
+=======
+\section{Figures}\label{figures}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 \begin{figure}[htb]
 
 {\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{knitr-figs-pdfunnamed-chunk-17-1}}{Figure \ref{fig:unnamed-chunk-17}} 
@@ -754,7 +933,12 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 \newpage
 
 \newpage
+<<<<<<< HEAD
 \begin{landscape}
+=======
+
+\blandscape
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 \begin{figure}[htb]
 
 {\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13}}{Figure \ref{fig:unnamed-chunk-22}} 
@@ -790,6 +974,7 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 
 \caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{robustness recruitment scenario}, showing the current MP (noCap), three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines.In the top row the green line is $B_{MSY}$ and the lower dashed line is the Limit Reference Point (0.4$B_{MSY}$)}\label{fig:unnamed-chunk-26}
 \end{figure}
+<<<<<<< HEAD
 \end{landscape}
 \hypertarget{appendix-appendices}{%
 \appendix}
@@ -802,6 +987,13 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 
 \hypertarget{updated-ageing-error-matrix}{%
 \subsection{Updated ageing error matrix}\label{updated-ageing-error-matrix}}
+=======
+\elandscape
+
+\section{\texorpdfstring{Appendix\label{sec:app-minor}}{Appendix}}\label{appendix}
+
+\subsection{Updated ageing error matrix}\label{updated-ageing-error-matrix}
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 
 The Sablefish age-structured assessment model relies on catch-at-age data to estimate the true age-composition of the population; however, observed catch-at-age data are based on otolith readings that are imperfectly known. Failure to account for errors in otolith readings may lead to smoothing estimates of age-classes, making it more difficult to detect strong recruitment years or stock-recruit relationships (Hanselman et al. \protect\hyperlink{ref-hanselman2012statistical}{2012}). Ageing errors may also bias estimates of growth parameters, maturity schedules, and natural mortality that can lead to overfishing or inaccurate yield projections (Lai and Gunderson \protect\hyperlink{ref-lai1987effects}{1987}; Tyler et al. \protect\hyperlink{ref-tyler1989implications}{1989})
 
@@ -830,6 +1022,7 @@ The likelihood \(\mathcal{L}\) of observed ages \(A\) given true ages B is then 
 \end{equation}
 where \(b_i\) is the assumed `true age' of fish \(i\), and \(a_{ij}\) is the age assigned by reader \(j\) to the individual fish \(i\). Maximum likelihood parameter estimates, predicted standard deviation at age, and age-error matrices are provided below (Table A1, Fig. A1 \& A2)
 
+<<<<<<< HEAD
 \hypertarget{trawl-age-length-key-and-updated-selectivity-curve}{%
 \subsection{Trawl Age-Length Key and updated selectivity curve}\label{trawl-age-length-key-and-updated-selectivity-curve}}
 
@@ -849,6 +1042,29 @@ Inferred catch-at-age compositions had a noticable effect on the selectivity-at-
 
 \hypertarget{tables-1}{%
 \subsubsection{Tables}\label{tables-1}}
+=======
+\subsection{Trawl Age-Length Key and updated selectivity curve}\label{trawl-age-length-key-and-updated-selectivity-curve}
+
+The Sablefish age-structured operating model uses observations of catch at age from commercial fisheries to estimate natural mortality and gear selectivity functions. Trawl selectivity has been identified a key determinant in reducing uncertainty in estimates of sub-legal Sablefish catch and releases (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}), as up until now the trawl selectivity model was heavily dependent on priors for a normal selectivity curve estimated from tagged fish recovered (within one year from release) in the commercial trawl fishery. To improve estimates of legal and sub-legal fishing mortality from the trawl sector, we leveraged catch-at-age and catch-at-length data from BC trawl fisheries to develop a sex-specific age-length key, which was in turn used to increase the catch-at-age sample size.
+
+To develop our age-length key, we used all available catch-at-age data collected from observed trips in the commercial trawl fishery. We then used this to populate an empirical age-length frequency matrix, binning fish into 3cm length bins and 1 year age classes. We defined this matrix as
+\begin{equation}
+F = \left[ n_{l,a} \right],
+\end{equation}
+where \(n_{l,a}\) is the number of fish observed in length bin \(l\) and age class \(a\). The matrix \(A\) was converted to a probability of age-at-length \(l\) matrix \(P\) by normalising the columns of \(A\)
+\begin{equation}
+P_{l,a} = F_{l,a} / \sum_{a'} F_{l,a'}. 
+\end{equation}
+We then generated expected age composition data by applying the matrix \(P\) to length compositions \(C_l\) derived from the commercial trawl catch-at-length data.
+\begin{align}
+C_a &= P^T \cdot C_l,
+\end{align}
+where \(P\) is transposed so that the length dimension matches the vector \(C_l\). We restricted \(C_l\) to catch-at-length data from years where at least 5 trips were sampled. We defined keys \(P_m\) and \(P_f\) for male and female fish, respectively, and generated sex-specific age observations (Figures A3 and A4). Length observations from unsexed fish were treated as male specimens, as the operating model optimisation would not converge when they were treated as females.
+
+Inferred catch-at-age compositions had a noticable effect on the selectivity-at-length curves for the trawl fleet (Figure A5). The fully selected size class moved from about 42 cm to 48 cm, and the shape of the Gamma selection curve dome was narrower, deselecting to about 60\% by the 55cm size limit, as opposed to about 80\% for the normal model in 2016.
+
+\newpage
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 \begin{longtable}[]{@{}rlrrr@{}}
 \caption{\label{tab:unnamed-chunk-28}Ageing error model parameters for both true age cases tested.}\tabularnewline
 \toprule
@@ -864,9 +1080,12 @@ Case & True Age & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 \bottomrule
 \end{longtable}
 \newpage
+<<<<<<< HEAD
 
 \hypertarget{figures-1}{%
 \subsubsection{Figures}\label{figures-1}}
+=======
+>>>>>>> 4cae700a411432ca8de6c6de6db8a462f991fffa
 \begin{figure}[htb]
 
 {\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/ageErr1}}{Figure \ref{fig:unnamed-chunk-30}} 
