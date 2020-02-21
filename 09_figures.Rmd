@@ -52,13 +52,13 @@ idxFitsCap <- "Operating model fits to Catch per Unit of Effort (CPUE) indices (
 
 
 ```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=idxFitsCap, echo = FALSE}
-knitr::include_graphics("data/base_ALK_mUnsexed/plotMLEindices.pdf")
+knitr::include_graphics("data/base_ALK_mUnsexed/plotMLEindices.png")
 ```
 
 \newpage
 
 ```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=ageFitsCap, echo = FALSE}
-knitr::include_graphics("data/base_ALK_mUnsexed/plotFitAgeFreq_avg.pdf")
+knitr::include_graphics("data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png")
 ```
 
 \newpage
@@ -102,23 +102,6 @@ knitr::include_graphics("data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
 knitr::include_graphics("data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.pdf")
 ```
 
-<!-- \newpage
-
-```{r, echo = FALSE, include = FALSE, warning = FALSE}
-hiRecGearValCap <- "Simulation envelopes showing the effect of at-sea-release regulations by commercial sector under the reference recruitment scenario. Envelopes show decreasing restrictiveness of juvenile release caps from left to right. The top row shows the total available catch, the second row shows release overages as a percentage of the TAC, the third row shows the value of the landed catch, and the bottom row shows the value of released fish."
-simRecGearValCap <- "Simulation envelopes showing the effect of at-sea-release regulations by commercial sector under the robustness recruitment scenario. Envelopes show decreasing restrictiveness of juvenile release caps from left to right. The top row shows the total available catch, the second row shows release overages as a percentage of the TAC, the third row shows the value of the landed catch, and the bottom row shows the value of released fish."
-```
-
-```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=hiRecGearValCap}
-knitr::include_graphics("data/tulipPlots/hiRec2016_wtd/TAC_overage_Val/hiRec2016_wtd_TacOverVal_SP_hstAl_am5.pdf")
-```
-
-\newpage
-
-```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=simRecGearValCap}
-knitr::include_graphics("data/tulipPlots/simRec2016_wtd/TAC_overage_Val/simRec2016_wtd_TacOverVal_SP_hstAl_am5.pdf")
-```
- -->
 \elandscape
 
 
