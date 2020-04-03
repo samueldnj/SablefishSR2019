@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.11)  13 FEB 2020 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.11)  23 FEB 2020 08:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1882,13 +1882,6 @@ Overfull \hbox (0.19504pt too wide) in paragraph at lines 280--281
  []
 
 
-Overfull \hbox (0.10808pt too wide) in paragraph at lines 302--304
-\T1/phv/m/n/10.95 (+12) for the sablefish (\T1/phv/m/sl/10.95 (+12) anoplopoma 
-fimbria\T1/phv/m/n/10.95 (+12) ) fishery in british columbia, canada for 2017-1
-8. Secr. can. 
- []
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
  []
@@ -2689,11 +2682,11 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 854.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 854.
  ) 
 Here is how much of TeX's memory you used:
- 29530 strings out of 483161
- 563731 string characters out of 5963269
+ 29527 strings out of 483161
+ 563701 string characters out of 5963269
  883218 words of memory out of 5000000
  43624 multiletter control sequences out of 15000+600000
- 582750 words of font info for 156 fonts, out of 8000000 for 9000
+ 582499 words of font info for 154 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,15n,68p,2717b,823s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r
@@ -2724,7 +2717,7 @@ norsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users
 .pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helv
 etic/uhvr8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb>
-Output written on _main.pdf (41 pages, 1649899 bytes).
+Output written on _main.pdf (41 pages, 1650530 bytes).
 PDF statistics:
  665 PDF objects out of 1000 (max. 8388607)
  549 compressed objects within 6 object streams

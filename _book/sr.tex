@@ -5,7 +5,7 @@
 \newcommand{\locRepo}{csas-style}
 
 % Use the style file in the csas-style repository (sr.sty)
-\usepackage{\locRepo/sr-french}
+\usepackage{\locRepo/sr}
 
 % header-includes from R markdown entry
 \usepackage{pdflscape}
@@ -18,7 +18,7 @@
 % Title
 \newcommand{\rdTitle}{Evaluating the robustness of candidate management procedures in the BC sablefish (\emph{Anoplopoma fibria}) fishery for 2019-2020.}
 
-% English title
+% French title
 \newcommand{\rdTitleFr}{}
 
 % Title short
@@ -42,7 +42,7 @@ Science Branch, Pacific Region\\
 Fisheries and Oceans Canada}
 
 % Approval date
-\newcommand{\rdAppDate}{4 November 2019}
+\newcommand{\rdAppDate}{November 4, 2019}
 
 % Branch
 \newcommand{\rdBranch}{Science Branch}
@@ -58,8 +58,6 @@ Fisheries and Oceans Canada}
 \begin{document}
 
 \bookmark[dest=PageOne]{\rdTitle{}}
-
-\renewcommand{\tablename}{Tableau}
 
 \MakeFirstPage
 
@@ -310,7 +308,7 @@ Lisa Christiansen & DFO Centre for Science Advice, Pacific Region (editor)\tabul
 
 \hypertarget{refs}{}
 \leavevmode\hypertarget{ref-cox2019evaluating}{}%
-Cox, S., Holt, K., and Johnson, S. 2019. Evaluating the robustness of management procedures for the sablefish (\emph{anoplopoma fimbria}) fishery in british columbia, canada for 2017-18. DFO Can. Sci. Advis. Sec. Res. Doc. 2019/032: v + 79p.
+Cox, S., Holt, K., and Johnson, S. 2019. Evaluating the robustness of management procedures for the sablefish (\emph{anoplopoma fimbria}) fishery in british columbia, canada for 2017-18. DFO Can. Sci. Advis. Sec. Res. Doc. 2019/032: v + 87p.
 
 \leavevmode\hypertarget{ref-cox2009evaluation}{}%
 Cox, S., and Kronlund, A. 2009. Evaluation of interim harvest strategies for sablefish (\emph{anoplopoma fimbria}) in british columbia, canada for 2008/09. DFO Can. Sci. Advis. Sec. Res. Doc. 2019/042: v + 82p.
@@ -328,7 +326,7 @@ Cox, S.P., Kronlund, A.R., and Benson, A.J. 2013. The roles of biological refere
 DFO. 2009. A fishery decision-making framework incorporating the precautionary approach. Fisheries and Oceans Canada online: (last reportedly modified 23 May 2009, however, figures have since changed).
 
 \leavevmode\hypertarget{ref-dfo2014performanc}{}%
-DFO. 2014. Performance of a revised management procedure for sablefish in british columbia. DFO Can. Sci. Advis. Sec. Res. Doc. 2014/025.
+DFO. 2014. Performance of a revised management procedure for sablefish in british columbia. DFO Can. Sci. Advis. Sec. Sci. Resp. 2014/025.
 
 \leavevmode\hypertarget{ref-hanselman2012statistical}{}%
 Hanselman, D.H., Clark, W.G., Heifetz, J., and Anderl, D.M. 2012. Statistical distribution of age readings of known-age sablefish (\emph{anoplopoma fimbria}). Fisheries Research 131: 1--8.
@@ -360,9 +358,7 @@ Tyler, A., Beamish, R., and McFarlane, G. 1989. Implications of age determinatio
 \caption{\label{tab:unnamed-chunk-5}Operating model posterior distribution mean (standard deviation) biological parameter, 
 reference point estimates, and stock status indicators for fits to the 2016 data 
 and 2018 data. The columns \textbf{2016 Fit} and \textbf{2018 Fit} show the mean 
-and standard deviation of the full posterior for the respective fits, while the remaining columns 
-show posterior mean values from the five posterior strata defining the productivity/biomass 
-scenarios indicated by the column label (see Figure 1). Stock status is shown relative to 
+and standard deviation of the full posterior for the respective fits. Stock status is shown relative to 
 unfished ($B_t/B_0$), theoretical
 most productive spawning biomass ($B_t/B_{MSY}$), and the limit reference point 
 ($B_t/(.4B_{MSY})$) for $t \in \{2016, 2018\}$. The bottom
@@ -754,7 +750,7 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 
 }
 
-\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{reference recruitment scenario}, showing the current MP (noCap),three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines. In the top row the green line is $B_{MSY}$ and the lower dashed line is the Limit Reference Point (0.4$B_{MSY}$)}\label{fig:unnamed-chunk-24}
+\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{reference recruitment scenario}, showing the current MP (noCap),three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines. In the top row the green line is $B_{MSY}$ and the lower dashed line is the Limit Reference Point (0.4$B_{MSY}$).}\label{fig:unnamed-chunk-24}
 \end{figure}
 \newpage
 \begin{figure}[htb]
@@ -772,7 +768,7 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 
 }
 
-\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{robustness recruitment scenario}, showing the current MP (noCap), three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines.In the top row the green line is $B_{MSY}$ and the lower dashed line is the Limit Reference Point (0.4$B_{MSY}$)}\label{fig:unnamed-chunk-26}
+\caption{Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \textbf{robustness recruitment scenario}, showing the current MP (noCap), three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines.In the top row the green line is $B_{MSY}$ and the lower dashed line is the Limit Reference Point (0.4$B_{MSY}$).}\label{fig:unnamed-chunk-26}
 \end{figure}
 \end{landscape}
 \hypertarget{appendix}{%
@@ -885,29 +881,29 @@ Case & True Age & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 \end{figure}
 \clearpage
 
-\section{Le pr\'{e}sent rapport est disponible aupr\`{e}s du}
+\section{This report is available from the}
 \begin{center}
-Centre des avis scientifiques\\
+Centre for Science Advice\\
 \rdRegion{}\\
-P\^{e}ches et Oc\'{e}ans Canada\\
-200 Kent St.\\Ottawa, ON, K1A 0E6\\
+Fisheries and Oceans Canada\\
+3190 Hammond Bay Rd.\\Nanaimo, BC, V9T 6N7\\
 \vspace{0.1cm}
-T\'{e}l\'{e}phone: (613) 990-0194\\
-Courriel: \link{mailto:csas-sccs@dfo-mpo.gc.ca}{csas-sccs@dfo-mpo.gc.ca}\\
-Addresse internet: \link{http://www.dfo-mpo.gc.ca/csas-sccs/}{www.dfo-mpo.gc.ca/csas-sccs/}\\
+Telephone: (250) 756-7088\\
+E-mail: \link{mailto:csap@dfo-mpo.gc.ca}{csap@dfo-mpo.gc.ca}\\
+Internet address: \link{http://www.dfo-mpo.gc.ca/csas-sccs/}{www.dfo-mpo.gc.ca/csas-sccs/}\\
 \vspace{0.1cm}
 ISSN 1919-3769\\
-\copyright{} Sa Majest\'{e} la Reine du chef du Canada, \rdYear{}\\
+\copyright{} Her Majesty the Queen in Right of Canada, \rdYear{}\\
 \vspace{0.2cm}
 \includegraphics[scale=0.96]{\locRepo/images/recycle.png}
 \end{center}
-La pr\'{e}sente publication doit \^{e}tre cit\'{e}e comme suit:
-
-\citeFr{\rdYear{}/\rdNumber{}}
-
-\emph{Also available in English:}
+Correct citation for this publication:
 
 \citeEng{\rdYear{}/\rdNumber{}}
+
+\emph{Aussi disponible en fran\c{c}ais:}
+
+\citeFr{\rdYear{}/\rdNumber{}}
 
 \setlength{\parindent}{0in} \setlength{\leftskip}{0in} \setlength{\parskip}{4pt}
 \hypertarget{refs}{}
