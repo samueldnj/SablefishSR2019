@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.12)  12 FEB 2020 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.6)  6 APR 2020 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **sr.tex
 (./sr.tex
-LaTeX2e <2020-02-02> patch level 1
-L3 programming layer <2020-02-11> (/Users/sdnjohnson/Library/TinyTeX/texmf-dist
-/tex/latex/base/book.cls
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-02-25> (/Users/brendanconnorsESSA/Library/TinyTeX/te
+xmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -23,15 +23,17 @@ File: bk11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-) (./csas-style/sr.sty (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/
-tools/tabularx.sty
+) (./csas-style/sr.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.
+sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen135
 \ar@mcellbox=\box45
 \extrarowheight=\dimen136
-\NC@list=\toks14
+\NC@list=\toks15
 \extratabsurround=\skip49
 \backup@length=\skip50
 \ar@cellbox=\box46
@@ -42,70 +44,90 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@target=\dimen140
 \TX@delta=\dimen141
 \TX@cols=\count176
-\TX@ftn=\toks15
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+\TX@ftn=\toks16
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.s
+ty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
 \bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count177
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
+ef.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcm
+ds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.s
+ty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdftexcmds/pdft
+excmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/inf
+warerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval
+.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvs
+etkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefine
-keys.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/
+kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdf
+escape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor
+.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro
-.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/let
+ltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook
+.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvopt
+ions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen142
 \Hy@linkcounter=\count178
 \Hy@pagecounter=\count179
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
+.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intca
+lc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etex
+cmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count180
@@ -120,17 +142,19 @@ Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
 \c@Hy@tempcnt=\count182
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen143
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset
+.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc
-.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bi
+gintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -147,7 +171,8 @@ Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/atbegshi/atbe
+gshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 \Hy@abspage=\count184
@@ -155,22 +180,25 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 \c@Hfootnote=\count186
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdfte
+x.def
 File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/atveryend/atveryend.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/atveryend/atver
+yend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
 \Fld@listcount=\count187
 \c@bookmark@seq@number=\count188
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfil
-echeck.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/
+rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquec
-ounter.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter
+/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -181,39 +209,55 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 Package hyperref Info: Option `plainpages' set `true' on input line 22.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 22.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box47
 \UL@hyphenbox=\box48
 \UL@skip=\skip54
-\UL@hook=\toks17
+\UL@hook=\toks18
 \UL@height=\dimen146
 \UL@pe=\count189
 \UL@pixel=\dimen147
 \ULC@box=\box49
 Package: ulem 2019/11/18
 \ULdepth=\dimen148
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookma
+rk.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pd
+ftex.def
 File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
 \BKM@id=\count190
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/ncctools/nccmath.sty
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ncctools/nccmat
+h.sty
 Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath
+.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip55
 For additional information on amsmath, use the `?' option.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext
+.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.
+sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
+\@emptytoks=\toks19
 \ex@=\dimen149
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.
+sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen150
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.
+sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count191
@@ -236,29 +280,31 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip17
 \c@parentequation=\count198
 \dspbrk@lvl=\count199
-\tag@help=\toks19
+\tag@help=\toks20
 \row@=\count266
 \column@=\count267
 \maxfields@=\count268
-\andhelp@=\toks20
+\andhelp@=\toks21
 \eqnshift@=\dimen152
 \alignsep@=\dimen153
 \tagshift@=\dimen154
 \tagwidth@=\dimen155
 \totwidth@=\dimen156
 \lineht@=\dimen157
-\@envbody=\toks21
+\@envbody=\toks22
 \multlinegap=\skip56
 \multlinetaggap=\skip57
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
 \NCC@fracrulewidth=\dimen158
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/lineno/lineno.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/lineno/lineno.s
+ty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count269
-\output=\toks23
+\output=\toks24
 \linenoprevgraf=\count270
 \linenumbersep=\dimen159
 \linenumberwidth=\dimen160
@@ -272,9 +318,13 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframesep=\dimen163
 \bframebox=\box52
 LaTeX Info: Redefining \\ on input line 3056.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/geometry/geomet
+ry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.
+sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count276
@@ -288,8 +338,10 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen169
 \Gm@layouthoffset=\dimen170
 \Gm@layoutvoffset=\dimen171
-\Gm@dimlist=\toks24
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\Gm@dimlist=\toks25
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyh
+dr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip58
@@ -301,9 +353,13 @@ s
 \f@nch@O@erf=\skip64
 \f@nch@O@olf=\skip65
 \f@nch@O@orf=\skip66
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/caption/caption
+.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/caption/caption
+3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen172
@@ -318,17 +374,23 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count279
 \c@continuedfloat=\count280
 Package caption Info: hyperref package is loaded.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/afterpage.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/afterpage
+.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks25
+\AP@output=\toks26
 \AP@partial=\box53
 \AP@footins=\box54
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/makecell/makece
+ll.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen179
 \c@nlinenum=\count281
-\TeXr@lab=\toks26
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tocloft/tocloft.sty
+\TeXr@lab=\toks27
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tocloft/tocloft
+.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip67
@@ -367,22 +429,31 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip98
 \cfttabindent=\skip99
 \cfttabnumwidth=\skip100
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/epsfig.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/epsfig
+.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cs.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.s
+ty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.c
-fg
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/gr
+aphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pd
+ftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen180
@@ -390,9 +461,12 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 \epsfxsize=\dimen182
 \epsfysize=\dimen183
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged
+2e.sty
 Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/ms/everysel.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip101
@@ -410,17 +484,18 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip113
 \JustifyingParindent=\skip114
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks27
+\MT@toks=\toks28
 \MT@count=\count284
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen184
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
 \MT@listname@count=\count285
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype-pdf
-tex.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
@@ -429,21 +504,30 @@ LaTeX Info: Redefining \lslig on input line 914.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type.cfg
 File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/helvet.sty
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/helvet.s
+ty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdfls
+cape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape
+.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/textpos/textpos.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/textpos/textpos
+.sty
 Package: textpos 2019/04/15 v1.9.1
 Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/ms/everyshi.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
 \TP@textbox=\box55
@@ -456,44 +540,50 @@ Grid set 16 x 16 = 38.39343pt x 49.68562pt
 \TPboxrulesize=\dimen189
 \TP@ox=\dimen190
 \TP@oy=\dimen191
-\TP@tbargs=\toks28
+\TP@tbargs=\toks29
 \TP@prevdepth=\dimen192
 TextBlockOrigin set to 0pt x 0pt
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/enumerate.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/enumerate
+.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks29
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty
+\@enLab=\toks30
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/enumitem/enumit
+em.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip116
 \enit@outerparindent=\dimen193
-\enit@toks=\toks30
+\enit@toks=\toks31
 \enit@inbox=\box57
 \enit@count@id=\count286
 \enitdp@description=\count287
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/algorithms/algorithm.st
-y
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithms/algo
+rithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count288
-\float@exts=\toks31
+\float@exts=\toks32
 \float@box=\box58
-\@float@everytoks=\toks32
+\@float@everytoks=\toks33
 \@floatcapt=\box59
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks33
+\@float@every@algorithm=\toks34
 \c@algorithm=\count289
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/algpseudoc
-ode.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/al
+gpseudocode.sty
 Package: algpseudocode 
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/algorithmi
-cx.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/al
+gorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count290
@@ -508,9 +598,13 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip119
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/linegoal/linegoal.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/linegoal/linego
+al.sty
 Package: linegoal 2011/02/25 v2.9 - Measuring the remaining width of the line
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/etex-pkg/etex.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/etex-pkg/etex.s
+ty
 Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
 
 Package etex Warning: Extended allocation already in use.
@@ -519,17 +613,22 @@ Package etex Warning: Extended allocation already in use.
 (etex)                \RequirePackage{etex}
 (etex)                at the start of the document.
 
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/zref/zref.sty
+) (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/zref/zref.sty
 Package: zref 2019/11/29 v2.28 A new reference scheme for LaTeX (HO)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/zref/zref-base.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/zref/zref-base.
+sty
 Package: zref-base 2019/11/29 v2.28 Module base for zref (HO)
 Package zref Info: New property list: main on input line 763.
 Package zref Info: New property: default on input line 764.
 Package zref Info: New property: page on input line 765.
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/zref/zref-savepos.st
-y
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/zref/zref-savep
+os.sty
 Package: zref-savepos 2019/11/29 v2.28 Module savepos for zref (HO)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.s
+ty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
 Package zref Info: New property list: savepos on input line 84.
@@ -539,11 +638,13 @@ Package zref Info: New property: posy on input line 86.
 Package zref Info: New property: linegoal on input line 39.
 \LNGL@unique=\count297
 \LNGL@tempdim=\dimen194
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
+) (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable
+.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip120
 \LTright=\skip121
@@ -559,15 +660,21 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@rows=\count300
 \c@LT@tables=\count301
 \c@LT@chunks=\count302
-\LT@p@ftn=\toks34
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/import/import.sty
-Package: import 2009/03/23  v 5.1
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
+\LT@p@ftn=\toks35
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/import/import.s
+ty
+Package: import 2020/01/22  v 6.0
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.
+sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks35
-\verbatim@line=\toks36
+\every@verbatim=\toks36
+\verbatim@line=\toks37
 \verbatim@in@stream=\read2
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyv
+rb.sty
 Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
 \FV@CodeLineNo=\count303
 \FV@InFile=\read3
@@ -575,9 +682,11 @@ Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
 \c@FancyVerbLine=\count304
 \FV@StepNumber=\count305
 \FV@OutFile=\write3
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen
+.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count306
 \calc@Bcount=\count307
@@ -589,19 +698,29 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count308
 \calc@Cskip=\skip126
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg
+.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.
+sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colort
+bl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks37
+\everycr=\toks38
 \minrowclearance=\skip127
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/arydshln/arydshln.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/arydshln/arydsh
+ln.sty
 Package: arydshln 2019/02/21 v1.76 
 \dashlinedash=\dimen198
 \dashlinegap=\dimen199
@@ -621,16 +740,24 @@ Package: arydshln 2019/02/21 v1.76
 \adl@gap=\count316
 \adl@cla=\count317
 \adl@clb=\count318
-\adl@everyvbox=\toks38
+\adl@everyvbox=\toks39
 \adl@LTpagetotal=\dimen261
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/parskip/parskip.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/parskip/parskip
+.sty
 Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
+ox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count319
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/hypcap.sty
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/hypcap
+.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/subfig/subfig.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/subfig/subfig.s
+ty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count320
 \sf@farskip=\skip128
@@ -643,9 +770,13 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@subtable@save=\count324
 \sf@top=\skip131
 \sf@bottom=\skip132
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/relsize/relsize.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/relsize/relsize
+.sty
 Package: relsize 2013/03/29 ver 4.1
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/booktabs/bookta
+bs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen263
 \lightrulewidth=\dimen264
@@ -664,52 +795,56 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count327
 \@lastruleclass=\count328
 \@thisrulewidth=\dimen275
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/multirow/multir
+ow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip133
 \multirow@cntb=\count329
 \multirow@dima=\skip134
 \bigstrutjot=\dimen276
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.st
-y
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.st
-y
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil
--common.tex
-\pgfutil@everybye=\toks39
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gffor.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gfrcs.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-common.tex
+\pgfutil@everybye=\toks40
 \pgfutil@tempdima=\dimen277
 \pgfutil@tempdimb=\dimen278
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil
--common-lists.tex))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil
--latex.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-common-lists.tex))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfutil-latex.def
 \pgfutil@abb=\box66
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.
-code.tex (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revi
-sion.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfrcs.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revis
+ion.tex)
 Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.s
-ty
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys
-.code.tex
-\pgfkeys@pathtoks=\toks40
-\pgfkeys@temptoks=\toks41
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/p
+gfkeys.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys
-filtered.code.tex
-\pgfkeys@tmptoks=\toks42
-))) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.st
-y
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code
-.tex
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.
-code.tex
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.
-code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks43
+)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmat
+h.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athcalc.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athutil.code.tex
 \pgf@x=\dimen279
 \pgf@xa=\dimen280
 \pgf@xb=\dimen281
@@ -723,73 +858,88 @@ code.tex
 \c@pgf@countc=\count332
 \c@pgf@countd=\count333
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparse
-r.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athparser.code.tex
 \pgfmath@dimen=\dimen287
 \pgfmath@count=\count334
 \pgfmath@box=\box67
-\pgfmath@toks=\toks43
-\pgfmath@stack@operand=\toks44
-\pgfmath@stack@operation=\toks45
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.code.tex
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.basic.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.trigonometric.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.random.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.comparison.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.base.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.round.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.misc.code.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunct
-ions.integerarithmetics.code.tex)))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat
-.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.basic.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.trigonometric.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.random.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.comparison.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.base.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.round.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.misc.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfunctions.integerarithmetics.code.tex)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+athfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count335
 )))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.
-code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgffor.code.tex
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code
-.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex)
 \pgffor@iter=\dimen288
 \pgffor@skip=\dimen289
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/placeins/placeins.st
-y
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/placeins/placei
+ns.sty
 Package: placeins 2005/04/18  v 2.2
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpag
+es.sty
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic
+.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
 \AM@pagewidth=\dimen290
 \AM@pageheight=\dimen291
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pppdftex.def
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdfpages/pppdft
+ex.def
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box68
-\AM@global@opts=\toks48
+\AM@global@opts=\toks49
 \AM@pagecnt=\count336
-\AM@toc@title=\toks49
+\AM@toc@title=\toks50
 \c@AM@survey=\count337
 \AM@templatesizebox=\box69
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.s
+ty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/lastpage/lastpa
+ge.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+ty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -803,29 +953,55 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/soul/soul.sty
+) (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks50
-\SOUL@lasttoken=\toks51
-\SOUL@cmds=\toks52
-\SOUL@buffer=\toks53
-\SOUL@token=\toks54
+\SOUL@word=\toks51
+\SOUL@lasttoken=\toks52
+\SOUL@cmds=\toks53
+\SOUL@buffer=\toks54
+\SOUL@token=\toks55
 \SOUL@spaceskip=\skip135
 \SOUL@ttwidth=\dimen292
 \SOUL@uldp=\dimen293
 \SOUL@ulht=\dimen294
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.s
+ty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks55
-\inpenc@posthook=\toks56
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
+\inpenc@prehook=\toks56
+\inpenc@posthook=\toks57
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
 2.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/scalerel/scalerel.st
-y
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 20.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 23.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 26.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 46.
+
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/scalerel/scaler
+el.sty
 Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretchi
 ng of objects, relative to a reference object or in absolute terms
 \thesrwidth=\skip136
@@ -836,16 +1012,21 @@ ng of objects, relative to a reference object or in absolute terms
 \LMex=\skip141
 \LMpt=\skip142
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pdfcomment/pdfcomment.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pdfcomment/pdfc
+omment.sty
 Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
 2, 2015-2016, 2018
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval
+.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (
-/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks57
-\XKV@tempa@toks=\toks58
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyv
+al.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvut
+ils.tex
+\XKV@toks=\toks58
+\XKV@tempa@toks=\toks59
 )
 \XKV@depth=\count338
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -867,25 +1048,33 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pc@box@height=\skip151
 \pc@box@depth=\skip152
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/datetime2/datetime2.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/datetime2/datet
+ime2.sty
 Package: datetime2 2019/11/11 v1.5.5 (NLCT) date and time formats
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/tracklang/tracklang.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tracklang/track
+lang.sty
 Package: tracklang 2019/11/30 v1.4 (NLCT) Track Languages
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tracklang.t
-ex)))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/tracklang/tra
+cklang.tex)))
 \c@zref@unique=\count343
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcou
+nt.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/marginnote/marginnote.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/marginnote/marg
+innote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
 \c@mn@abspage=\count344
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluate
+x.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/soulpos/soulpos.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/soulpos/soulpos
+.sty
 Package: soulpos 2012/02/25 v1.1 Fancy underlining
 \ulp@subcnt=\count345
 \ulp@cnt=\count346
@@ -899,28 +1088,31 @@ Package hyperref Warning: Option `pdftex' has already been used,
 
 Package zref Info: New property list: pdfcomment on input line 2735.
 Package zref Info: New property: PCPDFOBJID on input line 2736.
-) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/textcase/textcase.sty
+)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/textcase/textca
+se.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/background/background.s
-ty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/background/back
+ground.sty
 Package: background 2014/03/04 v2.1 background material
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.
-sty (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.
-sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/frontendlay
+er/tikz.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/
+pgf.sty
 Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.
-sty
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.
-sty
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
-s.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/
+pgfcore.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer
+/pgfsys.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys
-.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
+/pgfkeys.code.tex)
 \pgf@x=\dimen296
 \pgf@y=\dimen297
 \pgf@xa=\dimen298
@@ -937,45 +1129,45 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 \c@pgf@countb=\count348
 \c@pgf@countc=\count349
 \c@pgf@countd=\count350
-\t@pgf@toka=\toks59
-\t@pgf@tokb=\toks60
-\t@pgf@tokc=\toks61
+\t@pgf@toka=\toks60
+\t@pgf@tokb=\toks61
+\t@pgf@tokc=\toks62
 \pgf@sys@id@count=\count351
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.c
-fg
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
-s-pdftex.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
-s-common-pdf.def
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
-ssoftpath.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfsyssoftpath@smallbuffer@items=\count352
 \pgfsyssoftpath@bigbuffer@items=\count353
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
-sprotocol.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
+er/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-e.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcore.code.tex
 Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code
-.tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.
-tex)
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-epoints.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
+ath.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfi
+nt.code.tex)
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@picminx=\dimen306
 \pgf@picmaxx=\dimen307
@@ -992,112 +1184,112 @@ File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@zx=\dimen318
 \pgf@zy=\dimen319
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-epathconstruct.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@path@lastx=\dimen320
 \pgf@path@lasty=\dimen321
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-epathusage.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@shorten@end@additional=\dimen322
 \pgf@shorten@start@additional=\dimen323
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-escopes.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box72
 \pgf@hbox=\box73
 \pgf@layerbox@main=\box74
 \pgf@picture@serial@count=\count354
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-egraphicstate.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgflinewidth=\dimen324
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-etransformations.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@pt@x=\dimen325
 \pgf@pt@y=\dimen326
 \pgf@pt@temp=\dimen327
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-equick.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-eobjects.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-epathprocessing.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-earrows.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowsep=\dimen328
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-eshade.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen329
 \pgf@sys@shading@range@num=\count355
 \pgf@shadingcount=\count356
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-eimage.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-eexternal.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfexternal@startupbox=\box75
 ))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-elayers.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-etransparency.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-epatterns.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
-erdf.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclaye
+r/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodule
-shapes.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfnodeparttextbox=\box76
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodule
-plot.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfco
-mp-version-0-65.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibili
+ty/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@nodesepstart=\dimen330
 \pgf@nodesepend=\dimen331
 )
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfco
-mp-version-1-18.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibili
+ty/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 ))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tik
-z/tikz.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibr
-aryplothandlers.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries
+/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count357
 \pgfplotmarksize=\dimen332
@@ -1119,8 +1311,8 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikznumberofcurrentchild=\count360
 \tikz@fig@count=\count361
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodule
-matrix.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/p
+gfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmatrixcurrentrow=\count362
 \pgfmatrixcurrentcolumn=\count363
@@ -1128,60 +1320,62 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 \tikz@expandcount=\count365
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tik
-z/libraries/tikzlibrarytopaths.code.tex
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendl
+ayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/everypage/everypage.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/everypage/every
+page.sty
 Package: everypage 2007/06/20 1.1 Hooks to run on every page
-)) (/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.st
-y
+))
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwid
+th.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box81
 \sift@deathcycles=\count366
 \@vwid@loff=\dimen341
 \@vwid@roff=\dimen342
 ))
-\cslhangindent=\skip153
-
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdf
-mode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3bac
+kend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count367
 \l__pdf_internal_box=\box82
 ) (./sr.aux)
 \openout1 = `sr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 \AtBeginShipoutBox=\box83
-Package hyperref Info: Link coloring ON on input line 64.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring ON on input line 58.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/hyperref/namere
+f.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettit
-lestring.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/gettitlestrin
+g/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count368
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1191,11 +1385,11 @@ LaTeX Info: Redefining \nameref on input line 64.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includefoot twoside 
 * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(18.06749pt, 668.4975pt, 108.405pt)
+* v-part:(T,H,B)=(18.06749pt, 654.04373pt, 122.85876pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=469.75502pt
-* \textheight=641.03455pt
+* \textheight=626.58078pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=-86.0763pt
@@ -1221,31 +1415,33 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: longtable package is loaded.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcapti
+on.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-b
-ase.sty
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/ep
+stopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sy
-s.cfg
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/eps
+topdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 64.
-LaTeX Info: Redefining \microtypecontext on input line 64.
+LaTeX Info: Redefining \selectfont on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 58.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 64.
+LaTeX Info: Redefining \showhyphens on input line 58.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1256,14 +1452,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 ABD: EveryShipout initializing macros
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 64.
+(lastpage)             ! on input line 58.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 68.
-(/Users/sdnjohnson/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 62.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-cm
+r.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Overfull \hbox (0.1211pt too wide) in paragraph at lines 79--80
+Overfull \hbox (0.1211pt too wide) in paragraph at lines 73--74
 \T1/phv/m/n/10.95 (+1) issue in (iii) is identifying MPs that minimize the impa
 ct of such measures on fishing opportunities 
  []
@@ -1305,20 +1503,892 @@ ct of such measures on fishing opportunities
 File: csas-style/images/Fip-stacked-DFO-EOS-eng_bw.png Graphic file (type png)
 <use csas-style/images/Fip-stacked-DFO-EOS-eng_bw.png>
 Package pdftex.def Info: csas-style/images/Fip-stacked-DFO-EOS-eng_bw.png  used
- on input line 80.
+ on input line 74.
 (pdftex.def)             Requested size: 261.76526pt x 48.15755pt.
-! Missing number, treated as zero.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 82.90941pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+<csas-style/images/canada_bw.png, id=16, 3014.26125pt x 719.68875pt>
+File: csas-style/images/canada_bw.png Graphic file (type png)
+<use csas-style/images/canada_bw.png>
+Package pdftex.def Info: csas-style/images/canada_bw.png  used on input line 74
+.
+(pdftex.def)             Requested size: 100.72256pt x 24.0386pt.
+
+Package Fancyhdr Warning: \footskip is too small (27.46295pt): 
+Make it at least 28.51863pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1
+
+{/Users/brendanconnorsESSA/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pd
+ftex.map}
+
+\openout4 = `sr.upa'.
+
+ <./csas-style/images/Fip-stacked-DFO-EOS-eng_bw.png> <./csas-style/images/cana
+da_bw.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 77.
+
+Overfull \hbox (0.22502pt too wide) in paragraph at lines 103--104
+\T1/phv/m/n/10.95 (+19) in the pre-vi-ous CSAS re-view (Cox et al. [][]2019[][]
+); and (vi) im-pos-ing a stan-dard de-vi-a-tion of $\OML/cmm/m/it/10.95 ^^[ \OT
+1/cmr/m/n/10.95 (+19) = 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 (+19) 1$ 
+ []
+
+
+Overfull \hbox (0.12354pt too wide) in paragraph at lines 103--104
+\T1/phv/m/n/10.95 (+15) on a model that could not ad-e-quately fit his-tor-i-ca
+l at-sea re-leases. This change has a po-ten-tially 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[2]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[3
+
+]
+Overfull \hbox (0.12228pt too wide) in paragraph at lines 130--132
+\T1/phv/m/n/10.95 (+13) when inside the healthy zone, or (b) $\OT1/cmr/m/n/10.9
+5 (+13) 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 (+13) 8\OML/cmm/m/it/10.95 B[]
+$ \T1/phv/m/n/10.95 (+13) when rebuilding from the Cautious zone, in the 
+ []
+
+
+Overfull \hbox (0.20007pt too wide) in paragraph at lines 143--144
+\T1/phv/m/n/10.95 (+12) sess-ment out-puts into catch lim-its, and meta rules t
+hat may in-clude con-straints on TAC changes, 
+ []
+
+
+Overfull \hbox (0.18948pt too wide) in paragraph at lines 145--146
+[]\T1/phv/m/n/10.95 (+20) The MP cur-rently used to set an-nual Sable-fish TACs
+ was ini-tially de-vel-oped in 2011 and re-vised 
+ []
+
+
+Overfull \hbox (0.17068pt too wide) in paragraph at lines 145--146
+\T1/phv/m/n/10.95 (+1) sec-tors that fixed trawl al-lo-ca-tion in pre-vi-ous MS
+E work (Cox et al. [][]2011[][]), while the trap and hook 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[4]
+Overfull \hbox (0.12134pt too wide) in paragraph at lines 163--165
+\T1/phv/m/n/10.95 (+9) below we provide the sequence of calculations used to es
+tablish annual at-sea release caps and 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[5]
+Overfull \hbox (0.23355pt too wide) in paragraph at lines 186--187
+\T1/phv/m/n/10.95 (+16) This ap-proach aims to cre-ate an in-cen-tive to avoid 
+sub-legal Sable-fish via fu-ture TAC re-duc-tions 
+ []
+
+
+Overfull \hbox (0.13881pt too wide) in paragraph at lines 191--192
+\T1/phv/m/n/10.95 (+13) The Sable-fish man-age-ment strat-egy eval-u-a-tion qua
+n-ti-fies MP per-for-mance against per-for-mance 
+ []
+
+
+Overfull \hbox (0.16873pt too wide) in paragraph at lines 191--192
+\T1/phv/m/n/10.95 (+15) pre-ferred would be straight-for-ward -- choose the MP 
+with bet-ter per-for-mance on the fifth statis-tic. 
+ []
+
+
+Overfull \hbox (0.22578pt too wide) in paragraph at lines 191--192
+\T1/phv/m/n/10.95 (+16) Un-for-tu-nately, MPs typ-i-cally dif-fer on all five p
+er-for-mance statis-tics si-mul-ta-ne-ously, which makes 
+ []
+
+
+Overfull \hbox (0.21045pt too wide) in paragraph at lines 191--192
+\T1/phv/m/n/10.95 (+4) ser-va-tion prob-a-bil-i-ties (Fish-ery Ob-jec-tives 1-3
+) and short-term av-er-age catch (Fish-ery Ob-jec-tives 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[6]
+Overfull \hbox (0.14745pt too wide) in paragraph at lines 195--196
+[]\T1/phv/m/n/10.95 We aimed to sim-plify in-ter-pre-ta-tion of MP per-for-manc
+e by tun-ing all MPs to a stan-dard $\OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\
+OML/cmm/m/it/10.95 B[] \OMS/cmsy/m/n/10.95 ^^U 
+ []
+
+
+Overfull \hbox (0.16556pt too wide) in paragraph at lines 197--198
+\T1/phv/m/n/10.95 (+4) versa. The cross-test re-veals the po-ten-tial bi-o-log-
+i-cal and catch con-se-quences of us-ing the wrong 
+ []
+
+
+Overfull \hbox (0.11644pt too wide) in paragraph at lines 209--210
+[]\T1/phv/m/n/10.95 (+18) Model fits to the stan-dard-ized sur-vey were sim-i-l
+ar to pre-vi-ous OM ver-sions --- pat-terns lie some- 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[7]
+Overfull \hbox (0.10587pt too wide) in paragraph at lines 225--226
+\T1/phv/m/n/10.95 (+13) tar-get, fo-cuses MP per-for-mance dif-fer-ences on av-
+er-age an-nual catch over the next 10 years (Ta- 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[8]
+Overfull \hbox (0.17337pt too wide) in paragraph at lines 227--228
+[]\T1/phv/m/n/10.95 (+20) Differences in av-er-age an-nual catch were smaller a
+mong at-sea man-age-ment mea-sures that in- 
+ []
+
+
+Overfull \hbox (0.12602pt too wide) in paragraph at lines 231--232
+\T1/phv/m/n/10.95 (+13) at-sea release proportions and amortized over five year
+s (MP8 vs MP15, Table 2). The similarity 
+ []
+
+
+Overfull \hbox (0.1308pt too wide) in paragraph at lines 231--232
+\T1/phv/m/n/10.95 (+17) the recent allocation (59%) is approximately twice the 
+historical (33%), so switching to the lower, 
+ []
+
+
+Overfull \hbox (0.11649pt too wide) in paragraph at lines 233--234
+\T1/phv/m/n/10.95 (+14) catches were sim-i-lar, at-sea re-leases in the cur-ren
+t MP (\T1/phv/b/n/10.95 noCap\T1/phv/m/n/10.95 (+14) ) change mainly with re-cr
+uit-ment 
+ []
+
+
+Overfull \hbox (0.20163pt too wide) in paragraph at lines 235--236
+\T1/phv/m/n/10.95 (+10) is little to no growth overfishing benefit of amortizat
+ion at high caps and recent allocations, which 
+ []
+
+
+Overfull \hbox (0.12656pt too wide) in paragraph at lines 235--236
+\T1/phv/m/n/10.95 (+8) would mean higher trawl releases than present. In this c
+ase, the amortization period had a direct 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[9]
+Overfull \hbox (0.20348pt too wide) in paragraph at lines 248--249
+\T1/phv/m/n/10.95 (+18) Ta-ble 5). MP tun-ing pro-duced rel-a-tively low tar-ge
+t fish-ing mor-tal-ity rates rang-ing from 5.2% (cur- 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[10]
+Overfull \hbox (0.17421pt too wide) in paragraph at lines 259--260
+\T1/phv/m/n/10.95 (+12) 7). The ben-e-fit of ac-cept-ing this con-ser-va-tion r
+isk was ap-prox-i-mately 150 t of ex-tra an-nual catch, 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[11]
+Overfull \hbox (0.18404pt too wide) in paragraph at lines 274--275
+[]\T1/phv/m/n/10.95 (+13) The largest con-ser-va-tion risk ap-pears to be tun-i
+ng an MP to meet con-ser-va-tion ob-jec-tives un-der 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[12]
+Overfull \hbox (0.11899pt too wide) in paragraph at lines 310--312
+ \T1/phv/m/n/10.95 (+14) for the Sablefish (\T1/phv/m/sl/10.95 (+14) Anoplopoma
+ fimbria\T1/phv/m/n/10.95 (+14) ) fishery in British Columbia, Canada for 2017-
+18. DFO 
+ []
+
+
+Overfull \hbox (0.10269pt too wide) in paragraph at lines 316--318
+ [][]\T1/phv/m/n/10.95 (+19) Cox, S., Kronlund, A., and Lacko, L. 2011. Managem
+ent procedures for the multi-gear Sablefish 
+ []
+
+
+Overfull \hbox (0.12036pt too wide) in paragraph at lines 337--339
+ \T1/phv/m/n/10.95 (+7) and yield per recruit for walleye Pollock (\T1/phv/m/sl
+/10.95 (+7) Theragra chalcogramma\T1/phv/m/n/10.95 (+7) ). Fisheries Research 5
+(2-3): 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[13]pdfTeX warning (ext4): destination with the same identifier (name{table.0.1
+}) has been already used, duplicate ignored
 <to be read again> 
-                   n
-l.80 
-      
+                   \relax 
+l.357 \begin{longtable}[t]{lll}
+                               
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 366.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 366.
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[14]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[15
+
+]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[16
+
+]
+Overfull \hbox (17.66507pt too wide) in alignment at lines 464--477
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (17.66507pt too wide) in alignment at lines 477--482
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (17.66507pt too wide) in alignment at lines 482--484
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (17.66507pt too wide) in alignment at lines 484--486
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (17.66507pt too wide) in alignment at lines 486--504
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (17.66507pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[17
+
+]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[18
+
+
+]
+Overfull \hbox (12.10513pt too wide) in alignment at lines 562--574
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (12.10513pt too wide) in alignment at lines 574--579
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (12.10513pt too wide) in alignment at lines 579--581
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (12.10513pt too wide) in alignment at lines 581--583
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (12.10513pt too wide) in alignment at lines 583--601
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (12.10513pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[19
+
+
+]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[20
+
+
+]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[21
+
+
+]
+<knitr-figs-pdfunnamed-chunk-17-1.png, id=222, 1626.075pt x 1004.75375pt>
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 711.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 711.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 711.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 711.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=225, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 719.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 719.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 719.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 719.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[22
+
+ <./knitr-figs-pdfunnamed-chunk-17-1.png>]
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=235, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 728.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 728.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 728.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
+ input line 728.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[23 <./data/base_ALK_mUnsexed/plotMLEindices.png>]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[24 <./data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>]
+<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=249, 794.97pt x
+ 578.16pt>
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 740.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 740.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 740.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
+type pdf)
+<use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
+.pdf  used on input line 740.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+
+LaTeX Warning: Float too large for page by 10.37975pt on input line 745.
+
+<data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
+f, id=251, 794.97pt x 578.16pt>
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 749.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 749.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 749.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 749.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+
+LaTeX Warning: Float too large for page by 22.37975pt on input line 754.
+
+<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=253, 794.97pt 
+x 578.16pt>
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 758.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 758.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 758.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
+(type pdf)
+<use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
+Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
+3.pdf  used on input line 758.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+
+LaTeX Warning: Float too large for page by 10.37975pt on input line 763.
+
+<data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
+pdf, id=255, 794.97pt x 578.16pt>
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 767.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 767.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 767.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 767.
+(pdftex.def)             Requested size: 563.91887pt x 410.13477pt.
+
+LaTeX Warning: Float too large for page by 22.37975pt on input line 772.
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[25 <./data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[26 <./data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[27 <./data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[28 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstA
+l_am5.pdf>]
+Overfull \hbox (0.1011pt too wide) in paragraph at lines 784--785
+\T1/phv/m/n/10.95 (+15) a secondary reader as a quality control. In the majorit
+y of cases both readers agreed (62%) and 
+ []
+
+
+Overfull \hbox (0.18565pt too wide) in paragraph at lines 798--800
+\T1/phv/m/n/10.95 (+16) the age read-ings and whether cer-tain age classes are 
+more likely to be un-der or over-estimated. 
+ []
+
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[29
+
+
+]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[30]
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[31]
+<data/ageErr1.png, id=342, 2409.0pt x 2409.0pt>
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 840.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 840.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 840.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
+File: data/ageErr1.png Graphic file (type png)
+<use data/ageErr1.png>
+Package pdftex.def Info: data/ageErr1.png  used on input line 840.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[32 <./data/ageErr1.png>]
+<data/ageErr2.png, id=350, 2409.0pt x 2409.0pt>
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 849.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 849.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 849.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
+File: data/ageErr2.png Graphic file (type png)
+<use data/ageErr2.png>
+Package pdftex.def Info: data/ageErr2.png  used on input line 849.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[33 <./data/ageErr2.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=358, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 858.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 858.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 858.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
+input line 858.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[34 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=366, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 867.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 867.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 867.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 867.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[35 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
+<data/trawlSelOverlay.pdf, id=374, 1011.78pt x 495.89517pt>
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 876.
+(pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 876.
+(pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 876.
+(pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
+File: data/trawlSelOverlay.pdf Graphic file (type pdf)
+<use data/trawlSelOverlay.pdf>
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 876.
+(pdftex.def)             Requested size: 422.77664pt x 207.2152pt.
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[36 <./data/trawlSelOverlay.pdf>]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
+96.
+
+(/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.f
+d
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 17.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 20.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 34.
+
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<csas-style/images/recycle.png, id=450, 51.19125pt x 51.19125pt>
+File: csas-style/images/recycle.png Graphic file (type png)
+<use csas-style/images/recycle.png>
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 898.
+
+(pdftex.def)             Requested size: 49.14381pt x 49.14381pt.
+
+Overfull \hbox (12.02786pt too wide) in paragraph at lines 902--903
+\T1/phv/m/n/10.95 (-20) (\T1/phv/m/sl/10.95 (-20) Anoplopoma fib-ria\T1/phv/m/n
+/10.95 (-20) ) fish-ery for 2019-2020.. DFO Can. Sci. Ad-vis. Sec. Sci. Resp. 2
+019/999.  
+ []
+
+
+Overfull \hbox (0.12407pt too wide) in paragraph at lines 906--907
+\T1/phv/m/sl/10.95 (+8) la morue charbonnière (\T1/phv/m/n/10.95 (+8) Anoplopom
+a fimbria\T1/phv/m/sl/10.95 (+8) ) en C.-B., 2019-2020. Secr. can. de consult. 
+sci. 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{refs}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.909 \hypertarget{refs}{}
+                           
+AED: lastpage setting LastPage
+
+Underfull \hbox (badness 7308) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Science Re-sponse: Ro-bust-ness of Sable-fish MPs in BC
+ []
+
+[37
+
+ <./csas-style/images/recycle.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 911.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 911.
+(./sr.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 911.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 911.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 911.
+ ) 
 Here is how much of TeX's memory you used:
- 28875 strings out of 483161
- 546492 string characters out of 5963997
- 836408 words of memory out of 5000000
- 43278 multiletter control sequences out of 15000+600000
- 545264 words of font info for 54 fonts, out of 8000000 for 9000
+ 29525 strings out of 482913
+ 562836 string characters out of 5957407
+ 877765 words of memory out of 5000000
+ 43867 multiletter control sequences out of 15000+600000
+ 583305 words of font info for 158 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,15n,68p,1925b,823s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r
+.enc}</Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fon
+ts/type1/public/amsfonts/cmextra/cmex8.pfb></Users/brendanconnorsESSA/Library/T
+inyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/brendanconn
+orsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi5.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/brendanconnorsESSA/Librar
+y/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/brendanco
+nnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr5.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></Users/brendanconnorsESSA/Library
+/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/brendanconn
+orsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Us
+ers/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/brendanconnorsESSA/Library
+/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/brendancon
+norsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users
+/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a
+.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helv
+etic/uhvr8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvro8a.pfb>
+Output written on sr.pdf (37 pages, 1911305 bytes).
+PDF statistics:
+ 649 PDF objects out of 1000 (max. 8388607)
+ 537 compressed objects within 6 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 34104 words of extra memory for PDF output out of 35830 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!

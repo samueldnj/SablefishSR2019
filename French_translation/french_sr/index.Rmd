@@ -1,30 +1,21 @@
 ---
-title: "Évaluation de la robustesse des procédures de gestion proposées pour la pêche à la morue charbonnière en Colombie-Britannique (*Anoplopoma fimbria*), 2019-2020"
+title: "Évaluation de la robustesse des procédures de gestion proposées pour la pêche à la morue charbonnière (*Anoplopoma fimbria*) en C.-B., 2019-2020"
 title_short: "Robustesse des PG de la morue charbonnière en C.-B. "
+title_other: "Evaluating the robustness of candidate management procedures in the BC sablefish (*Anoplopoma fibria*) fishery for 2019-2020."
 year: 2019
 month: Novembre
 report_number: 999
 approver: |
   Carmel Lowe\
-  Directeur régional\
-  Secteur des sciences, Région du Pacifique\
-  Pêches et Océans Canada
+  Directeur régional
 approval_year: 2019
 approval_month: Novembre
 approval_day: 4
 branch: Secteur des sciences
 region: Région du Pacifique
-address: |
-     Fisheries and Oceans Canada,\
-     3190 Hammond Bay Road\
-     Nanaimo, British Columbia,\
-     V9T 6N7, Canada
-phone: (250) 756-7208
-email: csap@dfo-mpo.gc.ca
 output:
   csasdown::sr_pdf:
     french: true
-  #csasdown::sr_word:
     prepub: false
 
 type:

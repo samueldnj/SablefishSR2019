@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.2.11)  23 FEB 2020 08:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.6)  6 APR 2020 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **_main.tex
 (./_main.tex
-LaTeX2e <2020-02-02> patch level 1
-L3 programming layer <2020-02-11> (/Users/brendanconnorsESSA/Library/TinyTeX/te
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-02-25> (/Users/brendanconnorsESSA/Library/TinyTeX/te
 xmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
@@ -33,7 +33,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen135
 \ar@mcellbox=\box45
 \extrarowheight=\dimen136
-\NC@list=\toks14
+\NC@list=\toks15
 \extratabsurround=\skip49
 \backup@length=\skip50
 \ar@cellbox=\box46
@@ -44,7 +44,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@target=\dimen140
 \TX@delta=\dimen141
 \TX@cols=\count176
-\TX@ftn=\toks15
+\TX@ftn=\toks16
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.s
 ty
@@ -82,7 +82,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval
 .sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvs
 etkeys.sty
@@ -214,7 +214,7 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 22.
 \UL@box=\box47
 \UL@hyphenbox=\box48
 \UL@skip=\skip54
-\UL@hook=\toks17
+\UL@hook=\toks18
 \UL@height=\dimen146
 \UL@pe=\count189
 \UL@pixel=\dimen147
@@ -248,7 +248,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.
 sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
+\@emptytoks=\toks19
 \ex@=\dimen149
 ))
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.
@@ -280,21 +280,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip17
 \c@parentequation=\count198
 \dspbrk@lvl=\count199
-\tag@help=\toks19
+\tag@help=\toks20
 \row@=\count266
 \column@=\count267
 \maxfields@=\count268
-\andhelp@=\toks20
+\andhelp@=\toks21
 \eqnshift@=\dimen152
 \alignsep@=\dimen153
 \tagshift@=\dimen154
 \tagwidth@=\dimen155
 \totwidth@=\dimen156
 \lineht@=\dimen157
-\@envbody=\toks21
+\@envbody=\toks22
 \multlinegap=\skip56
 \multlinetaggap=\skip57
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -304,7 +304,7 @@ LaTeX Info: Redefining \] on input line 2860.
 ty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count269
-\output=\toks23
+\output=\toks24
 \linenoprevgraf=\count270
 \linenumbersep=\dimen159
 \linenumberwidth=\dimen160
@@ -338,7 +338,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen169
 \Gm@layouthoffset=\dimen170
 \Gm@layoutvoffset=\dimen171
-\Gm@dimlist=\toks24
+\Gm@dimlist=\toks25
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyh
 dr.sty
@@ -378,7 +378,7 @@ Package caption Info: hyperref package is loaded.
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/afterpage
 .sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks25
+\AP@output=\toks26
 \AP@partial=\box53
 \AP@footins=\box54
 )
@@ -387,7 +387,7 @@ ll.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen179
 \c@nlinenum=\count281
-\TeXr@lab=\toks26
+\TeXr@lab=\toks27
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tocloft/tocloft
 .sty
@@ -487,7 +487,7 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
 type.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks27
+\MT@toks=\toks28
 \MT@count=\count284
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen184
@@ -540,21 +540,21 @@ Grid set 16 x 16 = 38.39343pt x 49.68562pt
 \TPboxrulesize=\dimen189
 \TP@ox=\dimen190
 \TP@oy=\dimen191
-\TP@tbargs=\toks28
+\TP@tbargs=\toks29
 \TP@prevdepth=\dimen192
 TextBlockOrigin set to 0pt x 0pt
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/enumerate
 .sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks29
+\@enLab=\toks30
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/enumitem/enumit
 em.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip116
 \enit@outerparindent=\dimen193
-\enit@toks=\toks30
+\enit@toks=\toks31
 \enit@inbox=\box57
 \enit@count@id=\count286
 \enitdp@description=\count287
@@ -567,15 +567,15 @@ nment
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count288
-\float@exts=\toks31
+\float@exts=\toks32
 \float@box=\box58
-\@float@everytoks=\toks32
+\@float@everytoks=\toks33
 \@floatcapt=\box59
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks33
+\@float@every@algorithm=\toks34
 \c@algorithm=\count289
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/al
@@ -660,17 +660,17 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@rows=\count300
 \c@LT@tables=\count301
 \c@LT@chunks=\count302
-\LT@p@ftn=\toks34
+\LT@p@ftn=\toks35
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/import/import.s
 ty
-Package: import 2009/03/23  v 5.1
+Package: import 2020/01/22  v 6.0
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.
 sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks35
-\verbatim@line=\toks36
+\every@verbatim=\toks36
+\verbatim@line=\toks37
 \verbatim@in@stream=\read2
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyv
@@ -716,7 +716,7 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colort
 bl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks37
+\everycr=\toks38
 \minrowclearance=\skip127
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/arydshln/arydsh
@@ -740,7 +740,7 @@ Package: arydshln 2019/02/21 v1.76
 \adl@gap=\count316
 \adl@cla=\count317
 \adl@clb=\count318
-\adl@everyvbox=\toks38
+\adl@everyvbox=\toks39
 \adl@LTpagetotal=\dimen261
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/parskip/parskip
@@ -810,7 +810,7 @@ gffor.sty
 gfrcs.sty
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
 /pgfutil-common.tex
-\pgfutil@everybye=\toks39
+\pgfutil@everybye=\toks40
 \pgfutil@tempdima=\dimen277
 \pgfutil@tempdimb=\dimen278
 
@@ -830,12 +830,12 @@ Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 gfkeys.sty
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
 /pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks40
-\pgfkeys@temptoks=\toks41
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities
 /pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks42
+\pgfkeys@tmptoks=\toks43
 )))
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmat
 h.sty
@@ -863,9 +863,9 @@ athparser.code.tex
 \pgfmath@dimen=\dimen287
 \pgfmath@count=\count334
 \pgfmath@box=\box67
-\pgfmath@toks=\toks43
-\pgfmath@stack@operand=\toks44
-\pgfmath@stack@operation=\toks45
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfm
 athfunctions.code.tex
@@ -897,8 +897,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 ath.code.tex)
 \pgffor@iter=\dimen288
 \pgffor@skip=\dimen289
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
 ))
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/placeins/placei
 ns.sty
@@ -920,9 +920,9 @@ ex.def
 File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box68
-\AM@global@opts=\toks48
+\AM@global@opts=\toks49
 \AM@pagecnt=\count336
-\AM@toc@title=\toks49
+\AM@toc@title=\toks50
 \c@AM@survey=\count337
 \AM@templatesizebox=\box69
 )
@@ -955,11 +955,11 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks50
-\SOUL@lasttoken=\toks51
-\SOUL@cmds=\toks52
-\SOUL@buffer=\toks53
-\SOUL@token=\toks54
+\SOUL@word=\toks51
+\SOUL@lasttoken=\toks52
+\SOUL@cmds=\toks53
+\SOUL@buffer=\toks54
+\SOUL@token=\toks55
 \SOUL@spaceskip=\skip135
 \SOUL@ttwidth=\dimen292
 \SOUL@uldp=\dimen293
@@ -968,17 +968,37 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.s
 ty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks55
-\inpenc@posthook=\toks56
+\inpenc@prehook=\toks56
+\inpenc@posthook=\toks57
 )
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
 y
-Package: fontenc 2020/01/25 v2.0m Standard LaTeX package
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
 2.
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 20.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 23.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 26.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 46.
+
 ))
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/scalerel/scaler
 el.sty
@@ -1005,8 +1025,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 al.tex
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvut
 ils.tex
-\XKV@toks=\toks57
-\XKV@tempa@toks=\toks58
+\XKV@toks=\toks58
+\XKV@tempa@toks=\toks59
 )
 \XKV@depth=\count338
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -1109,9 +1129,9 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 \c@pgf@countb=\count348
 \c@pgf@countc=\count349
 \c@pgf@countd=\count350
-\t@pgf@toka=\toks59
-\t@pgf@tokb=\toks60
-\t@pgf@tokc=\toks61
+\t@pgf@toka=\toks60
+\t@pgf@tokb=\toks61
+\t@pgf@tokc=\toks62
 \pgf@sys@id@count=\count351
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlay
@@ -1318,7 +1338,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 ))
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3bac
 kend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count367
 \l__pdf_internal_box=\box82
 ) (./_main.aux)
@@ -1882,6 +1902,16 @@ Overfull \hbox (0.19504pt too wide) in paragraph at lines 280--281
  []
 
 
+Overfull \hbox (14.5566pt too wide) in alignment at lines 284--296
+ [] [] 
+ []
+
+
+Overfull \hbox (14.5566pt too wide) has occurred while \output is active
+ [] [] 
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
  []
@@ -1892,15 +1922,22 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [15]
-Overfull \hbox (0.17148pt too wide) in paragraph at lines 326--328
-[][]\T1/phv/m/n/10.95 (+4) MPO. 2009. Un cadre décisionnel pour les pêches inté
-grant l'approche de précaution. Pêches et 
+Overfull \hbox (0.10269pt too wide) in paragraph at lines 317--319
+ [][]\T1/phv/m/n/10.95 (+19) Cox, S., Kronlund, A., and Lacko, L. 2011. Managem
+ent procedures for the multi-gear Sablefish 
  []
 
 
-Overfull \hbox (0.16739pt too wide) in paragraph at lines 326--328
-\T1/phv/m/n/10.95 (+4) Océans Canada sur internet: (aurait été modifié pour la 
-dernière fois le 23 mai 2009, bienque les 
+Overfull \hbox (0.12036pt too wide) in paragraph at lines 335--337
+ \T1/phv/m/n/10.95 (+7) and yield per recruit for walleye Pollock (\T1/phv/m/sl
+/10.95 (+7) Theragra chalcogramma\T1/phv/m/n/10.95 (+7) ). Fisheries Research 5
+(2-3): 
+ []
+
+
+Overfull \hbox (0.17148pt too wide) in paragraph at lines 338--340
+ [][]\T1/phv/m/n/10.95 (+4) MPO. 2009. Un cadre décisionnel pour les pêches int
+égrant l'approche de précaution. Pêches et 
  []
 
 
@@ -1913,16 +1950,26 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[16]pdfTeX warning (ext4): destination with the same identifier (name{table.0.1
+[16]
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[17]pdfTeX warning (ext4): destination with the same identifier (name{table.0.1
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.349 \begin{longtable}[t]{lll}
+l.358 \begin{longtable}[t]{lll}
                                
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 350.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 359.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 350.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 359.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
@@ -1933,28 +1980,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[17]
+[18]
 
-LaTeX Warning: Command \' invalid in math mode on input line 387.
-
-Missing character: There is no é in font cmr7!
-
-LaTeX Warning: Command \' invalid in math mode on input line 392.
+LaTeX Warning: Command \' invalid in math mode on input line 396.
 
 Missing character: There is no é in font cmr7!
 
-Underfull \hbox (badness 10000) has occurred while \output is active
- []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
- []
+LaTeX Warning: Command \' invalid in math mode on input line 401.
 
+Missing character: There is no é in font cmr7!
 
-Underfull \hbox (badness 10000) has occurred while \output is active
- \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
- []
-
-[18
-
-]
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
  []
@@ -1967,36 +2002,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [19
 
 ]
-Overfull \hbox (47.29654pt too wide) in alignment at lines 442--449
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (47.29654pt too wide) in alignment at lines 449--454
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (47.29654pt too wide) in alignment at lines 454--456
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (47.29654pt too wide) in alignment at lines 456--458
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (47.29654pt too wide) in alignment at lines 458--476
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (47.29654pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
  []
@@ -2009,14 +2014,35 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [20
 
 ]
+Overfull \hbox (47.29654pt too wide) in alignment at lines 451--458
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
 
-LaTeX Warning: Command \' invalid in math mode on input line 491.
 
-Missing character: There is no é in font cmr7!
+Overfull \hbox (47.29654pt too wide) in alignment at lines 458--463
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
 
-LaTeX Warning: Command \' invalid in math mode on input line 496.
 
-Missing character: There is no é in font cmr7!
+Overfull \hbox (47.29654pt too wide) in alignment at lines 463--465
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 465--467
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 467--485
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
@@ -2029,37 +2055,15 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [21
 
-
 ]
-Overfull \hbox (47.29654pt too wide) in alignment at lines 528--535
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
 
+LaTeX Warning: Command \' invalid in math mode on input line 500.
 
-Overfull \hbox (47.29654pt too wide) in alignment at lines 535--540
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
+Missing character: There is no é in font cmr7!
 
+LaTeX Warning: Command \' invalid in math mode on input line 505.
 
-Overfull \hbox (47.29654pt too wide) in alignment at lines 540--542
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (47.29654pt too wide) in alignment at lines 542--544
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (47.29654pt too wide) in alignment at lines 544--562
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (47.29654pt too wide) has occurred while \output is active
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
+Missing character: There is no é in font cmr7!
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
@@ -2074,14 +2078,35 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
+Overfull \hbox (47.29654pt too wide) in alignment at lines 537--544
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
 
-LaTeX Warning: Command \' invalid in math mode on input line 577.
 
-Missing character: There is no é in font cmr7!
+Overfull \hbox (47.29654pt too wide) in alignment at lines 544--549
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
 
-LaTeX Warning: Command \' invalid in math mode on input line 582.
 
-Missing character: There is no é in font cmr7!
+Overfull \hbox (47.29654pt too wide) in alignment at lines 549--551
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 551--553
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) in alignment at lines 553--571
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.29654pt too wide) has occurred while \output is active
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
@@ -2097,11 +2122,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 ]
 
-LaTeX Warning: Command \' invalid in math mode on input line 621.
+LaTeX Warning: Command \' invalid in math mode on input line 586.
 
 Missing character: There is no é in font cmr7!
 
-LaTeX Warning: Command \' invalid in math mode on input line 626.
+LaTeX Warning: Command \' invalid in math mode on input line 591.
 
 Missing character: There is no é in font cmr7!
 
@@ -2118,48 +2143,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 ]
-<knitr-figs-pdfunnamed-chunk-17-1.png, id=232, 1626.075pt x 1004.75375pt>
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 658.
-(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 658.
-(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 658.
-(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
-File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
-<use knitr-figs-pdfunnamed-chunk-17-1.png>
-Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
-ne 658.
-(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
-<data/base_ALK_mUnsexed/plotMLEindices.png, id=235, 1027.84pt x 770.88pt>
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 666.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 666.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 666.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotMLEindices.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
-ut line 666.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+LaTeX Warning: Command \' invalid in math mode on input line 630.
+
+Missing character: There is no é in font cmr7!
+
+LaTeX Warning: Command \' invalid in math mode on input line 635.
+
+Missing character: There is no é in font cmr7!
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
@@ -2172,27 +2163,83 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [25
 
+
+]
+<knitr-figs-pdfunnamed-chunk-17-1.png, id=239, 1626.075pt x 1004.75375pt>
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 667.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 667.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 667.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+File: knitr-figs-pdfunnamed-chunk-17-1.png Graphic file (type png)
+<use knitr-figs-pdfunnamed-chunk-17-1.png>
+Package pdftex.def Info: knitr-figs-pdfunnamed-chunk-17-1.png  used on input li
+ne 667.
+(pdftex.def)             Requested size: 422.77664pt x 261.22981pt.
+<data/base_ALK_mUnsexed/plotMLEindices.png, id=242, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 675.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 675.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 675.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotMLEindices.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotMLEindices.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotMLEindices.png  used on inp
+ut line 675.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[26
+
  <./knitr-figs-pdfunnamed-chunk-17-1.png>]
-<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=246, 1027.84pt x 770.88pt>
+<data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png, id=252, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 675.
+ input line 684.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 675.
+ input line 684.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 675.
+ input line 684.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 File: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png  used on
- input line 675.
+ input line 684.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2204,7 +2251,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[26 <./data/base_ALK_mUnsexed/plotMLEindices.png>]
+[27 <./data/base_ALK_mUnsexed/plotMLEindices.png>]
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
  []
@@ -2214,131 +2261,131 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[27 <./data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>]
-<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=260, 794.97pt x
+[28 <./data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png>]
+<data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=266, 794.97pt x
  578.16pt>
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 687.
+.pdf  used on input line 696.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 687.
+.pdf  used on input line 696.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 687.
+.pdf  used on input line 696.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file (
 type pdf)
 <use data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13
-.pdf  used on input line 687.
-(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-
-LaTeX Warning: Float too large for page by 31.83693pt on input line 692.
-
-<data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
-f, id=262, 794.97pt x 578.16pt>
-File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
-m5.pdf Graphic file (type pdf)
-<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
-5.pdf>
-Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 696.
-(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
-m5.pdf Graphic file (type pdf)
-<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
-5.pdf>
-Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 696.
-(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
-m5.pdf Graphic file (type pdf)
-<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
-5.pdf>
-Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 696.
-(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
-m5.pdf Graphic file (type pdf)
-<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
-5.pdf>
-Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
-_depCatchHR_hstAl_am5.pdf  used on input line 696.
+.pdf  used on input line 696.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
 LaTeX Warning: Float too large for page by 31.83693pt on input line 701.
 
-<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=264, 794.97pt 
+<data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pd
+f, id=268, 794.97pt x 578.16pt>
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 705.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 705.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 705.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_a
+m5.pdf Graphic file (type pdf)
+<use data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am
+5.pdf>
+Package pdftex.def Info: data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd
+_depCatchHR_hstAl_am5.pdf  used on input line 705.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+
+LaTeX Warning: Float too large for page by 31.83693pt on input line 710.
+
+<data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf, id=270, 794.97pt 
 x 578.16pt>
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 705.
+3.pdf  used on input line 714.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 705.
+3.pdf  used on input line 714.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 705.
+3.pdf  used on input line 714.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 File: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf Graphic file 
 (type pdf)
 <use data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>
 Package pdftex.def Info: data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep1
-3.pdf  used on input line 705.
-(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-
-LaTeX Warning: Float too large for page by 31.83693pt on input line 710.
-
-<data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
-pdf, id=266, 794.97pt x 578.16pt>
-File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
-_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
-am5.pdf>
-Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 714.
-(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
-_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
-am5.pdf>
-Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 714.
-(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
-_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
-am5.pdf>
-Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 714.
-(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
-File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
-_am5.pdf Graphic file (type pdf)
-<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
-am5.pdf>
-Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
-td_depCatchHR_hstAl_am5.pdf  used on input line 714.
+3.pdf  used on input line 714.
 (pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
 
 LaTeX Warning: Float too large for page by 31.83693pt on input line 719.
 
+<data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.
+pdf, id=272, 794.97pt x 578.16pt>
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 723.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 723.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 723.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+File: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl
+_am5.pdf Graphic file (type pdf)
+<use data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_
+am5.pdf>
+Package pdftex.def Info: data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_w
+td_depCatchHR_hstAl_am5.pdf  used on input line 723.
+(pdftex.def)             Requested size: 576.92717pt x 419.59195pt.
+
+LaTeX Warning: Float too large for page by 31.83693pt on input line 728.
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
@@ -2349,7 +2396,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[28 <./data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
+[29 <./data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
  []
@@ -2359,7 +2406,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[29 <./data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_
+[30 <./data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_
 am5.pdf>]
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
@@ -2370,7 +2417,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[30 <./data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
+[31 <./data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf>]
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
  []
@@ -2380,48 +2427,48 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[31 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstA
+[32 <./data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstA
 l_am5.pdf>]
-Overfull \hbox (0.1672pt too wide) in paragraph at lines 727--728
+Overfull \hbox (0.1672pt too wide) in paragraph at lines 736--737
 \T1/phv/m/n/10.95 (+11) l'âge; toute-fois, les don-nées ob-servées à ce titre p
 rovi-en-nent de lec-tures d'otolithes qui sont mal 
  []
 
 
-Overfull \hbox (0.17915pt too wide) in paragraph at lines 727--728
+Overfull \hbox (0.17915pt too wide) in paragraph at lines 736--737
 \T1/phv/m/n/10.95 (+8) an-nées de re-crute-ment ou des re-la-tions stock-recrut
 ement (Hansel-man et al. [][]2012[][]). Les er-reurs 
  []
 
 
-Overfull \hbox (0.16473pt too wide) in paragraph at lines 729--730
+Overfull \hbox (0.16473pt too wide) in paragraph at lines 738--739
 \T1/phv/m/n/10.95 (+17) ces deux for-mules sont les suiv-antes : i) la struc-tu
 re d'erreur est lim-itée de manière à as-surer la 
  []
 
 
-Overfull \hbox (0.13797pt too wide) in paragraph at lines 733--734
+Overfull \hbox (0.13797pt too wide) in paragraph at lines 742--743
 \T1/phv/m/n/10.95 (+19) déter-mi-na-tion de l'âge où l'écart-type es-timé de l'
 âge ob-servé pour un véri-ta-ble âge b est fondé 
  []
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+LaTeX Warning: Command \textendash invalid in math mode on input line 746.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+LaTeX Warning: Command \textendash invalid in math mode on input line 746.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+LaTeX Warning: Command \textendash invalid in math mode on input line 746.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+LaTeX Warning: Command \textendash invalid in math mode on input line 746.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 737.
+LaTeX Warning: Command \textendash invalid in math mode on input line 746.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 738.
+LaTeX Warning: Command \textendash invalid in math mode on input line 747.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2433,23 +2480,23 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[32
+[33
 
 
 ]
-Overfull \hbox (0.19609pt too wide) in paragraph at lines 744--746
+Overfull \hbox (0.19609pt too wide) in paragraph at lines 753--755
 \T1/phv/m/n/10.95 (+19) Étant donné que l'âge réel des pois-sons est in-connu, 
 il est im-pos-si-ble de déter-miner avec pré-ci- 
  []
 
 
-Overfull \hbox (0.10661pt too wide) in paragraph at lines 756--757
+Overfull \hbox (0.10661pt too wide) in paragraph at lines 765--766
 \T1/phv/m/n/10.95 (+2) térieures pour une courbe de sélec-tiv-ité es-timée à pa
 r-tir du rétab-lisse-ment de pois-sons éti-quetés 
  []
 
 
-Overfull \hbox (0.16187pt too wide) in paragraph at lines 760--760
+Overfull \hbox (0.16187pt too wide) in paragraph at lines 769--769
 \T1/phv/m/n/10.95 (+2) matrice $\OML/cmm/m/it/10.95 A$ \T1/phv/m/n/10.95 (+2) a
  été convertie en une matrice de probabilité $\OML/cmm/m/it/10.95 P$ \T1/phv/m/
 n/10.95 (+2) selon l'âge et la longueur $\OML/cmm/m/it/10.95 l$ \T1/phv/m/n/10.
@@ -2466,8 +2513,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[33]
-Overfull \hbox (0.20248pt too wide) in paragraph at lines 765--767
+[34]
+Overfull \hbox (0.20248pt too wide) in paragraph at lines 774--776
 \T1/phv/m/n/10.95 (+3) où $\OML/cmm/m/it/10.95 P$ \T1/phv/m/n/10.95 (+3) est tr
 ans-posé de façon à ce que la di-men-sion rel-a-tive à la longueur cor-re-spond
 e au vecteur 
@@ -2483,34 +2530,34 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[34]
-Underfull \hbox (badness 10000) has occurred while \output is active
- []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
- []
-
 [35]
-<data/ageErr1.png, id=356, 469.755pt x 469.755pt>
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[36]
+<data/ageErr1.png, id=362, 2409.0pt x 2409.0pt>
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 786.
-(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+Package pdftex.def Info: data/ageErr1.png  used on input line 795.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 786.
-(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+Package pdftex.def Info: data/ageErr1.png  used on input line 795.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 786.
-(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+Package pdftex.def Info: data/ageErr1.png  used on input line 795.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
 File: data/ageErr1.png Graphic file (type png)
 <use data/ageErr1.png>
-Package pdftex.def Info: data/ageErr1.png  used on input line 786.
-(pdftex.def)             Requested size: 422.77664pt x 422.7756pt.
+Package pdftex.def Info: data/ageErr1.png  used on input line 795.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
@@ -2521,24 +2568,24 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[36 <./data/ageErr1.png>]
-<data/ageErr2.png, id=364, 469.755pt x 406.6392pt>
+[37 <./data/ageErr1.png>]
+<data/ageErr2.png, id=371, 2409.0pt x 2409.0pt>
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 795.
-(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+Package pdftex.def Info: data/ageErr2.png  used on input line 804.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 795.
-(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+Package pdftex.def Info: data/ageErr2.png  used on input line 804.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 795.
-(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+Package pdftex.def Info: data/ageErr2.png  used on input line 804.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
 File: data/ageErr2.png Graphic file (type png)
 <use data/ageErr2.png>
-Package pdftex.def Info: data/ageErr2.png  used on input line 795.
-(pdftex.def)             Requested size: 422.77664pt x 365.97191pt.
+Package pdftex.def Info: data/ageErr2.png  used on input line 804.
+(pdftex.def)             Requested size: 422.77664pt x 422.75758pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
@@ -2549,58 +2596,26 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[37 <./data/ageErr2.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=373, 1027.84pt x 770.88pt>
+[38 <./data/ageErr2.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png, id=379, 1027.84pt x 770.88pt>
 File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
 <use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
 Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 804.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 804.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 804.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
-input line 804.
-(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
- []
-
-[38 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
-<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=381, 1027.84pt x 770.88pt>
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
 input line 813.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
 input line 813.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
 input line 813.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
-File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
-<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
-Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png  used on 
 input line 813.
 (pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
 
@@ -2613,23 +2628,55 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[39 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
-<data/trawlSelOverlay.pdf, id=389, 678.10793pt x 370.57597pt>
+[39 <./data/base_ALK_mUnsexed/plotObsAgeFreq_m3.png>]
+<data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png, id=387, 1027.84pt x 770.88pt>
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 822.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 822.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 822.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+File: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png Graphic file (type png)
+<use data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>
+Package pdftex.def Info: data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png  used on 
+input line 822.
+(pdftex.def)             Requested size: 422.77664pt x 317.0862pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ []\T1/phv/b/n/10.95 Réponse des sci-ences: Ro-bustesse des
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
+ []
+
+[40 <./data/base_ALK_mUnsexed/plotObsAgeFreq_f3.png>]
+<data/trawlSelOverlay.pdf, id=395, 678.10793pt x 370.57597pt>
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 822.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 831.
 (pdftex.def)             Requested size: 422.77664pt x 231.04395pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 822.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 831.
 (pdftex.def)             Requested size: 422.77664pt x 231.04395pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 822.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 831.
 (pdftex.def)             Requested size: 422.77664pt x 231.04395pt.
 File: data/trawlSelOverlay.pdf Graphic file (type pdf)
 <use data/trawlSelOverlay.pdf>
-Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 822.
+Package pdftex.def Info: data/trawlSelOverlay.pdf  used on input line 831.
 (pdftex.def)             Requested size: 422.77664pt x 231.04395pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2641,25 +2688,52 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[40 <./data/trawlSelOverlay.pdf>]
+[41 <./data/trawlSelOverlay.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8
-42.
+51.
 
 (/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.f
 d
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 17.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 20.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 34.
+
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<csas-style/images/recycle.png, id=469, 51.19125pt x 51.19125pt>
+<csas-style/images/recycle.png, id=475, 51.19125pt x 51.19125pt>
 File: csas-style/images/recycle.png Graphic file (type png)
 <use csas-style/images/recycle.png>
-Package pdftex.def Info: csas-style/images/recycle.png  used on input line 844.
+Package pdftex.def Info: csas-style/images/recycle.png  used on input line 853.
 
 (pdftex.def)             Requested size: 49.14381pt x 49.14381pt.
 
+Overfull \hbox (13.56094pt too wide) in paragraph at lines 861--862
+\T1/phv/m/sl/10.95 (-20) (\T1/phv/m/n/10.95 (-20) Anoplopoma fib-ria\T1/phv/m/s
+l/10.95 (-20) ) fish-ery for 2019-2020.. DFO Can. Sci. Ad-vis. Sec. Sci. Resp. 
+2019/999.  
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{refs}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.864 \hypertarget{refs}{}
+                           
 AED: lastpage setting LastPage
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2671,22 +2745,22 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  \T1/phv/b/n/10.95 PG de la morue char-bon-nière en C.-B.
  []
 
-[41
+[42
 
  <./csas-style/images/recycle.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 854.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 854.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 866.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 866.
 (./_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 854.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 854.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 854.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 866.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 866.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 866.
  ) 
 Here is how much of TeX's memory you used:
- 29527 strings out of 483161
- 563701 string characters out of 5963269
- 883218 words of memory out of 5000000
- 43624 multiletter control sequences out of 15000+600000
- 582499 words of font info for 154 fonts, out of 8000000 for 9000
+ 29552 strings out of 482913
+ 564076 string characters out of 5957407
+ 884956 words of memory out of 5000000
+ 43878 multiletter control sequences out of 15000+600000
+ 583754 words of font info for 165 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  74i,15n,68p,2717b,823s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r
@@ -2717,10 +2791,10 @@ norsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users
 .pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helv
 etic/uhvr8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb>
-Output written on _main.pdf (41 pages, 1650530 bytes).
+Output written on _main.pdf (42 pages, 1836903 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 549 compressed objects within 6 object streams
- 151 named destinations out of 1000 (max. 500000)
- 34096 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 674 PDF objects out of 1000 (max. 8388607)
+ 557 compressed objects within 6 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 34104 words of extra memory for PDF output out of 35830 (max. 10000000)
 

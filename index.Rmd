@@ -1,14 +1,13 @@
 ---
-title: "Evaluating the robustness of candidate management procedures in the BC sablefish (*Anoplopoma fibria*) fishery for 2019-2020."
+title: "Evaluating the robustness of candidate management procedures in the BC Sablefish (*Anoplopoma fibria*) fishery for 2019-2020."
 title_short: "Robustness of Sablefish MPs in BC"
+title_other: "Évaluation de la robustesse des procédures de gestion proposées pour la pêche à la morue charbonnière (*Anoplopoma fimbria*) en C.-B., 2019-2020"
 year: 2019
 month: November
 report_number: 999
 approver: |
   Carmel Lowe\
-  Regional Director\
-  Science Branch, Pacific Region\
-  Fisheries and Oceans Canada
+  Regional Director
 approval_year: 2019
 approval_month: November
 approval_day: 4
@@ -24,7 +23,6 @@ email: csap@dfo-mpo.gc.ca
 output:
   csasdown::sr_pdf:
     french: false
-  #csasdown::sr_word:
     prepub: false
 
 type:

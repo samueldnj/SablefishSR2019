@@ -16,10 +16,10 @@
 %%%% Commands for title page etc %%%%%
 
 % Title
-\newcommand{\rdTitle}{Évaluation de la robustesse des procédures de gestion proposées pour la pêche à la morue charbonnière en Colombie-Britannique (\emph{Anoplopoma fimbria}), 2019-2020}
+\newcommand{\rdTitle}{Évaluation de la robustesse des procédures de gestion proposées pour la pêche à la morue charbonnière (\emph{Anoplopoma fimbria}) en C.-B., 2019-2020}
 
 % English title
-\newcommand{\rdTitleFr}{}
+\newcommand{\rdTitleFr}{Evaluating the robustness of candidate management procedures in the BC sablefish (\emph{Anoplopoma fibria}) fishery for 2019-2020.}
 
 % Title short
 \newcommand{\rdTitleShort}{Robustesse des PG de la morue charbonnière en C.-B.}
@@ -37,9 +37,7 @@
 
 % Approver (name\\position)
 \newcommand{\rdApp}{Carmel Lowe\\
-Directeur régional\\
-Secteur des sciences, Région du Pacifique\\
-Pêches et Océans Canada}
+Directeur régional}
 
 % Approval date
 \newcommand{\rdAppDate}{4 Novembre 2019}
@@ -55,6 +53,8 @@ Pêches et Océans Canada}
 %Defines cslreferences environment
 %Required by pandoc 2.8
 %Copied from https://github.com/rstudio/rmarkdown/issues/1649
+
+\DeclareGraphicsExtensions{.png,.pdf}
 \begin{document}
 
 \bookmark[dest=PageOne]{\rdTitle{}}
@@ -66,7 +66,7 @@ Pêches et Océans Canada}
 \hypertarget{contexte}{%
 \section{Contexte}\label{contexte}}
 
-Depuis 2008, Pêches et Océans Canada (MPO) et l'industrie de la pêche du poisson de fond en Colombie-Britannique collaborent à un processus d'évaluation des stratégies de gestion qui vise à maintenir une stratégie transparente et durable de pêche de la morue charbonnière dans la province. La transparence et la durabilité éventuelle des procédures de gestion proposées sont déterminées par des simulations qui mesurent ces procédures par rapport aux objectifs en matière de biologie et de pêche approuvés au préalable. Les modèles d'exploitation sur lesquels reposent les simulations visent à représenter les principales incertitudes liées à l'état des stocks de morue charbonnière et à la productivité. Le processus d'évaluation des stratégies de gestion de la morue charbonnière a fait l'objet de plusieurs examens par les pairs du Secrétariat canadien de consultation scientifique (SCCS) et de publications scientifiques indépendantes évaluées par les pairs (Cox and Kronlund \protect\hyperlink{ref-cox2008practical}{2008}; Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2013roles}{2013}, \protect\hyperlink{ref-cox2019evaluating}{2019}; MPO \protect\hyperlink{ref-dfo2014performanc}{2014}). Depuis 2011, le MPO publie chaque année des avis sur la pêche canadienne de la morue charbonnière en fonction des simulations des procédures de gestion.
+Depuis 2008, Pêches et Océans Canada (MPO) et l'industrie de la pêche du poisson de fond en Colombie-Britannique collaborent à un processus d'évaluation des stratégies de gestion qui vise à maintenir une stratégie transparente et durable de pêche de la morue charbonnière dans la province. La transparence et la durabilité éventuelle des procédures de gestion proposées sont déterminées par des simulations qui mesurent ces procédures par rapport aux objectifs en matière de biologie et de pêche approuvés au préalable. Les modèles d'exploitation sur lesquels reposent les simulations visent à représenter les principales incertitudes liées à l'état des stocks de morue charbonnière et à la productivité. Le processus d'évaluation des stratégies de gestion de la morue charbonnière a fait l'objet de plusieurs examens par les pairs du Secrétariat canadien de consultation scientifique (SCCS) et de publications scientifiques indépendantes évaluées par les pairs (Cox and Kronlund \protect\hyperlink{ref-cox2008practical}{2008}; Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2013roles}{2013}, \protect\hyperlink{ref-cox2019evaluating}{2019}; DFO \protect\hyperlink{ref-dfo2014performanc}{2014}). Depuis 2011, le MPO publie chaque année des avis sur la pêche canadienne de la morue charbonnière en fonction des simulations des procédures de gestion.
 
 Le processus d'évaluation des stratégies de gestion de la morue charbonnière s'effectue tous les trois ans. Il permet de rajuster le modèle d'exploitation selon les dernières données sur les indices de la biomasse fondés sur les relevés et la pêche, les prises selon l'âge, les remises à l'eau, l'étiquetage et la recapture des poissons étiquetés. Chaque mise à jour triennale offre également l'occasion de modifier les objectifs de pêche et de proposer de nouvelles procédures de gestion.
 
@@ -120,7 +120,7 @@ Les modèles d'exploitation de robustesse étaient identiques aux cinq modèles 
 \hypertarget{objectifs-de-puxeache}{%
 \subsubsection{Objectifs de pêche}\label{objectifs-de-puxeache}}
 
-Les objectifs pour la pêche de la morue charbonnière la Colombie-Britannique ont été mis au point progressivement au cours des dix dernières années grâce à des consultations entre les gestionnaires de pêche, les scientifiques et les intervenants de l'industrie (Cox and Kronlund \protect\hyperlink{ref-cox2009evaluation}{2009}; Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2019evaluating}{2019}; MPO \protect\hyperlink{ref-dfo2014performanc}{2014}). Les cinq principaux objectifs qui guident cette pêche sont les suivants :
+Les objectifs pour la pêche de la morue charbonnière la Colombie-Britannique ont été mis au point progressivement au cours des dix dernières années grâce à des consultations entre les gestionnaires de pêche, les scientifiques et les intervenants de l'industrie (Cox and Kronlund \protect\hyperlink{ref-cox2009evaluation}{2009}; Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2019evaluating}{2019}; DFO \protect\hyperlink{ref-dfo2014performanc}{2014}). Les cinq principaux objectifs qui guident cette pêche sont les suivants :
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 
@@ -281,53 +281,62 @@ Il serait possible de modifier la stratégie pour le prochain cycle d'évaluatio
 
 \hypertarget{contributeurs}{%
 \section{Contributeurs}\label{contributeurs}}
-\begin{longtable}[]{@{}ll@{}}
+\begin{longtable}{>{\raggedright\arraybackslash}p{11em}l}
 \toprule
-Nom & Organisme\tabularnewline
+\textbf{Nom} & \textbf{Organisme}\\
 \midrule
-\endhead
-Sean Cox & Université Simon Fraser, C.-B.; Landmark Fisheries Research\tabularnewline
-Samuel Johnson & Université Simon Fraser, C.-B.; Landmark Fisheries Research\tabularnewline
-Brendan Connors & Direction des sciences du MPO, région du Pacifique\tabularnewline
-Lindsay Gardner & Direction de la gestion des pêches du MPO, région du Pacifique\tabularnewline
-Sean Anderson & Direction des sciences du MPO, région du Pacifique (examinateur)\tabularnewline
-Elise Keppel & Direction des sciences du MPO, région du Pacifique (examinatrice)\tabularnewline
-Lisa Christiansen & Centre des avis scientifiques du MPO, région du Pacifique (rédactrice)\tabularnewline
+Sean Cox & Université Simon Fraser, C.-B.; Landmark Fisheries Research\\
+Samuel Johnson & Université Simon Fraser, C.-B.; Landmark Fisheries Research\\
+Brendan Connors & Direction des sciences du MPO, région du Pacifique\\
+Lindsay Gardner & Direction de la gestion des pêches du MPO, région du Pacifique\\
+Sean Anderson & Direction des sciences du MPO, région du Pacifique (examinateur)\\
+Elise Keppel & Direction des sciences du MPO, région du Pacifique (examinatrice)\\
+Lisa Christiansen & Centre des avis scientifiques du MPO, région du Pacifique (rédactrice)\\
 \bottomrule
 \end{longtable}
-\hypertarget{ruxe9fuxe9rences}{%
-\section{Références}\label{ruxe9fuxe9rences}}
+\MakeApproval
+
+\hypertarget{sources-de-renseignements}{%
+\section{Sources de renseignements}\label{sources-de-renseignements}}
+\phantomsection
+
+% This manually sets the header for this unnumbered chapter.
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
 
 \hypertarget{refs}{}
 \leavevmode\hypertarget{ref-cox2019evaluating}{}%
-Cox, S., Holt, K., and Johnson, S. 2019. Évaluation de la robustesse des procédures de gestion des pêches à la morue charbonnière (anoplopoma fimbria(\emph{Anoplopoma fimbria})) en colombie-britannique, au canada, pour 2017-2018. Secr. can. de consult. sci. du MPO. Doc. de rech. 2019/032: v +87p.
+Cox, S., Holt, K., and Johnson, S. 2019. Évaluation de la robustesse des procédures de gestion des pêches à la morue charbonnière (\emph{Anoplopoma fimbria}) en Colombie-Britannique, au Canada, pour 2017-2018. Secr. can. de consult. sci. du MPO. Doc. de rech. 2019/032: v +87p.
 
 \leavevmode\hypertarget{ref-cox2009evaluation}{}%
-Cox, S., and Kronlund, A. 2009. Evaluation of interim harvest strategies for sablefish (\emph{anoplopoma fimbria}) in british columbia, canada for 2008/09. Secr. can. de consult. sci. du MPO. Doc. de rech. 2019/042: v + 82p.
+Cox, S., and Kronlund, A. 2009. Evaluation of interim harvest strategies for sablefish (\emph{Anoplopoma fimbria}) in British Columbia, Canada for 2008/09. DFO Can. Sci. Advis. Sec. Res. Doc. 2019/042: v + 82p.
 
 \leavevmode\hypertarget{ref-cox2011management}{}%
-Cox, S., Kronlund, A., and Lacko, L. 2011. Management procedures for the multi-gear sablefish (\emph{anoplopoma fimbria}) fishery in british columbia, canada. Secr. can. de consult. sci. du MPO. Doc. de rech. 2011/063: v + 45p.
+Cox, S., Kronlund, A., and Lacko, L. 2011. Management procedures for the multi-gear Sablefish (\emph{Anoplopoma fimbria}) fishery in British Columbia, Canada. DFO Can. Sci. Advis. Sec. Res. Doc. 2011/063: v + 45p.
 
 \leavevmode\hypertarget{ref-cox2008practical}{}%
-Cox, S.P., and Kronlund, A.R. 2008. Practical stakeholder-driven harvest policies for groundfish fisheries in british columbia, canada. Fisheries Research 94: 224--237.
+Cox, S.P., and Kronlund, A.R. 2008. Practical stakeholder-driven harvest policies for groundfish fisheries in British Columbia, Canada. Fisheries Research 94: 224--237.
 
 \leavevmode\hypertarget{ref-cox2013roles}{}%
 Cox, S.P., Kronlund, A.R., and Benson, A.J. 2013. The roles of biological reference points and operational control points in management procedures for the Sablefish (\emph{Anoplopoma fimbria}) fishery in British Columbia, Canada. Environmental Conservation 40: 318--328.
+
+\leavevmode\hypertarget{ref-dfo2014performanc}{}%
+DFO. 2014. Performance of a revised management procedure for sablefish in British Columbia. DFO Can. Sci. Advis. Sec. Sci. Resp. 2014/025.
 
 \leavevmode\hypertarget{ref-hanselman2012statistical}{}%
 Hanselman, D.H., Clark, W.G., Heifetz, J., and Anderl, D.M. 2012. Statistical distribution of age readings of known-age sablefish (\emph{anoplopoma fimbria}). Fisheries Research 131: 1--8.
 
 \leavevmode\hypertarget{ref-heifetz1999age}{}%
-Heifetz, J., Anderl, D., Maloney, N., and Rutecki, T. 1999. Age validation and analysis of ageing error from marked and recaptured sablefish, \emph{anoplopoma fimbria}. Fishery Bulletin 97: 256--263.
+Heifetz, J., Anderl, D., Maloney, N., and Rutecki, T. 1999. Age validation and analysis of ageing error from marked and recaptured Sablefish, \emph{anoplopoma fimbria}. Fishery Bulletin 97: 256--263.
 
 \leavevmode\hypertarget{ref-lai1987effects}{}%
 Lai, H.L., and Gunderson, D.R. 1987. Effects of ageing errors on estimates of growth, mortality and yield per recruit for walleye Pollock (\emph{Theragra chalcogramma}). Fisheries Research 5(2-3): 287--302.
 
 \leavevmode\hypertarget{ref-DFO2009}{}%
 MPO. 2009. Un cadre décisionnel pour les pêches intégrant l'approche de précaution. Pêches et Océans Canada sur internet: (aurait été modifié pour la dernière fois le 23 mai 2009, bienque les chiffres aient changé depuis).
-
-\leavevmode\hypertarget{ref-dfo2014performanc}{}%
-MPO. 2014. Performance of a revised management procedure for sablefish in british columbia. Secr. can. de consult. sci. du MPO, Rép. des Sci 2014/025.
 
 \leavevmode\hypertarget{ref-richards1992statistical}{}%
 Richards, L.J., Schnute, J.T., Kronlund, A., and Beamish, R.J. 1992. Statistical models for the analysis of ageing error. Canadian Journal of Fisheries and Aquatic Sciences 49(9): 1801--1815.
@@ -850,5 +859,8 @@ La pr\'{e}sente publication doit \^{e}tre cit\'{e}e comme suit:
 \emph{Also available in English:}
 
 \citeEng{\rdYear{}/\rdNumber{}}
+
+\setlength{\parindent}{0in} \setlength{\leftskip}{0in} \setlength{\parskip}{4pt}
+\hypertarget{refs}{}
 
 \end{document}
