@@ -19,14 +19,14 @@
 \newcommand{\rdTitle}{Évaluation de la robustesse des procédures de gestion proposées pour la pêche à la morue charbonnière (\emph{Anoplopoma fimbria}) en C.-B., 2019-2020}
 
 % English title
-\newcommand{\rdTitleFr}{Evaluating the robustness of candidate management procedures in the BC sablefish (\emph{Anoplopoma fibria}) fishery for 2019-2020.}
+\newcommand{\rdTitleFr}{Evaluating the robustness of candidate management procedures in the BC sablefish (\emph{Anoplopoma fibria}) fishery for 2019-2020}
 
 % Title short
 \newcommand{\rdTitleShort}{Robustesse des PG de la morue charbonnière en C.-B.}
 % End of title short
 
 % Publication year
-\newcommand{\rdYear}{2019}
+\newcommand{\rdYear}{2020}
 
 % Publication month
 \newcommand{\rdMonth}{Novembre}
@@ -50,6 +50,35 @@ Directeur régional}
 
 %%%% End of title page commands %%%%%
 
+% commands and environments needed by pandoc snippets
+% extracted from the output of `pandoc -s`
+%% Make R markdown code chunks work
+\usepackage{array}
+\usepackage{amssymb,amsmath}
+\usepackage{color}
+\usepackage{fancyvrb}
+\DefineShortVerb[commandchars=\\\{\}]{\|}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+
 %Defines cslreferences environment
 %Required by pandoc 2.8
 %Copied from https://github.com/rstudio/rmarkdown/issues/1649
@@ -70,7 +99,9 @@ Depuis 2008, Pêches et Océans Canada (MPO) et l'industrie de la pêche du pois
 
 Le processus d'évaluation des stratégies de gestion de la morue charbonnière s'effectue tous les trois ans. Il permet de rajuster le modèle d'exploitation selon les dernières données sur les indices de la biomasse fondés sur les relevés et la pêche, les prises selon l'âge, les remises à l'eau, l'étiquetage et la recapture des poissons étiquetés. Chaque mise à jour triennale offre également l'occasion de modifier les objectifs de pêche et de proposer de nouvelles procédures de gestion.
 
-Les évaluations antérieures de la morue charbonnière en Colombie-Britannique et les travaux en matière d'évaluation des stratégies de gestion ont démontré que le faible recrutement (en moyenne) au cours des trois dernières décennies a contribué au déclin à long terme de la biomasse du stock reproducteur et des possibilités de récolte. Les consultations auprès des intervenants et des gestionnaires ont révélé que la mortalité des poissons de taille inférieure à la taille réglementaire qui sont remis à l'eau (c.-à-d. les poissons de moins de 55 cm) pouvait être une source de mortalité dont la réduction ou l'évitement pourrait améliorer la production de morues charbonnières de plus de 55 cm, la biomasse du stock reproducteur et, finalement, les possibilités de récolte futures (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). Bien que le processus d'évaluation de la stratégie de gestion de la morue charbonnière ait mentionné certaines mesures volontaires visant à réduire la mortalité des individus de petite taille (p.~ex. une meilleure communication entre les flottilles et une surveillance électronique accrue), il n'a pas évalué officiellement les mesures de gestion visant à réduire la mortalité de ce type d'individus. Toutefois, les simulations antérieures en boucle fermée laissent supposer que l'évitement complet et la conservation complète des morues charbonnières de petite taille pourraient améliorer la production moyenne annuelle de l'espèce dans les pêches dirigées et rehausser la possibilité de rétablissement des stocks à \(B_{RMS}\) (Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2019evaluating}{2019}). Malheureusement, l'évitement complet n'est peut-être pas possible, surtout dans les pêches au chalut, étant donné que des morues charbonnières de taille inférieure à la taille réglementaire y sont capturées pendant la pêche d'autres espèces. La conservation complète peut entraîner la perte de possibilités de pêche (particulièrement pour le secteur des pêches au chalut) et une rentabilité moindre pour les pêches dirigées, car les morues charbonnières de taille inférieure à la taille réglementaire valent moins par kilogramme que le poisson de taille réglementaire. Au cours des consultations, les intervenants de l'industrie ont indiqué qu'une solution possible consisterait à offrir des mesures incitant les pêcheurs à modifier leur comportement et à éviter davantage de pêcher des morues charbonnières de taille inférieure.
+Les évaluations antérieures de la morue charbonnière en Colombie-Britannique et les travaux en matière d'évaluation des stratégies de gestion ont démontré que le faible recrutement (en moyenne) au cours des trois dernières décennies a contribué au déclin à long terme de la biomasse du stock reproducteur et des possibilités de récolte. Les consultations auprès des intervenants et des gestionnaires ont révélé que la mortalité des poissons de taille inférieure à la taille réglementaire qui sont remis à l'eau (c.-à-d. les poissons de moins de 55 cm) pouvait être une source de mortalité dont la réduction ou l'évitement pourrait améliorer la production de morues charbonnières de plus de 55 cm, la biomasse du stock reproducteur et, finalement, les possibilités de récolte futures (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). Bien que le processus d'évaluation de la stratégie de gestion de la morue charbonnière ait mentionné certaines mesures volontaires visant à réduire la mortalité des individus de petite taille (p.~ex. une meilleure communication entre les flottilles et une surveillance électronique accrue), il n'a pas évalué officiellement les mesures de gestion visant à réduire la mortalité de ce type d'individus. Toutefois, les simulations antérieures en boucle fermée laissent supposer que l'évitement complet et la conservation complète des morues charbonnières de petite taille pourraient améliorer la production
+
+moyenne annuelle de l'espèce dans les pêches dirigées et rehausser la possibilité de rétablissement des stocks à \(B_{RMS}\) (Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2019evaluating}{2019}). Malheureusement, l'évitement complet n'est peut-être pas possible, surtout dans les pêches au chalut, étant donné que des morues charbonnières de taille inférieure à la taille réglementaire y sont capturées pendant la pêche d'autres espèces. La conservation complète peut entraîner la perte de possibilités de pêche (particulièrement pour le secteur des pêches au chalut) et une rentabilité moindre pour les pêches dirigées, car les morues charbonnières de taille inférieure à la taille réglementaire valent moins par kilogramme que le poisson de taille réglementaire. Au cours des consultations, les intervenants de l'industrie ont indiqué qu'une solution possible consisterait à offrir des mesures incitant les pêcheurs à modifier leur comportement et à éviter davantage de pêcher des morues charbonnières de taille inférieure.
 
 La Direction générale de la gestion des pêches du MPO a donc demandé à la Direction générale des sciences i) de mettre à jour le modèle d'exploitation de la morue charbonnière pour y inclure les données les plus récentes disponibles (jusqu'en 2018); ii) de mettre à jour les avis sur le rendement escompté de la procédure de gestion actuelle; et iii) d'évaluer d'autres procédures ou mesures de gestion ayant pour but de réduire les pertes de productivité en raison de la mortalité des individus de taille inférieure à la taille réglementaire. La question clé en iii) est de déterminer les procédures de gestion qui réduisent au minimum l'effet de telles mesures sur les possibilités de pêche dans le cadre des pêches non dirigées (c.-à-d. les pêches au chalut) où la morue charbonnière de taille inférieure est capturée accidentellement.
 
@@ -348,12 +379,12 @@ Tyler, A., Beamish, R., and McFarlane, G. 1989. Implications of age determinatio
 \setlength{\leftskip}{0in} 
 \setlength{\parskip}{4pt}
 
-\newpage
 \setcounter{table}{0}
 
 \hypertarget{les-tables}{%
 \section{Les tables}\label{les-tables}}
 
+\begingroup\fontsize{12}{14}\selectfont
 \begingroup\fontsize{12}{14}\selectfont
 \begin{longtable}[t]{lll}
 \caption{\label{tab:unnamed-chunk-5}Paramètre biologique de la moyenne de répartition a posteriori du modèle d’exploitation (écart-type), estimations des points de référence et indicateurs de l’état des stocks aux fins des ajustements par rapport aux données de 2016 et de 2018. Les colonnes \textbf{Ajustement 2016} et \textbf{Ajustement 2018} montrent la moyenne et l’écart-type de la répartition globale a posteriori pour les ajustements respectifs. L’état des stocks est présenté par rapport à la biomasse du stock reproducteur ($B_t/B_{RMS}$) en théorie le plus productif de la population non exploitée ($B_t/B_0 $), et le point de référence limite ($B_t/(0,4B_{RMS})$) pour la valeur de $t \in \{2016, 2018\}$. Les deux rangées du bas illustrent la probabilité a posteriori que la biomasse du stock reproducteur excède le point de référence limite en 2016 et en 2018.}\\
@@ -365,7 +396,7 @@ $M_m$ & 0.0411 (0.00027) & 0.0421 (0.0026)\\
 $M_f$ & 0.0788 (0.0014) & 0.0877 (0.0025)\\
 $h$ & 0.556 (0.064) & 0.617 (0.062)\\
 $B_{2016}$ & 10.9 (1.2) & 12.5 (1.4)\\
-$B_{2018}$ &  & 16.3 (2)\\
+$B_{2018}$ & - & 16.3 (2)\\
 $B_{RMS}$ & 23.4 (0.96) & 20.4 (1.7)\\
 $U_{RMS}$ & 0.0433 (0.0062) & 0.0734 (0.01)\\
 Legal $U_{RMS}$ & 0.0423 (0.006) & 0.0773 (0.011)\\
@@ -373,19 +404,20 @@ $RMS$ & 2.79 (0.27) & 4.37 (0.45)\\
 $B_{2016}/B_0$ & 0.191 (0.018) & 0.231 (0.021)\\
 $B_{2016}/B_{RMS}$ & 0.467 (0.049) & 0.613 (0.065)\\
 $B_{2016}/(.4B_{RMS})$ & 1.17 (0.12) & 1.53 (0.16)\\
-$B_{2018}/B_0$ &  & 0.301 (0.032)\\
-$B_{2018}/B_{RMS}$ &  & 0.8 (0.096)\\
-$B_{2018}/(.4B_{RMS})$ &  & 2 (0.24)\\
+$B_{2018}/B_0$ & - & 0.301 (0.032)\\
+$B_{2018}/B_{RMS}$ & - & 0.8 (0.096)\\
+$B_{2018}/(.4B_{RMS})$ & - & 2 (0.24)\\
 $P(B_{2016} \geq .4B_{RMS})$ & 0.93 & 1\\
-$P(B_{2018} \geq .4B_{RMS})$ &  & 1\\
+$P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \bottomrule
 \end{longtable}
+\endgroup{}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-7}Paramètres de pondération du rendement pour toutes les procédures de gestion examinées aux \textbf{modèles d’exploitation de référence}. Les paramètres de rendement en matière de conservation qui répondent au critère de l’en-tête sont indiqués par une puce. La capture est représentée sous forme d’unités de biomasse mesurées en kilotonnes. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$. Pour l’objectif 2, Obs fait référence à la probabilité observée d’un déclin, et Acc à la probabilité d’un déclin acceptable, avec interrelation de manière linéaire entre 0,05 à $0,4B_{RMS}$ et 0,5 à $B_{RMS}$.}\\
 \toprule
@@ -423,11 +455,13 @@ $P(B_{2018} \geq .4B_{RMS})$ &  & 1\\
 13 & cap1.5\_rctAl\_am10 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.71 & 3.85 & 7 & 3.05 & 0.35 & 0.0619\\
 16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.35 & 0.0000\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
+\begingroup\fontsize{12}{14}\selectfont
 \begingroup\fontsize{12}{14}\selectfont
 \begin{longtable}[t]{lr}
 \caption{\label{tab:unnamed-chunk-9}Prix par livre de morue charbonnière dans chaque catégorie de poids. Les catégories de poids sont définies par les limites de cette catégorie, en livres (p. ex. 2/3 est la catégorie de poissons pesant entre 2 et 3 livres).}\\
@@ -443,11 +477,12 @@ $P(B_{2018} \geq .4B_{RMS})$ &  & 1\\
 \bottomrule
 \end{longtable}
 \endgroup{}
+\endgroup{}
 
 \newpage
 
 \begingroup\fontsize{10}{12}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{10}{12}\selectfont
 \begin{longtable}[t]{llccccccccccll}
 \caption{\label{tab:unnamed-chunk-10}Paramètres de pondération du rendement économique pour les 10 premières années de la prévision aux \textbf{modèles d’exploitation de référence}. La colonne 3 illustre la prise moyenne au cours des 10 premières années, et les autres colonnes montrent le total des recettes cumulatives (\$m) des prises $C$ et des remises à l’eau $D$ pour chaque secteur, les recettes produites par les prises $C^{tot}$ pour tous les secteurs combinés, et les recettes annuelles moyennes $R$ en dollars par tonne de poissons pris, au cours des 10 années suivantes. Toutes les valeurs incluent quatre chiffres significatifs. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$}\\
 \toprule
@@ -483,13 +518,14 @@ $P(B_{2018} \geq .4B_{RMS})$ &  & 1\\
 13 & cap1.5\_rctAl\_am10 & 3.708 & 3.848 & 341.6 & 278.6 & 54.71 & 9.577 & 11.55 & 32.28 & 674.9 & 18140 & 18340 & 17350\\
 16 & NoFish & 0.000 & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.00 & 0.00 & 0.0 & 0 & 0 & 0\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-11}Paramètres de pondération du rendement pour toutes les procédures de gestion examinées aux \textbf{modèles d’exploitation de robustesse}. Les paramètres de rendement en matière de conservation qui répondent au critère de l’en-tête sont indiqués par une puce. La capture est représentée sous forme d’unités de biomasse mesurées en kilotonnes. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$. Pour l’objectif 2, le terme Obs fait référence à la probabilité observée d’un déclin, et Acc à la probabilité d’un déclin acceptable, avec interrelation de manière linéaire entre 0,05 à $0,4B_{RMS}$ et 0,5 à $B_{RMS}$.}\\
 \toprule
@@ -527,13 +563,14 @@ $P(B_{2018} \geq .4B_{RMS})$ &  & 1\\
 14 & cap1.5\_rctAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.22 & 2.28 & 2.34 & 11 & 3.05 & 0.24 & 0.0549\\
 16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.24 & 0.0000\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{10}{12}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{10}{12}\selectfont
 \begin{longtable}[t]{llccccccccccll}
 \caption{\label{tab:unnamed-chunk-12}Paramètres de pondération du rendement économique pour les 10 premières années de la prévision à \textbf{modèles d’exploitation de robustesse}. La colonne 3 illustre la prise moyenne au cours des 10 premières années, et les autres colonnes montrent le total des recettes cumulatives (\$m) des prises $C$ et des remises à l’eau $D$ pour chaque secteur, les recettes produites par les prises $C^{tot}$ pour tous les secteurs combinés, et les recettes annuelles moyennes $R$ en dollars par tonne de poissons pris, au cours des 10 années suivantes. Toutes les valeurs incluent quatre chiffres significatifs. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$.}\\
 \toprule
@@ -569,13 +606,14 @@ $P(B_{2018} \geq .4B_{RMS})$ &  & 1\\
 14 & cap1.5\_rctAl\_am5 & 2.277 & 2.342 & 209.8 & 171.1 & 32.98 & 5.417 & 6.941 & 25.18 & 413.9 & 18210 & 18370 & 17250\\
 16 & NoFish & 0.000 & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.000 & 0.00 & 0.0 & 0 & 0 & 0\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-14}Paramètres de pondération du rendement pour toutes les procédures de gestion examinées, et taux de récolte adaptés au rendement indiqué aux \textbf{ modèles d’exploitation de référence}, et appliqués aux \textbf{modèles d’exploitation de robustesse} où le recrutement est simulé de manière stochastique hors de la courbe stock-recrutement pour la classe de 2015. Les paramètres de rendement en matière de conservation qui répondent au critère de l’en-tête sont indiqués par une puce. La capture est représentée sous forme d’unités de biomasse mesurées en kilotonnes. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$. Pour l’objectif 2, Obs fait référence à la probabilité observée d’un déclin, et Acc à la probabilité d’un déclin acceptable, avec interrelation de manière linéaire entre 0,05 à $0,4B_{RMS}$ et 0,5 à $B_{RMS}$.}\\
 \toprule
@@ -613,13 +651,14 @@ $P(B_{2018} \geq .4B_{RMS})$ &  & 1\\
 15 & noCap & $\bullet$ & $0.31>0.26$ & $0.41<0.5$ & 0.19 & 2.45 & 2.46 & 10 & 3.05 & 0.24 & 0.0599\\
 16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.24 & 0.0000\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-15}Paramètres de rendement pondérés pour toutes les procédures de gestion proposées, avec des taux de récolte adaptés au rendement aux \textbf{modèle d’exploitation de robustesse}, et appliqués aux \textbf{modèles d’exploitation de référence}, en fonction de la classe d’âge élevée de 2015. Les paramètres de rendement en matière de conservation qui répondent au critère de l’en-tête sont indiqués par une puce. La capture est représentée sous forme d’unités de biomasse mesurées en kilotonnes. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$. Pour l’objectif 2, Obs fait référence à la probabilité observée d’un déclin, et Acc à la probabilité d’un déclin acceptable, avec interrelation de manière linéaire entre 0,05 à $0,4B_{RMS}$ et 0,5 à $B_{RMS}$.}\\
 \toprule
@@ -657,6 +696,7 @@ $P(B_{2018} \geq .4B_{RMS})$ &  & 1\\
 14 & cap1.5\_rctAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.30 & 3.52 & 8 & 3.05 & 0.35 & 0.0549\\
 16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.35 & 0.0000\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
@@ -749,13 +789,13 @@ Nous avons appliqué des modèles statistiques pour estimer la probabilité d'ob
 \end{equation}
 Les paramètres \(\sigma_1\) et \(\sigma_A\) sont les écarts-types pour \(b=1\) et \(b=A\), qui représentent respectivement les âges minimal et maximal. Le paramètre \(\alpha\) détermine la non-linéarité de la fonction, de sorte que \(\sigma(b)\) devient linéaire comme \(\alpha \rightarrow 0\). La matrice des erreurs de détermination de l'âge est définie comme suit :
 \begin{align}
-q(a ~|~ b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\x_{ab} &= \frac{1}{\sqrt{2\pi}\sigma(b)} e^{-\frac12 \left[ \frac{a-b}{\sigma(b)} \right]^2}.
+q(a \vert b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\x_{ab} &= \frac{1}{\sqrt{2\pi}\sigma(b)} e^{-\frac12 \left[ \frac{a-b}{\sigma(b)} \right]^2}.
 \end{align}
 Étant donné que l'âge réel des poissons est inconnu, il est impossible de déterminer avec précision le biais dans les lectures d'âge et d'établir si certaines classes d'âge sont plus susceptibles d'être sous-estimées ou surestimées. Nous avons essayé deux approches différentes pour déterminer l'« âge réel » présumé, soit 1) la moyenne des âges attribuées par les deux lecteurs arrondie au nombre entier le plus proche (Heifetz et al. \protect\hyperlink{ref-heifetz1999age}{1999}), et 2) l'âge final attribué. Pour les deux approches, nous établissons \(A=90\) en fonction de l'âge maximal attribué par les lecteurs.
 
 La probabilité \(\mathcal{L}\) des âges \(A\) observés compte tenu des âges réels B est alors définie comme suit :
 \begin{equation}
-\mathcal{L}(A|B) = \prod_{i = 1}^I \prod_{j = 1}^J q(a_{ij} ~|~ b_i \Phi),\end{equation}
+\mathcal{L}(A \vert B) = \prod_{i = 1}^I \prod_{j = 1}^J q(a_{ij} \vert b_i \Phi),\end{equation}
 
 où \(b_i\) est l'« âge réel » présumé du poisson \(i\), et \(a_{ij}\) est l'âge attribué par le lecteur \(j\) au poisson individuel \(i\). Les estimations maximales des paramètres de probabilité, l'écart-type prévu à l'âge et les matrices d'erreurs de détermination de l'âge sont fournies ci-dessous (tableau A1, figures A1 et A2).
 
@@ -789,7 +829,6 @@ Cas & Âge réel & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 2 & Âge final attribué & 0.89 & 9.35 & -0.008\tabularnewline
 \bottomrule
 \end{longtable}
-\newpage
 \begin{figure}[htb]
 
 {\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/ageErr1}}{Figure \ref{fig:unnamed-chunk-30}} 
@@ -847,7 +886,7 @@ T\'{e}l\'{e}phone: (250) 756-7088\\
 Courriel: \link{mailto:csap@dfo-mpo.gc.ca}{csap@dfo-mpo.gc.ca}\\
 Addresse internet: \link{http://www.dfo-mpo.gc.ca/csas-sccs/}{www.dfo-mpo.gc.ca/csas-sccs/}\\
 \vspace{0.1cm}
-ISSN 1919-3769\\
+ISSN 1919-3815\\
 \copyright{} Sa Majest\'{e} la Reine du chef du Canada, \rdYear{}\\
 \vspace{0.2cm}
 \includegraphics[scale=0.96]{\locRepo/images/recycle.png}

@@ -16,7 +16,7 @@
 %%%% Commands for title page etc %%%%%
 
 % Title
-\newcommand{\rdTitle}{Evaluating the robustness of candidate management procedures in the BC Sablefish (\emph{Anoplopoma fibria}) fishery for 2019-2020.}
+\newcommand{\rdTitle}{Evaluating the robustness of candidate management procedures in the BC Sablefish (\emph{Anoplopoma fibria}) fishery for 2019-2020}
 
 % French title
 \newcommand{\rdTitleFr}{Évaluation de la robustesse des procédures de gestion proposées pour la pêche à la morue charbonnière (\emph{Anoplopoma fimbria}) en C.-B., 2019-2020}
@@ -26,7 +26,7 @@
 % End of title short
 
 % Publication year
-\newcommand{\rdYear}{2019}
+\newcommand{\rdYear}{2020}
 
 % Publication month
 \newcommand{\rdMonth}{November}
@@ -49,6 +49,34 @@ Regional Director}
 \newcommand{\rdRegion}{Pacific Region}
 
 %%%% End of title page commands %%%%%
+% commands and environments needed by pandoc snippets
+% extracted from the output of `pandoc -s`
+%% Make R markdown code chunks work
+\usepackage{array}
+\usepackage{amssymb,amsmath}
+\usepackage{color}
+\usepackage{fancyvrb}
+\DefineShortVerb[commandchars=\\\{\}]{\|}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
 
 %Defines cslreferences environment
 %Required by pandoc 2.8
@@ -68,7 +96,9 @@ Since 2008, Fisheries and Oceans Canada (DFO) and the British Columbia (BC) grou
 
 The Sablefish MSE aims to follow a 3-year cycle in which the operating model (OM) is re-fitted to updated fishery and survey biomass indices, catch-at-age, at-sea releases, and tag release-recoveries. Each 3-year update also offers an opportunity to revise the Fishery Objectives, as well as to propose new candidate MPs.
 
-Previous BC Sablefish assessments and MSE work have demonstrated that low recruitment (on average) over the past three decades has contributed to a long-term decline in spawning stock biomass and harvest opportunities. Stakeholder and management consultations identified at-sea release mortality of sub-legal Sablefish (i.e., fish smaller than 55 cm size limit) as a potential source of mortality that, if reduced or avoided, may improve production of over-55 cm Sablefish, spawning stock biomass, and, ultimately, future harvest opportunities (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). While some voluntary tactics aimed at reducing sub-legal mortality have been identified (e.g., improved fleet communication, and increased electronic monitoring), management measured aimed at reducing sub-legal mortality have not been formally evaluated through the Sablefish MSE process. However, past closed-loop simulations suggest that both full avoidance and full retention of sub-legal Sablefish may improve both average annual Sablefish yield in directed fisheries as well as the probability of stock rebuilding to \(B_{MSY}\) (Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2019evaluating}{2019}). Unfortunately, full avoidance may not be feasible, especially in trawl fisheries, which encounter sub-legal Sablefish as part of fishing operations for other species, while full retention may involve lost fishing opportunities (particularly for the trawl sector) and lower profitability for directed fisheries, because sub-legal Sablefish are worth less per-kilogram than legal-sized fish. In consultations, industry stakeholders suggested that a potential solution would involve incentives that shift fishing behaviour toward higher avoidance of sub-legal Sablefish.
+Previous BC Sablefish assessments and MSE work have demonstrated that low recruitment (on average) over the past three decades has contributed to a long-term decline in spawning stock biomass and harvest opportunities. Stakeholder and management consultations identified at-sea release mortality of sub-legal Sablefish (i.e., fish smaller than 55 cm size limit) as a potential source of mortality that, if reduced or avoided, may improve production of over-55 cm Sablefish, spawning stock biomass, and, ultimately, future harvest opportunities (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). While some voluntary tactics aimed at reducing sub-legal mortality have been identified (e.g., improved fleet communication, and increased electronic monitoring), management measured aimed at reducing sub-legal mortality have not been formally evaluated through the Sablefish MSE process. However, past closed-loop simulations suggest that both full avoidance and full retention of sub-legal Sablefish may improve both average annual Sablefish yield in directed fisheries as well as the probability of stock rebuilding to \(B_{MSY}\) (Cox et al. \protect\hyperlink{ref-cox2011management}{2011}, \protect\hyperlink{ref-cox2019evaluating}{2019}). Unfortunately, full avoidance may not be feasible, especially in trawl fisheries, which encounter sub-legal Sablefish as part of fishing operations for other species, while full retention may involve lost fishing opportunities (particularly for the trawl sector) and lower profitability for directed fisheries, because sub-legal Sablefish are worth less per-kilogram than legal-sized fish. In consultations, industry stakeholders suggested that a potential solution would involve incentives that shift fishing behaviour
+
+toward higher avoidance of sub-legal Sablefish.
 
 The DFO Fisheries Management Branch has, therefore, requested that the Science Branch (i) update the Sablefish OM to include the most recent data available (up to 2018); (ii) update advice about expected performance of the current MP; and (iii) evaluate alternative MP and/or management measures aimed at reducing productivity losses to sub-legal mortality. The key issue in (iii) is identifying MPs that minimize the impact of such measures on fishing opportunities in non-directed fisheries (i.e., trawl) where sub-legal Sablefish are captured incidentally.
 
@@ -105,15 +135,9 @@ A number of small changes were made to the OM as part of routine attempts to imp
 \hypertarget{operating-model-scenarios}{%
 \subsubsection{Operating model scenarios}\label{operating-model-scenarios}}
 
-\hypertarget{reference-oms}{%
-\subsubsection{Reference OMs}\label{reference-oms}}
+Reference OMs were derived using the same method as the previous MSE cycle (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). Briefly, we derived five OMs defined by the joint posterior distribution of 2018 spawning stock biomass (to reflect short-term biological risk) and stock-recruitment steepness (to reflect long-term stock productivity risk). The five combinations were chosen to represent the joint marginal mean of 2018 biomass and steepness and four outer points lying at the intersection of the mean of one variable, and the 10th and 90th percentiles of the marginal density of the other variable (Figure 1). This set of five OMs was chosen to maintain consistency with the previous MSE cycle (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). For each of the five posterior points, the operating model was conditioned on a sample of 100 posterior draws constrained to lie within a Mahalanobis distance of 0.75 units from that point. We then used an empirical estimate of the posterior density at each of the five centres as a plausibility score for weighting MP performance across the five OMs within each of the reference and robustness sets.
 
-The reference OMs were derived using the same method as the previous MSE cycle (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). Briefly, we derived five OMs defined by the joint posterior distribution of 2018 spawning stock biomass (to reflect short-term biological risk) and stock-recruitment steepness (to reflect long-term stock productivity risk). The five combinations were chosen to represent the joint marginal mean of 2018 biomass and steepness and four outer points lying at the intersection of the mean of one variable, and the 10th and 90th percentiles of the marginal density of the other variable (Figure 1). This set of five OMs was chosen to maintain consistency with the previous MSE cycle (Cox et al. \protect\hyperlink{ref-cox2019evaluating}{2019}). For each of the five posterior points, the operating model was conditioned on a sample of 100 posterior draws constrained to lie within a Mahalanobis distance of 0.75 units from that point. We then used an empirical estimate of the posterior density at each of the five centres as a plausibility score for weighting MP performance across the five OMs within each of the reference and robustness sets.
-
-\hypertarget{robustness-oms}{%
-\subsubsection{Robustness OMs}\label{robustness-oms}}
-
-The robustness OMs were identical to the five reference OMs with the exception of how the recruitment from the 2015 year class was treated in the OM historical conditioning and projections. The reference OM used draws from the joint posterior distribution (as defined above) for the 2015 year class, which is approximately 22 million fish or about 8 times the historical average. For the robustness OMs, we simulated recruitment based on the stock-recruitment relationship resulting in an expected 2015 year class that was more similar to the long-term average (\(\sim 2.63\) million).
+Robustness OMs were identical to the five reference OMs with the exception of how the recruitment from the 2015 year class was treated in the OM historical conditioning and projections. The reference OM used draws from the joint posterior distribution (as defined above) for the 2015 year class, which is approximately 22 million fish or about 8 times the historical average. For the robustness OMs, we simulated recruitment based on the stock-recruitment relationship resulting in an expected 2015 year class that was more similar to the long-term average (\(\sim 2.63\) million).
 
 \hypertarget{fishery-objectives}{%
 \subsubsection{Fishery Objectives}\label{fishery-objectives}}
@@ -354,6 +378,7 @@ Tyler, A., Beamish, R., and McFarlane, G. 1989. Implications of age determinatio
 \section{Tables}\label{tables}}
 
 \begingroup\fontsize{12}{14}\selectfont
+\begingroup\fontsize{12}{14}\selectfont
 \begin{longtable}[t]{lll}
 \caption{\label{tab:unnamed-chunk-5}Operating model posterior distribution mean (standard deviation) biological parameter, 
 reference point estimates, and stock status indicators for fits to the 2016 data 
@@ -372,7 +397,7 @@ $M_m$ & 0.0411 (0.00027) & 0.0421 (0.0026)\\
 $M_f$ & 0.0788 (0.0014) & 0.0877 (0.0025)\\
 $h$ & 0.556 (0.064) & 0.617 (0.062)\\
 $B_{2016}$ & 10.9 (1.2) & 12.5 (1.4)\\
-$B_{2018}$ &  & 16.3 (2)\\
+$B_{2018}$ & - & 16.3 (2)\\
 $B_{MSY}$ & 23.4 (0.96) & 20.4 (1.7)\\
 $U_{MSY}$ & 0.0433 (0.0062) & 0.0734 (0.01)\\
 Legal $U_{MSY}$ & 0.0423 (0.006) & 0.0773 (0.011)\\
@@ -380,19 +405,20 @@ $MSY$ & 2.79 (0.27) & 4.37 (0.45)\\
 $B_{2016}/B_0$ & 0.191 (0.018) & 0.231 (0.021)\\
 $B_{2016}/B_{MSY}$ & 0.467 (0.049) & 0.613 (0.065)\\
 $B_{2016}/(.4B_{MSY})$ & 1.17 (0.12) & 1.53 (0.16)\\
-$B_{2018}/B_0$ &  & 0.301 (0.032)\\
-$B_{2018}/B_{MSY}$ &  & 0.8 (0.096)\\
-$B_{2018}/(.4B_{MSY})$ &  & 2 (0.24)\\
+$B_{2018}/B_0$ & - & 0.301 (0.032)\\
+$B_{2018}/B_{MSY}$ & - & 0.8 (0.096)\\
+$B_{2018}/(.4B_{MSY})$ & - & 2 (0.24)\\
 $P(B_{2016} \geq .4B_{MSY})$ & 0.93 & 1\\
-$P(B_{2018} \geq .4B_{MSY})$ &  & 1\\
+$P(B_{2018} \geq .4B_{MSY})$ & - & 1\\
 \bottomrule
 \end{longtable}
+\endgroup{}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-7}Weighted performance metrics for all candidate management procedures on the 
 \textbf{reference operating models}. Conservation performance metrics 
@@ -436,11 +462,13 @@ decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$
 13 & cap1.5\_rctAl\_am10 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.71 & 3.85 & 7 & 3.05 & 0.35 & 0.0619\\
 16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.35 & 0.0000\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
+\begingroup\fontsize{12}{14}\selectfont
 \begingroup\fontsize{12}{14}\selectfont
 \begin{longtable}[t]{lr}
 \caption{\label{tab:unnamed-chunk-9}Price per pound of Sablefish in each weight class. Weight classes are defined by the limits of that class, in pounds (e.g., 2/3 is the class of fish between 2 and 3 pounds).}\\
@@ -456,11 +484,12 @@ decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0.5 at $B_{MSY}$
 \bottomrule
 \end{longtable}
 \endgroup{}
+\endgroup{}
 
 \newpage
 
 \begingroup\fontsize{10}{12}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{10}{12}\selectfont
 \begin{longtable}[t]{llccccccccccll}
 \caption{\label{tab:unnamed-chunk-10}Weighted economic performance metrics for the first 10 years of the projections 
 in the \textbf{reference operating models}. Column 3 shows the average catch 
@@ -502,13 +531,14 @@ $\bar{C}_{2019:2028}$.}\\
 13 & cap1.5\_rctAl\_am10 & 3.708 & 3.848 & 341.6 & 278.6 & 54.71 & 9.577 & 11.55 & 32.28 & 674.9 & 18140 & 18340 & 17350\\
 16 & NoFish & 0.000 & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.00 & 0.00 & 0.0 & 0 & 0 & 0\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-11}Weighted performance metrics for all candidate management procedures on the 
 \textbf{robustness operating models}. Conservation performance 
@@ -552,13 +582,14 @@ $0.4B_{MSY}$ and 0.5 at $B_{MSY}$.}\\
 14 & cap1.5\_rctAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.22 & 2.28 & 2.34 & 11 & 3.05 & 0.24 & 0.0549\\
 16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.24 & 0.0000\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{10}{12}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{10}{12}\selectfont
 \begin{longtable}[t]{llccccccccccll}
 \caption{\label{tab:unnamed-chunk-12}Weighted economic performance metrics for the first 10 years of the projections in the 
 \textbf{robustness operating models}. Column 3 shows the average catch over the first 10 years, and 
@@ -599,13 +630,14 @@ taken at 4 significant figures. Table is sorted by 10 year average catch $\bar{C
 14 & cap1.5\_rctAl\_am5 & 2.277 & 2.342 & 209.8 & 171.1 & 32.98 & 5.417 & 6.941 & 25.18 & 413.9 & 18210 & 18370 & 17250\\
 16 & NoFish & 0.000 & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.000 & 0.00 & 0.0 & 0 & 0 & 0\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-14}Weighted performance metrics for all candidate management procedures, with 
 harvest rates tuned to performance on the \textbf{reference operating models}, and applied to the 
@@ -650,13 +682,14 @@ probability of decline, linearly interpolated between 0.05 at $0.4B_{MSY}$ and 0
 15 & noCap & $\bullet$ & $0.31>0.26$ & $0.41<0.5$ & 0.19 & 2.45 & 2.46 & 10 & 3.05 & 0.24 & 0.0599\\
 16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.24 & 0.0000\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}
+\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-15}Weighted performance metrics for all candidate management procedures, 
 with harvest rates tuned to performance on the \textbf{robustness operating models}, and applied 
@@ -701,6 +734,7 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 14 & cap1.5\_rctAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.30 & 3.52 & 8 & 3.05 & 0.35 & 0.0549\\
 16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.35 & 0.0000\\*
 \end{longtable}
+\endgroup{}
 \end{landscape}
 \endgroup{}
 
@@ -793,14 +827,14 @@ We applied statistical models for estimating the probability of observing an age
 \end{equation}
 Parameters \(\sigma_1\) and \(\sigma_A\) are the standard deviations for \(b=1\) and \(b=A\), representing the minimum and maximum ages, respectively. The \(\alpha\) parameter determines the non-linearity of the function, such that\textasciitilde{}\(\sigma(b)\) becomes linear as \(\alpha \rightarrow 0\). The age-error matrix is defined as:
 \begin{align}
-q(a ~|~ b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\
+q(a \vert b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\
 x_{ab} &= \frac{1}{\sqrt{2\pi}\sigma(b)} e^{-\frac12 \left[ \frac{a-b}{\sigma(b)} \right]^2}.
 \end{align}
 Given that the true age of the fish is unknown, it is not possible to accurately determine bias in the age readings and whether certain age classes are more likely to be under or over-estimated. We tested 2 different approaches for the assumed ``true age'', using 1) the mean of the two reader ages rounded to the nearest integer (Heifetz et al. \protect\hyperlink{ref-heifetz1999age}{1999}), and 2) the final age assigned. For both approaches we set \(A=90\), based on the maximum assigned age by the readers.
 
 The likelihood \(\mathcal{L}\) of observed ages \(A\) given true ages B is then defined as:
 \begin{equation}
-\mathcal{L}(A|B) = \prod_{i = 1}^I \prod_{j = 1}^J q(a_{ij} ~|~ b_i \Phi),
+\mathcal{L}(A \vert B) = \prod_{i = 1}^I \prod_{j = 1}^J q(a_{ij} \vert b_i \Phi),
 \end{equation}
 where \(b_i\) is the assumed `true age' of fish \(i\), and \(a_{ij}\) is the age assigned by reader \(j\) to the individual fish \(i\). Maximum likelihood parameter estimates, predicted standard deviation at age, and age-error matrices are provided below (Table A1, Fig. A1 \& A2)
 
@@ -834,7 +868,6 @@ Case & True Age & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 2 & Final Age Assigned & 0.89 & 9.35 & -0.008\tabularnewline
 \bottomrule
 \end{longtable}
-\newpage
 \begin{figure}[htb]
 
 {\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/ageErr1}}{Figure \ref{fig:unnamed-chunk-30}} 

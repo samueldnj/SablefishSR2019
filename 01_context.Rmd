@@ -49,7 +49,9 @@ lower profitability for directed fisheries, because sub-legal
 Sablefish are worth less per-kilogram than legal-sized fish. 
 In consultations, industry stakeholders suggested that 
 a potential solution would involve incentives that shift fishing 
-behaviour toward higher avoidance of sub-legal Sablefish.
+behaviour 
+
+toward higher avoidance of sub-legal Sablefish.
 
 The DFO Fisheries Management Branch has, therefore, requested that 
 the Science Branch (i) update the Sablefish OM to 

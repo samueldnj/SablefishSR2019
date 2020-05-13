@@ -58,7 +58,7 @@ that~$\sigma(b)$ becomes linear as $\alpha \rightarrow 0$. The age-error matrix
 is defined as:
 
 \begin{align}
-q(a ~|~ b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\
+q(a \vert b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\
 x_{ab} &= \frac{1}{\sqrt{2\pi}\sigma(b)} e^{-\frac12 \left[ \frac{a-b}{\sigma(b)} \right]^2}.
 \end{align}
 
@@ -75,7 +75,7 @@ The likelihood $\mathcal{L}$ of observed ages $A$ given true ages B is then defi
 as:
 
 \begin{equation}
-\mathcal{L}(A|B) = \prod_{i = 1}^I \prod_{j = 1}^J q(a_{ij} ~|~ b_i \Phi),
+\mathcal{L}(A \vert B) = \prod_{i = 1}^I \prod_{j = 1}^J q(a_{ij} \vert b_i \Phi),
 \end{equation}
 
 where $b_i$ is the assumed ‘true age’ of fish $i$, and $a_{ij}$ is 
@@ -162,7 +162,6 @@ csasdown::csas_table(  ageErrTable,
                     bootstrap_options = c("striped", "hover","scale_down")     )
 ```
 
-\newpage
 
 ```{r, echo = FALSE, warning = FALSE, include = FALSE}
 

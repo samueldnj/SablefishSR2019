@@ -21,7 +21,7 @@ Nous avons appliqué des modèles statistiques pour estimer la probabilité d’
 Les paramètres $\sigma_1$ et $\sigma_A$ sont les écarts-types pour $b=1$ et $b=A$, qui représentent respectivement les âges minimal et maximal. Le paramètre $\alpha$ détermine la non-linéarité de la fonction, de sorte que $\sigma(b)$ devient linéaire comme $\alpha \rightarrow 0$. La matrice des erreurs de détermination de l’âge est définie comme suit :
 
 \begin{align}
-q(a ~|~ b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\x_{ab} &= \frac{1}{\sqrt{2\pi}\sigma(b)} e^{-\frac12 \left[ \frac{a-b}{\sigma(b)} \right]^2}.
+q(a \vert b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\x_{ab} &= \frac{1}{\sqrt{2\pi}\sigma(b)} e^{-\frac12 \left[ \frac{a-b}{\sigma(b)} \right]^2}.
 \end{align}
 
 Étant donné que l’âge réel des poissons est inconnu, il est impossible de déterminer avec précision le biais dans les lectures d’âge et d’établir si certaines classes d’âge sont plus susceptibles d’être sous-estimées ou surestimées. Nous avons essayé deux approches différentes pour déterminer l’« âge réel » présumé, soit 1) la moyenne des âges attribuées par les deux lecteurs arrondie au nombre entier le plus proche [@heifetz1999age], et 2) l’âge final attribué. Pour les deux approches, nous établissons $A=90$ en fonction de l’âge maximal attribué par les lecteurs.
@@ -29,7 +29,7 @@ q(a ~|~ b, \Phi) &= \frac{x_{ab}(\Phi)}{\sum_{a = 1}^A x_{ab}(\Phi) }; \\x_{ab} 
 La probabilité $\mathcal{L}$ des âges $A$ observés compte tenu des âges réels B est alors définie comme suit :
 
 \begin{equation}
-\mathcal{L}(A|B) = \prod_{i = 1}^I \prod_{j = 1}^J q(a_{ij} ~|~ b_i \Phi),\end{equation}
+\mathcal{L}(A \vert B) = \prod_{i = 1}^I \prod_{j = 1}^J q(a_{ij} \vert b_i \Phi),\end{equation}
 
 où $b_i$ est l’« âge réel » présumé du poisson $i$, et $a_{ij}$ est l’âge attribué par le lecteur $j$ au poisson individuel $i$. Les estimations maximales des paramètres de probabilité, l’écart-type prévu à l’âge et les matrices d’erreurs de détermination de l’âge sont fournies ci-dessous (tableau A1, figures A1 et A2).
 
@@ -81,7 +81,6 @@ csasdown::csas_table(  ageErrTable,
                     bootstrap_options = c("striped", "hover","scale_down")     )
 ```
 
-\newpage
 
 ```{r, echo = FALSE, warning = FALSE, include = FALSE}
 

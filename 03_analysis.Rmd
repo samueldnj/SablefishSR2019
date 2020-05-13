@@ -72,9 +72,7 @@ is a focus of the robustness OMs (described below).
 
 ### Operating model scenarios
 
-#### Reference OMs
-
-The reference OMs were derived using the same method as the previous 
+Reference OMs were derived using the same method as the previous 
 MSE cycle [@cox2019evaluating]. Briefly, we derived five OMs defined by the 
 joint posterior distribution of 2018 spawning stock biomass (to reflect 
 short-term biological risk) and stock-recruitment steepness (to reflect 
@@ -91,9 +89,7 @@ estimate of the posterior density at each of the five centres as a
 plausibility score for weighting MP performance across the 
 five OMs within each of the reference and robustness sets.
 
-#### Robustness OMs
-
-The robustness OMs were identical to the five reference OMs with the exception 
+Robustness OMs were identical to the five reference OMs with the exception 
 of how the recruitment from the 2015 year class was treated in the OM 
 historical conditioning and projections. The reference OM used draws 
 from the joint posterior distribution (as defined above) for the 2015 

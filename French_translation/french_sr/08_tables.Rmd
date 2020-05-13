@@ -1,4 +1,3 @@
-\newpage
 \setcounter{table}{0}
 # Les tables
 
@@ -219,6 +218,11 @@ fancyRowNames <- c( "$B_0$",
 
 posteriorOMstats <- t(posteriorOMstats)
 rownames(posteriorOMstats) <- fancyRowNames
+
+#add dashes to blank cells for web accessability
+posteriorOMstats[6,1] <- "-"
+posteriorOMstats[14:16,1] <- c("-","-","-")
+posteriorOMstats[18,1] <- "-"
 
 OMsummTableCap <- "Paramètre biologique de la moyenne de répartition a posteriori du modèle d’exploitation (écart-type), estimations des points de référence et indicateurs de l’état des stocks aux fins des ajustements par rapport aux données de 2016 et de 2018. Les colonnes \\textbf{Ajustement 2016} et \\textbf{Ajustement 2018} montrent la moyenne et l’écart-type de la répartition globale a posteriori pour les ajustements respectifs. L’état des stocks est présenté par rapport à la biomasse du stock reproducteur ($B_t/B_{RMS}$) en théorie le plus productif de la population non exploitée ($B_t/B_0 $), et le point de référence limite ($B_t/(0,4B_{RMS})$) pour la valeur de $t \\in \\{2016, 2018\\}$. Les deux rangées du bas illustrent la probabilité a posteriori que la biomasse du stock reproducteur excède le point de référence limite en 2016 et en 2018."
 

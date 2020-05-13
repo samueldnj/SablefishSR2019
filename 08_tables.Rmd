@@ -220,6 +220,12 @@ fancyRowNames <- c( "$B_0$",
 posteriorOMstats <- t(posteriorOMstats)
 rownames(posteriorOMstats) <- fancyRowNames
 
+#add dashes to blank cells for web accessability
+posteriorOMstats[6,1] <- "-"
+posteriorOMstats[14:16,1] <- c("-","-","-")
+posteriorOMstats[18,1] <- "-"
+
+
 OMsummTableCap <- "Operating model posterior distribution mean (standard deviation) biological parameter, 
 reference point estimates, and stock status indicators for fits to the 2016 data 
 and 2018 data. The columns \\textbf{2016 Fit} and \\textbf{2018 Fit} show the mean 
