@@ -3,8 +3,8 @@ title: "Evaluating the robustness of candidate management procedures in the BC S
 title_short: "Robustness of Sablefish MPs in BC"
 title_other: "Évaluation de la robustesse des procédures de gestion proposées pour la pêche à la morue charbonnière (*Anoplopoma fimbria*) en C.-B., 2019-2020"
 year: 2020
-month: November
-report_number: 999
+month: May
+report_number: 025
 approver: |
   Carmel Lowe\
   Regional Director

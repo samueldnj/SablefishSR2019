@@ -1,3 +1,4 @@
+\newpage
 \setcounter{table}{0}
 # Les tables
 
@@ -235,7 +236,8 @@ csasdown::csas_table( posteriorOMstats,
                       caption = OMsummTableCap,
                       booktabs = TRUE, escape = FALSE,
                       landscape = FALSE,
-                      font_size = 12, format = kable_format ) %>%
+                      font_size = 12, 
+                      format = "latex" ) %>%
     kable_styling(  latex_options = c("hold_position", "scale_down"),
                     bootstrap_options = c("striped", "hover","scale_down"))
 ```
@@ -501,14 +503,15 @@ robNPVcap <- "Paramètres de pondération du rendement économique pour les 10 p
 
 ```
 
+\begin{turn}
 
 
 ```{r,  echo = FALSE, warning =  FALSE }
 
 csasdown::csas_table( SP_refTable, 
                       caption = refOMtableCap, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 7,
                       booktabs = TRUE,
                       align = c( "l","l",rep("c", ncol(SP_refTable) - 2 )) ) %>%
@@ -521,6 +524,7 @@ csasdown::csas_table( SP_refTable,
 
 
 ```
+\end{turn}
 
 \newpage
 
@@ -541,11 +545,13 @@ csasdown::csas_table( valTable,
 
 \newpage
 
+\begin{turn}
+
 ```{r, echo = FALSE, results = "as-is"}
 csasdown::csas_table( NPV_refTable, 
                       caption = refNPVcap, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 10,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -559,8 +565,8 @@ csasdown::csas_table( NPV_refTable,
 ```{r,  echo = FALSE, warning =  FALSE }
 csasdown::csas_table( SP_robTable, 
                       caption = robOMtableCap, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 7,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -574,13 +580,11 @@ csasdown::csas_table( SP_robTable,
 
 \newpage
 
-
-
 ```{r, echo = FALSE, results = "as-is"}
 csasdown::csas_table( NPV_robTable, 
                       caption = robNPVcap, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 10,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -690,8 +694,8 @@ refOMtableCapRobTune <- "Paramètres de rendement pondérés pour toutes les pro
 ```{r,  echo = FALSE, warning =  FALSE }
 csasdown::csas_table( SP_robTableRefTune, 
                       caption = robOMtableCapRefTune, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 7,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -708,8 +712,8 @@ csasdown::csas_table( SP_robTableRefTune,
 ```{r,  echo = FALSE, warning =  FALSE }
 csasdown::csas_table( SP_refTableRobTune, 
                       caption = refOMtableCapRobTune, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 7,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -721,5 +725,6 @@ csasdown::csas_table( SP_refTableRobTune,
 
 ```
 
+\end{turn}
 
 

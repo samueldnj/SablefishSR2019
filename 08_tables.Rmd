@@ -245,7 +245,8 @@ csasdown::csas_table( posteriorOMstats,
                       caption = OMsummTableCap,
                       booktabs = TRUE, escape = FALSE,
                       landscape = FALSE,
-                      font_size = 12, format = kable_format ) %>%
+                      font_size = 12, 
+                      format = "latex") %>%
     kable_styling(  latex_options = c("hold_position", "scale_down"),
                     bootstrap_options = c("striped", "hover","scale_down"))
 ```
@@ -534,14 +535,14 @@ taken at 4 significant figures. Table is sorted by 10 year average catch $\\bar{
 
 ```
 
-
+\begin{turn}
 
 ```{r,  echo = FALSE, warning =  FALSE }
 
 csasdown::csas_table( SP_refTable, 
                       caption = refOMtableCap, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 7,
                       booktabs = TRUE,
                       align = c( "l","l",rep("c", ncol(SP_refTable) - 2 )) ) %>%
@@ -554,6 +555,7 @@ csasdown::csas_table( SP_refTable,
 
 
 ```
+\end{turn}
 
 \newpage
 
@@ -571,14 +573,14 @@ csasdown::csas_table( valTable,
                     bootstrap_options = c("striped", "hover","scale_down"))
 
 ```
-
 \newpage
+\begin{turn}
 
 ```{r, echo = FALSE, results = "as-is"}
 csasdown::csas_table( NPV_refTable, 
                       caption = refNPVcap, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 10,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -592,8 +594,8 @@ csasdown::csas_table( NPV_refTable,
 ```{r,  echo = FALSE, warning =  FALSE }
 csasdown::csas_table( SP_robTable, 
                       caption = robOMtableCap, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 7,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -607,13 +609,11 @@ csasdown::csas_table( SP_robTable,
 
 \newpage
 
-
-
 ```{r, echo = FALSE, results = "as-is"}
 csasdown::csas_table( NPV_robTable, 
                       caption = robNPVcap, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 10,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -622,7 +622,7 @@ csasdown::csas_table( NPV_robTable,
     add_header_above( npvUnits, bold = T)
 ```
 
-
+\newpage
 
 ```{r, echo = FALSE, warning = FALSE, include = FALSE}
 SP_robTableRefTune <-  robOMobjTable_refTune %>%
@@ -732,13 +732,11 @@ decline, and Acc to the acceptable probability of decline, linearly interpolated
 
 ```
 
-\newpage
-
 ```{r,  echo = FALSE, warning =  FALSE }
 csasdown::csas_table( SP_robTableRefTune, 
                       caption = robOMtableCapRefTune, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 7,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -755,8 +753,8 @@ csasdown::csas_table( SP_robTableRefTune,
 ```{r,  echo = FALSE, warning =  FALSE }
 csasdown::csas_table( SP_refTableRobTune, 
                       caption = refOMtableCapRobTune, 
-                      format = kable_format, 
-                      landscape =TRUE,
+                      format = "latex", 
+                      landscape = FALSE,
                       escape = FALSE, font_size = 7,
                       booktabs = TRUE,
                       align  = c( "l","l",rep("c", ncol(SP_robTable) - 2 ))) %>%
@@ -768,5 +766,6 @@ csasdown::csas_table( SP_refTableRobTune,
 
 ```
 
+\end{turn}
 
 

@@ -64,14 +64,14 @@ knitr::include_graphics("data/base_ALK_mUnsexed/plotFitAgeFreq_avg.png")
 
 \newpage
 
-\blandscape
+\begin{turn}
 ```{r, echo = FALSE, include = FALSE, warning = FALSE}
 hiRecSimRepCap <- "A single simulation replicate drawn from the \\textbf{reference operating models} with the high estimated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of the management procedure. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points). First and second fit refer to the first and second years that the management procedure was applied."
 
 simRecSimRepCap <- "A single simulation replicate drawn from the \\textbf{robustness operating models} with a stochastically simulated 2015 year class. The top row of panels show the spawning biomass (red line), legal biomass (black dashed line), and surplus production model estimated biomass (green and grey lines) when estimated as part of the management procedure. The middle row shows the legal (black solid line) and sub-legal (blue dotted line) harvest rates, and the bottom row shows the OM recruitments (black line with orange points). First and second fit refer to the first and second years that the management procedure was applied."
 ```
 
-```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=hiRecSimRepCap}
+```{r, echo = FALSE, warning = FALSE, out.width = "80%", fig.align = "center", fig.cap=hiRecSimRepCap}
 knitr::include_graphics("data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf")
 ```
 
@@ -83,24 +83,24 @@ hiRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivit
 simRecSimEnvCap <- "Weighted combined simulation envelopes from the 5 productivity and biomass operating models in the \\textbf{robustness recruitment scenario}, showing the current MP (noCap), three illustrative at-sea-release regulation MPs, and the no fishing MP (NoFish). The top row shows projected biomass relative to unfished, the second row shows the landed catch, and the bottom row shows the legal harvest rate. In each panel, median projections are shown as thick black lines, the central 90 \\% of the envelope is shown as grey shading, and the three illustrated simulation replicates as thin black lines.In the top row the green line is $B_{MSY}$ and the lower dashed line is the Limit Reference Point (0.4$B_{MSY}$)."
 ```
 
-```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=hiRecSimEnvCap}
+```{r, echo = FALSE, warning = FALSE, out.width = "80%", fig.align = "center", fig.cap=hiRecSimEnvCap}
 knitr::include_graphics("data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5.pdf")
 ```
 
 \newpage
 
-```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=simRecSimRepCap}
+```{r, echo = FALSE, warning = FALSE, out.width = "80%", fig.align = "center", fig.cap=simRecSimRepCap}
 knitr::include_graphics("data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13.pdf")
 ```
 
 
 \newpage
 
-```{r, echo = FALSE, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=simRecSimEnvCap}
+```{r, echo = FALSE, warning = FALSE, out.width = "80%", fig.align = "center", fig.cap=simRecSimEnvCap}
 knitr::include_graphics("data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5.pdf")
 ```
 
-\elandscape
+\end{turn}
 
 
 

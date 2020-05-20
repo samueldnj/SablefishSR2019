@@ -95,6 +95,7 @@ femaleAgeCap <- "CCompositions estimées des prises femelles selon l’âge qu�
 trawlSelCap <- "Courbes de sélectivité selon la longueur pour la pêche au chalut des modèles d’exploitation de 2016 (ligne grise pointillée) et de 2019 (ligne noire pleine) et limite de taille légale (ligne pointillée rouge verticale) L’axe de longueur commence à la longueur modélisée à l’âge 1 et 32 cm."
 ```
 
+\clearpage
 
 ```{r, warning = FALSE, out.width = "90%", fig.align = "center", fig.cap=ageErr1Cap, echo = FALSE}
 knitr::include_graphics("data/ageErr1.png")

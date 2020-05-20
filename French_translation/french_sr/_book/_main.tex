@@ -29,10 +29,10 @@
 \newcommand{\rdYear}{2020}
 
 % Publication month
-\newcommand{\rdMonth}{Novembre}
+\newcommand{\rdMonth}{Mai}
 
 % Report number
-\newcommand{\rdNumber}{\threedigits{999}}
+\newcommand{\rdNumber}{\threedigits{025}}
 % End of report number
 
 % Approver (name\\position)
@@ -379,6 +379,7 @@ Tyler, A., Beamish, R., and McFarlane, G. 1989. Implications of age determinatio
 \setlength{\leftskip}{0in} 
 \setlength{\parskip}{4pt}
 
+\newpage
 \setcounter{table}{0}
 
 \hypertarget{les-tables}{%
@@ -415,9 +416,11 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \endgroup{}
 
 \newpage
+\begin{turn}
+
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
+\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-7}Paramètres de pondération du rendement pour toutes les procédures de gestion examinées aux \textbf{modèles d’exploitation de référence}. Les paramètres de rendement en matière de conservation qui répondent au critère de l’en-tête sont indiqués par une puce. La capture est représentée sous forme d’unités de biomasse mesurées en kilotonnes. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$. Pour l’objectif 2, Obs fait référence à la probabilité observée d’un déclin, et Acc à la probabilité d’un déclin acceptable, avec interrelation de manière linéaire entre 0,05 à $0,4B_{RMS}$ et 0,5 à $B_{RMS}$.}\\
 \toprule
@@ -427,16 +430,6 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5} \cmidrule(l{3pt}r{3pt}){6-6} \cmidrule(l{3pt}r{3pt}){7-7} \cmidrule(l{3pt}r{3pt}){8-8}
 \textbf{No.} & \textbf{PG étiquette} & \textbf{$P(B_t \geq .4B_{RMS})$} & \textbf{$P(Décline)$} & \textbf{$P(B_{2052} > B_{RMS})$} & \textbf{$P(C_t < 1.992)$} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$AAV$} & \textbf{$C_{2019}$} & \textbf{$B_{2019}/B0$} & \textbf{$F_{2022}$}\\
 \midrule
-\endfirsthead
-\caption*{}\\
-\toprule
-\textbf{No.} & \textbf{PG étiquette} & \textbf{$P(B_t \geq .4B_{RMS})$} & \textbf{$P(Décline)$} & \textbf{$P(B_{2052} > B_{RMS})$} & \textbf{$P(C_t < 1.992)$} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$AAV$} & \textbf{$C_{2019}$} & \textbf{$B_{2019}/B0$} & \textbf{$F_{2022}$}\\
-\midrule
-\endhead
-\
-\endfoot
-\bottomrule
-\endlastfoot
 17 & NSL & $\bullet$ & $\bullet$ & $0.49<0.5$ & 0.02 & 4.53 & 4.55 & 8 & 3.22 & 0.35 & 0.0750\\
 6 & cap0\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 4.10 & 4.76 & 8 & 3.36 & 0.35 & 0.0783\\
 2 & cap.5\_hstAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 4.01 & 4.51 & 8 & 3.18 & 0.35 & 0.0741\\
@@ -453,12 +446,12 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 15 & noCap & $\bullet$ & $\bullet$ & $\bullet$ & 0.03 & 3.72 & 3.74 & 6 & 3.05 & 0.35 & 0.0599\\
 14 & cap1.5\_rctAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.71 & 3.97 & 7 & 3.05 & 0.35 & 0.0641\\
 13 & cap1.5\_rctAl\_am10 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.71 & 3.85 & 7 & 3.05 & 0.35 & 0.0619\\
-16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.35 & 0.0000\\*
+16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.35 & 0.0000\\
+\bottomrule
 \end{longtable}
 \endgroup{}
-\end{landscape}
 \endgroup{}
-
+\end{turn}
 \newpage
 
 \begingroup\fontsize{12}{14}\selectfont
@@ -480,9 +473,10 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \endgroup{}
 
 \newpage
+\begin{turn}
 
 \begingroup\fontsize{10}{12}\selectfont
-\begin{landscape}\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
 \begin{longtable}[t]{llccccccccccll}
 \caption{\label{tab:unnamed-chunk-10}Paramètres de pondération du rendement économique pour les 10 premières années de la prévision aux \textbf{modèles d’exploitation de référence}. La colonne 3 illustre la prise moyenne au cours des 10 premières années, et les autres colonnes montrent le total des recettes cumulatives (\$m) des prises $C$ et des remises à l’eau $D$ pour chaque secteur, les recettes produites par les prises $C^{tot}$ pour tous les secteurs combinés, et les recettes annuelles moyennes $R$ en dollars par tonne de poissons pris, au cours des 10 années suivantes. Toutes les valeurs incluent quatre chiffres significatifs. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$}\\
 \toprule
@@ -490,16 +484,6 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \cmidrule(l{3pt}r{3pt}){3-4} \cmidrule(l{3pt}r{3pt}){5-11} \cmidrule(l{3pt}r{3pt}){12-14}
 \textbf{No.} & \textbf{PG étiquette} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$C^{casier}$} & \textbf{$C^{crochet}$} & \textbf{$C^{chalut}$} & \textbf{$D^{casier}$} & \textbf{$D^{crochet}$} & \textbf{$D^{chalut}$} & \textbf{$C^{tot}$} & \textbf{$R^{casier}$} & \textbf{$R^{crochet}$} & \textbf{$R^{chalut}$}\\
 \midrule
-\endfirsthead
-\caption*{}\\
-\toprule
-\textbf{No.} & \textbf{PG étiquette} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$C^{casier}$} & \textbf{$C^{crochet}$} & \textbf{$C^{chalut}$} & \textbf{$D^{casier}$} & \textbf{$D^{crochet}$} & \textbf{$D^{chalut}$} & \textbf{$C^{tot}$} & \textbf{$R^{casier}$} & \textbf{$R^{crochet}$} & \textbf{$R^{chalut}$}\\
-\midrule
-\endhead
-\
-\endfoot
-\bottomrule
-\endlastfoot
 17 & NSL & 4.527 & 4.555 & 419.4 & 336.7 & 61.06 & 0.000 & 0.00 & 0.00 & 817.2 & 17970 & 18320 & 16270\\
 6 & cap0\_am5 & 4.095 & 4.765 & 383.9 & 319.5 & 42.49 & 10.890 & 13.38 & 25.67 & 745.9 & 18130 & 18340 & 17320\\
 2 & cap.5\_hstAl\_am5 & 4.012 & 4.513 & 371.7 & 312.7 & 46.54 & 10.460 & 13.04 & 27.67 & 730.9 & 18130 & 18340 & 17330\\
@@ -516,16 +500,16 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 15 & noCap & 3.721 & 3.739 & 346.8 & 276.5 & 53.45 & 9.734 & 11.47 & 31.74 & 676.7 & 18140 & 18340 & 17340\\
 14 & cap1.5\_rctAl\_am5 & 3.713 & 3.969 & 338.3 & 281.2 & 56.10 & 9.469 & 11.66 & 32.89 & 675.5 & 18140 & 18340 & 17350\\
 13 & cap1.5\_rctAl\_am10 & 3.708 & 3.848 & 341.6 & 278.6 & 54.71 & 9.577 & 11.55 & 32.28 & 674.9 & 18140 & 18340 & 17350\\
-16 & NoFish & 0.000 & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.00 & 0.00 & 0.0 & 0 & 0 & 0\\*
+16 & NoFish & 0.000 & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.00 & 0.00 & 0.0 & 0 & 0 & 0\\
+\bottomrule
 \end{longtable}
 \endgroup{}
-\end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
+\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-11}Paramètres de pondération du rendement pour toutes les procédures de gestion examinées aux \textbf{modèles d’exploitation de robustesse}. Les paramètres de rendement en matière de conservation qui répondent au critère de l’en-tête sont indiqués par une puce. La capture est représentée sous forme d’unités de biomasse mesurées en kilotonnes. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$. Pour l’objectif 2, le terme Obs fait référence à la probabilité observée d’un déclin, et Acc à la probabilité d’un déclin acceptable, avec interrelation de manière linéaire entre 0,05 à $0,4B_{RMS}$ et 0,5 à $B_{RMS}$.}\\
 \toprule
@@ -535,16 +519,6 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5} \cmidrule(l{3pt}r{3pt}){6-6} \cmidrule(l{3pt}r{3pt}){7-7} \cmidrule(l{3pt}r{3pt}){8-8}
 \textbf{No.} & \textbf{PG étiquette} & \textbf{$P(B_t \geq .4B_{RMS})$} & \textbf{$P(Décline)$} & \textbf{$P(B_{2052} > B_{RMS})$} & \textbf{$P(C_t < 1.992)$} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$AAV$} & \textbf{$C_{2019}$} & \textbf{$B_{2019}/B0$} & \textbf{$F_{2022}$}\\
 \midrule
-\endfirsthead
-\caption*{}\\
-\toprule
-\textbf{No.} & \textbf{PG étiquette} & \textbf{$P(B_t \geq .4B_{RMS})$} & \textbf{$P(Décline)$} & \textbf{$P(B_{2052} > B_{RMS})$} & \textbf{$P(C_t < 1.992)$} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$AAV$} & \textbf{$C_{2019}$} & \textbf{$B_{2019}/B0$} & \textbf{$F_{2022}$}\\
-\midrule
-\endhead
-\
-\endfoot
-\bottomrule
-\endlastfoot
 17 & NSL & $\bullet$ & $\bullet$ & $\bullet$ & 0.07 & 2.76 & 2.78 & 9 & 3.05 & 0.24 & 0.0682\\
 6 & cap0\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.14 & 2.49 & 2.89 & 11 & 3.11 & 0.24 & 0.0724\\
 2 & cap.5\_hstAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.16 & 2.43 & 2.67 & 11 & 3.05 & 0.24 & 0.0655\\
@@ -561,16 +535,16 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 15 & noCap & $\bullet$ & $\bullet$ & $\bullet$ & 0.23 & 2.28 & 2.29 & 11 & 3.05 & 0.24 & 0.0537\\
 9 & cap1.0\_rctAl\_am10 & $\bullet$ & $\bullet$ & $\bullet$ & 0.22 & 2.28 & 2.36 & 11 & 3.05 & 0.24 & 0.0554\\
 14 & cap1.5\_rctAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.22 & 2.28 & 2.34 & 11 & 3.05 & 0.24 & 0.0549\\
-16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.24 & 0.0000\\*
+16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.24 & 0.0000\\
+\bottomrule
 \end{longtable}
 \endgroup{}
-\end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{10}{12}\selectfont
-\begin{landscape}\begingroup\fontsize{10}{12}\selectfont
+\begingroup\fontsize{10}{12}\selectfont
 \begin{longtable}[t]{llccccccccccll}
 \caption{\label{tab:unnamed-chunk-12}Paramètres de pondération du rendement économique pour les 10 premières années de la prévision à \textbf{modèles d’exploitation de robustesse}. La colonne 3 illustre la prise moyenne au cours des 10 premières années, et les autres colonnes montrent le total des recettes cumulatives (\$m) des prises $C$ et des remises à l’eau $D$ pour chaque secteur, les recettes produites par les prises $C^{tot}$ pour tous les secteurs combinés, et les recettes annuelles moyennes $R$ en dollars par tonne de poissons pris, au cours des 10 années suivantes. Toutes les valeurs incluent quatre chiffres significatifs. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$.}\\
 \toprule
@@ -578,16 +552,6 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \cmidrule(l{3pt}r{3pt}){3-4} \cmidrule(l{3pt}r{3pt}){5-11} \cmidrule(l{3pt}r{3pt}){12-14}
 \textbf{No.} & \textbf{PG étiquette} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$C^{casier}$} & \textbf{$C^{crochet}$} & \textbf{$C^{chalut}$} & \textbf{$D^{casier}$} & \textbf{$D^{crochet}$} & \textbf{$D^{chalut}$} & \textbf{$C^{tot}$} & \textbf{$R^{casier}$} & \textbf{$R^{crochet}$} & \textbf{$R^{chalut}$}\\
 \midrule
-\endfirsthead
-\caption*{}\\
-\toprule
-\textbf{No.} & \textbf{PG étiquette} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$C^{casier}$} & \textbf{$C^{crochet}$} & \textbf{$C^{chalut}$} & \textbf{$D^{casier}$} & \textbf{$D^{crochet}$} & \textbf{$D^{chalut}$} & \textbf{$C^{tot}$} & \textbf{$R^{casier}$} & \textbf{$R^{crochet}$} & \textbf{$R^{chalut}$}\\
-\midrule
-\endhead
-\
-\endfoot
-\bottomrule
-\endlastfoot
 17 & NSL & 2.760 & 2.778 & 255.1 & 204.9 & 36.28 & 0.000 & 0.000 & 0.00 & 496.3 & 18030 & 18340 & 15880\\
 6 & cap0\_am5 & 2.489 & 2.889 & 236.3 & 194.1 & 22.81 & 6.243 & 7.974 & 16.89 & 453.3 & 18200 & 18360 & 17180\\
 2 & cap.5\_hstAl\_am5 & 2.428 & 2.673 & 226.5 & 189.5 & 26.23 & 5.935 & 7.741 & 19.55 & 442.3 & 18200 & 18370 & 17230\\
@@ -604,16 +568,20 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 15 & noCap & 2.282 & 2.293 & 213.4 & 170.0 & 32.60 & 5.522 & 6.906 & 25.09 & 416.0 & 18210 & 18370 & 17250\\
 9 & cap1.0\_rctAl\_am10 & 2.280 & 2.357 & 211.7 & 171.1 & 32.62 & 5.473 & 6.946 & 24.90 & 415.5 & 18210 & 18370 & 17250\\
 14 & cap1.5\_rctAl\_am5 & 2.277 & 2.342 & 209.8 & 171.1 & 32.98 & 5.417 & 6.941 & 25.18 & 413.9 & 18210 & 18370 & 17250\\
-16 & NoFish & 0.000 & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.000 & 0.00 & 0.0 & 0 & 0 & 0\\*
+16 & NoFish & 0.000 & 0.000 & 0.0 & 0.0 & 0.00 & 0.000 & 0.000 & 0.00 & 0.0 & 0 & 0 & 0\\
+\bottomrule
 \end{longtable}
 \endgroup{}
-\end{landscape}
 \endgroup{}
+
+
+
+
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
+\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-14}Paramètres de pondération du rendement pour toutes les procédures de gestion examinées, et taux de récolte adaptés au rendement indiqué aux \textbf{ modèles d’exploitation de référence}, et appliqués aux \textbf{modèles d’exploitation de robustesse} où le recrutement est simulé de manière stochastique hors de la courbe stock-recrutement pour la classe de 2015. Les paramètres de rendement en matière de conservation qui répondent au critère de l’en-tête sont indiqués par une puce. La capture est représentée sous forme d’unités de biomasse mesurées en kilotonnes. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$. Pour l’objectif 2, Obs fait référence à la probabilité observée d’un déclin, et Acc à la probabilité d’un déclin acceptable, avec interrelation de manière linéaire entre 0,05 à $0,4B_{RMS}$ et 0,5 à $B_{RMS}$.}\\
 \toprule
@@ -623,16 +591,6 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5} \cmidrule(l{3pt}r{3pt}){6-6} \cmidrule(l{3pt}r{3pt}){7-7} \cmidrule(l{3pt}r{3pt}){8-8}
 \textbf{No.} & \textbf{PG étiquette} & \textbf{$P(B_t \geq .4B_{RMS})$} & \textbf{$P(Décline)$} & \textbf{$P(B_{2052} > B_{RMS})$} & \textbf{$P(C_t < 1.992)$} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$AAV$} & \textbf{$C_{2019}$} & \textbf{$B_{2019}/B0$} & \textbf{$F_{2022}$}\\
 \midrule
-\endfirsthead
-\caption*{}\\
-\toprule
-\textbf{No.} & \textbf{PG étiquette} & \textbf{$P(B_t \geq .4B_{RMS})$} & \textbf{$P(Décline)$} & \textbf{$P(B_{2052} > B_{RMS})$} & \textbf{$P(C_t < 1.992)$} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$AAV$} & \textbf{$C_{2019}$} & \textbf{$B_{2019}/B0$} & \textbf{$F_{2022}$}\\
-\midrule
-\endhead
-\
-\endfoot
-\bottomrule
-\endlastfoot
 17 & NSL & $\bullet$ & $\bullet$ & $0.41<0.5$ & 0.09 & 2.94 & 2.96 & 9 & 3.22 & 0.24 & 0.0750\\
 2 & cap.5\_hstAl\_am5 & $\bullet$ & $0.33>0.26$ & $0.4<0.5$ & 0.13 & 2.62 & 2.89 & 11 & 3.19 & 0.24 & 0.0741\\
 6 & cap0\_am5 & $\bullet$ & $0.3>0.26$ & $0.42<0.5$ & 0.12 & 2.62 & 3.05 & 13 & 3.37 & 0.24 & 0.0783\\
@@ -649,16 +607,16 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 9 & cap1.0\_rctAl\_am10 & $\bullet$ & $0.33>0.26$ & $0.39<0.5$ & 0.17 & 2.49 & 2.58 & 10 & 3.05 & 0.24 & 0.0639\\
 13 & cap1.5\_rctAl\_am10 & $\bullet$ & $0.33>0.26$ & $0.4<0.5$ & 0.17 & 2.47 & 2.52 & 10 & 3.05 & 0.24 & 0.0619\\
 15 & noCap & $\bullet$ & $0.31>0.26$ & $0.41<0.5$ & 0.19 & 2.45 & 2.46 & 10 & 3.05 & 0.24 & 0.0599\\
-16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.24 & 0.0000\\*
+16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.24 & 0.0000\\
+\bottomrule
 \end{longtable}
 \endgroup{}
-\end{landscape}
 \endgroup{}
 
 \newpage
 
 \begingroup\fontsize{7}{9}\selectfont
-\begin{landscape}\begingroup\fontsize{7}{9}\selectfont
+\begingroup\fontsize{7}{9}\selectfont
 \begin{longtable}[t]{llcccccccccc}
 \caption{\label{tab:unnamed-chunk-15}Paramètres de rendement pondérés pour toutes les procédures de gestion proposées, avec des taux de récolte adaptés au rendement aux \textbf{modèle d’exploitation de robustesse}, et appliqués aux \textbf{modèles d’exploitation de référence}, en fonction de la classe d’âge élevée de 2015. Les paramètres de rendement en matière de conservation qui répondent au critère de l’en-tête sont indiqués par une puce. La capture est représentée sous forme d’unités de biomasse mesurées en kilotonnes. Le tableau est trié en fonction des prises moyennes sur 10 ans $\bar{C}_{2019:2028}$. Pour l’objectif 2, Obs fait référence à la probabilité observée d’un déclin, et Acc à la probabilité d’un déclin acceptable, avec interrelation de manière linéaire entre 0,05 à $0,4B_{RMS}$ et 0,5 à $B_{RMS}$.}\\
 \toprule
@@ -668,16 +626,6 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \cmidrule(l{3pt}r{3pt}){3-3} \cmidrule(l{3pt}r{3pt}){4-4} \cmidrule(l{3pt}r{3pt}){5-5} \cmidrule(l{3pt}r{3pt}){6-6} \cmidrule(l{3pt}r{3pt}){7-7} \cmidrule(l{3pt}r{3pt}){8-8}
 \textbf{No.} & \textbf{PG étiquette} & \textbf{$P(B_t \geq .4B_{RMS})$} & \textbf{$P(Décline)$} & \textbf{$P(B_{2052} > B_{RMS})$} & \textbf{$P(C_t < 1.992)$} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$AAV$} & \textbf{$C_{2019}$} & \textbf{$B_{2019}/B0$} & \textbf{$F_{2022}$}\\
 \midrule
-\endfirsthead
-\caption*{}\\
-\toprule
-\textbf{No.} & \textbf{PG étiquette} & \textbf{$P(B_t \geq .4B_{RMS})$} & \textbf{$P(Décline)$} & \textbf{$P(B_{2052} > B_{RMS})$} & \textbf{$P(C_t < 1.992)$} & \textbf{$\bar{C}_{2019:2028}$} & \textbf{$\bar{TAC}_{2019:2028}$} & \textbf{$AAV$} & \textbf{$C_{2019}$} & \textbf{$B_{2019}/B0$} & \textbf{$F_{2022}$}\\
-\midrule
-\endhead
-\
-\endfoot
-\bottomrule
-\endlastfoot
 17 & NSL & $\bullet$ & $\bullet$ & $\bullet$ & 0.01 & 4.17 & 4.20 & 7 & 3.05 & 0.35 & 0.0682\\
 6 & cap0\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.01 & 3.82 & 4.44 & 8 & 3.11 & 0.35 & 0.0724\\
 5 & cap0\_am10 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.68 & 4.00 & 7 & 3.05 & 0.35 & 0.0644\\
@@ -694,12 +642,13 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 13 & cap1.5\_rctAl\_am10 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.37 & 3.49 & 7 & 3.05 & 0.35 & 0.0546\\
 10 & cap1.0\_rctAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.37 & 3.66 & 8 & 3.05 & 0.35 & 0.0576\\
 14 & cap1.5\_rctAl\_am5 & $\bullet$ & $\bullet$ & $\bullet$ & 0.02 & 3.30 & 3.52 & 8 & 3.05 & 0.35 & 0.0549\\
-16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.35 & 0.0000\\*
+16 & NoFish & $\bullet$ & $\bullet$ & $\bullet$ & 1.00 & 0.00 & 0.00 & 0 & 0.00 & 0.35 & 0.0000\\
+\bottomrule
 \end{longtable}
 \endgroup{}
-\end{landscape}
 \endgroup{}
 
+\end{turn}
 \hypertarget{les-figures}{%
 \section{Les figures}\label{les-figures}}
 \begin{figure}[htb]
@@ -730,19 +679,22 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \newpage
 
 \newpage
-\begin{landscape}
+\begin{turn}
+
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13}}{Figure \ref{fig:unnamed-chunk-22}} 
+{\centering \pdftooltip{\includegraphics[width=0.8\linewidth]{data/BtFitUtRt/hiRec2016_wtd/hstAl_am5/BtFitUtRt_rep13}}{Figure \ref{fig:unnamed-chunk-22}} 
 
 }
 
 \caption{Reproduction unique d’une simulation tirée des \textbf{modèles d’exploitation de référence} avec une classe de 2015 à estimation élevée. La première rangée de panneaux montre la biomasse du stock reproducteur (ligne rouge), la biomasse légale (ligne pointillée noire) et la biomasse estimée du modèle de production excédentaire (lignes vertes et grises) lorsqu’elle est estimée dans le cadre de la procédure de gestion. La rangée du milieu illustre les taux de la récolte légale (ligne pleine noire) et de la récolte d’individus de taille inférieure (ligne pointillée bleue), tandis que la rangée du bas montre les recrutements selon le modèle d’exploitation (ligne noire avec points orange). Les premier et deuxième ajustements s’appliquent aux première et deuxième années d’application de la procédure de gestion.}\label{fig:unnamed-chunk-22}
 \end{figure}
 \newpage
+
+
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5}}{Figure \ref{fig:unnamed-chunk-24}} 
+{\centering \pdftooltip{\includegraphics[width=0.8\linewidth]{data/tulipPlots/hiRec2016_wtd/depCatchHR/hiRec2016_wtd_depCatchHR_hstAl_am5}}{Figure \ref{fig:unnamed-chunk-24}} 
 
 }
 
@@ -751,22 +703,23 @@ $P(B_{2018} \geq .4B_{RMS})$ & - & 1\\
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13}}{Figure \ref{fig:unnamed-chunk-25}} 
+{\centering \pdftooltip{\includegraphics[width=0.8\linewidth]{data/BtFitUtRt/simRec2016_wtd/hstAl_am5/BtFitUtRt_rep13}}{Figure \ref{fig:unnamed-chunk-25}} 
 
 }
 
 \caption{Reproduction unique d’une simulation tirée des \textbf{modèles d’exploitation de robustesse} avec une classe de 2015 simulée de manière stochastique. La première rangée de panneaux montre la biomasse du stock reproducteur (ligne rouge), la biomasse légale (ligne pointillée noire) et la biomasse estimée du modèle de production excédentaire (lignes vertes et grises) lorsqu’elle est estimée dans le cadre de la procédure de gestion. La rangée du milieu illustre les taux de la récolte légale (ligne pleine noire) et de la récolte d’individus de taille inférieure (ligne pointillée bleue), tandis que la rangée du bas montre les recrutements selon le modèle d’exploitation (ligne noire avec points orange). Les premier et deuxième ajustements s’appliquent aux première et deuxième années d’application de la procédure de gestion.}\label{fig:unnamed-chunk-25}
 \end{figure}
+
 \newpage
 \begin{figure}[htb]
 
-{\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5}}{Figure \ref{fig:unnamed-chunk-26}} 
+{\centering \pdftooltip{\includegraphics[width=0.8\linewidth]{data/tulipPlots/simRec2016_wtd/depCatchHR/simRec2016_wtd_depCatchHR_hstAl_am5}}{Figure \ref{fig:unnamed-chunk-26}} 
 
 }
 
 \caption{Enveloppes de simulation combinées et pondérées provenant des cinq modèles d’exploitation relatifs à la productivité et à la biomasse du \textbf{scénario de recrutement de robustesse} montrant la procédure de gestion actuelle (Aucun plafond), trois procédures de gestion illustrant la réglementation sur la remise à l’eau, et la procédure de gestion des stocks non exploités (Population non exploitée). La rangée du haut montre la biomasse projetée par rapport à la population non exploitée, la deuxième rangée illustre les prises débarquées, et celle du bas fournit le taux de récolte légale. Dans chaque panneau, les projections médianes sont représentées par des lignes noires épaisses, le centile central (90 \%) de l’enveloppe est ombré en gris, et les trois reproductions des simulations illustrées correspondent à de minces lignes noires.}\label{fig:unnamed-chunk-26}
 \end{figure}
-\end{landscape}
+\end{turn}
 \hypertarget{annexe}{%
 \section{\texorpdfstring{Annexe \label{sec:app-minor}}{Annexe }}\label{annexe}}
 
@@ -829,6 +782,7 @@ Cas & Âge réel & \(\sigma_1\) & \(\sigma_A\) & \(\alpha\)\tabularnewline
 2 & Âge final attribué & 0.89 & 9.35 & -0.008\tabularnewline
 \bottomrule
 \end{longtable}
+\clearpage
 \begin{figure}[htb]
 
 {\centering \pdftooltip{\includegraphics[width=0.9\linewidth]{data/ageErr1}}{Figure \ref{fig:unnamed-chunk-30}} 
