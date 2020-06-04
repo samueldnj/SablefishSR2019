@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.18)  19 MAY 2020 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.18)  20 MAY 2020 06:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2810,10 +2810,10 @@ Package pdftex.def Info: csas-style/images/recycle.png  used on input line 846.
 
 (pdftex.def)             Requested size: 49.14381pt x 49.14381pt.
 
-Overfull \hbox (16.54419pt too wide) in paragraph at lines 854--855
+Overfull \hbox (10.57784pt too wide) in paragraph at lines 854--855
 \T1/phv/m/sl/10.95 (-20) (\T1/phv/m/n/10.95 (-20) Anoplopoma fib-ria\T1/phv/m/s
 l/10.95 (-20) ) fish-ery for 2019-2020. DFO Can. Sci. Ad-vis. Sec. Sci. Resp. 2
-020/0025.  
+020/025.  
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{refs}) has be
@@ -2846,7 +2846,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 859.
 Here is how much of TeX's memory you used:
  30164 strings out of 482399
  572024 string characters out of 5945095
- 884477 words of memory out of 5000000
+ 884475 words of memory out of 5000000
  44979 multiletter control sequences out of 15000+600000
  586642 words of font info for 179 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2879,7 +2879,7 @@ norsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></Users
 .pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/type1/urw/helv
 etic/uhvr8a.pfb></Users/brendanconnorsESSA/Library/TinyTeX/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvro8a.pfb>
-Output written on _main.pdf (42 pages, 1836545 bytes).
+Output written on _main.pdf (42 pages, 1836546 bytes).
 PDF statistics:
  674 PDF objects out of 1000 (max. 8388607)
  557 compressed objects within 6 object streams

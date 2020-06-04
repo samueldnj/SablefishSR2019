@@ -4,7 +4,7 @@ title_short: "Robustesse des PG de la morue charbonnière en C.-B. "
 title_other: "Evaluating the robustness of candidate management procedures in the BC sablefish (*Anoplopoma fibria*) fishery for 2019-2020"
 year: 2020
 month: Mai
-report_number: 025
+report_number: 25
 approver: |
   Carmel Lowe\
   Directeur régional
